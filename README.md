@@ -11,6 +11,7 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 ## Start Here
 
 - [Game Design](docs/game-design.md): the approved foundation, full predict–cut–inspect loop, feedback, staging, access, and remaining decisions.
+- [Approved Workshop Mockup](docs/mockups/predict-cut-inspect/README.md): the accepted interactive reference, runnable export, exact source, and next-conversation handoff.
 - [Free Play Learn and Challenge](docs/game-modes.md): the three modes and their support/evidence rules.
 - [Curriculum Content](docs/curriculum-content.md): five Learn scripts and six seed Challenge items with goal mappings.
 - [Curriculum Alignment](docs/curriculum-alignment.md): class sources, revision status, identifier rules, and coverage limits.
@@ -22,7 +23,7 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 
 ## Status
 
-**Approved Design Foundation — September 28, 2026 (America/New_York).** No playable build or deployment exists yet. The immediate next design step is interface mockups. Exact house geometry/cut schedule, engine, final interface, and animation timing remain open. The prior Check & Cut concept sketch is superseded by the approved post-cut-feedback loop.
+**Approved Design Foundation and Workshop Mockup — September 28, 2026 (America/New_York).** The accepted interactive mockup is archived with local run instructions above. No production game build or deployment exists yet. Next is issue #1's exact house plan, followed by issue #2's ruler/commitment implementation. Complete house geometry/cut schedule, production engine, final access behavior, and tuned animation timing remain open. The prior Check & Cut concept sketch is superseded by the approved post-cut-feedback loop.
 
 The curricular home is [DesignAndModeling26-27](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27), especially [1.3 Measuring Matters](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/tree/main/units/01-introduction-to-design/1.3-measuring-matters). Its goals document is currently in draft PR #21; pinned source links are maintained in the alignment record. The public game must work without access to the private class repository. This repository contains original planning and references, not the proprietary course archive.
 

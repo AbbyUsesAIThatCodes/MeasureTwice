@@ -1,6 +1,6 @@
 # MeasureTwice Game Design
 
-**Approved Design Foundation — September 28, 2026 (America/New_York).** This records the teacher's accepted design from the September 27–28 discussion. It is the authoritative gameplay foundation, subject to later explicit teacher decisions. Implementation, interface mockups, exact first-model geometry, and classroom validation remain future work.
+**Approved Design Foundation — September 28, 2026 (America/New_York).** This records the teacher's accepted design from the September 27–28 discussion. It is the authoritative gameplay foundation, subject to later explicit teacher decisions. The [Workshop Mockup](mockups/predict-cut-inspect/README.md) was subsequently approved the same day and is archived as the visual/interaction reference. Production implementation, exact first-model geometry, and classroom validation remain future work; the mockup's documented shortcuts do not amend this design.
 
 MeasureTwice is a bright, cartoony 3D woodshop for Design And Modeling Activity 1.3 Measuring Matters. Students translate a written inch measurement into a ruler position, commit their prediction by pressing **Cut**, and inspect the actual result before receiving the next attempt or part. See [Curriculum Alignment](curriculum-alignment.md) for the source record and [Curriculum Content](curriculum-content.md) for all lesson and challenge scripts.
 
@@ -26,7 +26,7 @@ Details, curriculum access, and mode-switch behavior are in [Game Modes](game-mo
 
 Show the requested length and inch unit. A click or keyboard movement selects a ruler position, adds a neutral pencil mark, and smoothly repositions the plank relative to the stationary saw until the selected cut line is under the blade. Further selections revise the prediction without consuming an attempt.
 
-Every action receives visible feedback, but correctness is withheld. Do not show a green/red correctness glow, a target-solving numerical cursor readout, the target cut line, a ghost target, or an answer-dependent movement before a Challenge commitment. Keep the ruler readable and the measuring origin tied to the retained plank's starting end as the stock moves. The exact relationship between the ruler overlay and the physical station will be resolved in the mockups.
+Every action receives visible feedback, but correctness is withheld. Do not show a green/red correctness glow, a target-solving numerical cursor readout, the target cut line, a ghost target, or an answer-dependent movement before a Challenge commitment. Keep the ruler readable and the measuring origin tied to the retained plank's starting end as the stock moves. The approved mockup demonstrates the ruler overlay and moving stock; issue #2 must verify the production mapping and input geometry.
 
 ### Commit With Cut
 
@@ -94,16 +94,17 @@ No names, accounts, cloud reporting, or Learning Compass integration are part of
 
 ## Remaining Decisions and Work Order
 
-1. Next discussion: interface mockups for ruler selection, cutting, inspection, right-hand staging, and mode navigation. The earlier Check & Cut concept sketch predates this agreement and does not specify current behavior.
+1. Approved reference: [Workshop Mockup](mockups/predict-cut-inspect/README.md), including ruler selection, cutting, inspection, right-hand staging, and mode navigation. Preserve its accepted direction and read its implementation boundaries. The earlier Check & Cut concept sketch predates this agreement and does not specify current behavior.
 2. Issue #1: verify relevant primary-source pages, finalize the first house and its exact cut schedule, ruler span, and prompt distribution.
 3. Issue #2: implement accurate ruler/stock selection and the explicit Cut commitment, choosing the engine and establishing the build identity pipeline.
 4. Issues #3 and #4: animate all valid cuts and inspection, then successful stacking, duplication, and assembly.
 5. Issues #7 and #8: implement all three modes and the indexed instructional content. Issue #6: validate a classroom release and physical-ruler transfer. Issue #5 adds models later.
 
-This foundation approves the learning and interaction design. It does not claim a playable build, published deployment, tested animations, finalized assets, or completed classroom pilot.
+This foundation approves the learning and interaction design. The archived mockup demonstrates that direction; it does not establish a completed production build, published deployment, finalized assets, browser verification of the standalone export, or completed classroom pilot.
 
 ## Decision History
 
 - September 27: preserve the measuring woodshop, once-per-length duplication, course links, and three-mode concept.
 - September 28: approve bright cartoony 3D, five Learn lessons, explicit challenge mapping, prediction before commitment, cutting incorrect attempts, post-cut closeup feedback, student-held inspection, right-hand accepted stack, left-hand rejection, and subsequent automatic assembly.
 - September 28 clarification: the teacher intended correctness feedback only after pressing Cut. Pre-cut motion and neutral selection feedback must not reveal correctness. This replaces the earlier correct-answer gate and Check & Cut proposal.
+- September 28 mockup approval: the teacher explicitly accepted the interactive Predict, Cut, Inspect study and requested its repository archive as the handoff to implementation. Exact source and runnable export are linked above; full lessons, assessment, complete house geometry, and production session behavior remain in their existing issues.
