@@ -2,9 +2,9 @@
 
 ## Current Position
 
-The teacher accepted the [Game Design](docs/game-design.md) on September 28, 2026. It defines Free Play, Learn, Challenge, five short lessons, six seed challenge items, and the prediction → committed cut → closeup inspection → rejection or accepted staging/duplication/assembly loop. **No playable game, deployment, or classroom pilot is complete.**
+The teacher accepted the [Game Design](docs/game-design.md) and [Workshop Mockup](docs/mockups/predict-cut-inspect/README.md) on September 28, 2026. They establish Free Play, Learn, Challenge, five short lessons, six seed challenge items, and the prediction → committed cut → closeup inspection → rejection or accepted staging/duplication/assembly loop. The archived interactive study demonstrates the interface and first upright family. **No production game, deployment, or classroom pilot is complete.**
 
-The immediate next design step is interface mockups for selection, cutting, inspection, staging, and the mode/lesson menus. Existing issues provide the work breakdown; each implementation belongs in a bounded PR and can be handed to a separate conversation in this project.
+The interface mockup is approved and archived with run instructions, unchanged source, verification limits, and a next-conversation handoff. Existing issues provide the work breakdown; start with the exact first-house plan below. Each implementation belongs in a bounded PR and can be handed to a separate conversation in this project.
 
 ## First Two Handoffs
 
@@ -34,4 +34,4 @@ Before classroom release, verify exact arithmetic, equivalent-length grouping, n
 
 ## Remaining Design Choices
 
-Final interface composition, engine/assets, first-house geometry, measurement schedule, ruler span/stock limits, prompt variant distribution, pixel tolerance at actual scale, animation durations, and the response/scoring interface for explanations remain to be resolved. A mastery threshold and grading rubric have not been approved. The [Build Identity Inventory](docs/BUILD_IDENTITY.md) records pending build surfaces rather than fictional identifiers.
+Use the approved mockup for interface composition and visual direction. Production engine/assets, first-house geometry, measurement schedule, ruler span/stock limits, prompt variant distribution, pixel tolerance at actual scale, final access behavior, animation durations, and the response/scoring interface for explanations remain to be resolved. A mastery threshold and grading rubric have not been approved. The [Build Identity Inventory](docs/BUILD_IDENTITY.md) distinguishes the archived study from pending production build surfaces.

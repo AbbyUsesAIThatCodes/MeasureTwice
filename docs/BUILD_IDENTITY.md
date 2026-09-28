@@ -1,6 +1,6 @@
 # Build Identity
 
-**Status: Requirements Recorded; Implementation Pending.** MeasureTwice currently contains planning documents only. This documentation change has no compiled/bundled game artifact, game version, release codename, PR build ordinal, or build timestamp. Do not invent one for a documentation commit.
+**Status: Requirements Recorded; Production Implementation Pending.** MeasureTwice contains planning documents and an archived [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md). That interface study preserves the reviewed source and a standalone preview shell; it is not a production game release or an implementation of this pipeline. Its provenance and verification limits are recorded beside the source. The game version, release codename, PR build ordinal, and build timestamp remain unassigned until implementation. Do not invent production identifiers for this archival update.
 
 ## Required Convention
 
@@ -20,7 +20,8 @@ The paths below distinguish present documentation from future surfaces. Update t
 | --- | --- | --- |
 | Contributor rule | AGENTS.md | Present; links here. |
 | Design requirement | docs/game-design.md | Present; prominent readable UI identity required. |
-| Current project status | README.md; ROADMAP.md | Present; accurately states no playable build. |
+| Current project status | README.md; ROADMAP.md | Present; distinguishes the approved interactive study from a production game build. |
+| Archived interface study | docs/mockups/predict-cut-inspect/source.fragment.html; index.html; README.md | Preserved approved source and standalone shell; source SHA-256 and verification record in the adjacent README. Visible Interface Study footer; not a production build identity surface. |
 | Release record | None yet | Pending issue #2; choose one authoritative version/codename source. |
 | Build manifest and ordinal ledger | None yet | Pending issue #2; durable serialized/atomic allocation and immutable manifest. |
 | Local and CI build entrypoints | None yet | Pending issue #2; print identical full ID at start and success/failure, including child stages and CI summary. |
