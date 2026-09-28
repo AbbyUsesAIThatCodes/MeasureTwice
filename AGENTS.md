@@ -1,27 +1,35 @@
 # MeasureTwice Contributor Instructions
 
-Read [README.md](README.md), [Design Brief](docs/design-brief.md), [Curriculum Alignment](docs/curriculum-alignment.md), [Ruler Interaction](docs/ruler-interaction.md), and [Roadmap](ROADMAP.md) before making changes.
+Read [README](README.md), [Game Design](docs/game-design.md), [Curriculum Alignment](docs/curriculum-alignment.md), [Curriculum Content](docs/curriculum-content.md), [Game Modes](docs/game-modes.md), [Ruler Interaction](docs/ruler-interaction.md), and [Roadmap](ROADMAP.md) before changes. The September 28 approved Game Design is authoritative over the superseded September 27 correct-answer gate.
 
-Also follow [Free, Learn, And Challenge](docs/game-modes.md) and maintain [Curriculum Content](docs/curriculum-content.md). These three modes are the teacher's preferred pattern across educational games: Free exploration, Learn reviews in a freely navigable menu, and Challenge comprehension checks. Every Learn lesson and Challenge task needs a thorough, reviewable curricular basis and links to the class repository and planning document. Keep all Learn entries freely accessible; do not add progression locks. Preserve a Curriculum entry in the planned game navigation and distinguish supported practice from unassisted checks.
+## Design From the Course
 
-## Design From The Course
+- Reference [DesignAndModeling26-27](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27) throughout design, especially Activity 1.3 and its current curricular-goals audit. Recheck source status and paths before instructional changes.
+- Each instructional issue or PR must state target, source, student action, evidence, and scaffolding. Distinguish source-backed goals, local extensions, and decoration.
+- Preserve identifier namespaces: DM 1.3 audit G-numbers are not Learning Compass IDs. Keep curriculum-only audits in DM and original game design here.
+- Do not copy private course pages, student records, or the proprietary archive into this public repository. Keep source links and original minimal teaching summaries; the game must work without private access.
+- Maintain all five Learn lessons and every Challenge item in the content index. Preserve Curriculum and What This Practices access with class/source links.
 
-- Reference [DesignAndModeling26-27](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27) throughout design, especially Activity 1.3 Measuring Matters and its latest curricular-goals audit. Recheck the source status and paths before instructional changes.
-- Each instructional issue or PR should state its target, source reference, student action, evidence, and scaffolding. Distinguish source-backed targets, local design extensions, and decoration.
-- Preserve the DM identifier namespaces. Audit G-numbers and existing Learning Compass IDs are not interchangeable. Keep game design here and curriculum-only audits in DM.
-- Do not copy private course files, student records, or proprietary curricular pages into this public repository. Use links and original, minimal planning summaries. The playable game must not depend on private repository access.
+## Preserve the Approved Loop
 
-## Preserve The Core Loop
+- Display Free Play, Learn, and Challenge as the three modes. All Learn entries remain freely accessible and revisitable, with no progression locks.
+- Numerical/fractional inch prompt → neutral ruler selection and stock movement → explicit Cut commitment → animated saw and cartoony sawdust for every valid selected length → camera closeup → post-cut red/green inspection → acknowledged rejection or accepted right-hand stack → duplication and assembly.
+- Incorrect measurements are cut. Never restore the superseded rule that blocks the saw until the response is correct. Keep actual retained length equal to selected length.
+- Reveal correctness only after Cut, in inspection. Do not leak it through pre-cut glows, numerical Challenge readouts, target lines/ghosts, snapping only to the answer, or answer-dependent motion.
+- Excess material uses a red target-cut line and red overlay; missing material uses a ghostly red extension; success uses green glow and an animated checkmark. Pair color with labels and geometry.
+- Hold inspection until Keep Piece or Try Again. Wrong pieces move left; accepted pieces move right to staging and visible copies before placement.
+- Require one successful measurement per distinct normalized target length per model. Failed attempts may repeat the target; duplicate parts never require repeated correct answers. Count the original in the required total. Free Play permits voluntary repeats.
+- Preserve exact lengths through cutting, duplication, and assembly. No stretching parts to fit or unmodeled kerf deductions.
+- Keep first responses separate from hints and feedback-informed retries. Automatic construction does not prove physical measurement, fabrication, or full curriculum mastery.
 
-- Numerical/fractional inch prompt → ruler location → animated wood feed and cut → visible duplication → model assembly.
-- Each distinct physical length is required once per build. Normalize equivalent representations. The original counts toward the required total quantity. Free permits voluntary recutting and experimentation without a correctness gate; it must not turn repeated cuts into a requirement.
-- Support both printed-mark practice and the defined empty-space mode. Keep inch units explicit and measuring origin correct.
-- Preserve actual lengths through cutting, duplication, and placement. Do not distort pieces to fit the model.
-- Target classroom laptops with mouse/trackpad and keyboard access. Keep the ruler readable and UI compact; use Title Case for authored titles and headings.
-- Do not claim the animated result proves physical measuring, fabrication, assembly, or comprehensive curriculum mastery.
+## Access and Verification
 
-## Scope And Verification
+Target student laptops with mouse/trackpad and keyboard input. Use bright cartoony 3D, fullscreen graphics, compact overlays, readable inch rulers, coherent zero, and straight-on inspection. Apply Title Case to authored titles. Phone optimization is outside the classroom scope.
 
-The founding brief is a planning record, not approval of an engine, asset package, final measurement set, or assessment rubric. Keep proposals labeled until decisions are made. Use bounded issues and reviewable PRs for implementation; inspect current main and existing work first. Report checks actually performed and leave deployment claims tied to a verified playable build.
+Support printed-mark practice and the explicitly labeled sparse-ruler extension; do not silently add new curricular requirements. Reduced motion or skipping must reach the same inspection and still require acknowledgement. Verify exact measurement arithmetic, fair nonoverlapping input, once-only commitments/transitions, correct duplicate quantities, mode switching, mute, keyboard controls, and laptop readability before classroom release. Consult the examples in Ruler Interaction.
 
-Before a classroom release, verify measurement arithmetic, equivalent-length grouping, nonoverlapping input tolerances, once-only animation transitions, exact duplicate quantities, keyboard controls, laptop readability, and reduced-motion behavior. Provide matching teacher guidance grounded in the current DM sources. Consult the acceptance examples in [Ruler Interaction](docs/ruler-interaction.md).
+## Build Identity and Scope
+
+Follow [Build Identity](docs/BUILD_IDENTITY.md) for every artifact-producing implementation. Maintain its per-repository location inventory and derive console, filename/folder, prominent game UI, and current report identifiers from one manifest. Documentation-only changes do not invent a build number or timestamp.
+
+Use bounded issues and reviewable PRs; inspect current main and open work first. Preserve the distinction between accepted design and remaining engine, UI, geometry, scoring, and timing decisions. The next design step is mockups, not an unrequested implementation. Report checks actually performed; tie deployment and classroom-readiness claims to a verified real build and pilot.

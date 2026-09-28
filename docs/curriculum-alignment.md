@@ -2,11 +2,11 @@
 
 MeasureTwice practices a narrow part of **DM 1.3 Measuring Matters**: interpreting fractional-inch positions and relating a specified measurement to a part. Keep the broader activity, its physical work, and its metric work visible as context without claiming this game covers them all.
 
-This file owns the source record. [Curriculum Content](curriculum-content.md) documents each proposed Learn review and Challenge check, its goal/evidence relationship, and links to the class repository and planning document. [Free, Learn, And Challenge](game-modes.md) defines the shared mode structure and the planned in-game Curriculum access. Every future lesson and check must extend that index before release.
+This file owns the source record. [Curriculum Content](curriculum-content.md) documents each proposed Learn review and Challenge check, its goal/evidence relationship, and links to the class repository and planning document. [Free Play Learn and Challenge](game-modes.md) defines the shared mode structure and the planned in-game Curriculum access. Every future lesson and check must extend that index before release.
 
 ## Sources Reviewed
 
-Reviewed September 27, 2026 (America/New_York).
+Rechecked September 28, 2026 (America/New_York). DM main and PR #21 retain the revisions below; PR #21 and process PR #34 remain open drafts. The accepted gameplay foundation is [Game Design](game-design.md); the current content record contains five Learn scripts and six seed Challenge items.
 
 | Source | Checked Revision And Status | Use |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Reviewed September 27, 2026 (America/New_York).
 | [Tinkercad Quick-Build Template Index](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/blob/3e5d892a593df9ab385593eb342314c80c65caf4/templates/slides/tinkercad-quick-build/README.md) | Current checked main; index read. | Familiar composite-object challenge context; not a 1.3 measurement requirement. |
 | [Curricular Goals First Proposal](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/pull/34) | Open draft when checked. | Tracks the proposed curriculum-only audit process and future `curricular-goals/` home. Treat proposed paths as future paths. |
 
-The detailed mapping below relies on the reviewed audit's source analysis. The original 67-page PLTW activity PDF was **not independently re-audited in this planning pass**. References such as “A pp. 11–25” are the audit's locators into [the archived activity](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/blob/3e5d892a593df9ab385593eb342314c80c65caf4/units/01-introduction-to-design/1.3-measuring-matters/reference/13-measuringmatters.pdf), not claims of a fresh primary-source inspection. The source edition is unresolved in the DM record.
+The detailed mapping below relies on the reviewed audit's source analysis (selected targets on audit pp. 2–3). The original 67-page PLTW activity PDF was **not independently re-audited in this planning pass**. References such as “A pp. 11–25” are the audit's locators into [the archived activity](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/blob/3e5d892a593df9ab385593eb342314c80c65caf4/units/01-introduction-to-design/1.3-measuring-matters/reference/13-measuringmatters.pdf), not claims of a fresh primary-source inspection. The source edition is unresolved in the DM record.
 
 ## Selected Targets
 
@@ -30,7 +30,7 @@ The `G` labels are local analytical labels from the audit. Always qualify them w
 | DM 1.3 G12 — Equivalent Fractions | A pp. 15, 17–21, 23, 25 | Vary equivalent fractional prompts across builds; normalize them to the same physical length. | Normalization alone does not assess the student. Use unassisted alternate representations and a short explanation or comparison to collect stronger evidence. |
 | DM 1.3 G13 — Mixed Numbers | A step 6, p. 39 | Locate whole inches plus a fractional remainder. | Preserve errors that omit the whole-inch part instead of flattening all wrong clicks into one category. |
 | DM 1.3 G16 — Starting Graduation | A step 5, pp. 37–38 | Keep zero visible or recoverable independently of the ruler edge. | Fixed automatic alignment is scaffolding; it does not demonstrate that a student can align a physical ruler. |
-| DM 1.3 G08 — Why Accuracy Matters | A pp. 5, 42, 47, 66 | The chosen length becomes a part used in the build. | Motivating context. Ask for an explanation before treating it as evidence of understanding. |
+| DM 1.3 G08 — Why Accuracy Matters | A pp. 5, 42, 47, 66 | Every valid selected length is cut and inspected against the target; accepted parts enter the build and incorrect parts show excess or missing material. | Post-cut comparison supplies motivating context. MT-L05 teaches fit consequences; MT-C05 asks for an explanation on a fresh neutral example before showing the diagnosis. Watching feedback alone is not understanding evidence. |
 
 ## Existing Course Identifiers
 
@@ -59,3 +59,4 @@ Metric measurement, physical ruler placement, triangle drawing, sketch interpret
 For each design or implementation issue, identify the selected goal, what the student actually does, what observable response supplies evidence, and which assistance is present. Recheck current DM main and the status of PR #21 before instructional changes. If the audit moves after the curriculum process work, update this source table and links while retaining the pinned historical reference.
 
 Keep curriculum-only audits in DM and mechanics here. Before classroom release, verify the cited primary-source pages and publish teacher coverage for the actual game version, including a physical-ruler transfer task. Do not copy the private curricular archive into this public repository or require students to access it.
+
