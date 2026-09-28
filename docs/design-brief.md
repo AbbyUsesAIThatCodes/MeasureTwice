@@ -25,4 +25,6 @@ Students turn numerical and fractional inch measurements into ruler positions, c
 
 The [September 27 brief](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/blob/28b5ff1a95ecfda72f6039fcd43a1cf89d70bc7b/docs/design-brief.md) gated cutting on a correct response. The teacher's September 28 decision replaces that behavior: cut every valid committed selection and reveal correctness during post-cut inspection. Earlier previews are exploratory history, not implementation requirements.
 
-See [Game Modes](game-modes.md), [Curriculum Content](curriculum-content.md), [Ruler Interaction](ruler-interaction.md), and [Roadmap](../ROADMAP.md) for the current planning foundation. Engine, precise model geometry, final UI, and animation timings remain to be resolved.
+The [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md), archived in merged PR #10, establishes the interface composition and visual/interaction direction. Preserve that accepted reference; its documented prototype shortcuts do not change the game contract.
+
+See [Game Modes](game-modes.md), [Curriculum Content](curriculum-content.md), [Ruler Interaction](ruler-interaction.md), and [Roadmap](../ROADMAP.md) for the current planning foundation. Production engine, exact house geometry/cut schedule, access behavior, explanation-response UI, and tuned animation timings remain to be resolved within the approved direction.
