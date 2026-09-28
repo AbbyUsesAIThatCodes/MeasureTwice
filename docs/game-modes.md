@@ -1,47 +1,45 @@
-# Free, Learn, And Challenge
+# Free Play Learn and Challenge
 
-The teacher's September 27, 2026 direction establishes **Free**, **Learn**, and **Challenge** as the preferred three-mode structure across our educational games. This document applies that shared pattern to MeasureTwice; it does not claim the other game repositories have been updated.
+The teacher's accepted three-mode pattern uses the display names **Free Play**, **Learn**, and **Challenge**. This refines the September 27 label Free. Follow the approved [Game Design](game-design.md) and the shared predict–cut–inspect loop.
 
 ## Mode Contract
 
-| Mode | Purpose | MeasureTwice Behavior | Learning Evidence |
-| --- | --- | --- | --- |
-| Free | Experiment freely with the tools. | Choose a length, move the ruler marker, inspect equivalent representations, cut wood, duplicate pieces, and inspect/reset the result. No prescribed question sequence or required model completion. | Exploration only; do not report experimentation as passed comprehension checks. |
-| Learn | Review fundamentals through a freely navigable lesson menu. | Open any available review, see a worked example, try guided ruler interactions, request hints, and return to the menu or revisit a lesson at any time. | Supported practice, with assistance identified. |
-| Challenge | Check comprehension of documented curricular content. | Respond to source-mapped measurement tasks before seeing their answers, then receive feedback and a goal-specific result. Correct cut tasks feed the construction loop. | Keep the first unassisted response separate from hinted attempts and retries. |
+| Mode | Purpose | Support and Evidence |
+| --- | --- | --- |
+| Free Play | Experiment freely with supported lengths, subdivisions, equivalents, cutting, comparison, and duplication. | Live readouts are available. No compulsory questions or comprehension results. Optional comparison targets are selected explicitly. |
+| Learn | Open any of five short fundamental lessons; see an example, predict, cut, inspect, and retry. | Demonstrations and hints are labeled support. Optional practice fades support without locking access. |
+| Challenge | Commit answers to curriculum-based checks and see the consequences. | Hide target-solving cursor readouts before commitment. Preserve first unassisted responses separately from supported attempts. |
 
-Use these exact three mode names in the main menu and navigation. Marked and empty-space ruler settings are options within the modes, not additional top-level modes. All three use the same exact measurement values, ruler geometry, and wood lengths.
+Marked and sparse ruler settings are options within modes, not additional top-level modes. All three modes use the same exact measurement values and physical lengths. Correctness-dependent colors, target lines, and target ghosts appear only after Cut for cut tasks. Pre-cut interactions use neutral feedback.
 
-## Free
+## Free Play
 
-Free has no right-answer gate: a valid selected length can be cut without matching a hidden target. Give students control of the ruler settings, measurement display, duplication, and reset within supported tool ranges. Numeric cursor readouts and equivalent fractions are useful here. Do not impose a lesson order, countdown, score, or failure penalty.
+Any supported selected length can be cut. Students can inspect its live numerical and equivalent-fraction labels, compare cut pieces with aligned starting ends, vary ruler subdivisions while the inch stays fixed, duplicate pieces, or reset. A voluntary Try This suggestion can invite an experiment without becoming a required sequence.
 
-Students may deliberately repeat an experiment. The cut-once rule means that a model never *requires* repeated answers for the same length; it does not prohibit voluntary recutting in Free. If a student experiments with a model, offer reuse/duplication of an existing length. Free does not initially require a general-purpose CAD or arbitrary model-building editor.
+Without a target there is no correct/incorrect answer: post-cut inspection identifies the actual length neutrally. Students may keep pieces for comparison. An optional model-slot/comparison target enables post-cut red/green comparison, but a mismatch does not end exploration or impose a penalty. Free Play does not initially include a general-purpose CAD editor.
 
 ## Learn
 
-Present a freely navigable menu of fundamental reviews, starting with the proposed entries in [Curriculum Content](curriculum-content.md). A suggested order may help students choose, but completing one review must not unlock another. Every review can be opened, revisited, or left directly.
+All five entries in [Curriculum Content](curriculum-content.md) are directly accessible, revisitable, and leaveable. The suggested order is Start at Zero; Meet the Fractions; Same Length, Different Names; Whole Inches and a Little More; Will It Fit? Each is designed for roughly two to three minutes, subject to classroom testing.
 
-Each lesson needs a plain-language objective, a thorough link to the Curricular Planning Document, a worked explanation, an interactive example, useful feedback, and an optional practice opportunity. Explain equal intervals and the zero reference before reducing support; let learners choose where to begin. Any progress indicators describe visits or practice, not automatic mastery.
+Use worked animations, short exact text, guided tasks, and a practice opportunity with support reduced. A demonstration can reveal its worked example; the subsequent prediction still commits before correctness feedback. Do not confuse viewed examples or assisted practice with independent assessment.
 
 ## Challenge
 
-Challenge checks comprehension; difficulty comes from the measurement reasoning. Speed, time limits, a leaderboard, and punishment are not implied by the mode name. Use untimed checks initially.
+Use source-mapped, untimed checks. On cut tasks, marker movement revises the prediction; Cut records it. Correct and incorrect valid selections both receive the saw animation and closeup. Numerical difference labels and answer geometry appear after commitment. Inspection waits for Keep Piece or Try Again.
 
-Every challenge needs an explicit curricular basis, a defined student response, an exact answer or justified acceptable range, a scoring/interpretation rule, and misconception-aware feedback. Do not reveal the solution or a target-solving cursor readout before the initial response. Accessibility controls such as keyboard input and magnification remain available.
+Comparison, origin, explanation, and unit questions use an explicit answer submission without requiring an unrelated saw animation. Record the answer before revealing its explanation. For the G08 consequence question, withhold the automatic mismatch diagnosis until the student has explained the prepared example; do not grade a label the game has already supplied.
 
-After a response, give an explanation and a direct link to the relevant Learn review. Allow a retry, while preserving the original result separately. If a learner asks for a hint, record the assisted attempt as practice. Keep any completion requirement distinct from an unassisted comprehension result. Do not invent a mastery percentage without a reviewed assessment plan.
-
-Within a model build, each normalized length is required once and supplies all its copies. A separate comparison/explanation check can examine fraction equivalence without requiring another cut. Check variants can reuse a length in a new session without violating that build rule.
+Hints remain available but mark the attempt as assisted. Once solution feedback is shown, retries on that target are practice. A later fresh variant may offer another independent check. Keep position and explanation evidence separate; do not infer equivalence reasoning from internal normalization or comprehension from watching parts assemble. No mastery score is defined yet.
 
 ## Curriculum Access
 
-Provide a **Curriculum** entry reachable from the main menu and each mode. Each Learn lesson and Challenge task also links to its own **What This Practices** entry. Show the learning objective, related review/check, and a link to the relevant class repository and planning document. Preserve the current document revision and exact source locators in the maintained developer/teacher record.
+Provide Curriculum from the main navigation and each mode, and What This Practices on every lesson and challenge. Show concise objectives, the related Learn entry, and class-repository/planning-document links. Full source revisions and locators belong in [Curriculum Alignment](curriculum-alignment.md) and [Curriculum Content](curriculum-content.md).
 
-[Curriculum Content](curriculum-content.md) is the content index; [Curriculum Alignment](curriculum-alignment.md) owns source revisions, identifier rules, and coverage limits. Keep the student-facing explanation useful without exposing development metadata in the normal play flow. Source links may require teacher access to the private DM repository; all original explanations and playable content must work without that access.
+The DM repository is private. All playable original explanations must work without access to it. Keep current links alongside pinned source references when the audit moves.
 
-## Shared State And Boundaries
+## Mode Switching and Access
 
-Students can switch modes through clear navigation. Keep Free experiments, Learn practice, and Challenge results distinct; exploring an answer must not silently mark a comprehension check as passed. Preserve or explicitly reset a mode's work when switching, and document the final behavior. Mode switches must not duplicate parts or award answers during an unfinished animation.
+Retain each mode's session separately. Switching does not award progress or erase a committed attempt. If a cut or movement is underway, resolve it once to its inspection state before leaving; hold that unacknowledged result when returning. Explicit restart resets that mode's work, never silently another mode's session. A fresh Challenge variant is needed for an unassisted check if that answer was already exposed in guided work.
 
-The shared three-mode structure is teacher-directed. The examples, content sequence, result presentation, and exact controls remain design proposals. Implementation and classroom verification are still pending.
+Keyboard input, magnification, and readable scale geometry remain available in all modes. They are access features, not hints. A numerical readout that solves the task is instructional support and must be tracked. Reduced motion and animation skipping reach the same inspection and quantities, preserving the required acknowledgement.

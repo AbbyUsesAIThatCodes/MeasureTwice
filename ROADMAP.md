@@ -2,31 +2,36 @@
 
 ## Current Position
 
-The teacher's September 27, 2026 concept is preserved in the [Design Brief](docs/design-brief.md), including the added [Free, Learn, And Challenge](docs/game-modes.md) direction. [Curriculum Content](docs/curriculum-content.md) now indexes four proposed review/check pairs and links them to the class repository and planning document. **No game implementation, classroom playtest, or deployment is complete.**
+The teacher accepted the [Game Design](docs/game-design.md) on September 28, 2026. It defines Free Play, Learn, Challenge, five short lessons, six seed challenge items, and the prediction → committed cut → closeup inspection → rejection or accepted staging/duplication/assembly loop. **No playable game, deployment, or classroom pilot is complete.**
 
-## Planned Work
+The immediate next design step is interface mockups for selection, cutting, inspection, staging, and the mode/lesson menus. Existing issues provide the work breakdown; each implementation belongs in a bounded PR and can be handed to a separate conversation in this project.
 
-| Order | Work | Completion Evidence |
+## First Two Handoffs
+
+1. [#1 — Finalize the First House and Curriculum Scope](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/1): retain the accepted seven-target slice and five lessons; verify primary-source pages; choose a short, geometrically valid house cut schedule with exact lengths, quantities, stock/ruler span, placements, and prompt distribution. Produce a checked plan, not an engine implementation.
+2. [#2 — Prototype Ruler Selection and Cut Commitment](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/2): use that schedule and the agreed interface direction to implement readable, exact selection; coherent zero; neutral mark/stock movement; and explicit Cut commitment. Choose/document the engine and establish build identity. Implement marked practice first, then handle the sparse-ruler extension as a bounded follow-up within that issue. This prototype does not claim the completed game.
+
+For each handoff, read AGENTS.md and the linked design documents, recheck current main/open work, list goal IDs and evidence/support, and leave remaining decisions explicit.
+
+## Existing Issue Map
+
+| Issue | Scope | Completion Evidence |
 | --- | --- | --- |
-| [#1](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/1) | Refine the curriculum slice, representations, and first model's measurement schedule. | A short target set mapped to the current DM audit; core/extension status and prompt wording are explicit. |
-| [#8](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/8) | Maintain the content index and add Curriculum/What This Practices access. | Every Learn lesson and Challenge check has a thorough source/evidence record and working class-repository/planning-document links. |
-| [#2](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/2) | Prototype the ruler with marked and empty-space modes. | Correct zero, exact values, fair tolerances, equivalent fractions, and usable mouse/trackpad/keyboard controls. |
-| [#7](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/7) | Implement Free, Learn, and Challenge. | Free experimentation, a freely navigable Learn menu, and source-mapped comprehension checks with distinct evidence and consistent mode switching. |
-| [#3](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/3) | Create the animated wood-feeding and cutting sequence. | A successful answer visibly produces the requested retained length once; wrong responses do not trigger it. |
-| [#4](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/4) | Add visible duplication and one complete model. | Each unique length is requested once, total part quantities match the model, and every part fits without stretching. |
-| [#5](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/5) | Add airplane, tree, and selected Dash models. | Each model has a reviewed cut schedule, readable silhouette, and the same measurement/duplication rules. |
-| [#6](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/6) | Prepare teacher coverage and a classroom laptop pilot. | Guide, independent transfer check, access options, and real playtest findings for an identified version. |
-
-The backlog has eight issues. Refine content in #1 and #8; build the ruler in #2 and three-mode behavior in #7; integrate cutting and assembly through #3 and #4. Maintain #8's content records as features are authored. The model collection (#5) and classroom preparation (#6) follow the complete first loop. Extra models are not required for the first classroom pilot.
+| [#1](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/1) | Curriculum verification and exact first-house plan. | Reviewed source locators, part schedule, prompt distribution, unit/stock/ruler choices. |
+| [#2](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/2) | Ruler/stock selection, explicit commitment, engine and build foundations. | Fair pointer/keyboard selection, no pre-cut answer leak, exact committed length, run/build instructions and identity. |
+| [#3](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/3) | Cut every valid attempt, sawdust, swing, inspection, acknowledgement, rejection. | Wrong and right lengths actually cut; correct red/green post-cut comparison; reduced-motion parity. |
+| [#4](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/4) | Right-hand accepted stack, duplication, first-house assembly. | Original plus N−1 copies; one accepted family once; no stretching or duplicate progress. |
+| [#7](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/7) | Three modes and freely navigable lessons. | Separate exploration/practice/check records and safe mode switching. |
+| [#8](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/8) | Five lessons, six seed checks, evidence/scoring, curriculum access. | Every implemented item indexed, supported by sources, and linked from Curriculum/What This Practices. |
+| [#6](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/6) | Teacher guide and laptop pilot. | Actual identified build validated, physical-ruler transfer check, observed pilot findings. |
+| [#5](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/5) | Airplane, tree, and later models. | New reviewed schedules reuse the verified loop; optional after first-house pilot. |
 
 ## First Playable Milestone
 
-One house; Free tools for experimentation; a freely navigable menu of fundamental Learn reviews; source-mapped Challenge checks; a readable ruler; the full feed/cut/duplicate/assemble loop; Curriculum navigation; and distinct records of exploration, practice, and comprehension responses. Learn may suggest a fraction-first order without locking lessons. Challenge feedback preserves initial answers separately from helped retries. Any completion view distinguishes answered lengths from assembled parts. Mark-or-space selection, exact equivalence, and duplicate counts must be correct before expanding the model collection.
+One house; Free Play experimentation; all five freely selectable Learn entries; source-mapped Challenge items; an accurate ruler; neutral stock adjustment; both correct and incorrect cut animations; student-held inspection; left-hand rejection; right-hand staging and duplication; automatic assembly; Curriculum navigation; separate first responses and assisted practice; and a prominent complete build identifier.
 
-Choose the engine and publishing setup during the prototype task, after checking available project conventions and laptop constraints. This planning record does not commit to a framework or create a play URL.
+Before classroom release, verify exact arithmetic, equivalent-length grouping, nonoverlapping selection, attempt/part accounting, mouse/trackpad/keyboard use, laptop readability, mute, reduced motion, full/skipped transitions, and current source links. The pilot needs one complete model, not the expanded collection.
 
-## Tomorrow's Starting Point
+## Remaining Design Choices
 
-Review the [three-mode contract](docs/game-modes.md#mode-contract), [curriculum content index](docs/curriculum-content.md), [three mechanics](docs/design-brief.md#three-connected-mechanics), and [representation progression](docs/ruler-interaction.md#representations-and-progression). Then settle the first house's geometry and distinct lengths. Proposed decisions to refine are the final ruler span, prompt mix, amount of scaffolding, decimal-inch placement in the sequence, empty-space presentation, and animation pace.
-
-These decisions are saved for the next design conversation; they do not block preservation of tonight's concept. Advance through small implementation PRs after the first scope is concrete.
+Final interface composition, engine/assets, first-house geometry, measurement schedule, ruler span/stock limits, prompt variant distribution, pixel tolerance at actual scale, animation durations, and the response/scoring interface for explanations remain to be resolved. A mastery threshold and grading rubric have not been approved. The [Build Identity Inventory](docs/BUILD_IDENTITY.md) records pending build surfaces rather than fictional identifiers.
