@@ -2,6 +2,8 @@
 
 These proposed rules make the teacher's mark-or-empty-space interaction concrete. Refine them with the [curriculum mapping](curriculum-alignment.md) before implementation.
 
+Apply these ruler settings within [Free, Learn, And Challenge](game-modes.md). Marked and empty-space settings are not extra top-level modes. Free allows chosen cuts and optional numeric readouts; Learn can reveal explanations and scaffolds; Challenge preserves an initial response before solution feedback. The source-mapped review/check entries live in [Curriculum Content](curriculum-content.md).
+
 ## Representations And Progression
 
 Always display `in` or an unambiguous inch label. Fractions and decimals do not determine a unit by themselves.

@@ -8,6 +8,8 @@ Read a requested length in inches, click its position on a virtual ruler, and wa
 
 ## Start Here
 
+- [Free, Learn, And Challenge](docs/game-modes.md): the shared three-mode structure and its MeasureTwice behavior.
+- [Curriculum Content](docs/curriculum-content.md): the Learn/Challenge content index with class-repository and planning-document links.
 - [Design Brief](docs/design-brief.md): the teacher's concept, the three mechanics, model ideas, and proposed first playable scope.
 - [Curriculum Alignment](docs/curriculum-alignment.md): selected DM goals, source status, and limits on what the game demonstrates.
 - [Ruler Interaction](docs/ruler-interaction.md): fractional and numerical prompts, hatch marks, empty-space selections, and fair feedback.

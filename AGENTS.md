@@ -2,6 +2,8 @@
 
 Read [README.md](README.md), [Design Brief](docs/design-brief.md), [Curriculum Alignment](docs/curriculum-alignment.md), [Ruler Interaction](docs/ruler-interaction.md), and [Roadmap](ROADMAP.md) before making changes.
 
+Also follow [Free, Learn, And Challenge](docs/game-modes.md) and maintain [Curriculum Content](docs/curriculum-content.md). These three modes are the teacher's preferred pattern across educational games: Free exploration, Learn reviews in a freely navigable menu, and Challenge comprehension checks. Every Learn lesson and Challenge task needs a thorough, reviewable curricular basis and links to the class repository and planning document. Keep all Learn entries freely accessible; do not add progression locks. Preserve a Curriculum entry in the planned game navigation and distinguish supported practice from unassisted checks.
+
 ## Design From The Course
 
 - Reference [DesignAndModeling26-27](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27) throughout design, especially Activity 1.3 Measuring Matters and its latest curricular-goals audit. Recheck the source status and paths before instructional changes.
@@ -12,7 +14,7 @@ Read [README.md](README.md), [Design Brief](docs/design-brief.md), [Curriculum A
 ## Preserve The Core Loop
 
 - Numerical/fractional inch prompt → ruler location → animated wood feed and cut → visible duplication → model assembly.
-- Each distinct physical length is answered and cut once per build. Normalize equivalent representations. The original counts toward the required total quantity.
+- Each distinct physical length is required once per build. Normalize equivalent representations. The original counts toward the required total quantity. Free permits voluntary recutting and experimentation without a correctness gate; it must not turn repeated cuts into a requirement.
 - Support both printed-mark practice and the defined empty-space mode. Keep inch units explicit and measuring origin correct.
 - Preserve actual lengths through cutting, duplication, and placement. Do not distort pieces to fit the model.
 - Target classroom laptops with mouse/trackpad and keyboard access. Keep the ruler readable and UI compact; use Title Case for authored titles and headings.

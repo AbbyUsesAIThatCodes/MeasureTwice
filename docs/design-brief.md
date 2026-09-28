@@ -11,8 +11,9 @@ Recorded September 27, 2026, from the teacher's founding concept. This is a game
 5. Require each distinct length only once during a build. Visibly duplicate the cut piece to supply every copy needed at that exact length.
 6. Build recognizable objects from composites of simple shapes: a small house, airplane, tree, and other familiar Dash challenge subjects.
 7. Reference the Design And Modeling repository throughout design, with Activity 1.3 Measuring Matters as the curricular foundation.
+8. Provide Free experimentation, Learn fundamental reviews in a freely navigable menu, and Challenge comprehension checks. Thoroughly ground every lesson and challenge in the Curricular Planning Document and document the content with links to the class repository.
 
-The virtual machine is the reward for a measurement decision. Students do not need a separate sawing skill to progress.
+The virtual machine is the reward for a measurement decision. Students do not need a separate sawing skill to progress. [Free, Learn, And Challenge](game-modes.md) defines how this loop changes by mode; [Curriculum Content](curriculum-content.md) indexes the proposed reviews and checks. Free permits valid chosen cuts without a prescribed answer; the question-and-feedback round below applies to Learn practice and Challenge tasks.
 
 ## Three Connected Mechanics
 
@@ -26,7 +27,7 @@ The virtual machine is the reward for a measurement decision. Students do not ne
 
 Show the next needed length and the model under construction. Keep the board's starting point aligned with the ruler's zero graduation. The student commits a location. A correct response locks that length and runs the feed, cut, separation, duplication, and placement sequence. The completed placements remain visible as the next distinct length is requested.
 
-An incorrect response gives specific guidance and another attempt on the same target. It does not consume material, trigger a successful cut, or erase the model. Examples of useful feedback include checking the whole-inch part, counting intervals from zero, and checking the ruler's subdivisions. Do not assert a particular misconception from one click; phrase uncertain diagnoses as suggestions.
+An incorrect response gives specific guidance and another attempt on the same target. Challenge preserves the initial unassisted response separately from helped retries; Learn can explain and scaffold throughout. An incorrect response does not consume material, trigger a successful cut, or erase the model. Examples of useful feedback include checking the whole-inch part, counting intervals from zero, and checking the ruler's subdivisions. Do not assert a particular misconception from one click; phrase uncertain diagnoses as suggestions.
 
 Use a clear state sequence: **Awaiting Selection → Feedback Or Accepted → Feeding → Cutting → Duplicating → Assembling → Next Length Or Complete**. Accept at most one successful response per round. A double click, animation skip, or replay must never award a second set of parts.
 
@@ -56,6 +57,8 @@ Prefer a small, readable 3D workshop with a clear measuring station, animated ma
 ## Proposed First Playable Scope
 
 Start with one small house and a short schedule of distinct lengths, progressing from whole inches and halves to quarters, eighths, and sixteenths. Include a mixed-number target. Add the alternate representations and empty-space mode defined in [Ruler Interaction](ruler-interaction.md) after the ordinary ruler interaction is dependable.
+
+The complete first playable milestone includes all three top-level modes and curriculum navigation. Prototype the ruler first if useful, but do not describe a single prescribed question sequence as the completed three-mode design. Learn's suggested review order never locks its menu.
 
 Aim for a complete, untimed measurement-to-model loop. Use laptop mouse and trackpad controls, readable unit labels, compact overlays, keyboard access, and a reduced-motion or animation-skip option. Skipping must preserve visible final quantities and model progress. Treat audio as optional, with mute available.
 

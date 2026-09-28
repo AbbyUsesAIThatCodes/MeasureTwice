@@ -2,6 +2,8 @@
 
 MeasureTwice practices a narrow part of **DM 1.3 Measuring Matters**: interpreting fractional-inch positions and relating a specified measurement to a part. Keep the broader activity, its physical work, and its metric work visible as context without claiming this game covers them all.
 
+This file owns the source record. [Curriculum Content](curriculum-content.md) documents each proposed Learn review and Challenge check, its goal/evidence relationship, and links to the class repository and planning document. [Free, Learn, And Challenge](game-modes.md) defines the shared mode structure and the planned in-game Curriculum access. Every future lesson and check must extend that index before release.
+
 ## Sources Reviewed
 
 Reviewed September 27, 2026 (America/New_York).
