@@ -80,7 +80,7 @@ Reduce motion by replacing sawdust and camera travel with a short/static transit
 
 ## Visual and Access Direction
 
-Use a fullscreen bright, cartoony 3D workshop with compact overlay menus. Keep ruler marks and unit labels legible on student laptops with mouse/trackpad and keyboard input. Use a straight-on measuring/inspection view so perspective cannot change the answer. The precise camera path, shader treatment, particle count, and animation timing are for the next interface and implementation work.
+Use a fullscreen bright, cartoony 3D workshop with compact overlay menus. Keep ruler marks and unit labels legible on student laptops with mouse/trackpad and keyboard input. Use a straight-on measuring/inspection view so perspective cannot change the answer. The [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) establishes the workshop composition, ruler dock, moving stock, inspection, and staging direction. Refine camera travel, shader treatment, particle count, and timing during implementation and laptop testing within that accepted direction.
 
 Provide mute, reduced motion, clear focus, keyboard equivalents, and magnification where needed. A green checkmark can celebrate the result without covering the comparison labels or the next action. All requested controls must be understandable without hover. Phone optimization is outside the classroom scope.
 

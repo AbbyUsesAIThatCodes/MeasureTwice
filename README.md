@@ -12,6 +12,7 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 
 - [Game Design](docs/game-design.md): the approved foundation, full predict–cut–inspect loop, feedback, staging, access, and remaining decisions.
 - [Approved Workshop Mockup](docs/mockups/predict-cut-inspect/README.md): the accepted interactive reference, runnable export, exact source, and next-conversation handoff.
+- [Approved Direction Review](docs/direction-review.md): post-merge consistency findings, reference precedence, and remaining implementation boundaries.
 - [Free Play Learn and Challenge](docs/game-modes.md): the three modes and their support/evidence rules.
 - [Curriculum Content](docs/curriculum-content.md): five Learn scripts and six seed Challenge items with goal mappings.
 - [Curriculum Alignment](docs/curriculum-alignment.md): class sources, revision status, identifier rules, and coverage limits.

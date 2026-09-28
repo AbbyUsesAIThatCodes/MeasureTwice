@@ -59,4 +59,4 @@ Hold for Keep Piece or Try Again. A rejected piece moves left; an accepted one m
 | Animation skipped or motion reduced | Arrive at inspection with identical length and feedback; acknowledgement still required. |
 | Free Play without target | Cut any valid chosen length and inspect neutrally; no invented correctness. |
 
-These are future implementation checks. No game tests or classroom playtests have run because implementation has not begun.
+These are production acceptance examples, not completed implementation checks. The [archived mockup's verification record](mockups/predict-cut-inspect/README.md#verification-record) reports syntax and headless logic checks plus the teacher's visual acceptance of the original study. Those checks do not establish production input geometry, browser accessibility, or laptop performance. No production game or classroom pilot has been tested.

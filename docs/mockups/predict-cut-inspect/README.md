@@ -37,13 +37,14 @@ Challenge opens with a **1 1/4 in** wall-upright target. Click the ruler or use 
 | 1 3/8 in | 1/8 in too long; target line and red excess. | Try Again rejects left and supplies fresh stock for the same target. |
 | 1 1/4 in | Green confirmation and checkmark. | Keep Piece stages right, creates three copies of the original, and places four uprights. |
 
-Inspection waits for acknowledgement. Reduced Motion and Skip Animation reach the same comparison. Replay Preview restarts the study. Free Play demonstrates neutral inspection without a target; Learn exposes all five lesson choices with short guidance and sample targets.
+Inspection waits for acknowledgement. Reduced Motion and Skip Animation reach the same comparison. Replay Preview restarts the study. Free Play demonstrates one neutral cut without a target; keeping it ends that preview, and replay clears it. Learn exposes all five lesson choices with short guidance and sample targets.
 
 ## Implementation Boundaries
 
 - The model stops after four wall uprights. The ghost house is visual context, not an approved complete cut schedule or proof of valid roof/joint geometry. Issue #1 must define and check the whole house.
 - The 0–3 in ruler, sixteenth-inch steps, sample measurements, camera path, particles, and timings are demonstration choices. Confirm production scale and access through implementation and laptop testing.
 - Learn contains menu entries and brief sample guidance, not the five complete worked lessons in [Curriculum Content](../../curriculum-content.md). Challenge does not implement the six-item assessment or first-response/assistance records.
+- Free Play stops after one kept cut. Replay clears the piece; there is no retained multi-piece comparison, voluntary duplication control, subdivision selector, equivalent-name display, or optional target selector. Issue #7 must implement the full [Free Play contract](../../game-modes.md#free-play), including another cut without erasing the kept pieces.
 - Mode changes and Replay reset this study. Production must follow [Game Modes](../../game-modes.md): separate retained mode sessions and preserved committed attempts. This shortcut does not amend that requirement.
 - Complete keyboard interaction, focus behavior, magnification, mute, persistence, scoring, and classroom validation remain implementation work. The study uses Three.js; the production engine decision remains in issue #2.
 

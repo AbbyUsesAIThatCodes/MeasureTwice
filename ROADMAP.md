@@ -6,6 +6,8 @@ The teacher accepted the [Game Design](docs/game-design.md) and [Workshop Mockup
 
 The interface mockup is approved and archived with run instructions, unchanged source, verification limits, and a next-conversation handoff. Existing issues provide the work breakdown; start with the exact first-house plan below. Each implementation belongs in a bounded PR and can be handed to a separate conversation in this project.
 
+The [Approved Direction Review](docs/direction-review.md) records the post-PR-#10 consistency check. All eight issue handoffs reference the accepted mockup; its single-cut Free Play, mode resets, abbreviated content, and four-upright sample remain documented implementation gaps.
+
 ## First Two Handoffs
 
 1. [#1 — Finalize the First House and Curriculum Scope](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/1): retain the accepted seven-target slice and five lessons; verify primary-source pages; choose a short, geometrically valid house cut schedule with exact lengths, quantities, stock/ruler span, placements, and prompt distribution. Produce a checked plan, not an engine implementation.

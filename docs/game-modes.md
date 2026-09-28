@@ -1,6 +1,6 @@
 # Free Play Learn and Challenge
 
-The teacher's accepted three-mode pattern uses the display names **Free Play**, **Learn**, and **Challenge**. This refines the September 27 label Free. Follow the approved [Game Design](game-design.md) and the shared predict–cut–inspect loop.
+The teacher's accepted three-mode pattern uses the display names **Free Play**, **Learn**, and **Challenge**. This refines the September 27 label Free. Follow the approved [Game Design](game-design.md) and the shared predict–cut–inspect loop. The [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) demonstrates their navigation and visual treatment; the contracts below describe the full production behavior.
 
 ## Mode Contract
 
@@ -17,6 +17,8 @@ Marked and sparse ruler settings are options within modes, not additional top-le
 Any supported selected length can be cut. Students can inspect its live numerical and equivalent-fraction labels, compare cut pieces with aligned starting ends, vary ruler subdivisions while the inch stays fixed, duplicate pieces, or reset. A voluntary Try This suggestion can invite an experiment without becoming a required sequence.
 
 Without a target there is no correct/incorrect answer: post-cut inspection identifies the actual length neutrally. Students may keep pieces for comparison. An optional model-slot/comparison target enables post-cut red/green comparison, but a mismatch does not end exploration or impose a penalty. Free Play does not initially include a general-purpose CAD editor.
+
+The archived study ends after one kept Free Play piece and offers Replay Preview, which clears it. Production must allow another cut while retaining kept pieces for comparison and voluntary duplication until explicit reset. The study does not yet provide those controls, alternate subdivisions, equivalent-name displays, or optional comparison targets; they remain part of issue #7.
 
 ## Learn
 
