@@ -19,6 +19,7 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 - [Ruler Interaction](docs/ruler-interaction.md): exact values, neutral selection, stock movement, fair input, and acceptance examples.
 - [Roadmap](ROADMAP.md): existing issues and bounded handoffs.
 - [Build Identity](docs/BUILD_IDENTITY.md): requirements and location inventory for the first build pipeline.
+- [GitHub Pages Deployment](docs/PAGES.md): owner setup after merge, automatic main deployment behavior, and local project-path validation.
 - [Design Brief](docs/design-brief.md): founding concept and the superseded correct-answer gate.
 - [Contributor Instructions](AGENTS.md): rules for preserving the agreed design.
 
