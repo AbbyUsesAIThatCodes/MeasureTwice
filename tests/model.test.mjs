@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {newSession,commit,acknowledge,fraction,pick} from '../src/model.js';
+const house=JSON.parse(fs.readFileSync('data/house.json'));
+test('Every valid wrong/right endpoint commits once, then inspection holds',()=>{for(const n of [1,7,18,20,22,48]){const s=newSession('challenge');s.selected=n;assert.equal(commit(s,20,'a'),true);assert.equal(commit(s,20,'a'),false);assert.equal(s.pending.actual,n);assert.equal(s.attempts.length,1);assert.equal(acknowledge(s,house),null)}});
+test('Wrong cut preserves family; exactly three successes produce 17 equal-length parts',()=>{const s=newSession('challenge');s.selected=18;commit(s,20,'a');s.phase='inspecting';assert.equal(acknowledge(s,house).keep,false);assert.equal(s.family,0);for(const f of house.families){s.selected=f.length;commit(s,f.length,f.id);s.phase='inspecting';const r=acknowledge(s,house);assert.equal(r.parts.length,f.placements.length);assert.equal(r.parts.filter(p=>p.original).length,1);assert.equal(acknowledge(s,house),null);s.phase='selecting'}assert.equal(s.parts.length,17);assert.deepEqual(s.completed,house.families.map(f=>f.id));assert.equal(s.attempts.length,4)});
+test('Free Play may keep a mismatch; no-target result is neutral',()=>{const s=newSession('free');s.selected=19;commit(s,null,'free');assert.equal(s.pending.correct,null);s.phase='inspecting';acknowledge(s,house);s.phase='selecting';commit(s,20,'free');s.phase='inspecting';assert.equal(acknowledge(s,house).keep,true);assert.equal(s.parts.length,2)});
+test('All adjacent pointer bands and keyboard positions are target-independent',()=>{for(const width of [650,1024,1800])for(let n=1;n<=48;n++){const x=24+n/48*(width-48);assert.equal(pick(x,0,width),n);if(n<48)assert.equal(pick(x+(width-48)/48*.499,0,width),n)}assert.equal(fraction(19),'1 3/16');assert.equal(fraction(12),'3/4')});
