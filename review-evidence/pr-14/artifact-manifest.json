@@ -1,0 +1,24 @@
+{
+  "buildId": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+  "builtAt": "2026-09-30T03:32:45.830Z",
+  "builtSourceRevision": "3408719e614a0531eee21135b562462dbf824a5f",
+  "sourceFingerprint": "5bd8a60b46bc2c0a13b2757722d77b2d943823f7e7590b256f4851615f8a655f",
+  "rebuilt": false,
+  "files": [
+    {
+      "file_name": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web.zip",
+      "bytes": 514138,
+      "sha256": "3634697cb768b1f1d8c0db7cecc8344392d19f59a50110d69fb4b10989e372d8"
+    },
+    {
+      "file_name": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web_House.png",
+      "bytes": 183645,
+      "sha256": "049b2abe44e8cb093e584e4e6411d6d9915ecbe90df1f2b9832c37db84626144"
+    },
+    {
+      "file_name": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web_Free-Play-Comparison.png",
+      "bytes": 177888,
+      "sha256": "8c567623682236e6b3ef442b65bb2e8263c45443d984b93e0f901a9f6e9dea99"
+    }
+  ]
+}
