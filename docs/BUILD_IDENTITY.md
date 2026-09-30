@@ -1,6 +1,6 @@
 # Build Identity
 
-**Status: Local Review Pipeline Implemented; No Production Deployment.** The archived [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) remains unchanged and keeps its historical interface-study identity. The application uses development version 0.1.0 and provisional review codename Predict Cut Inspect, drawn from that accepted study. The teacher has not accepted a production release name or compatibility contract.
+**Status: Local Review And Pages Build Pipelines Implemented; Pages Deployment Awaits Owner Setup.** The archived [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) remains unchanged and keeps its historical interface-study identity. The application uses development version 0.1.0 and provisional review codename Predict Cut Inspect, drawn from that accepted study. The teacher has not accepted a production release name or compatibility contract. See [Pages Deployment](PAGES.md) for the owner setup and merge-trigger behavior.
 
 ## Current Implementation Inventory
 
@@ -8,7 +8,12 @@
 | --- | --- | --- |
 | Version, codename, compatibility | `release.json` | Development review; reload resets sessions. |
 | Atomic allocation | `scripts/identity.mjs`; persistent `C:\Users\jessg\Documents\Codex\2026-09-29\task-3\build-ledger` on Jess_PC | Exclusive receipt creation; all local clones use this one allocator; PR scope refused on other hosts. Back up this ledger before moving build machines. |
-| Build entrypoint and console | `scripts/build.mjs` | One timestamp; start/success/failure ID; explicit scope; no workflow or CI job. |
+| Local build entrypoint and console | `scripts/build.mjs` | Preserved one timestamp; start/success/failure ID; explicit local/PR scope. |
+| Pages entrypoint and reservation | `scripts/build-pages.mjs`, `scripts/pages-identity.mjs` | `main-run-<GITHUB_RUN_ID>` scope with monotonic `GITHUB_RUN_ATTEMPT` ordinal; exclusive attempt receipt; exact clean event SHA required. Local Pages builds share the existing local/PR ledger. |
+| Pages output and payload | `dist/pages/<full-id>/MeasureTwice/`; `scripts/pages-output.mjs` | One timestamp, full source SHA/fingerprint, target `pages`, project base path; allowlisted tracked static inputs and pinned Three.js runtime. Local launcher is outside payload. |
+| Pages artifact and workflow | `.github/workflows/pages.yml` | Full ID is the single one-day artifact name; passed unchanged to dependent deployment. Main push/owner-dispatch only, no PR trigger or cache. No settings or hosted run performed during preparation. |
+| Pages UI, report and summary | Generated `build-manifest.json`, `BUILD_REPORT.json`; existing footer; Actions build summary | Same manifest identity. `latest-pages.json` is an ignored local pointer; a built report is not evidence of deployment. Actual deployment status/URL is the owner-run deploy job. |
+| Pages verification | `tests/pages.test.mjs`, `scripts/check-pages.mjs`, `scripts/pages-browser-check.cjs` | Run/rerun uniqueness, rejected PR/feature/fork contexts, tracked-input boundaries, manifest agreement and browser check at `/MeasureTwice/`. |
 | Source provenance | Build manifest | Full SHA, dirty flag and SHA-256 of application, copied docs, data, dependency lock and build scripts. |
 | Artifact directory | `review-builds/<full-id>/` | Immutable new directory for every invocation. Failed reservations remain consumed. |
 | Manifest and current artifact report | `build-manifest.json`, `BUILD_REPORT.json`, `REVIEW.txt` inside each artifact | Same full ID. `latest-review.json` is an ignored local pointer to the newest artifact. |

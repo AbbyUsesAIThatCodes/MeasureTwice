@@ -1,0 +1,17 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_pr-18_build-001_20260930T130158Z_g7fd16c1b58be_pages",
+  "sourceRevision": "7fd16c1b58be3868cfc2c804df2813ebf2e3a38a",
+  "basePath": "/MeasureTwice/",
+  "checks": [
+    "Real WebGL at Project Subpath",
+    "Relative Modules and Data",
+    "Visible Manifest Identity",
+    "Wrong Cut Inspection",
+    "17-Piece House",
+    "C03 Authored Representation",
+    "Curriculum Link at Project Subpath",
+    "Learn and Free Play"
+  ],
+  "errors": [],
+  "badRequests": []
+}

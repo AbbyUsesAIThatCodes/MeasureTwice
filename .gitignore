@@ -4,3 +4,4 @@ review-builds/
 .build-state/
 test-results/
 latest-review.json
+latest-pages.json
