@@ -19,6 +19,7 @@
 | Manifest and current artifact report | `build-manifest.json`, `BUILD_REPORT.json`, `REVIEW.txt` inside each artifact | Same full ID. `latest-review.json` is an ignored local pointer to the newest artifact. |
 | Visible game footer | `public/index.html#build-id`; `src/app.js` | Copyable, wrapping full manifest identity. |
 | Review handoff | `docs/IMPLEMENTATION_REVIEW.md`, `docs/REVIEW_CHECKLIST.md`, draft PR bodies | Exact per-PR artifact IDs and final tested source supplied in the PR handoff. |
+| Workshop visual repair evidence | `scripts/visual-check.cjs`, `test-results/<full-id>/visual-verification.json`; `docs/WORKSHOP_VISUAL_REVIEW.md` | Real rendered geometry, cut-state checks, viewport/camera sweep and screenshots carry the artifact identity; saved review evidence preserves its built source even when committed later. |
 | Automated checks | `tests/identity.test.mjs`; browser evidence | Eight simultaneous reservations are distinct; reserved/failed attempts stay consumed; artifact reopens preserve metadata. |
 
 Initial PR #13 artifact used a temporary ledger during setup. Those existing reservations were copied to the persistent allocator before further PR builds, preserving PR #13 build 001. Historical review identities remain unchanged. This local designated allocator is not a distributed build service; do not independently allocate the same PR scope on another machine.
