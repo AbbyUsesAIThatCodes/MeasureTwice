@@ -26,4 +26,4 @@ September 30 UTC source status: DM main is `279ddf7b047c58087632dbe3ce650f1cc156
 
 Run `node scripts/check-house.mjs`: every endpoint separation must equal its scheduled length, all stock limits hold, and totals are exactly 8 + 4 + 5. The integrated playable review must show the original plus 7, 3, and 4 copies respectively; no second successful cut for a completed family; no progress on rejection; and the complete recognizable frame from movable viewpoints.
 
-Engine implementation continues under #2–#4, retained modes under #7, learning checks under #8. Those issues remain open until their full criteria are met. Review the preserved mockup with `node scripts/serve.mjs . 8134`, then open `/docs/mockups/predict-cut-inspect/index.html`. It is the archived interface study, not a new game build.
+Engine implementation continues under #2–#4, retained modes under #7, learning checks under #8. Those issues remain open until their full criteria are met. Review the preserved mockup with `node scripts/serve.mjs . 18443`, then open `/docs/mockups/predict-cut-inspect/index.html`. It is the archived interface study, not a new game build.

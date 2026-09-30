@@ -1,6 +1,22 @@
 # Build Identity
 
-**Status: Requirements Recorded; Production Implementation Pending.** MeasureTwice contains planning documents and an archived [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md). That interface study preserves the reviewed source and a standalone preview shell; it is not a production game release or an implementation of this pipeline. Its provenance and verification limits are recorded beside the source. The game version, release codename, PR build ordinal, and build timestamp remain unassigned until implementation. Do not invent production identifiers for this archival update.
+**Status: Local Review Pipeline Implemented; No Production Deployment.** The archived [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) remains unchanged and keeps its historical interface-study identity. The application uses development version 0.1.0 and provisional review codename Predict Cut Inspect, drawn from that accepted study. The teacher has not accepted a production release name or compatibility contract.
+
+## Current Implementation Inventory
+
+| Surface | Authoritative Location | Verification |
+| --- | --- | --- |
+| Version, codename, compatibility | `release.json` | Development review; reload resets sessions. |
+| Atomic allocation | `scripts/identity.mjs`; persistent `C:\Users\jessg\Documents\Codex\2026-09-29\task-3\build-ledger` on Jess_PC | Exclusive receipt creation; all local clones use this one allocator; PR scope refused on other hosts. Back up this ledger before moving build machines. |
+| Build entrypoint and console | `scripts/build.mjs` | One timestamp; start/success/failure ID; explicit scope; no workflow or CI job. |
+| Source provenance | Build manifest | Full SHA, dirty flag and SHA-256 of application, copied docs, data, dependency lock and build scripts. |
+| Artifact directory | `review-builds/<full-id>/` | Immutable new directory for every invocation. Failed reservations remain consumed. |
+| Manifest and current artifact report | `build-manifest.json`, `BUILD_REPORT.json`, `REVIEW.txt` inside each artifact | Same full ID. `latest-review.json` is an ignored local pointer to the newest artifact. |
+| Visible game footer | `public/index.html#build-id`; `src/app.js` | Copyable, wrapping full manifest identity. |
+| Review handoff | `docs/IMPLEMENTATION_REVIEW.md`, `docs/REVIEW_CHECKLIST.md`, draft PR bodies | Exact per-PR artifact IDs and final tested source supplied in the PR handoff. |
+| Automated checks | `tests/identity.test.mjs`; browser evidence | Eight simultaneous reservations are distinct; reserved/failed attempts stay consumed; artifact reopens preserve metadata. |
+
+Initial PR #13 artifact used a temporary ledger during setup. Those existing reservations were copied to the persistent allocator before further PR builds, preserving PR #13 build 001. Historical review identities remain unchanged. This local designated allocator is not a distributed build service; do not independently allocate the same PR scope on another machine.
 
 ## Required Convention
 
@@ -12,9 +28,9 @@ Reserve each PR-local ordinal durably and atomically before producing an artifac
 
 Capture UTC once immediately before build metadata is injected, and propagate the same manifest to every surface. It is not page-load time, commit time, or documentation-edit time. Record the actual full built revision and, when relevant, both the CI merge revision and PR head. Never label dirty sources as a clean commit.
 
-## Location Inventory
+## Historical Pre-Implementation Inventory
 
-The paths below distinguish present documentation from future surfaces. Update this inventory with actual implementation paths/functions/jobs as they are added; no pending surface is implemented by this document.
+The table below preserves the September 28 planning snapshot. Its pending entries are historical; the current implementation locations are listed above.
 
 | Surface | Current Location | Status and Required Check |
 | --- | --- | --- |

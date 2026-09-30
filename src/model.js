@@ -5,7 +5,7 @@ export function newSession(mode){return {mode,selected:16,phase:'selecting',fami
 export function commit(s,target,context){
   if(s.phase!=='selecting'||!Number.isInteger(s.selected)||s.selected<1||s.selected>48)return false;
   const repeated=s.attempts.some(a=>a.context===context);
-  const record={id:s.attempts.length+1,context,actual:s.selected,target,unit:'in',scale:s.subdivision,assisted:s.hint||s.mode==='learn'||s.exposed.includes(context),retry:repeated,correct:target===null?null:s.selected===target};
+  const record={id:s.attempts.length+1,context,actual:s.selected,target,unit:'in',scale:s.subdivision,assisted:s.hint||s.mode==='learn'||s.exposed.includes(context)||(s.mode==='challenge'&&repeated),kind:s.demonstrating?'demonstration':'student-response',retry:repeated,correct:target===null?null:s.selected===target};
   s.attempts.push(record);s.pending={...record,acknowledged:false};s.phase='cutting';return true;
 }
 export function acknowledge(s,house){
@@ -26,3 +26,4 @@ export function submitResponse(s,id,answer,expected){
   s.responses.push({id,answer,correct:expected===null?null:answer===expected,review:expected===null?'Teacher Review':'Objective Component',assisted:s.hint||s.mode==='learn'||s.exposed.includes(id)});
   return true;
 }
+export function comparisonPlacement(index,length){return {x:.3+length/16,y:2.91+Math.floor(index/8)*.4,z:1.95-(index%8)*(.63+.09)}}
