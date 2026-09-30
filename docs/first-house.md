@@ -20,7 +20,7 @@ Three correct model measurements complete the house; rejected attempts preserve 
 
 The house loop practices DM 1.3 G11/G13 with G07 units and G08 fit context. The student's committed endpoint is the evidence; fixed zero and post-cut diagnoses are support. Automatic copies and assembly do not prove comprehension or physical construction skill. The existing five MT-L lessons and six MT-C seed checks remain authoritative in [Curriculum Content](curriculum-content.md), including 7/16 in, 6/8 in equivalence, and 1 3/16 in mixed-number checks. No new course requirement or mastery score is introduced.
 
-September 30 UTC source status: DM main is `279ddf7b047c58087632dbe3ce650f1cc156fc9f`; the accepted audit remains open draft PR #21 at unchanged head `1713a3bd537035f2ce09dfc7fe05ce6bf6b70cc3`. Original primary-source page verification and teacher pilot remain release gates. Do not claim they occurred in this recovery pass.
+September 30 UTC source status: DM main is `279ddf7b047c58087632dbe3ce650f1cc156fc9f`; the accepted audit remains open draft PR #21 at unchanged head `1713a3bd537035f2ce09dfc7fe05ce6bf6b70cc3`. The subsequent September 30 [source-page verification](PRIMARY_SOURCE_VERIFICATION.md) confirms all seven selected targets; the teacher pilot remains a release gate.
 
 ## Acceptance and Review
 
