@@ -1,0 +1,686 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_pr-24_build-001_20260930T231202Z_g50ff58b6f73f_web",
+  "completed": {
+    "mode": "challenge",
+    "selected": 16,
+    "phase": "complete",
+    "family": 3,
+    "attempts": [
+      {
+        "id": 1,
+        "context": "house:uprights-and-rafters",
+        "actual": 18,
+        "target": 20,
+        "unit": "in",
+        "scale": 16,
+        "round": 0,
+        "copyCount": 1,
+        "recordedAt": "2026-09-30T23:12:32.735Z",
+        "assisted": false,
+        "kind": "student-response",
+        "retry": false,
+        "correct": false
+      },
+      {
+        "id": 2,
+        "context": "house:uprights-and-rafters",
+        "actual": 22,
+        "target": 20,
+        "unit": "in",
+        "scale": 16,
+        "round": 0,
+        "copyCount": 1,
+        "recordedAt": "2026-09-30T23:12:35.696Z",
+        "assisted": true,
+        "kind": "student-response",
+        "retry": true,
+        "correct": false
+      },
+      {
+        "id": 3,
+        "context": "house:uprights-and-rafters",
+        "actual": 20,
+        "target": 20,
+        "unit": "in",
+        "scale": 16,
+        "round": 0,
+        "copyCount": 1,
+        "recordedAt": "2026-09-30T23:12:35.901Z",
+        "assisted": true,
+        "kind": "student-response",
+        "retry": true,
+        "correct": true
+      },
+      {
+        "id": 4,
+        "context": "house:front-and-back-rails",
+        "actual": 32,
+        "target": 32,
+        "unit": "in",
+        "scale": 16,
+        "round": 0,
+        "copyCount": 1,
+        "recordedAt": "2026-09-30T23:12:35.951Z",
+        "assisted": false,
+        "kind": "student-response",
+        "retry": false,
+        "correct": true
+      },
+      {
+        "id": 5,
+        "context": "house:side-rails-and-ridge",
+        "actual": 16,
+        "target": 16,
+        "unit": "in",
+        "scale": 16,
+        "round": 0,
+        "copyCount": 1,
+        "recordedAt": "2026-09-30T23:12:35.987Z",
+        "assisted": false,
+        "kind": "student-response",
+        "retry": false,
+        "correct": true
+      }
+    ],
+    "parts": [
+      {
+        "id": 1,
+        "length": 20,
+        "family": "uprights-and-rafters",
+        "context": "house:uprights-and-rafters",
+        "placement": 0,
+        "original": true,
+        "mode": "challenge"
+      },
+      {
+        "id": 2,
+        "length": 20,
+        "family": "uprights-and-rafters",
+        "context": "house:uprights-and-rafters",
+        "placement": 1,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 3,
+        "length": 20,
+        "family": "uprights-and-rafters",
+        "context": "house:uprights-and-rafters",
+        "placement": 2,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 4,
+        "length": 20,
+        "family": "uprights-and-rafters",
+        "context": "house:uprights-and-rafters",
+        "placement": 3,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 5,
+        "length": 20,
+        "family": "uprights-and-rafters",
+        "context": "house:uprights-and-rafters",
+        "placement": 4,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 6,
+        "length": 20,
+        "family": "uprights-and-rafters",
+        "context": "house:uprights-and-rafters",
+        "placement": 5,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 7,
+        "length": 20,
+        "family": "uprights-and-rafters",
+        "context": "house:uprights-and-rafters",
+        "placement": 6,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 8,
+        "length": 20,
+        "family": "uprights-and-rafters",
+        "context": "house:uprights-and-rafters",
+        "placement": 7,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 9,
+        "length": 32,
+        "family": "front-and-back-rails",
+        "context": "house:front-and-back-rails",
+        "placement": 0,
+        "original": true,
+        "mode": "challenge"
+      },
+      {
+        "id": 10,
+        "length": 32,
+        "family": "front-and-back-rails",
+        "context": "house:front-and-back-rails",
+        "placement": 1,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 11,
+        "length": 32,
+        "family": "front-and-back-rails",
+        "context": "house:front-and-back-rails",
+        "placement": 2,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 12,
+        "length": 32,
+        "family": "front-and-back-rails",
+        "context": "house:front-and-back-rails",
+        "placement": 3,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 13,
+        "length": 16,
+        "family": "side-rails-and-ridge",
+        "context": "house:side-rails-and-ridge",
+        "placement": 0,
+        "original": true,
+        "mode": "challenge"
+      },
+      {
+        "id": 14,
+        "length": 16,
+        "family": "side-rails-and-ridge",
+        "context": "house:side-rails-and-ridge",
+        "placement": 1,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 15,
+        "length": 16,
+        "family": "side-rails-and-ridge",
+        "context": "house:side-rails-and-ridge",
+        "placement": 2,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 16,
+        "length": 16,
+        "family": "side-rails-and-ridge",
+        "context": "house:side-rails-and-ridge",
+        "placement": 3,
+        "original": false,
+        "mode": "challenge"
+      },
+      {
+        "id": 17,
+        "length": 16,
+        "family": "side-rails-and-ridge",
+        "context": "house:side-rails-and-ridge",
+        "placement": 4,
+        "original": false,
+        "mode": "challenge"
+      }
+    ],
+    "completed": [
+      "uprights-and-rafters",
+      "front-and-back-rails",
+      "side-rails-and-ridge"
+    ],
+    "pending": null,
+    "hint": false,
+    "lesson": 0,
+    "lessonStage": "guided",
+    "check": 0,
+    "activity": "house",
+    "responses": [],
+    "exposed": [
+      "house:uprights-and-rafters",
+      "house:front-and-back-rails",
+      "house:side-rails-and-ridge"
+    ],
+    "responseRounds": {},
+    "acknowledgements": [
+      {
+        "attemptId": 1,
+        "context": "house:uprights-and-rafters",
+        "kept": false,
+        "recordedAt": "2026-09-30T23:12:35.679Z"
+      },
+      {
+        "attemptId": 2,
+        "context": "house:uprights-and-rafters",
+        "kept": false,
+        "recordedAt": "2026-09-30T23:12:35.888Z"
+      },
+      {
+        "attemptId": 3,
+        "context": "house:uprights-and-rafters",
+        "kept": true,
+        "recordedAt": "2026-09-30T23:12:35.926Z"
+      },
+      {
+        "attemptId": 4,
+        "context": "house:front-and-back-rails",
+        "kept": true,
+        "recordedAt": "2026-09-30T23:12:35.965Z"
+      },
+      {
+        "attemptId": 5,
+        "context": "house:side-rails-and-ridge",
+        "kept": true,
+        "recordedAt": "2026-09-30T23:12:36.000Z"
+      }
+    ],
+    "freeTarget": null,
+    "subdivision": 16,
+    "sparse": false,
+    "comparison": null
+  },
+  "geometry": [
+    {
+      "meshLength": 2.5,
+      "profileWidth": 0.63,
+      "position": [
+        1.35,
+        4.01,
+        -1.9
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 1,
+      "length": 20,
+      "family": "uprights-and-rafters",
+      "context": "house:uprights-and-rafters",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "label": "1 1/4 in Wooden Piece · Original"
+    },
+    {
+      "meshLength": 2.5,
+      "profileWidth": 0.63,
+      "position": [
+        5.35,
+        4.01,
+        -1.9
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 2,
+      "length": 20,
+      "family": "uprights-and-rafters",
+      "context": "house:uprights-and-rafters",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 1/4 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2.5,
+      "profileWidth": 0.63,
+      "position": [
+        1.35,
+        4.01,
+        0.09999999999999998
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 3,
+      "length": 20,
+      "family": "uprights-and-rafters",
+      "context": "house:uprights-and-rafters",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 1/4 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2.5,
+      "profileWidth": 0.63,
+      "position": [
+        5.35,
+        4.01,
+        0.09999999999999998
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 4,
+      "length": 20,
+      "family": "uprights-and-rafters",
+      "context": "house:uprights-and-rafters",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 1/4 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2.5,
+      "profileWidth": 0.63,
+      "position": [
+        2.35,
+        6.01,
+        -1.9
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 5,
+      "length": 20,
+      "family": "uprights-and-rafters",
+      "context": "house:uprights-and-rafters",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 1/4 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2.5,
+      "profileWidth": 0.63,
+      "position": [
+        4.35,
+        6.01,
+        -1.9
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 6,
+      "length": 20,
+      "family": "uprights-and-rafters",
+      "context": "house:uprights-and-rafters",
+      "placement": 5,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 1/4 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2.5,
+      "profileWidth": 0.63,
+      "position": [
+        2.35,
+        6.01,
+        0.09999999999999998
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 7,
+      "length": 20,
+      "family": "uprights-and-rafters",
+      "context": "house:uprights-and-rafters",
+      "placement": 6,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 1/4 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2.5,
+      "profileWidth": 0.63,
+      "position": [
+        4.35,
+        6.01,
+        0.09999999999999998
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 8,
+      "length": 20,
+      "family": "uprights-and-rafters",
+      "context": "house:uprights-and-rafters",
+      "placement": 7,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 1/4 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 4,
+      "profileWidth": 0.63,
+      "position": [
+        3.3499999999999996,
+        2.76,
+        -1.9
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 9,
+      "length": 32,
+      "family": "front-and-back-rails",
+      "context": "house:front-and-back-rails",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "label": "2 in Wooden Piece · Original"
+    },
+    {
+      "meshLength": 4,
+      "profileWidth": 0.63,
+      "position": [
+        3.3499999999999996,
+        2.76,
+        0.09999999999999998
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 10,
+      "length": 32,
+      "family": "front-and-back-rails",
+      "context": "house:front-and-back-rails",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "label": "2 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 4,
+      "profileWidth": 0.63,
+      "position": [
+        3.3499999999999996,
+        5.26,
+        -1.9
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 11,
+      "length": 32,
+      "family": "front-and-back-rails",
+      "context": "house:front-and-back-rails",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "label": "2 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 4,
+      "profileWidth": 0.63,
+      "position": [
+        3.3499999999999996,
+        5.26,
+        0.09999999999999998
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 12,
+      "length": 32,
+      "family": "front-and-back-rails",
+      "context": "house:front-and-back-rails",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "label": "2 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2,
+      "profileWidth": 0.63,
+      "position": [
+        1.35,
+        2.76,
+        -0.8999999999999999
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 13,
+      "length": 16,
+      "family": "side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "label": "1 in Wooden Piece · Original"
+    },
+    {
+      "meshLength": 2,
+      "profileWidth": 0.63,
+      "position": [
+        5.35,
+        2.76,
+        -0.8999999999999999
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 14,
+      "length": 16,
+      "family": "side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2,
+      "profileWidth": 0.63,
+      "position": [
+        1.35,
+        5.26,
+        -0.8999999999999999
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 15,
+      "length": 16,
+      "family": "side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2,
+      "profileWidth": 0.63,
+      "position": [
+        5.35,
+        5.26,
+        -0.8999999999999999
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 16,
+      "length": 16,
+      "family": "side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 in Wooden Piece · Equal Copy"
+    },
+    {
+      "meshLength": 2,
+      "profileWidth": 0.63,
+      "position": [
+        3.35,
+        6.76,
+        -0.8999999999999999
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": 17,
+      "length": 16,
+      "family": "side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "label": "1 in Wooden Piece · Equal Copy"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "checks": [
+    "Real WebGL Render",
+    "Full Cut and Camera Travel",
+    "Held Short/Long Inspection",
+    "17 Pieces in 3 Families",
+    "Duplicate Commitment Protection",
+    "Free Play Retention and Duplication",
+    "Mode-Switch Mid-Cut Preservation",
+    "Camera Orbit",
+    "Keyboard Ruler",
+    "Offline Runtime",
+    "Visible Build Identity"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "repository": "AbbyUsesAIThatCodes/MeasureTwice",
+  "issue": 22,
+  "pr": 24,
+  "sourceRevision": "50ff58b6f73f0389a169bdfd04852f451b4cfe0a",
+  "buildId": "0.1.0_Predict-Cut-Inspect_pr-24_build-001_20260930T231202Z_g50ff58b6f73f_web",
+  "sharedCatalogWrites": false,
+  "sourceFiles": [
+    {
+      "path": "src/workshop.js",
+      "gitBlobSha256": "7ae74914421576a6000bdbd821449d2bf99ccab0675d6dabbecc6873988a5576",
+      "artifactSha256": "589faac7a9c04387b9bc763fd0dd73ebac226f85085baccf2f18255ba5c9ee42"
+    },
+    {
+      "path": "src/view-limits.js",
+      "gitBlobSha256": "c375ff15fc9b7a883b85230508370b33922819fc4fcc8dc71ebcb9493ffbc02a",
+      "artifactSha256": "2ca43e049328c44651f8b311cc594948ffb4749d4ec8173feb25b1ef50eb9725"
+    },
+    {
+      "path": "src/app.js",
+      "gitBlobSha256": "b48258174d6c48766f6f194c34df7adb5ebaca9f48fc742077c6baa3641bcbeb",
+      "artifactSha256": "2c9b48346f4b242dcb7491ce062c0e8c9e995c6d32282aa6a9decd44415b2c07"
+    },
+    {
+      "path": "src/model.js",
+      "gitBlobSha256": "fc7b666ba578760f5fcf75c4290c7d1350c384633348b76559780c3dc2065b54",
+      "artifactSha256": "dbe55167ec907eaa3238d0986f65e503d7ce7986fab84f7ed1997ccba701224d"
+    },
+    {
+      "path": "docs/ASSET_MANIFEST.json",
+      "gitBlobSha256": "a0e67743cfca257d26eac88126e9eda211958c1bc221a3bd101d544775c16284",
+      "artifactSha256": "38a08b4576b1d6e1eb9256231efc101e3269f9346ca846f4813e3f3b3bacf6f4"
+    }
+  ],
+  "baseline": {
+    "source": "docs/mockups/predict-cut-inspect/source.fragment.html",
+    "commit": "e67bf168a54feaa291f8f33009f23fb46138af48",
+    "sha256": "dc9a6aa15a42497c54bb52d3fc6d72d5fa6a358904ff7950dd1c86d1954ad992",
+    "attribution": "Teacher-approved MeasureTwice procedural workshop; no new repository-wide license inferred."
+  },
+  "changes": [
+    "hollow lathed pencil cup with seated nonintersecting hexagonal pencils",
+    "raised and extended bench with grounded legs and shared work-surface transform",
+    "receiving tray beyond stock/offcut envelope and aligned staging destination",
+    "comparison rack behind receiving station with unchanged aligned piece starts"
+  ],
+  "integrationNotes": "Raised shared work-surface root and camera, hollow cup and seated pencils, receiving tray and comparison rack. Preserve workRoot coordinates and view-limits dependency, approved archive attribution and Three.js MIT notice. Parent coordinates central storage; no central catalog changed."
+}
