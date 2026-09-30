@@ -1,0 +1,26 @@
+{
+  "buildId": "0.1.0_Predict-Cut-Inspect_pr-23_build-001_20260930T225840Z_g129d93fa115b_web",
+  "builtSourceRevision": "129d93fa115bb7e4450416ccc02bbd469bd684d2",
+  "builtAt": "2026-09-30T22:58:40.948Z",
+  "fingerprint": "f579115c0390fb0837fa783e348ace781bad2466b0add60f897bbe3e9218c685",
+  "dirty": false,
+  "target": "web",
+  "productionDeployment": false,
+  "files": [
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-23_build-001_20260930T225840Z_g129d93fa115b_web.zip",
+      "bytes": 523051,
+      "sha256": "80d2651c2df8d76e4071c52230949dfd4dfc255fafd183552a85de1f1233926c"
+    },
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-23_build-001_20260930T225840Z_g129d93fa115b_web_Review-1.png",
+      "bytes": 203437,
+      "sha256": "dd2608fe190cbe4f96f5c5a0c75215192c0e2b625e489421b0dbd1b4bf474236"
+    },
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-23_build-001_20260930T225840Z_g129d93fa115b_web_Review-2.png",
+      "bytes": 212706,
+      "sha256": "c9ceb020612525255a8660a8a742c8423a7955aa4ddd56b3ea3675e12eef207c"
+    }
+  ]
+}
