@@ -18,8 +18,14 @@ The learning stack also fixes the independent static review findings: comparison
 
 The September 30 local Chrome WebGL run verified full saw/camera travel, held short inspection, long inspection, correct retries, the complete 17-piece house, once-only commitments/acknowledgements, Free Play retention/duplication, mode switching during a cut, camera controls, keyboard ruler, offline runtime and visible manifest identity. No page errors or external requests occurred. Unit checks cover every selectable pointer position across multiple widths, exact fractions, failed/successful attempts, and house lengths/counts. See the task's evidence and final integrated build report for the tested identity; do not equate a later source edit with the earlier tested artifact.
 
+## Assessment And Source Follow-Up
+
+C03 keeps its authored 6/8 prompt independently of the normalized 12-sixteenth arithmetic; 3/4 is shown as a comparison candidate and in post-cut feedback, never as the solved pre-cut target. Activity-level exposure tracks visible guidance, hints, worked examples and inspection, including house contexts. Objective and explanation components inherit support. Navigation and Restart preserve that history and original responses; restarting resets construction. `node scripts/assessment-check.cjs` uses task-owned port 18446 to regress these paths and the untouched C03 screen.
+
+[Selected Primary-Source Verification](PRIMARY_SOURCE_VERIFICATION.md) records the completed page checks for the seven targets. The formal source edition remains unresolved, but no selected-goal claim depends on it.
+
 ## Review Limits
 
-This is a development review, not a classroom release. The integrated learning layer supplies all five lesson choices and six checks with source mappings, before-feedback concept commitments, hints, retained first answers, and teacher-review explanations. Detailed worked-animation polish, fresh independent variants after exposure, primary-source page verification, physical-ruler transfer, teacher pilot, alternate models, and sparse-ruler transfer remain open issues. Browser reload clears in-memory sessions; mode switching does not. The provisional review codename derives from the accepted Predict Cut Inspect study and awaits teacher acceptance as a release name.
+This is a development review, not a classroom release. The integrated learning layer supplies all five lesson choices and six checks with source mappings, before-feedback concept commitments, hints, retained first answers, and teacher-review explanations. Detailed worked-animation polish, fresh independent variants after exposure, physical-ruler transfer, teacher pilot, alternate models, and sparse-ruler transfer remain open issues. Browser reload clears in-memory sessions; mode switching does not. The provisional review codename derives from the accepted Predict Cut Inspect study and awaits teacher acceptance as a release name.
 
 No new reusable bitmap or shared catalog mutation was made. [Asset Manifest](ASSET_MANIFEST.json) records the adapted procedural workshop and new exact house schedule for parent consolidation.

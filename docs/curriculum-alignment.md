@@ -6,6 +6,8 @@ This file owns the source record. [Curriculum Content](curriculum-content.md) do
 
 ## Sources Reviewed
 
+**September 30 Verification:** The cited primary pages for all seven selected targets and audit pp. 1-3 have now been read and visually checked. See [Selected Primary-Source Verification](PRIMARY_SOURCE_VERIFICATION.md) for exact hashes, checked pages, resolved Goals pagination and remaining edition limits. The source-status notes below preserve the earlier planning pass.
+
 Rechecked September 28, 2026 (America/New_York) after MeasureTwice PR #10 merged. DM main is now `a300f296b0bd66775f067acff23d5e7988109c51` after the Dialed In audit merge. Its 1.3 lesson files, goal inventory, identifier rules, and quick-build index have unchanged Git blobs relative to the pinned `3e5d892a593df9ab385593eb342314c80c65caf4` references below. PR #21 remains at `1713a3bd537035f2ce09dfc7fe05ce6bf6b70cc3`; it and process PR #34 remain open drafts. The accepted gameplay foundation is [Game Design](game-design.md); the current content record contains five Learn scripts and six seed Challenge items. This check confirms source status and file continuity, not a new primary-source audit.
 
 | Source | Checked Revision And Status | Use |
@@ -43,7 +45,7 @@ The `G` labels are local analytical labels from the audit. Always qualify them w
 
 These inventory IDs are locally assigned course identifiers, even where a CSV column is named `official_goal_id`. They are separate from the audit's `DM 1.3 G11`, `G12`, and `G13`; do not equate them because their numbers look alike.
 
-The older inventory locates the Goals panel on PDF page 2, while the detailed audit locates it on PDF page 3 counting the cover. Preserve the IDs; use the audit's stated page-count convention provisionally and verify the original page when preparing the teacher guide. Do not silently rewrite the DM inventory from this game repository.
+The older inventory locates the Goals panel on PDF page 2, while the detailed audit locates it on PDF page 3 counting the cover. September 30 verification confirms PDF page 3 for this archive, counting all front matter. Preserve the IDs and use that verified convention. Do not silently rewrite the DM inventory from this game repository.
 
 ## Local Design Extensions
 
@@ -58,4 +60,4 @@ Metric measurement, physical ruler placement, triangle drawing, sketch interpret
 
 For each design or implementation issue, identify the selected goal, what the student actually does, what observable response supplies evidence, and which assistance is present. Recheck current DM main and the status of PR #21 before instructional changes. If the audit moves after the curriculum process work, update this source table and links while retaining the pinned historical reference.
 
-Keep curriculum-only audits in DM and mechanics here. Before classroom release, verify the cited primary-source pages and publish teacher coverage for the actual game version, including a physical-ruler transfer task. Do not copy the private curricular archive into this public repository or require students to access it.
+Keep curriculum-only audits in DM and mechanics here. The selected primary pages are now verified; before classroom release, publish teacher coverage for the actual game version, including a physical-ruler transfer task. Do not copy the private curricular archive into this public repository or require students to access it.
