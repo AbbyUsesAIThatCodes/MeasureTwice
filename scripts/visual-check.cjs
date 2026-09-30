@@ -25,6 +25,14 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   function supported(v){assert.equal(v.handle.length,3);for(const post of v.handle.slice(0,2)){assert.ok(intersects(post,v.handle[2]),'Grip intersects its post');assert.ok(intersects(post,v.handleMount),'Post intersects saw housing')}}
   supported(view);assert.equal(view.leaves.length,7);assert.equal(view.piece,null);assert.equal(view.offcut,null);assert.equal(view.stock.visible,true);
   const checks=['Supported Grip at Rest','Seven Pointed Leaves','No Cut Piece Before Commitment'];
+  assert.ok(Math.abs(view.benchTop.max[1]-3.93)<1e-6);
+  for(const leg of view.benchLegs)assert.ok(Math.abs(leg.min[1]-.02)<1e-6,'Raised bench legs remain seated on floor');
+  const cup=view.pencilCup;assert.ok(cup.profile.some(p=>p[0]===.21&&p[1]===.46),'Cup has an inner lip');
+  for(let y=.065;y<=.46;y+=.01){const points=cup.pencils.map(p=>{const t=(y-p.base[1])/p.direction[1];return {x:p.base[0]+t*p.direction[0],z:p.base[2]+t*p.direction[2],r:p.radius}});for(let i=0;i<points.length;i++){const p=points[i],inner=.165+(y-.06)/.4*.045;assert.ok(Math.hypot(p.x,p.z)+p.r<inner,'Pencil clears inner cup wall');for(let j=0;j<i;j++)assert.ok(Math.hypot(p.x-points[j].x,p.z-points[j].z)>p.r+points[j].r,'Pencils do not intersect')}}
+  await page.check('#reduced');
+  for(const n of [1,16,47,48]){await page.evaluate(n=>mtReview.select(n),n);let v=await visual();assert.ok(v.stock.bounds.max[0]<v.receivingTray.min[0]);await page.evaluate(()=>mtReview.cut());v=await visual();if(v.offcut)assert.ok(v.offcut.bounds.max[0]<v.receivingTray.min[0]);await page.evaluate(()=>mtReview.restart())}
+  await page.uncheck('#reduced');await page.reload();await page.waitForFunction(()=>window.mtReview?.view&&window.mtReview?.chooseCheck);
+  checks.push('Hollow Cup and Four Seated Nonintersecting Pencils','Raised Bench With Grounded Legs','Minimum and Maximum Stock/Offcut Clear Receiving Tray');
   await page.click('#home');
   await page.evaluate(()=>{mtReview.select(18);mtReview.cut();mtReview.cut()});
   await page.waitForTimeout(300);assert.equal((await snap()).phase,'cutting');supported(await visual());assert.equal((await visual()).stock.visible,true);
@@ -35,7 +43,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   // Correct full animation retains its original and visibly duplicates it.
   await page.evaluate(()=>{mtReview.select(20);mtReview.cut()});await page.waitForFunction(()=>mtReview.snapshot().phase==='inspecting');
   await page.evaluate(()=>mtReview.acknowledge());await page.waitForFunction(()=>mtReview.snapshot().phase==='duplicating');supported(await visual());
-  assert.equal((await page.evaluate(()=>mtReview.geometry())).length,8);await page.waitForFunction(()=>mtReview.snapshot().phase==='assembling');await page.waitForFunction(()=>mtReview.snapshot().phase==='selecting');
+  assert.equal((await page.evaluate(()=>mtReview.geometry())).length,8);for(const part of await page.evaluate(()=>mtReview.geometry())){const v=await visual();assert.ok(part.position[0]-part.meshLength/2>v.receivingTray.min[0]);assert.ok(part.position[0]+part.meshLength/2<v.receivingTray.max[0])}await page.waitForFunction(()=>mtReview.snapshot().phase==='assembling');await page.waitForFunction(()=>mtReview.snapshot().phase==='selecting');
   await page.check('#reduced');await page.evaluate(()=>{for(const length of [32,16]){mtReview.select(length);mtReview.cut();mtReview.acknowledge();mtReview.acknowledge()}});
   let s=await snap();assert.equal(s.parts.length,17);assert.equal(s.attempts.length,4);assert.equal(s.phase,'complete');
   for(const p of await page.evaluate(()=>mtReview.geometry())){assert.equal(p.meshLength,p.length/8);assert.deepEqual(p.scale,[1,1,1])}

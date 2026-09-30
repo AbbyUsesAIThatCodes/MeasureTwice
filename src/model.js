@@ -31,4 +31,4 @@ export function submitResponse(s,id,answer,expected){
   s.responses.push({id,answer,correct:expected===null?null:answer===expected,review:expected===null?'Teacher Review':'Objective Component',assisted:isAssisted(s,id)});
   return true;
 }
-export function comparisonPlacement(index,length){return {x:.3+length/16,y:2.91+Math.floor(index/8)*.4,z:1.95-(index%8)*(.63+.09)}}
+export function comparisonPlacement(index,length){return {x:6.3+length/16,y:2.91+Math.floor(index/8)*.4,z:-1.05-(index%8)*(.63+.09)}}
