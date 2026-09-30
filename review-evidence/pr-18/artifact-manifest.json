@@ -1,0 +1,21 @@
+{
+  "buildId": "0.1.0_Predict-Cut-Inspect_pr-18_build-001_20260930T130158Z_g7fd16c1b58be_pages",
+  "builtSourceRevision": "7fd16c1b58be3868cfc2c804df2813ebf2e3a38a",
+  "builtAt": "2026-09-30T13:01:58.311Z",
+  "fingerprint": "5f103450387e4a69b8e95e14b7744b1414c15266b5ab500e69b2cc33d42e9d85",
+  "target": "pages",
+  "basePath": "/MeasureTwice/",
+  "deploymentPerformed": false,
+  "files": [
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-18_build-001_20260930T130158Z_g7fd16c1b58be_pages.zip",
+      "bytes": 518829,
+      "sha256": "c7cede5541786e48740ef11cdbadc8e407787eb64b17bb8dd3c79bb21262343e"
+    },
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-18_build-001_20260930T130158Z_g7fd16c1b58be_pages_House.png",
+      "bytes": 183545,
+      "sha256": "b15527c90377178e7700a7ddfb92d9ff9de662145609c9d78859bb749933cf18"
+    }
+  ]
+}
