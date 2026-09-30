@@ -1,0 +1,42 @@
+{
+  "repository": "AbbyUsesAIThatCodes/MeasureTwice",
+  "issue": 19,
+  "pr": 20,
+  "sourceRevision": "06cbb0da92c3103623739b1eb128b6c223caf6f8",
+  "buildId": "0.1.0_Predict-Cut-Inspect_pr-20_build-001_20260930T222545Z_g06cbb0da92c3_web",
+  "sharedCatalogWrites": false,
+  "sourceFiles": [
+    {
+      "path": "src/workshop.js",
+      "gitBlobSha256": "32a9b341c8859956f36cfa2052bcc3f2c1e2fbced31d2cdcbfb2c1aebd360110",
+      "artifactSha256": "60714149ee624016c1681179628648c6214d17ddfa25cff0855e6fa9e2c4f08d"
+    },
+    {
+      "path": "src/view-limits.js",
+      "gitBlobSha256": "c375ff15fc9b7a883b85230508370b33922819fc4fcc8dc71ebcb9493ffbc02a",
+      "artifactSha256": "c375ff15fc9b7a883b85230508370b33922819fc4fcc8dc71ebcb9493ffbc02a"
+    },
+    {
+      "path": "src/app.js",
+      "gitBlobSha256": "57e3e0320b67e2cccc0ba95773490d1002d2ad90c7d2f4258693e258df51b1b7",
+      "artifactSha256": "20f6f3a5188efe475c53d65387ccdf0b61976615db0846fcbe48b83c437bb1ad"
+    },
+    {
+      "path": "docs/ASSET_MANIFEST.json",
+      "gitBlobSha256": "fe727564051aa0952713ad4990771212303952bf74e014dee5c7985662d22e51",
+      "artifactSha256": "1bea32b3df12dfa2203d51af2af8353b4d7ad31a89cc17a24804f9e9e85ee795"
+    }
+  ],
+  "baseline": {
+    "source": "docs/mockups/predict-cut-inspect/source.fragment.html",
+    "commit": "e67bf168a54feaa291f8f33009f23fb46138af48",
+    "sha256": "dc9a6aa15a42497c54bb52d3fc6d72d5fa6a358904ff7950dd1c86d1954ad992",
+    "attribution": "Teacher-approved MeasureTwice procedural workshop; no new repository-wide license inferred."
+  },
+  "changes": [
+    "Supported yellow saw grip and two housing-connected posts",
+    "Seven pointed folded curved leaf meshes with stems, midribs, soil and pot rim",
+    "Roomier workshop backdrop with attached props and clearance-aware camera"
+  ],
+  "integrationNotes": "workshop.js now imports view-limits.js; preserve that dependency when copying the procedural workshop. Retain original archive attribution and Three.js MIT notice. No new license inferred. Parent coordinates shared GraphicsStorage updates."
+}

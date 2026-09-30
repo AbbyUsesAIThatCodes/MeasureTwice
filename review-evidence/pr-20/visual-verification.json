@@ -1,0 +1,31 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_pr-20_build-001_20260930T222545Z_g06cbb0da92c3_web",
+  "sourceRevision": "06cbb0da92c3103623739b1eb128b6c223caf6f8",
+  "checks": [
+    "Supported Grip at Rest",
+    "Seven Pointed Leaves",
+    "No Cut Piece Before Commitment",
+    "Full Wrong Cut and Held Inspection",
+    "Exact Retained and Offcut Lengths",
+    "Full Correct Cut and Visible Duplication",
+    "17 Exact House Parts",
+    "Reduced Motion and Duplicate Acknowledgement",
+    "Full Allowed 360-Degree Orbit, Polar Limits and Zoom Extremes",
+    "1920x1080, 1366x768 and 1024x768",
+    "Inspection and Free-Piece Focus Camera Ranges",
+    "Skip and Mid-Cut Mode Switching",
+    "Reset Removes Only Transient Pieces",
+    "Retained Free Play Comparisons"
+  ],
+  "cameraSamples": 720,
+  "cameraContexts": [
+    "house-1920x1080",
+    "house-1366x768",
+    "house-1024x768",
+    "long-inspection",
+    "retained-free-piece"
+  ],
+  "minWallClearance": 0.3772092225460176,
+  "errors": [],
+  "badRequests": []
+}
