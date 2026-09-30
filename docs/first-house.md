@@ -20,10 +20,10 @@ Three correct model measurements complete the house; rejected attempts preserve 
 
 The house loop practices DM 1.3 G11/G13 with G07 units and G08 fit context. The student's committed endpoint is the evidence; fixed zero and post-cut diagnoses are support. Automatic copies and assembly do not prove comprehension or physical construction skill. The existing five MT-L lessons and six MT-C seed checks remain authoritative in [Curriculum Content](curriculum-content.md), including 7/16 in, 6/8 in equivalence, and 1 3/16 in mixed-number checks. No new course requirement or mastery score is introduced.
 
-September 30 UTC source status: DM main is `279ddf7b047c58087632dbe3ce650f1cc156fc9f`; the accepted audit remains open draft PR #21 at unchanged head `1713a3bd537035f2ce09dfc7fe05ce6bf6b70cc3`. Original primary-source page verification and teacher pilot remain release gates. Do not claim they occurred in this recovery pass.
+September 30 UTC source status: DM main is `279ddf7b047c58087632dbe3ce650f1cc156fc9f`; the accepted audit remains open draft PR #21 at unchanged head `1713a3bd537035f2ce09dfc7fe05ce6bf6b70cc3`. The subsequent September 30 [source-page verification](PRIMARY_SOURCE_VERIFICATION.md) confirms all seven selected targets; the teacher pilot remains a release gate.
 
 ## Acceptance and Review
 
 Run `node scripts/check-house.mjs`: every endpoint separation must equal its scheduled length, all stock limits hold, and totals are exactly 8 + 4 + 5. The integrated playable review must show the original plus 7, 3, and 4 copies respectively; no second successful cut for a completed family; no progress on rejection; and the complete recognizable frame from movable viewpoints.
 
-Engine implementation continues under #2–#4, retained modes under #7, learning checks under #8. Those issues remain open until their full criteria are met. Review the preserved mockup with `node scripts/serve.mjs . 8134`, then open `/docs/mockups/predict-cut-inspect/index.html`. It is the archived interface study, not a new game build.
+Engine implementation continues under #2–#4, retained modes under #7, learning checks under #8. Those issues remain open until their full criteria are met. Review the preserved mockup with `node scripts/serve.mjs . 18443`, then open `/docs/mockups/predict-cut-inspect/index.html`. It is the archived interface study, not a new game build.
