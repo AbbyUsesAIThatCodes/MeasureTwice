@@ -1,11 +1,12 @@
 import {acceptLessonCut,finishLessonStage,waitingForLessonReasoning} from './lesson-flow.js';
 import {lessonGuidance,intervalExplanation} from './intervals.js';
 import {lessons,checks,provenance} from './content.js';
-import {submitResponse,hasExposure,beginRetry,responseRound} from './model.js';
+import {submitResponse,hasExposure,beginRetry,responseRound,acknowledge} from './model.js';
 import {exerciseStatus,challengeStatus,teacherReport} from './assessment.js';
+import {currentStep,finishStep,beginRedo,reasoningReady,acknowledgeStep,displayProject} from './construction.js';
 export function installLearning(game){
   const {$,panel}=game;let demoToken=0,activeDemo=null;
-  const lesson=()=>lessons[game.session.lesson],check=()=>checks[game.session.check];
+  const plan=game.construction,step=()=>currentStep(game.session,plan),lesson=()=>lessons[game.session.lesson],check=()=>game.session.mode==='challenge'?checks.find(c=>c.id===step()?.exercise):null;
   const escape=v=>String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
   const vocab=(word,definition,nested='')=>`<details class="vocab"><summary>${word}</summary><div>${definition}${nested}<p><a href="docs/curriculum-content.md" target="_blank" rel="noreferrer">Open the Reference</a></p></div></details>`;
   function exposeLesson(i){game.expose(lessons[i].id);for(const c of checks.filter(c=>c.lesson===i))game.expose(c.id)}
@@ -14,21 +15,35 @@ export function installLearning(game){
   function canChange(){game.settle();demoToken++;if(game.session.phase==='inspecting'){panel('<h2>Finish Inspecting First</h2><p>Your committed piece is waiting. Close this panel and choose Keep Piece or Try Again before changing this activity. You can still switch modes and return to it.</p>');return false}return true}
   function chooseLesson(i,practice=false){if(!canChange())return;const s=game.session;s.lesson=i;s.lessonStage=practice?'practice':'guided';s.subdivision=practice?16:lessons[i].scale;s.demonstrating=false;s.hint=false;s.phase='selecting';game.nextSelection();$('panel').close();game.update()}
   function lessonMenu(){panel('<h2>Choose a Lesson</h2><p>Every lesson is available. Return in any order.</p>'+lessons.map((l,i)=>`<button class="lesson-choice" data-lesson="${i}">${l.title}<small style="display:block">${l.objective}</small></button>`).join(''));document.querySelectorAll('[data-lesson]').forEach(b=>b.onclick=()=>chooseLesson(Number(b.dataset.lesson)))}
-  const status=()=>challengeStatus(game.session,checks,game.house);
-  function downloadReport(){try{const text=teacherReport(game.session,checks,game.house,game.manifest,provenance),url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=game.manifest.id+'_Challenge-Report.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}catch(error){game.emit(error.message)}}
-  function checkMenu(){const result=status();panel('<h2>Challenge Progress</h2><p>'+result.correctCount+' of '+checks.length+' Exercises Correct. House: '+(result.houseComplete?'Assembled':'Still to Build')+'.</p><p>Complete every automatic component and the 17-piece house to finish. Written explanations stay for teacher review. First answers, support, and retries are preserved.</p><button id="completion-report" '+(result.complete?'':'disabled')+'>Download Completion Report</button><p>Save the plain text file and attach it to Google Classroom yourself. No account or automatic upload is used.</p><button id="return-house">Build the House</button>'+checks.map((c,i)=>`<button class="lesson-choice" data-check="${i}">${c.id}: ${c.title} — ${result.exercises[i].complete?'Correct':'To Complete'}</button>`).join('')+'<button id="records">View Response Records</button>');$('completion-report').onclick=downloadReport;$('return-house').onclick=()=>{if(!canChange())return;game.session.activity='house';game.session.subdivision=16;game.nextSelection();game.rebuildParts();$('panel').close()};$('records').onclick=records;document.querySelectorAll('[data-check]').forEach(b=>b.onclick=()=>chooseCheck(Number(b.dataset.check)))}
-  function chooseCheck(i){if(!canChange())return;const s=game.session;s.activity='check';s.check=i;s.hint=false;s.subdivision=checks[i].scale;s.phase='selecting';s.readyQuestion=null;game.nextSelection();game.rebuildParts();$('panel').close();if(checks[i].kind==='concept')question(checks[i],false)}
-  function retryCheck(){if(!canChange())return;beginRetry(game.session,check().id);chooseCheck(game.session.check)}
-  function question(c,willCut){const s=game.session,key=c.id,round=responseRound(s,key),ready=key+':'+round,existing=s.responses.find(r=>r.id===key&&r.round===round);if(existing){if(willCut){s.readyQuestion=ready;game.cut()}else showFeedback(c);return}
-    if(c.comparison)game.comparison(c.comparison.actual,c.comparison.needed,false);
-    panel(`<h2>${c.title}</h2><p>${c.prompt||c.question}</p><form id="response-form"><fieldset><legend>${c.question||'Your Prediction'}</legend>${c.options.map(o=>`<label><input type="radio" name="answer" value="${escape(o)}" required> ${o}</label>`).join('')}</fieldset>${c.explanation?'<label>Explain Your Reasoning<textarea id="explanation" required placeholder="Your explanation will be kept for teacher review."></textarea></label>':''}<button type="submit">${willCut?'Save Prediction and Cut':'Submit Prediction'}</button></form><p>Feedback appears after your commitment. Keyboard and magnification are access tools, not hints.</p>`);
-    $('response-form').onsubmit=e=>{e.preventDefault();const answer=new FormData(e.currentTarget).get('answer'),explanation=c.explanation?$('explanation').value.trim():null;if(c.explanation&&!explanation){$('explanation').setCustomValidity('Write your reasoning before submitting.');$('explanation').reportValidity();return}if(!submitResponse(s,key,answer,c.answer))return;if(c.explanation)submitResponse(s,key+':explanation',explanation,null);if(willCut){s.readyQuestion=ready;$('panel').close();game.cut()}else{game.expose(key);showFeedback(c);game.update()}};
+
+  const status=()=>challengeStatus(game.session,checks,plan);
+  function downloadReport(){try{const text=teacherReport(game.session,checks,plan,game.manifest,provenance),url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=game.manifest.id+'_Challenge-Report.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}catch(error){game.emit(error.message)}}
+  function progress(){const result=status(),s=game.session;
+    panel('<h2>Build Progress</h2><p>Chair → Plane → House Exterior. The next part appears automatically after inspection and placement.</p><p>'+result.correctCount+' of 30 Exercises Correct.</p><button id="continue-build">Continue Building</button><button id="completion-report" '+(result.complete?'':'disabled')+'>Download Completion Report</button><p>Save the text file and attach it to Google Classroom yourself. Written explanations need teacher review.</p>'+plan.projects.map(p=>`<h3>${p.title} — ${result.projects.find(r=>r.id===p.id).complete?'Complete':'In Progress'}</h3><ol>${plan.steps.map((st,i)=>st.project===p.id?`<li>${st.title} — ${s.builtSteps.includes(st.id)?(st.length===null?'Confirmed':'Placed'):i===s.step?'Current':'Coming Later'} ${s.builtSteps.includes(st.id)?`<button data-review="${i}">Review</button>`:''}</li>`:'').join('')}</ol>`).join('')+'<button id="records">View Response Records</button>');
+    $('continue-build').onclick=()=> $('panel').close();$('completion-report').onclick=downloadReport;$('records').onclick=records;document.querySelectorAll('[data-review]').forEach(b=>b.onclick=()=>reviewStep(Number(b.dataset.review)));
+  }
+  function reviewStep(index){const st=plan.steps[index],s=game.session;if(!s.builtSteps.includes(st?.id))return false;const c=checks.find(c=>c.id===st.exercise),cuts=s.attempts.filter(a=>a.context===st.id);
+    panel(`<h2>Review ${st.title}</h2><p>${plan.projects.find(p=>p.id===st.project).title}. ${c?.feedback||'These exact-length members belong to the original house frame.'}</p><p>${cuts.length} cut commitments; ${st.placements.length} placed pieces. Redo keeps the original response history and does not award extra pieces.</p><button id="redo-step">Redo This Step</button><button id="back-progress">Back to Build Progress</button>`);$('redo-step').onclick=()=>redoStep(index);$('back-progress').onclick=progress;return true;
+  }
+  function redoStep(index){if(!canChange()||!beginRedo(game.session,index,plan))return false;const c=check();beginRetry(game.session,c?.id||step().id);game.nextSelection();game.rebuildParts();$('panel').close();if(step().length===null)question(c,false);return true}
+  function question(c,willCut,repair=false){const s=game.session,key=c.id,round=responseRound(s,key),ready=key+':'+round,existing=s.responses.find(r=>r.id===key&&r.round===round);
+    if(existing){if(willCut){s.readyQuestion=ready;game.cut()}else showFeedback(c,repair);return}
+    if(c.comparison&&!repair)game.comparison(c.comparison.actual,c.comparison.needed,false);
+    panel(`<h2>${repair?'Review the Plan':c.title}</h2><p>${c.prompt||c.question}</p><form id="response-form"><fieldset><legend>${c.question||'Your Prediction'}</legend>${c.options.map(o=>`<label><input type="radio" name="answer" value="${escape(o)}" required> ${o}</label>`).join('')}</fieldset>${c.explanation?'<label>Explain Your Reasoning<textarea id="explanation" required placeholder="Saved for teacher review, not automatically graded."></textarea></label>':''}<button type="submit">${willCut?'Save Prediction and Cut':'Submit Prediction'}</button></form><p>${repair?'Your correctly measured piece stays in inspection; another cut is not needed.':'Feedback appears after commitment. Keyboard and magnification are access tools, not hints.'}</p>`);
+    $('response-form').onsubmit=e=>{e.preventDefault();const answer=new FormData(e.currentTarget).get('answer'),explanation=c.explanation?$('explanation').value.trim():null;if(c.explanation&&!explanation){$('explanation').setCustomValidity('Write your reasoning before submitting.');$('explanation').reportValidity();return}if(!submitResponse(s,key,answer,c.answer))return;if(c.explanation)submitResponse(s,key+':explanation',explanation,null);if(willCut){s.readyQuestion=ready;$('panel').close();game.cut()}else{game.expose(key);showFeedback(c,repair);game.update()}};
     if(c.explanation)$('explanation').oninput=()=> $('explanation').setCustomValidity('');
   }
-  function showFeedback(c){game.expose(c.id);const s=game.session,record=s.responses.filter(r=>r.id===c.id).at(-1);panel(`<h2>Inspect Your Reasoning</h2><p>${record?.correct?'Your selected response matches.':'Compare your response with the explanation.'}</p><p>${c.feedback}</p>${c.explanation?'<p>Your explanation is saved for teacher review. No automatic pass is assigned to typed text.</p>':''}<button id="retry-check">Retry This Exercise</button><button id="next-check">Choose Another Check</button><button id="records">View Response Records</button>`);$('retry-check').onclick=()=>{if(s.mode==='challenge')retryCheck();else{beginRetry(s,c.id);question(c,false)}};$('next-check').onclick=checkMenu;$('records').onclick=records;if(c.comparison)game.comparison(c.comparison.actual,c.comparison.needed,true)}
+  function showFeedback(c,repair=false){const s=game.session;game.expose(c.id);const ready=reasoningReady(s,c),planning=s.mode==='challenge'&&step()?.length===null;
+    panel(`<h2>Inspect Your Reasoning</h2><p>${ready?'Your selected response matches.':'Compare your response with the explanation.'}</p><p>${c.feedback}</p>${c.explanation?'<p>Your explanation is saved for teacher review; it has no automatic pass.</p>':''}${ready?`<button id="confirm-plan">${repair?'Return to the Held Piece':planning?'Confirm the Plan':'Continue Learning'}</button>`:'<button id="retry-plan">Try the Reasoning Again</button>'}`);
+    if(ready)$('confirm-plan').onclick=()=>{$('panel').close();if(planning&&reasoningReady(s,c)&&s.phase==='selecting'){finishStep(s,plan);game.nextSelection();game.rebuildParts()}else {game.update();if(repair)inspectionCopy(s)}};
+    else $('retry-plan').onclick=()=>{beginRetry(s,c.id);question(c,false,repair)};
+  }
+  function inspectionCopy(s){if(s.mode!=='challenge'||s.phase!=='inspecting')return;const c=check(),ready=reasoningReady(s,c);if(c)$('result-detail').textContent=(s.pending.correct?'The measured length fits. ':'Compare the required and actual spans. ')+c.feedback+(ready?'':' Correct the reasoning before this piece can be placed.');$('ack').textContent=!s.pending.correct?'Try Again':!ready?'Review the Reasoning':s.resumeStep!==null?'Confirm Practice':'Keep Piece'}
   function demo(){if(!canChange())return;const s=game.session,l=lesson(),ticket=++demoToken;activeDemo=s;s.demonstrating=true;s.hint=true;exposeLesson(s.lesson);$('panel').close();$('guidance').hidden=false;$('guidance').textContent='Demonstration: '+l.demoText;let i=0;function step(){if(ticket!==demoToken||game.session!==s||s.mode!=='learn'){s.demonstrating=false;return}if(i<l.demo.length){if(l.demoScales)s.subdivision=l.demoScales[i];game.move(Math.max(1,l.demo[i]));game.update();$('guidance').textContent='Demonstration: '+l.demoText;i++;setTimeout(step,$('reduced').checked?0:700)}else{s.demonstrating=false;activeDemo=null;game.move(l.guided);game.update();$('guidance').textContent=l.demoText+' Now make your own guided prediction.';if(l.demoCut){s.demonstrating=true;game.move(l.demoCut);game.cut();s.demonstrating=false}}}step()}
   function practiceQuestion(){const l=lesson(),s=game.session;if(!l.question)return;if(l.id==='MT-L03'&&s.lessonStage==='practice')question({...l,id:l.id+':practice',prompt:'Predict whether 2/8 inch and 1/4 inch coincide.',question:'Do these fractions end together?',options:l.options,answer:l.answer,explanation:true},false);else question({...l,id:l.id+':guided',prompt:l.question,explanation:l.id==='MT-L03'||l.id==='MT-L05'},false)}
+
   game.setHooks({
+<<<<<<< HEAD
     complete:s=>s.mode==='learn'&&s.lessonStage==='complete',
     waiting:waitingForLessonReasoning,
     kept:s=>{if(acceptLessonCut(s))continueLesson()},
@@ -49,16 +64,38 @@ export function installLearning(game){
       }
       if(s.mode==='challenge'&&s.activity==='check'){const c=check();$('kicker').textContent='Check Understanding';$('order-title').textContent=c.title;$('order-note').textContent=c.prompt;$('target').hidden=c.kind==='concept';$('cut-label').hidden=c.kind==='concept';$('dock').hidden=s.phase!=='selecting'||c.kind==='concept';$('checks').textContent='Choose a Check';$('progress').textContent=`${s.responses.filter(r=>!r.id.includes(':')).length} Submitted Concept Components`;$('evidence').textContent=hasExposure(s,c.id)?'Previously Viewed · Supported Practice':'First response is recorded before feedback.';if(c.kind==='concept'){$('phase').textContent='Predict Before Feedback';if(!$('answer-question')){const b=document.createElement('button');b.id='answer-question';b.textContent='Answer This Question';$('challenge-controls').prepend(b)}$('answer-question').hidden=false;$('answer-question').onclick=()=>question(c,false)}}
       if($('answer-question')&&!(s.mode==='challenge'&&s.activity==='check'&&check().kind==='concept'))$('answer-question').hidden=true;
+=======
+    home:s=>s.mode==='challenge'&&displayProject(s,plan)==='plane'?{position:[17,11.5,15],look:[3.35,4,-1.3]}:null,
+    target:s=>s.mode==='free'?s.freeTarget:s.mode==='learn'?(s.lessonStage==='practice'?lessons[s.lesson].practice:lessons[s.lesson].guided):currentStep(s,plan)?.length??null,
+    copyCount:s=>s.mode==='challenge'?currentStep(s,plan)?.placements.length||1:1,
+    targetLabel:s=>s.mode==='challenge'?check()?.targetLabel:undefined,
+    context:s=>s.mode==='learn'?`${lessons[s.lesson].id}:${s.lessonStage}`:s.mode==='free'?'free':currentStep(s,plan)?.id,
+    selecting:s=>{if(s.mode==='challenge'){s.activity='build';s.subdivision=check()?.scale??16;s.readyQuestion=null}},
+    isComplete:s=>s.mode==='challenge'&&s.step>=plan.steps.length&&s.resumeStep===null,
+    beforeCut:s=>{if(s.phase!=='selecting')return false;if(s.mode==='challenge'){const st=step(),c=check();if(!st)return false;if(st.length===null){question(c,false);return false}if(c?.question&&s.readyQuestion!==c.id+':'+responseRound(s,c.id)){question(c,true);return false}}return true},
+    beforeAck:s=>{if(s.mode==='challenge'&&s.phase==='inspecting'&&s.pending.correct&&!reasoningReady(s,check())){const c=check();if(s.responses.some(r=>r.id===c.id&&r.round===responseRound(s,c.id)))beginRetry(s,c.id);question(c,false,true);return false}return true},
+    acknowledge:s=>s.mode==='challenge'?acknowledgeStep(s,plan,checks):acknowledge(s,game.house),
+    rejected:s=>{if(s.mode==='challenge'&&check()?.question&&!reasoningReady(s,check()))beginRetry(s,check().id)},
+    kept:s=>{if(s.mode==='challenge')finishStep(s,plan)},
+    inspected:s=>{if(s.mode==='challenge'){if(check())game.expose(check().id);inspectionCopy(s)}if(s.mode==='learn')exposeLesson(s.lesson)},
+    update:s=>{
+      if(activeDemo&&activeDemo!==s){activeDemo.demonstrating=false;activeDemo=null;demoToken++}
+      $('guidance').hidden=s.mode!=='learn';$('readout').hidden=s.mode==='learn'&&s.lessonStage==='practice';$('cut-label').hidden=s.phase==='complete';$('target').hidden=s.phase==='complete';$('previous-step').hidden=s.mode!=='challenge';$('plan-order').hidden=true;
+      if(s.mode==='learn'){const l=lesson();if(s.lessonStage!=='practice')exposeLesson(s.lesson);$('order-title').textContent=l.title;$('order-note').textContent=s.lessonStage==='practice'?l.practicePrompt:l.prompt;$('guidance').textContent=l.text;$('guidance').hidden=s.lessonStage==='practice';$('practice').textContent=s.lessonStage==='practice'?'Return to Guided Learning':'Try With Less Help';$('evidence').textContent='Guided and practice responses are separate from Challenge.';$('complete').hidden=true}
+>>>>>>> fcd796a (Sequence Challenge through exact chair, plane and house constructions)
       if(s.mode==='challenge'){
-        const result=status();
-        if(s.activity==='house')$('progress').textContent=`${s.parts.filter(p=>p.family).length} of 17 Pieces · ${result.correctCount}/${checks.length} Exercises`;
-        $('complete').hidden=!(result.complete||(s.activity==='house'&&s.phase==='complete'));
-        $('complete').textContent=result.complete?'Challenge Complete — Download Your Report From Challenge Progress':'House Assembled — Complete All 30 Exercises to Finish';
-        $('checks').textContent='Challenge Progress';
-        const retry=$('retry-exercise');retry.hidden=s.activity!=='check';retry.disabled=s.phase!=='selecting'||!hasExposure(s,check().id);
-      }else $('retry-exercise').hidden=true;
+        s.activity='build';const st=step(),c=check(),result=status(),project=plan.projects.find(p=>p.id===st?.project);s.subdivision=c?.scale??16;
+        $('kicker').textContent=project?`${project.title} · ${s.resumeStep!==null?'Practice Redo':'Build '+(plan.projects.indexOf(project)+1)+' of 3'}`:'Three Builds Complete';
+        $('order-title').textContent=st?.title??'Challenge Complete';$('order-note').textContent=c?.prompt??(st?`Cut ${st.length/16} inches for ${st.placements.length} matching frame members. Confirm inspection before placement.`:'Your chair, plane and house exterior are complete. Download the report from Build Progress.');
+        $('progress').textContent=`${result.correctCount} of 30 Exercises Correct`;$('evidence').textContent=`${s.builtSteps.length} of ${plan.steps.length} Build Steps Finished`;
+        const shown=displayProject(s,plan);$('object-cue').textContent=shown!==st?.project&&st?`${plan.projects.find(p=>p.id===shown).title} Complete — Next Build: ${project.title}`:'Drag the workshop to inspect the wooden model.';$('checks').textContent='Build Progress';$('previous-step').disabled=!s.builtSteps.length||!['selecting','complete'].includes(s.phase);
+        if(result.complete)$('phase').textContent='Three Builds Complete';$('complete').hidden=!result.complete;$('complete').textContent='Challenge Complete — Chair, Plane and House Exterior';
+        if(st?.length===null){$('dock').hidden=true;$('target').hidden=true;$('cut-label').hidden=true;$('plan-order').hidden=false;$('phase').textContent='Check the Order Before Cutting'}
+        if(s.phase==='inspecting')inspectionCopy(s);
+      }
     }
   });
+<<<<<<< HEAD
   $('curriculum').onclick=()=>curriculum();$('practices').onclick=()=>curriculum(game.session.mode==='learn'?lesson():game.session.mode==='challenge'&&game.session.activity==='check'?check():{objective:'Commit an inch measurement, inspect its fit, and build equal-length parts.',goals:['G07','G08','G11','G13'],pages:'A pp. 5, 11–25, 39, 42, 47, 66'});
   $('lessons').onclick=lessonMenu;$('checks').onclick=checkMenu;$('demo').onclick=demo;$('practice').onclick=()=>chooseLesson(game.session.lesson,game.session.lessonStage!=='practice');
   const reasoning=document.createElement('button');reasoning.id='lesson-reasoning';reasoning.textContent='Explain the Idea';$('learning-controls').append(reasoning);reasoning.onclick=()=>{if(waitingForLessonReasoning(game.session))continueLesson();else if(lesson().question)practiceQuestion();else {exposeLesson(game.session.lesson);panel(`<h2>${lesson().title}</h2><p>${lesson().feedback}</p>`)}};
@@ -66,6 +103,16 @@ export function installLearning(game){
   const retry=document.createElement('button');retry.id='retry-exercise';retry.textContent='Retry This Exercise';$('challenge-controls').append(retry);retry.onclick=retryCheck;
   window.mtReview.challengeStatus=status;window.mtReview.retryCheck=retryCheck;window.mtReview.reportText=()=>teacherReport(game.session,checks,game.house,game.manifest,provenance);
   window.mtReview.chooseCheck=chooseCheck;window.mtReview.chooseLesson=chooseLesson;window.mtReview.content=()=>({lessons,checks,provenance});game.update();
+=======
+  $('curriculum').onclick=()=>curriculum();$('practices').onclick=()=>curriculum(game.session.mode==='learn'?lesson():check()||{objective:'Measure matching frame members before placing them in the house.',goals:['G07','G08','G11','G13'],pages:'A pp. 5, 11-25, 39, 42, 47, 66'});
+  $('lessons').onclick=lessonMenu;$('checks').onclick=progress;$('demo').onclick=demo;$('practice').onclick=()=>chooseLesson(game.session.lesson,game.session.lessonStage!=='practice');
+  const reasoning=document.createElement('button');reasoning.id='lesson-reasoning';reasoning.textContent='Explain the Idea';$('learning-controls').append(reasoning);reasoning.onclick=()=>{if(lesson().question)practiceQuestion();else {exposeLesson(game.session.lesson);panel(`<h2>${lesson().title}</h2><p>${lesson().feedback}</p>`)}};
+  $('hint').onclick=()=>{const s=game.session,c=check();s.hint=true;if(c){game.expose(c.id);exposeLesson(c.lesson)}else game.expose(step()?.id);panel(`<h2>A Measuring Hint</h2><p>${c?lessons[c.lesson].text:'Find the zero graduation. Read whole inches first, then count the fractional spaces.'}</p><p>This response and later retries remain supported practice.</p>`)};
+  const previous=document.createElement('button');previous.id='previous-step';previous.textContent='Review Previous Step';$('challenge-controls').append(previous);previous.onclick=()=>{const s=game.session,index=Math.min(s.step-1,plan.steps.length-1);reviewStep(Math.max(0,index))};
+  const planButton=document.createElement('button');planButton.id='plan-order';planButton.textContent='Check the Order';$('challenge-controls').prepend(planButton);planButton.onclick=()=>question(check(),false);
+  window.mtReview.challengeStatus=status;window.mtReview.reviewStep=reviewStep;window.mtReview.redoStep=redoStep;window.mtReview.plan=()=>plan;window.mtReview.reportText=()=>teacherReport(game.session,checks,plan,game.manifest,provenance);
+  window.mtReview.chooseLesson=chooseLesson;window.mtReview.content=()=>({lessons,checks,provenance});game.nextSelection();game.rebuildParts();
+>>>>>>> fcd796a (Sequence Challenge through exact chair, plane and house constructions)
   $('panel-content').addEventListener('pointerover',e=>{const d=e.target.closest('details.vocab');if(d)d.open=true});
   $('panel-content').addEventListener('focusin',e=>{const d=e.target.closest('details.vocab');if(d)d.open=true});
 }

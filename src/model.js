@@ -1,7 +1,7 @@
 export const gcd=(a,b)=>b?gcd(b,a%b):a;
 export function fraction(n){const w=Math.floor(n/16),r=n%16;if(!r)return String(w);const d=gcd(r,16);return `${w?w+' ':''}${r/d}/${16/d}`}
 export function pick(clientX,left,width){return Math.max(1,Math.min(48,Math.round((clientX-left-24)/(width-48)*48)))}
-export function newSession(mode){return {mode,selected:16,phase:'selecting',family:0,attempts:[],parts:[],completed:[],pending:null,hint:false,lesson:0,lessonStage:'guided',check:0,activity:'house',responses:[],exposed:[],responseRounds:{},acknowledgements:[],freeTarget:null,subdivision:16,sparse:false,comparison:null}}
+export function newSession(mode){return {mode,selected:16,phase:'selecting',family:0,step:0,resumeStep:null,builtSteps:[],requiresNewCut:[],attempts:[],parts:[],completed:[],pending:null,hint:false,lesson:0,lessonStage:'guided',check:0,activity:'house',responses:[],exposed:[],responseRounds:{},acknowledgements:[],freeTarget:null,subdivision:16,sparse:false,comparison:null}}
 export const activityId=id=>String(id).match(/^MT-[LC]\d+/)?.[0]??id;
 export function exposeActivity(s,id){const key=activityId(id);if(!s.exposed.includes(key))s.exposed.push(key)}
 export const hasExposure=(s,id)=>s.exposed.includes(activityId(id));
