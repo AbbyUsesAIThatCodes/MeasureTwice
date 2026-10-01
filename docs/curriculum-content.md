@@ -2,7 +2,7 @@
 
 This is the instructional record for MeasureTwice's approved [Game Design](game-design.md), connecting Free Play, Learn, and Challenge to [Design And Modeling](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27) and [Activity 1.3 Measuring Matters](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/tree/main/units/01-introduction-to-design/1.3-measuring-matters).
 
-**Content Revision: October 1, 2026; Sequential Construction Review.** Thirty exercises now follow chair → plane → house exterior automatically. Five Learn lessons and all original response evidence rules remain. A classroom pilot and richer worked teaching animations remain pending.
+**Content Revision: October 1, 2026; Sequential Construction Review.** Twenty-five active exercises now follow chair → plane → house exterior automatically. Five Learn lessons and all original response evidence rules remain. A classroom pilot and richer worked teaching animations remain pending.
 
 The planning reference is the [Curricular Goals Audit PDF](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/blob/1713a3bd537035f2ce09dfc7fe05ce6bf6b70cc3/units/01-introduction-to-design/1.3-measuring-matters/teacher-guides/measuring-matters-curricular-goals.pdf), with [Word Source](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/blob/1713a3bd537035f2ce09dfc7fe05ce6bf6b70cc3/units/01-introduction-to-design/1.3-measuring-matters/teacher-guides/measuring-matters-curricular-goals.docx). The audit PR #21 remains open at that revision when rechecked September 30. DM main is `279ddf7b047c58087632dbe3ce650f1cc156fc9f`; its current primary Activity 1.3 PDF blob `f2f789a39160e52a8951826504f01ceca2556677` is identical to the verified source recorded in [Primary Source Verification](PRIMARY_SOURCE_VERIFICATION.md). No private source pages are copied into this repository. Audit pp. 2–3 provide the selected target descriptions. References A below use the audit's page locators. The seven selected targets were independently checked against those primary pages on September 30; see [Source Verification](PRIMARY_SOURCE_VERIFICATION.md). See [Curriculum Alignment](curriculum-alignment.md).
 
@@ -16,7 +16,7 @@ MT-L and MT-C are stable game content IDs. All G IDs below mean **DM 1.3 G** and
 | MT-L02 — Meet the Fractions | MT-C02 | G10, G11; A step 3, pp. 11–25. |
 | MT-L03 — Same Length, Different Names | MT-C03 | G12; A pp. 15, 17–21, 23, 25. |
 | MT-L04 — Whole Inches and a Little More | MT-C04 | G13; A step 6, p. 39. |
-| MT-L05 — Will It Fit? | MT-C05; MT-C06 | G08, reinforced by G07 and G11; A pp. 5, 42, 47, 66; fractional reading A pp. 11–25. |
+| MT-L05 — Will It Fit? | MT-C06; MT-C05 Retired From Challenge | G08, reinforced by G07 and G11; A pp. 5, 42, 47, 66; fractional reading A pp. 11–25. |
 
 These targets are directly described in the audit. Their woodshop presentation is an original local teaching design. Watching animations supplies context, not evidence by itself.
 
@@ -114,7 +114,7 @@ Before commitment, no answer-solving cursor readout, target highlight, ghost, co
 
 For each item retain target, representation, scale, selected location, question/variant ID, units, first commitment, later attempts, and support used. First unassisted evidence is distinct from guided completion. Following feedback, retries on the same target are practice. Score position, origin, comparison, and explanation components separately. No overall mastery threshold or grade is established.
 
-## Challenge Items
+## Seed Challenge Items and Retirement Status
 
 | ID and Exact Prompt | Answer and Observable Evidence | Target, Feedback, and Review |
 | --- | --- | --- |
@@ -122,16 +122,16 @@ For each item retain target, representation, scale, selected location, question/
 | **MT-C02** — “Cut a piece 7/16 inch long.” Use a sixteenth-inch scale. | Seventh interval endpoint; actual retained length equals the committed selection, even when wrong. | G11; L02; A step 3, pp. 11–25. Reveal selected versus required intervals after Cut. |
 | **MT-C03** — “Mark 6/8 inch. Would a 3/4-inch piece have the same length? Explain.” | Location 12/16 in; yes, both span the same length/end at the same point. Record position and comparison/explanation independently. | G12; L03; A pp. 15, 17–21, 23, 25. Collect the comparison before showing solved overlays. A single cut can follow both submissions; do not require an equivalent duplicate cut. |
 | **MT-C04** — “Cut an upright 1 3/16 inches long.” Use a scale extending beyond the target. | Location 19/16 in, preserving the full inch. 3/16 in omits one inch. | G13; L04; A step 6, p. 39. After Cut, show a missing whole inch when applicable. Variant: 1 5/8 in = 26/16 in. |
-| **MT-C05** — “This opening needs 1 1/4 inches. Your piece measures 1 1/8 inches. Will it fit correctly? Why?” | Too short; it leaves a gap because its length is less than the required length. A numerical difference is optional. | G08, with G07/G11 support; L05; A pp. 5, 42, 47, 66. Use a prepared, neutrally rendered comparison. Withhold the automatic gap diagnosis until submission, then show the 1/8-in ghost. This remains a pre-feedback fit judgment; the current construction version also commits the needed 1 1/4-inch frame cut before held inspection. |
+| **MT-C05 — Retired October 1** | Supplied-piece fit judgment removed from active Challenge; historical response IDs remain preserved. | The 1 1/4-inch frame measurement remains a direct construction cut. Optional L05 still teaches G08 consequences; Challenge does not assess that judgment. |
 | **MT-C06** — “The order says 'length: 2.' What information is missing?” | The unit; a number alone does not specify whether the order means inches, centimeters, or another length unit. | G07; L01 and L05; A p. 5, pp. 44, 49, 66. Deliberate incomplete-order example; normal measurement prompts retain units. Explain why the unit matters after submission. |
 
 For explanatory responses, the expected reasoning above is a teacher-review criterion. Do not claim that any typed text passes. The response UI and reliable scoring approach must be resolved in issue #8; automated checks must genuinely distinguish the intended reasoning. Keep student-facing questions separate from developer goal IDs.
 
 ## Free Play Connections and Extensions
 
-Free Play supports the same ideas through marker movement, live equivalent displays, constant-size units with changing subdivisions, cuts compared from aligned starting ends, and optional fit targets. It has no mandatory question sequence and produces no passed comprehension results. A voluntary Try This invitation can ask “Can you give this length three different names?”
+Free Play supports the same ideas through marker movement, live equivalent displays, constant-size units with a full sixteenth-tick pattern and varied fraction names, cuts compared from aligned starting ends, and optional fit targets. It has no mandatory question sequence and produces no passed comprehension results. A voluntary Try This invitation can ask “Can you give this length three different names?”
 
-Decimal-inch prompts and sparse-scale empty-space selection remain local extensions, not additional source requirements. Metric reading, physical ruler alignment, sketch interpretation, skimmer cutting/folding, and testing remain outside this initial digital assessment slice. See [Curriculum Alignment](curriculum-alignment.md) for exact limits.
+Decimal-inch prompts remain a local extension. The earlier sparse-scale proposal was superseded on October 1: all 15 interior marks remain visible at every denominator and zoom. Metric reading, physical ruler alignment, sketch interpretation, skimmer cutting/folding, and testing remain outside this initial digital assessment slice. See [Curriculum Alignment](curriculum-alignment.md) for exact limits.
 
 ## Maintenance and Release Review
 
@@ -139,9 +139,9 @@ Each future entry must preserve a stable ID, objective, qualified goal/source lo
 
 Every implemented lesson/check appears here and in Curriculum/What This Practices. See [Quick Review Checklist](REVIEW_CHECKLIST.md) and [Implementation Review](IMPLEMENTATION_REVIEW.md) for current behavior and limits. Retain the pinned primary-source verification, verify the mathematical examples, review final response/scoring behavior, and pilot with the actual identified build. Keep the curriculum-only source audit in DM and original game design here.
 
-## Current Thirty-Exercise Construction Index
+## Current Twenty-Five-Exercise Construction Index
 
-Content revision: `2026-10-01-construction-30-v2`; construction revision: `2026-10-01-chair-plane-house-v1`. See [Chair, Plane, and House Challenge](CHALLENGE_REVIEW.md) for the automatic sequence, exact part schedule, completion/report contract and source-status verification. C05 retains its original fit judgment and gains the needed 1 1/4-inch frame cut. The other numeric targets are preserved; nouns now identify the part being constructed.
+Content revision: `2026-10-01-measure-build-25-v3`; construction revision: `2026-10-01-chair-plane-house-v2`. The teacher removed supplied-piece longer/shorter/same judgments MT-C05 and MT-C23–MT-C26 from the active bank. All other prompts, targets, choices, assistance rules and IDs remain unchanged. Their five required house lengths continue as direct construction measurements, without those questions. See [Chair, Plane, and House Challenge](CHALLENGE_REVIEW.md). Challenge now assesses G07, G10–G13 and G16; G08 remains optional Learn content and gameplay feedback, not a Challenge judgment. Retired responses, if present in history, remain raw observations and do not contribute to the 25-objective completion count.
 
 | ID | Construction Part and Exact Prompt | Goals and Source | Evidence |
 | --- | --- | --- | --- |
@@ -149,7 +149,6 @@ Content revision: `2026-10-01-construction-30-v2`; construction revision: `2026-
 | MT-C02 | chair: Backrest Crown. Cut a piece 7/16 inch long. | DM 1.3 G11; A step 3, pp. 11–25 | Committed endpoint, held actual cut and placement |
 | MT-C03 | chair: Backrest Slats. Mark 6/8 inch. Would a 3/4-inch piece have the same length? Explain. | DM 1.3 G12; A pp. 15, 17–21, 23, 25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
 | MT-C04 | chair: Seat Rails and Backrest Rails. Cut a chair rail 1 3/16 inches long. | DM 1.3 G13; A step 6, p. 39 | Committed endpoint, held actual cut and placement |
-| MT-C05 | house: Frame Uprights and Rafters. This opening needs 1 1/4 inches. Your piece measures 1 1/8 inches. Will it fit correctly? Why? Then cut the needed 1 1/4-inch frame piece. | DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
 | MT-C06 | chair: Read the Chair Order. The order says “length: 2.” What information is missing? | DM 1.3 G07; A p. 5, p. 11, pp. 37–38, p. 66 | Held unit-order decision; Explicit objective choice |
 | MT-C07 | chair: Armrests. Cut a 1/2-inch armrest. Read the printed marks from zero. | DM 1.3 G10, G11; A step 3, pp. 11–25 | Committed endpoint, held actual cut and placement |
 | MT-C08 | chair: Armrest Tips. Cut a 1/4-inch armrest tip. Read the printed marks from zero. | DM 1.3 G10, G11; A step 3, pp. 11–25 | Committed endpoint, held actual cut and placement |
@@ -167,10 +166,6 @@ Content revision: `2026-10-01-construction-30-v2`; construction revision: `2026-
 | MT-C20 | plane: Tail Fin. Mark 6/16 inch. Compare that length with 3/4 inch, then cut your prediction. | DM 1.3 G11, G12; A pp. 15, 17–21, 23, 25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
 | MT-C21 | plane: Diagonal Wing Supports. Mark 10/8 inch. Compare that length with 1 1/4 inch, then cut your prediction. | DM 1.3 G11, G12; A pp. 15, 17–21, 23, 25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
 | MT-C22 | plane: Tail Wing. Mark 14/8 inch. Compare that length with 1 1/2 inch, then cut your prediction. | DM 1.3 G11, G12; A pp. 15, 17–21, 23, 25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
-| MT-C23 | house: Window Frames. An opening needs 11/16 inches. The sample is 9/16 inches. Predict its fit, then cut a new piece to the needed length. | DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
-| MT-C24 | house: Pitched Roof Boards. An opening needs 1 9/16 inches. The sample is 1 11/16 inches. Predict its fit, then cut a new piece to the needed length. | DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
-| MT-C25 | house: Front and Back Fascia. An opening needs 2 1/4 inches. The sample is 2 1/4 inches. Predict its fit, then cut a new piece to the needed length. | DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
-| MT-C26 | house: House Platform. An opening needs 3 inches. The sample is 2 7/8 inches. Predict its fit, then cut a new piece to the needed length. | DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25 | Committed endpoint, held actual cut and placement; Explicit objective choice; Written reasoning for teacher review |
 | MT-C27 | house: Door Handle. Choose the correct starting reference and cut 3/16 inch. | DM 1.3 G10, G11, G16; A p. 5, p. 11, pp. 37–38, p. 66 | Committed endpoint, held actual cut and placement; Explicit objective choice |
 | MT-C28 | plane: Lengthwise Display Foot. Choose the correct starting reference and cut 2 5/16 inch. | DM 1.3 G10, G11, G16; A p. 5, p. 11, pp. 37–38, p. 66 | Committed endpoint, held actual cut and placement; Explicit objective choice |
 | MT-C29 | chair: Three Seat Boards. Make 3 equal 1 3/8-inch pieces. One successful cut is kept as the original. Predict how many additional copies are needed, then cut. | DM 1.3 G11, G13; A step 6, p. 39 | Committed endpoint, held actual cut and placement; Explicit objective choice; Original plus 2 equal copies (local extension) |

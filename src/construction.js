@@ -31,8 +31,8 @@ export function createConstruction(house,checks){
   add('plane',20,'Tail Fin',[p([0,wing,-12],[0,wing+6,-12])]);
   add('plane',11,'Wooden Propeller',[p([-5.5,body,15.88],[5.5,body,15.88],{roll:Math.PI/2,tone:'dark'}),p([0,body-5.5,16.76],[0,body+5.5,16.76],{roll:Math.PI/2,tone:'dark'})]);
 
-  add('house',26,'House Platform',[-7.56,-2.52,2.52,7.56].map(z=>xbar(48,-1.76,z,{tone:'dark'})));
-  add('house',5,'Frame Uprights and Rafters',house.families[0].placements.map(v=>({...v,role:'frame'})));
+  add('house',null,'House Platform',[-7.56,-2.52,2.52,7.56].map(z=>xbar(48,-1.76,z,{tone:'dark'})),{id:'house:platform',length:48});
+  add('house',null,'Frame Uprights and Rafters',house.families[0].placements.map(v=>({...v,role:'frame'})),{id:'house:uprights-and-rafters',length:20});
   add('house',null,'Frame Front and Back Rails',house.families[1].placements.map(v=>({...v,role:'frame'})),{id:'house:front-and-back-rails',length:32});
   add('house',null,'Frame Sides, Ridge, and Side Walls',[
     ...house.families[2].placements.map(v=>({...v,role:'frame'})),
@@ -44,16 +44,16 @@ export function createConstruction(house,checks){
   ]);
   add('house',19,'Wall Boards Beside the Door',[-1,1].flatMap(sign=>[2.5,7.5,12.5].map(y=>p([sign*12-4,y,8.88],[sign*12+4,y,8.88],{roll:Math.PI/2,role:'wall',tone:'light'}))));
   add('house',9,'Door Boards',[-5.04,0,5.04].map(x=>p([x,.88,9.12],[x,14.88,9.12],{roll:Math.PI/2,tone:'dark'})));
-  add('house',23,'Window Frames',[-19.44,19.44].flatMap(x=>[
+  add('house',null,'Window Frames',[-19.44,19.44].flatMap(x=>[
     ...[-5.5,5.5].map(z=>p([x,4.5,z],[x,15.5,z])),
     ...[4.5,15.5].map(y=>zbar(11,x,y,{roll:Math.PI/2}))
-  ]));
-  add('house',25,'Front and Back Fascia',[-10.4,10.4].map(z=>xbar(36,18,z,{roll:Math.PI/2})));
+  ]),{id:'house:window-frames',length:11});
+  add('house',null,'Front and Back Fascia',[-10.4,10.4].map(z=>xbar(36,18,z,{roll:Math.PI/2})),{id:'house:fascia',length:36});
   // The original 12-16-20 roof triangle extends to 15-20-25 without scaling.
-  add('house',24,'Pitched Roof Boards',[-1,1].flatMap(sign=>[-7.56,-2.52,2.52,7.56].map(z=>p([sign*(20+.6),17+.8,z],[sign*.6,32+.8,z],{role:'roof',tone:'dark'}))));
+  add('house',null,'Pitched Roof Boards',[-1,1].flatMap(sign=>[-7.56,-2.52,2.52,7.56].map(z=>p([sign*(20+.6),17+.8,z],[sign*.6,32+.8,z],{role:'roof',tone:'dark'}))),{id:'house:roof-boards',length:25});
   add('house',27,'Door Handle',[p([4.8,8,10],[4.8,8,13],{tone:'light'})]);
   const projects=[{id:'chair',title:'Chair',origin:[3.35,2.58,-1.3]},{id:'plane',title:'Plane',origin:[3.35,2.58,-1.3]},{id:'house',title:'House Exterior',origin:[3.35,2.91,-1.3]}];
-  return {revision:'2026-10-01-chair-plane-house-v1',projects,steps};
+  return {revision:'2026-10-01-chair-plane-house-v2',projects,steps};
 }
 export const currentStep=(s,plan)=>plan.steps[s.step]??null;
 export function displayProject(s,plan){const current=currentStep(s,plan)?.project;return s.parts.some(p=>p.project===current)?current:s.parts.at(-1)?.project??plan.projects[0].id}

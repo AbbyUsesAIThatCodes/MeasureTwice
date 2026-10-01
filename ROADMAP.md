@@ -2,7 +2,7 @@
 
 ## Current Position
 
-October 1 review update: issue #22 / PR #24 now sequences thirty exercises through chair, plane and house exterior, retaining the original 17-member house frame. Inspection and placement advance the next part automatically. Completion requires every objective and all three constructions. See [Current Challenge Review](docs/CHALLENGE_REVIEW.md). The earlier foundation and issue map below remain historical. A classroom pilot and richer teaching animations remain pending.
+October 1 review update: issue #22 / PR #24 now sequences twenty-five active exercises and seven additional construction measurements through chair, plane and house exterior, retaining the original 17-member house frame. Inspection and placement advance the next part automatically. Completion requires every objective and all three constructions. See [Current Challenge Review](docs/CHALLENGE_REVIEW.md). The earlier foundation and issue map below remain historical. A classroom pilot and richer teaching animations remain pending.
 
 The teacher accepted the [Game Design](docs/game-design.md) and [Workshop Mockup](docs/mockups/predict-cut-inspect/README.md) on September 28, 2026. They establish Free Play, Learn, Challenge, five short lessons, six seed challenge items, and the prediction → committed cut → closeup inspection → rejection or accepted staging/duplication/assembly loop. The archived interactive study demonstrates the interface and first upright family. **No production game, deployment, or classroom pilot is complete.**
 

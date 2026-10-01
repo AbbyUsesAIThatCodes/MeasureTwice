@@ -112,3 +112,7 @@ This foundation approves the learning and interaction design. The archived mocku
 ## October 1 Approved Construction Progression
 
 The teacher approved revising the current Challenge PR to automatically progress through **chair → plane → house exterior** with thirty mapped exercises. This supersedes the initial house-only entry and the interim required exercise picker. The house retains its original frame and adds walls and roof. Inspection confirmation and actual placement precede advancement; Build Progress is status/completed-step review. See [Current Challenge Review](CHALLENGE_REVIEW.md) for the exact schedule and evidence rules.
+
+## October 1 Focused Follow-Up
+
+The teacher removed supplied-piece longer/shorter/same word problems from active Challenge (C05 and C23–C26). Their required house cuts remain without those questions. Completion now requires 25 active objectives and all 32 construction steps; optional Learn content and original response histories remain. All rulers retain 15 interior sixteenth marks per inch at every denominator and zoom. Actual cuts clear any comparison-preview boards before animation, so inspection contains one cut piece with the existing target outline and missing/extra feedback.
