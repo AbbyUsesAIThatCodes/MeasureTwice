@@ -45,3 +45,7 @@ The DM repository is private. All playable original explanations must work witho
 Retain each mode's session separately. Switching does not award progress or erase a committed attempt. If a cut or movement is underway, resolve it once to its inspection state before leaving; hold that unacknowledged result when returning. Explicit restart resets that mode's work, never silently another mode's session. A fresh Challenge variant is needed for an unassisted check if that answer was already exposed in guided work.
 
 Keyboard input, magnification, and readable scale geometry remain available in all modes. They are access features, not hints. A numerical readout that solves the task is instructional support and must be tracked. Reduced motion and animation skipping reach the same inspection and quantities, preserving the required acknowledgement.
+
+## October 1 Approved Construction Progression
+
+The teacher approved revising the current Challenge PR to automatically progress through **chair → plane → house exterior** with thirty mapped exercises. This supersedes the initial house-only entry and the interim required exercise picker. The house retains its original frame and adds walls and roof. Inspection confirmation and actual placement precede advancement; Build Progress is status/completed-step review. See [Current Challenge Review](CHALLENGE_REVIEW.md) for the exact schedule and evidence rules.

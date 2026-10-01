@@ -8,7 +8,7 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 
 **One successful measurement per distinct required length.** Retries are allowed. Repeated model parts come from visible copies of the accepted original, never repeated correct answers for the same length.
 
-The current review expands Challenge to 30 exercises. Complete every automatic component and the 17-piece house, then download a teacher-readable report for manual Google Classroom attachment. Original answers, retries and recorded support remain separate; written explanations need teacher review. See [Expanded Challenge Review](docs/CHALLENGE_REVIEW.md).
+The current Challenge automatically builds a **chair, plane and house exterior** through thirty mapped exercises. Each part follows measure, Cut, held inspection, confirmation and placement before the next part appears. Build Progress is review/status. All objectives and all three builds are required for the offline teacher report; original answers, retries and assistance remain separate. See [Current Challenge Review](docs/CHALLENGE_REVIEW.md).
 
 ## Start Here
 
