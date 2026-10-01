@@ -55,7 +55,7 @@ Twenty-five stable exercise IDs map to the constructions below. Seven additional
 
 The chair has grounded front legs/back posts, rails, three equal seat boards, back slats, arms and joint caps. The biplane has crossed display feet, connected 9–12–15 landing supports, a two-board fuselage, paired upper/lower wing boards, 12–16–20 wing braces, tail and propeller. The house keeps every endpoint of the original 17-member frame and adds a platform, four wall faces with a door, window frames, fascia and a pitched roof. Roof vectors extend the original 12–16–20 triangle to 15–20–25; the wood remains its measured size. Equal 1-inch side-wall boards duplicate the accepted frame-side measurement in that same family.
 
-The plane canopy/propeller hub and house window glazing are original procedural decorative fixtures. They are not cut responses or automatically passed objectives. Wood materials and workshop styling preserve the accepted MeasureTwice archive attribution; Three.js remains MIT. Source/asset hashes accompany each review artifact. No central GraphicsStorage catalog is changed by this PR.
+The plane propeller hub and house window glazing are original procedural decorative fixtures, not cut responses or automatically passed objectives. The teacher-requested removal of the blue canopy leaves the measured wooden fuselage visible; a clearer cockpit design may be revisited in a later review. Wood materials and workshop styling preserve the accepted MeasureTwice archive attribution; Three.js remains MIT. Source/asset hashes accompany each review artifact. No central GraphicsStorage catalog is changed by this PR.
 
 ## Response and Progress Rules
 
