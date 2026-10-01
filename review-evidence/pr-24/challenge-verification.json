@@ -1,0 +1,175 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_pr-24_build-001_20260930T231202Z_g50ff58b6f73f_web",
+  "sourceRevision": "50ff58b6f73f0389a169bdfd04852f451b4cfe0a",
+  "exerciseCount": 30,
+  "checks": [
+    "All 30 Actual Exercise Flows",
+    "Authored Equivalence Labels Before Commitment",
+    "House Alone Does Not Complete Challenge",
+    "Wrong Choice and Cut Retries Preserve Originals",
+    "Correct Cut Cannot Mask Wrong Fit Judgment",
+    "Learn Visit Preserves Progress and Support",
+    "All Automatic Components Required",
+    "Explanations Remain Teacher-Reviewed",
+    "Equal-Copy Tasks Keep Exact Original Plus N-1",
+    "Actual Offline Teacher Report Download",
+    "Restart Keeps Exercise Evidence but Resets Construction",
+    "1024x768 and 1366x768 Progress Access"
+  ],
+  "finalResults": [
+    {
+      "id": "MT-C01",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C02",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C03",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C04",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C05",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C06",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C07",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C08",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C09",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C10",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C11",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C12",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C13",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C14",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C15",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C16",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C17",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C18",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C19",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C20",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C21",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C22",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C23",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C24",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C25",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C26",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C27",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C28",
+      "complete": true,
+      "firstIndependentCorrect": false
+    },
+    {
+      "id": "MT-C29",
+      "complete": true,
+      "firstIndependentCorrect": true
+    },
+    {
+      "id": "MT-C30",
+      "complete": true,
+      "firstIndependentCorrect": true
+    }
+  ],
+  "reportFile": "0.1.0_Predict-Cut-Inspect_pr-24_build-001_20260930T231202Z_g50ff58b6f73f_web_Challenge-Report.txt",
+  "syntheticStudentData": true,
+  "errors": [],
+  "requests": []
+}

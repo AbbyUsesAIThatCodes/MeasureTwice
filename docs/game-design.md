@@ -108,3 +108,7 @@ This foundation approves the learning and interaction design. The archived mocku
 - September 28: approve bright cartoony 3D, five Learn lessons, explicit challenge mapping, prediction before commitment, cutting incorrect attempts, post-cut closeup feedback, student-held inspection, right-hand accepted stack, left-hand rejection, and subsequent automatic assembly.
 - September 28 clarification: the teacher intended correctness feedback only after pressing Cut. Pre-cut motion and neutral selection feedback must not reveal correctness. This replaces the earlier correct-answer gate and Check & Cut proposal.
 - September 28 mockup approval: the teacher explicitly accepted the interactive Predict, Cut, Inspect study and requested its repository archive as the handoff to implementation. Exact source and runnable export are linked above; full lessons, assessment, complete house geometry, and production session behavior remain in their existing issues.
+
+## October 1 Approved Construction Progression
+
+The teacher approved revising the current Challenge PR to automatically progress through **chair → plane → house exterior** with thirty mapped exercises. This supersedes the initial house-only entry and the interim required exercise picker. The house retains its original frame and adds walls and roof. Inspection confirmation and actual placement precede advancement; Build Progress is status/completed-step review. See [Current Challenge Review](CHALLENGE_REVIEW.md) for the exact schedule and evidence rules.

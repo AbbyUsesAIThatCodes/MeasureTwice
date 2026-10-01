@@ -48,6 +48,14 @@
       "type": "Procedural Three.js Geometry",
       "status": "New Review Asset",
       "notes": "Aligned starts; 0.63-world-unit wood width plus a 0.09 gap. Eight pieces per raised layer. Uses the recovered workshop wood materials."
+    },
+    {
+      "name": "Chair, Biplane, and House Exterior",
+      "source": "src/construction.js; src/app.js:partDestination and rebuildParts",
+      "type": "Original Parameterized Three.js Wooden Models",
+      "status": "New PR24 Review Assets",
+      "revision": "2026-10-01-chair-plane-house-v1",
+      "notes": "104 constant-profile measured wood pieces across three builds, retaining all original 17 frame members. Plane canopy/hub and house glazing are decorative, excluded from measurement counts. Reuses the accepted workshop wood materials and Three.js MIT runtime. No Tinkercad adaptation claim. Parent coordinates shared storage; no central catalog writes."
     }
   ],
   "externalAssets": [

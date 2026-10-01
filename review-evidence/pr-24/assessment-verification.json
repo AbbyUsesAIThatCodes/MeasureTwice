@@ -1,0 +1,13 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_pr-24_build-001_20260930T231202Z_g50ff58b6f73f_web",
+  "checks": [
+    "C03 Authored 6/8 Target Before Any Response",
+    "Normalized Feedback Only After Cut",
+    "Guidance-Only Exposure Across Modes",
+    "Hint Exposure Survives Navigation",
+    "Objective and Explanation Inherit Exposure",
+    "Original Independent Records Unchanged",
+    "House Inspection Exposure Survives Restart"
+  ],
+  "errors": []
+}
