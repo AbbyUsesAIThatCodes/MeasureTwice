@@ -26,7 +26,7 @@ Read [README](README.md), [Game Design](docs/game-design.md), [Curriculum Alignm
 
 Target student laptops with mouse/trackpad and keyboard input. Use bright cartoony 3D, fullscreen graphics, compact overlays, readable inch rulers, coherent zero, and straight-on inspection. Apply Title Case to authored titles. Phone optimization is outside the classroom scope.
 
-Support printed-mark practice and the explicitly labeled sparse-ruler extension; do not silently add new curricular requirements. Reduced motion or skipping must reach the same inspection and still require acknowledgement. Verify exact measurement arithmetic, fair nonoverlapping input, once-only commitments/transitions, correct duplicate quantities, mode switching, mute, keyboard controls, and laptop readability before classroom release. Consult the examples in Ruler Interaction.
+The October 1 teacher clarification requires all 15 interior sixteenth-inch marks between every pair of inch marks in every mode, denominator setting and zoom. Preserve hierarchical tick lengths, questions, snapping and scoring; this supersedes the earlier sparse-ruler extension. Reduced motion or skipping must reach the same inspection and still require acknowledgement. Verify exact measurement arithmetic, fair nonoverlapping input, once-only commitments/transitions, correct duplicate quantities, mode switching, mute, keyboard controls, and laptop readability before classroom release. Consult the examples in Ruler Interaction.
 
 ## Build Identity and Scope
 
