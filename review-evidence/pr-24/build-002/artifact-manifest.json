@@ -1,0 +1,31 @@
+{
+  "buildId": "0.1.0_Predict-Cut-Inspect_pr-24_build-002_20261001T001853Z_gfcd796ae10f4_web",
+  "builtSourceRevision": "fcd796ae10f42f2b2b4b574d8c8020f8286dbc56",
+  "builtAt": "2026-10-01T00:18:53.696Z",
+  "fingerprint": "fe5e2dbd521004f8429664fadb0e4e417b5df84fc2ed230abaf9a9e30ceaec6a",
+  "dirty": false,
+  "target": "web",
+  "productionDeployment": false,
+  "files": [
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-24_build-002_20261001T001853Z_gfcd796ae10f4_web.zip",
+      "bytes": 539451,
+      "sha256": "1008b06175bef08b5db050651b46c661426cb10a556b878f9f1c28cd3707c5f2"
+    },
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-24_build-002_20261001T001853Z_gfcd796ae10f4_web_Chair.png",
+      "bytes": 158620,
+      "sha256": "3fe0a65502c56dabeaeacfe104ec1393cb374059d5613ae3b01c3a972ca262af"
+    },
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-24_build-002_20261001T001853Z_gfcd796ae10f4_web_Plane.png",
+      "bytes": 158880,
+      "sha256": "6f707e4efff5f3f491629306101dcb3de03ccbe32a66f32e4c7d9e22c7e81ca5"
+    },
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-24_build-002_20261001T001853Z_gfcd796ae10f4_web_House.png",
+      "bytes": 166733,
+      "sha256": "1890f7434fe5c454ddcd2d5369f1d7fa237424b2fe3dfe615a747fc9c1a6af6e"
+    }
+  ]
+}

@@ -1,3 +1,9 @@
+# Current PR24 Review
+
+[Build 002: Automatic Chair, Plane, and House Progression](./build-002/README.md) is the current integrated review. The build001 snapshot below remains preserved as historical evidence of the earlier exercise-picker version.
+
+---
+
 # PR 24 Review
 
 [Download the Playable ZIP](./0.1.0_Predict-Cut-Inspect_pr-24_build-001_20260930T231202Z_g50ff58b6f73f_web.zip?raw=true) · [Screenshot 1](./0.1.0_Predict-Cut-Inspect_pr-24_build-001_20260930T231202Z_g50ff58b6f73f_web_Review-1.png) · [Screenshot 2](./0.1.0_Predict-Cut-Inspect_pr-24_build-001_20260930T231202Z_g50ff58b6f73f_web_Review-2.png)

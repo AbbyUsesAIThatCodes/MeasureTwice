@@ -1,0 +1,34 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_pr-24_build-002_20261001T001853Z_gfcd796ae10f4_web",
+  "sourceRevision": "fcd796ae10f42f2b2b4b574d8c8020f8286dbc56",
+  "steps": 32,
+  "exercises": 30,
+  "projects": [
+    "chair",
+    "plane",
+    "house"
+  ],
+  "parts": 104,
+  "cameraSamples": 1296,
+  "minWallClearance": 0.630910796696271,
+  "checks": [
+    "Full Saw and Camera Animation, Held Inspection and Placement Before Advance",
+    "1296 Camera Samples Across Three Projects and Three Viewports",
+    "Automatic Chair-Plane-House Sequence",
+    "No Required Exercise Picker",
+    "Held Unit-Order Confirmation",
+    "Wrong Cut Stays on Current Part",
+    "Good Wood Retained During Reasoning-Only Retry",
+    "No Premature Advance or Duplicate Award",
+    "Mode/Learn Visit Preserves Held Inspection",
+    "All Three Exact Models and Original 17 Frame Members",
+    "Completed-Step Review and Redo",
+    "Every Objective and Build Required for Report",
+    "Actual Offline Report Download",
+    "Restart Preserves Immutable History and Support",
+    "1024x768 and 1366x768"
+  ],
+  "errors": [],
+  "requests": [],
+  "syntheticStudentData": true
+}

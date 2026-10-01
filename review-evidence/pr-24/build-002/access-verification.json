@@ -1,0 +1,21 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_pr-24_build-002_20261001T001853Z_gfcd796ae10f4_web",
+  "sourceRevision": "fcd796ae10f42f2b2b4b574d8c8020f8286dbc56",
+  "checks": [
+    "Unreduced C03 Target Before Any Response",
+    "Normalized Feedback Only After Cut",
+    "Guidance-Only Exposure Across Modes",
+    "Hint Exposure Survives Completed-Step Redo and Return",
+    "Objective and Explanation Inherit Support",
+    "Original Independent Records Unchanged",
+    "Free Play Comparison Gaps and Equal Duplication",
+    "Magnified End/Home/Arrow Selection Visible at Both Laptop Widths",
+    "Skip and Mode Switching Preserve Inspection",
+    "Five Freely Available Learn Lessons",
+    "Reduced-Support Practice and Demo Cancellation",
+    "Nested Hover-Safe Vocabulary",
+    "Raised Bench, Leafy Plant and Seated Nonintersecting Pencils"
+  ],
+  "errors": [],
+  "requests": []
+}

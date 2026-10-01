@@ -1,0 +1,68 @@
+{
+  "repository": "AbbyUsesAIThatCodes/MeasureTwice",
+  "issue": 22,
+  "pr": 24,
+  "sourceRevision": "fcd796ae10f42f2b2b4b574d8c8020f8286dbc56",
+  "buildId": "0.1.0_Predict-Cut-Inspect_pr-24_build-002_20261001T001853Z_gfcd796ae10f4_web",
+  "constructionRevision": "2026-10-01-chair-plane-house-v1",
+  "sharedCatalogWrites": false,
+  "sourceFiles": [
+    {
+      "path": "src/construction.js",
+      "gitBlobSha256": "3d7fdc9d561270e0fab801982ceb75effcd893451c9a5aecf1e6dedc306ddb22",
+      "artifactSha256": "3d7fdc9d561270e0fab801982ceb75effcd893451c9a5aecf1e6dedc306ddb22"
+    },
+    {
+      "path": "src/app.js",
+      "gitBlobSha256": "78b0680d62dc621ec9160951aa3808445e4800bdb0990cd82d3499d0abf23a5c",
+      "artifactSha256": "830528bc3d63d34930ac77838f7e2df7984bd76899f19da98c412d9b7fa84382"
+    },
+    {
+      "path": "src/model.js",
+      "gitBlobSha256": "4f6a49145fd11e426f69c77e0fb0bd54ca873c3ac538357f934c424960b96f5b",
+      "artifactSha256": "05cd08a923a31fa00747eb6de9332b9f6d348958e1a6e7d0a9f7425b474b0a8d"
+    },
+    {
+      "path": "src/workshop.js",
+      "gitBlobSha256": "7ae74914421576a6000bdbd821449d2bf99ccab0675d6dabbecc6873988a5576",
+      "artifactSha256": "589faac7a9c04387b9bc763fd0dd73ebac226f85085baccf2f18255ba5c9ee42"
+    },
+    {
+      "path": "src/view-limits.js",
+      "gitBlobSha256": "c375ff15fc9b7a883b85230508370b33922819fc4fcc8dc71ebcb9493ffbc02a",
+      "artifactSha256": "2ca43e049328c44651f8b311cc594948ffb4749d4ec8173feb25b1ef50eb9725"
+    },
+    {
+      "path": "data/house.json",
+      "gitBlobSha256": "0c69033ed8c0610f9b49c9349e4833b5de679ac1a616bde78be9741a6488f9fb",
+      "artifactSha256": "8fc1262ab7b08002336b615b195e9659ea2050b9eca12a8f317a3f5d9e7eed9c"
+    },
+    {
+      "path": "docs/ASSET_MANIFEST.json",
+      "gitBlobSha256": "8f6648ecd343b845c010b1baff4e0c106d454fd2fa5a5bd8dac2d8db79990584",
+      "artifactSha256": "8f6648ecd343b845c010b1baff4e0c106d454fd2fa5a5bd8dac2d8db79990584"
+    }
+  ],
+  "baseline": {
+    "source": "docs/mockups/predict-cut-inspect/source.fragment.html",
+    "commit": "e67bf168a54feaa291f8f33009f23fb46138af48",
+    "sha256": "dc9a6aa15a42497c54bb52d3fc6d72d5fa6a358904ff7950dd1c86d1954ad992",
+    "attribution": "Teacher-approved MeasureTwice procedural workshop; no new repository-wide license inferred."
+  },
+  "changes": {
+    "name": "Chair, Biplane, and House Exterior",
+    "source": "src/construction.js; src/app.js:partDestination and rebuildParts",
+    "type": "Original Parameterized Three.js Wooden Models",
+    "status": "New PR24 Review Assets",
+    "revision": "2026-10-01-chair-plane-house-v1",
+    "notes": "104 constant-profile measured wood pieces across three builds, retaining all original 17 frame members. Plane canopy/hub and house glazing are decorative, excluded from measurement counts. Reuses the accepted workshop wood materials and Three.js MIT runtime. No Tinkercad adaptation claim. Parent coordinates shared storage; no central catalog writes."
+  },
+  "measuredParts": {
+    "chair": 24,
+    "plane": 18,
+    "house": 62,
+    "originalHouseFrame": 17,
+    "total": 104
+  },
+  "integrationNotes": "Original procedural construction schedules using the accepted workshop wood materials. Preserve constant profile, exact endpoint lengths, workRoot coordinates, view-limits dependency, accepted archive attribution and Three.js MIT notice. Plane canopy/hub and house glazing are decoration excluded from measurements. No Tinkercad adaptation claim. Parent coordinates central GraphicsStorage; no central catalog changed."
+}
