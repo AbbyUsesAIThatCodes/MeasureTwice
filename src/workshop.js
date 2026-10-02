@@ -24,9 +24,12 @@ box(12.8,.5,4.5,wood,-.5,2.22,.1);box(12.85,.12,4.56,woodLight,-.5,2.52,.1);box(
 // Saw, with its blade plane perpendicular to the board's length.
 box(2.1,.18,2.05,teal,SAW_X,2.7,.35);box(.48,1.22,.46,tealDark,SAW_X,3.28,-.39);box(.65,.32,1.55,teal,SAW_X,3.97,.14);
 const bladeGroup=new THREE.Group();bladeGroup.position.set(SAW_X,4.03,BOARD_Z);scene.add(bladeGroup);const blade=cylinder(.69,.69,.065,steel,0,0,0,bladeGroup,48);blade.rotation.z=Math.PI/2;for(let i=0;i<24;i++){const a=i*Math.PI/12;const tooth=box(.073,.15,.12,steel,0,Math.cos(a)*.705,Math.sin(a)*.705,bladeGroup);tooth.rotation.x=a}const bolt=cylinder(.11,.11,.12,tealDark,0,0,0,bladeGroup);bolt.rotation.z=Math.PI/2;
-const guard=new THREE.Mesh(new THREE.TorusGeometry(.73,.095,6,30,Math.PI),teal);guard.rotation.y=Math.PI/2;guard.position.copy(bladeGroup.position);scene.add(guard);box(.18,.15,.82,yellow,SAW_X+.47,4.65,.6);
+const guard=new THREE.Mesh(new THREE.TorusGeometry(.73,.095,6,30,Math.PI),teal);guard.rotation.y=Math.PI/2;guard.position.copy(bladeGroup.position);scene.add(guard);
 // Staging tray and ghost model.
-box(2.6,.12,1.28,tealDark,3.9,2.63,1.1);box(.09,.35,1.4,teal,5.23,2.79,1.1);box(.09,.35,1.4,teal,2.57,2.79,1.1);
+// Shallow receiving tray stays on the bench, in front of the stock lane.
+// Low lips clear even an overhanging three-inch accepted piece.
+const receivingTray=new THREE.Group();receivingTray.name='Receiving Tray';scene.add(receivingTray);
+box(2.6,.12,.72,tealDark,3.9,2.63,1.97,receivingTray);box(.09,.06,.8,teal,5.23,2.72,1.97,receivingTray);box(.09,.06,.8,teal,2.57,2.72,1.97,receivingTray);
 // Plant and tool cup establish a cheerful workshop without crowding the measuring station.
 cylinder(.31,.24,.54,mat(0xc78055),-6.0,2.93,-1.34);for(let i=0;i<5;i++){const leaf=new THREE.Mesh(new THREE.SphereGeometry(.34,8,6),mat(i%2?0x7ca775:0x5b906a));leaf.scale.set(.48,1.45,.58);leaf.position.set(-6+Math.sin(i*1.9)*.22,3.56,-1.34+Math.cos(i*1.9)*.18);leaf.rotation.z=Math.sin(i)*.6;scene.add(leaf)}
 cylinder(.24,.2,.45,teal,-3.0,2.92,-1.5);for(let i=0;i<4;i++){const pen=box(.055,.95,.055,i%2?yellow:tealDark,-3+(i-1.5)*.09,3.42,-1.5);pen.rotation.z=(i-1.5)*.13}
@@ -34,5 +37,5 @@ cylinder(.24,.2,.45,teal,-3.0,2.92,-1.5);for(let i=0;i<4;i++){const pen=box(.055
 function render(){camera.lookAt(look);renderer.render(scene,camera)}
 function resize(){renderer.setSize(stage.clientWidth,stage.clientHeight);camera.aspect=stage.clientWidth/stage.clientHeight;camera.updateProjectionMatrix();render()}
 new ResizeObserver(resize).observe(stage);
-return {THREE,scene,camera,renderer,look,homePos,homeLook,nearPos,nearLook,render,resize,box,plank,line,mat,wood,woodLight,woodDark,ghost,bladeGroup,guard,STOCK,SAW_X,BOARD_Y,BOARD_Z};
+return {THREE,scene,camera,renderer,look,homePos,homeLook,nearPos,nearLook,render,resize,box,plank,line,mat,wood,woodLight,woodDark,ghost,bladeGroup,guard,STOCK,SAW_X,BOARD_Y,BOARD_Z,receivingTray};
 }
