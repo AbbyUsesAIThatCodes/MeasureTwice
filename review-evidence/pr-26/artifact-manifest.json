@@ -1,0 +1,100 @@
+{
+  "build": {
+    "version": "0.1.0",
+    "codename": "Predict Cut Inspect",
+    "slug": "Predict-Cut-Inspect",
+    "status": "success",
+    "codenameStatus": "Provisional Review Name From the Approved Study; Awaiting Teacher Acceptance",
+    "compatibility": "Development build. Session records are local to this page; no production save migration contract yet.",
+    "id": "0.1.0_Predict-Cut-Inspect_pr-26_build-003_20261002T151336Z_gc8484ff65820_web",
+    "scope": "pr-26",
+    "pr": 26,
+    "ordinal": 3,
+    "builtAt": "2026-10-02T15:13:36.295Z",
+    "sourceRevision": "c8484ff6582020b19225a3376cc9e254a82890d5",
+    "dirty": false,
+    "fingerprint": "212e03a55ddfca20507cfeb6d7b5895ad6cdacdec0a2e464fd59d75947aaae5b",
+    "target": "web",
+    "allocator": "Jess_PC/MeasureTwice-build-ledger",
+    "completedAt": "2026-10-02T15:13:36.332Z",
+    "directory": "C:\\Users\\jessg\\Documents\\Codex\\2026-09-29\\task-3\\MeasureTwice-ClassroomHotfix\\review-builds\\0.1.0_Predict-Cut-Inspect_pr-26_build-003_20261002T151336Z_gc8484ff65820_web"
+  },
+  "pagesBuild": {
+    "version": "0.1.0",
+    "codename": "Predict Cut Inspect",
+    "slug": "Predict-Cut-Inspect",
+    "status": "success",
+    "codenameStatus": "Provisional Review Name From the Approved Study; Awaiting Teacher Acceptance",
+    "compatibility": "Development build. Session records are local to this page; no production save migration contract yet.",
+    "scope": "pr-26",
+    "ordinal": 4,
+    "allocator": "Jess_PC/MeasureTwice-build-ledger",
+    "sourceRevision": "c8484ff6582020b19225a3376cc9e254a82890d5",
+    "dirty": false,
+    "fingerprint": "5e895cf61d96b470c98405e8a3459902020858b1ff8a5b820fa234ded9cad5ee",
+    "id": "0.1.0_Predict-Cut-Inspect_pr-26_build-004_20261002T151336Z_gc8484ff65820_pages",
+    "builtAt": "2026-10-02T15:13:36.526Z",
+    "target": "pages",
+    "basePath": "/MeasureTwice/",
+    "pr": 26,
+    "directory": "C:\\Users\\jessg\\Documents\\Codex\\2026-09-29\\task-3\\MeasureTwice-ClassroomHotfix\\dist\\pages\\0.1.0_Predict-Cut-Inspect_pr-26_build-004_20261002T151336Z_gc8484ff65820_pages\\MeasureTwice",
+    "reviewDirectory": "C:\\Users\\jessg\\Documents\\Codex\\2026-09-29\\task-3\\MeasureTwice-ClassroomHotfix\\dist\\pages\\0.1.0_Predict-Cut-Inspect_pr-26_build-004_20261002T151336Z_gc8484ff65820_pages",
+    "completedAt": "2026-10-02T15:13:36.561Z"
+  },
+  "unchangedBuildFiles": 36,
+  "unchangedSourcePaths": [
+    "src/content.js",
+    "data/house.json",
+    "public/index.html",
+    "public/style.css",
+    ".github/workflows/pages.yml"
+  ],
+  "rollbackSource": "23463ad0d5034cf14f3a6dc8a304122ee959ad25",
+  "files": [
+    {
+      "file": "0.1.0_Predict-Cut-Inspect_pr-26_build-003_20261002T151336Z_gc8484ff65820_web.zip",
+      "bytes": 518962,
+      "sha256": "eff5e357adc183b2640e6ec7574c87b7ed0f4de597a13cbef6677670802ab70d"
+    },
+    {
+      "file": "assessment-verification.json",
+      "bytes": 447,
+      "sha256": "dd1a2821f912b9a9687568c42431e5e6fa7588b442696f3691c769b541019c9b"
+    },
+    {
+      "file": "asset-handoff.json",
+      "bytes": 1463,
+      "sha256": "47dd274c19a4381a653bfaf09870f1e401b7821f4f343ac7229af5735344e8aa"
+    },
+    {
+      "file": "free-play-clear.png",
+      "bytes": 186707,
+      "sha256": "0e0fb05bb4cf84065bd9bcafb795ccb691ba4277b67759164702b4d14240a8e8"
+    },
+    {
+      "file": "hotfix-verification.json",
+      "bytes": 1009,
+      "sha256": "d3370a36abfdd7fb7a0819cffd465dbc6f00fe0bd6f0381fe6dc7be2f9cd47a4"
+    },
+    {
+      "file": "learn-complete.png",
+      "bytes": 157801,
+      "sha256": "3b59598b102c5ba9373240c50db59822e43d7d264289539176a011ddf77a2d70"
+    },
+    {
+      "file": "learn-small.png",
+      "bytes": 117790,
+      "sha256": "3350a85de7c81cf6a3ced700adbc726d70707e7873278b14ae9799dadfac98f5"
+    },
+    {
+      "file": "pages-verification.json",
+      "bytes": 500,
+      "sha256": "4dd5ab941649b9107e65471b14c0b25c369e25de4a3b4df0b36192da735e9152"
+    },
+    {
+      "file": "workshop-clear.png",
+      "bytes": 160528,
+      "sha256": "ffde6485da990d8852df84c442b33debda0534ccc9df3df1f7c95503ca8cee5b"
+    }
+  ]
+}

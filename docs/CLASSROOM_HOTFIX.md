@@ -1,0 +1,11 @@
+# October 2 Classroom Hotfix
+
+Based on public main23463ad0, independently of PR20/23/24. The isolated yellow saw grip is removed. The receiving tray moves to the front of the existing bench, becomes shallower, and uses low lips below accepted wood. The stock/offcut lane and saw calibration stay fixed. Retained comparison rows move behind that lane; the rack follows them. No new models, plant, bench-height, camera, ruler, question or Pages-workflow changes.
+
+Learn now advances after correct held inspection, acknowledgement and placement: guided task, less-help practice, then the next lesson. Existing authored reasoning questions pause that advance until their objective response is correct and any requested explanation is saved. A wrong cut stays on its task. A wrong reasoning response gets a separately identified supported retry; original observations remain unchanged. Typed explanations remain teacher-reviewed. Demonstrations never advance student progress. All five lessons remain freely selectable. Completion requires all ten guided/practice stages; manually entering the last lesson cannot claim all lessons complete. Restart preserves response/support history and clears lesson progress.
+
+Current DM1.3 targets and source mapping are unchanged. The sequence now collects the existing cut and reasoning evidence before moving on; it adds no curricular mastery claim. Five lessons, six separately selected Challenge checks, the17-piece house and current-mode anonymous JSON export remain the public feature set. Automatic Learn advancement is the teacher's October2 amendment to the earlier optional practice sequence.
+
+Runtime evidence is exposed through the existing mtReview QA surface; clearance reports actual scene bounds. Tests compare stock, offcut, accepted-piece and retained-piece bounds with the tray across modes, lengths and animation phases. Small-screen lesson controls remain in the scrollable left card. Existing wall clipping remains outside this hotfix; Home View remains available.
+
+Rollback source:23463ad0d5034cf14f3a6dc8a304122ee959ad25. The final PR names its exact built source and separate later evidence commit. Revert the hotfix merge to restore the prior source; a rollback deployment receives a new production identity rather than reusing an old manifest.

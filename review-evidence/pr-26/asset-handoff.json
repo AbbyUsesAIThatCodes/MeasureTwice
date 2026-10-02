@@ -1,0 +1,34 @@
+{
+  "sourceRevision": "c8484ff6582020b19225a3376cc9e254a82890d5",
+  "build": "0.1.0_Predict-Cut-Inspect_pr-26_build-003_20261002T151336Z_gc8484ff65820_web",
+  "baseline": {
+    "source": "docs/mockups/predict-cut-inspect/source.fragment.html",
+    "commit": "e67bf168a54feaa291f8f33009f23fb46138af48",
+    "sha256": "dc9a6aa15a42497c54bb52d3fc6d72d5fa6a358904ff7950dd1c86d1954ad992",
+    "attribution": "Teacher-approved MeasureTwice procedural workshop; no new repository-wide license inferred."
+  },
+  "sharedCatalogWrites": false,
+  "newReusableAssets": [],
+  "changes": [
+    "Remove isolated decorative yellow saw grip",
+    "Move shallow receiving tray forward; lower lips below all accepted lengths",
+    "Move comparison rack and aligned rows behind stock"
+  ],
+  "files": [
+    {
+      "path": "src/workshop.js",
+      "gitBlobSha256": "d49408431990468935014027c93b2d92be1340d2cfb6c0528db6522c5024ec01",
+      "artifactSha256": "9816dddf3f09f4c2a3c9ab01211069ef296516cc28b21659206c1e93d316d6a4"
+    },
+    {
+      "path": "src/app.js",
+      "gitBlobSha256": "4d1d7618a5c098d000121bf4f9cedcb53ffe346b20e2855b12253cd4e354d650",
+      "artifactSha256": "7e276be4525c3e297e9c371e5f7f9f315b4ac88584c30736a8ac91c073832435"
+    },
+    {
+      "path": "src/model.js",
+      "gitBlobSha256": "244ef2aa3a7134bbb6ea6fa8535f50213d488da923bd73b2d74f8b0ec217dc81",
+      "artifactSha256": "70fb103f90c9839847bee43285e360a68c8c12b038b983a09057bbf04345db3b"
+    }
+  ]
+}
