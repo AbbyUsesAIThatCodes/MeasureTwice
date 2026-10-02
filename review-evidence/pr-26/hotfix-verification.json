@@ -1,0 +1,16 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_pr-26_build-003_20261002T151336Z_gc8484ff65820_web",
+  "sourceRevision": "c8484ff6582020b19225a3376cc9e254a82890d5",
+  "checks": [
+    "All48 neutral ruler positions across all3 modes clear receiving tray",
+    "Full3inch animation and9 varied exact retained cuts plus equal duplicate; rows/rack behind stock lane; all48 positions with retained pieces",
+    "Original17-piece house, wrong retry, held inspection and exact retained sizes unchanged",
+    "Ten guided/practice stages auto-advance only after held acknowledgement; wrong cut stays; authored reasoning required; wrong reasoning retries preserve originals; no double award; honest completion and restart",
+    "Manual last-lesson start returns to unfinished tasks; demonstrations do not advance",
+    "All6 unchanged Challenge checks,actual anonymous JSON export,and1280x600 scrollable Learn controls"
+  ],
+  "errors": [],
+  "requests": [],
+  "clearanceSamples": 565,
+  "finishedAt": "2026-10-02T15:15:00.992Z"
+}
