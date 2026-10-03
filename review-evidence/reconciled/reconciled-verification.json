@@ -1,0 +1,70 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web",
+  "sourceRevision": "d60bdb3a04292584d28712df6f8d314514a7a708",
+  "checks": [
+    "Five Learn Lessons, Ten Stages, Wrong Cut and Wrong Choice Retry, Held Inspection, Once-Only Advancement, Hidden Practice Readout, All Subdivisions and Magnified Pointer/Keyboard",
+    "Seven Explicit Instruments, Endpoints, Adjacent Wrong Cut, Exact Physical Geometry, Held Mode Return, Duplicate, Keyboard Scroll and Zero Recovery, Anonymous Download and Retained Restart History"
+  ],
+  "instruments": [
+    {
+      "id": "inch-3",
+      "max": 48,
+      "cameraSamples": 144,
+      "stepTicks": 127,
+      "parts": 3,
+      "physicalEndTicks": 6096
+    },
+    {
+      "id": "inch-6",
+      "max": 96,
+      "cameraSamples": 144,
+      "stepTicks": 127,
+      "parts": 3,
+      "physicalEndTicks": 12192
+    },
+    {
+      "id": "inch-12",
+      "max": 192,
+      "cameraSamples": 144,
+      "stepTicks": 127,
+      "parts": 3,
+      "physicalEndTicks": 24384
+    },
+    {
+      "id": "yardstick",
+      "max": 576,
+      "cameraSamples": 144,
+      "stepTicks": 127,
+      "parts": 3,
+      "physicalEndTicks": 73152
+    },
+    {
+      "id": "cm-15",
+      "max": 150,
+      "cameraSamples": 144,
+      "stepTicks": 80,
+      "parts": 3,
+      "physicalEndTicks": 12000
+    },
+    {
+      "id": "cm-30",
+      "max": 300,
+      "cameraSamples": 144,
+      "stepTicks": 80,
+      "parts": 3,
+      "physicalEndTicks": 24000
+    },
+    {
+      "id": "metre",
+      "max": 1000,
+      "cameraSamples": 144,
+      "stepTicks": 80,
+      "parts": 3,
+      "physicalEndTicks": 80000
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "syntheticStudentData": true,
+  "physicalChromebookTest": false
+}

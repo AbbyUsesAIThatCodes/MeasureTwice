@@ -1,0 +1,18 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web",
+  "sourceRevision": "d60bdb3a04292584d28712df6f8d314514a7a708",
+  "shots": [
+    "chair-build-focus-1366.png",
+    "chair-build-focus-1024.png",
+    "plane-build-focus-1366.png",
+    "plane-build-focus-1024.png",
+    "house-build-focus-1366.png",
+    "house-build-focus-1024.png"
+  ],
+  "checks": [
+    "Build Table Focus Shows All Three Completed Models at 1366x768 and 1024x768",
+    "Home Restores Workshop Focus"
+  ],
+  "errors": [],
+  "syntheticStudentData": true
+}

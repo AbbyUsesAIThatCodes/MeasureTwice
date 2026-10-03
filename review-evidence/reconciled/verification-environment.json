@@ -1,0 +1,23 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web",
+  "sourceRevision": "d60bdb3a04292584d28712df6f8d314514a7a708",
+  "operatingSystem": "Microsoft Windows NT 10.0.26200.0",
+  "nodeTestRuntime": "v24.19.0",
+  "browserProductVersion": "153.0.8010.12",
+  "playwrightChromiumBuild": 1243,
+  "rendering": "Headless Desktop Chromium; SwiftShader",
+  "screenshots": [
+    "1366x768",
+    "1280x600",
+    "1024x768"
+  ],
+  "cameraCheckViewports": [
+    "1920x1080",
+    "1366x768",
+    "1024x768"
+  ],
+  "cameraSamples": 2304,
+  "motionFrames": 1410.0,
+  "physicalChromebookTest": false,
+  "classroomPilot": false
+}

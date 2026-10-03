@@ -1,0 +1,380 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web",
+  "sourceRevision": "d60bdb3a04292584d28712df6f8d314514a7a708",
+  "builtAt": "2026-10-03T18:02:57.342Z",
+  "sha256Note": "Every evidence file except this inventory itself is listed; ZIP contents have a separate complete file inventory.",
+  "files": [
+    {
+      "path": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web.zip",
+      "bytes": 567894,
+      "sha256": "4736fe735b14444f2d83553bc6161f86cebc15fe1ee6f304a0568f9e8635d652"
+    },
+    {
+      "path": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web_Challenge-Report.txt",
+      "bytes": 92515,
+      "sha256": "a46ef8085d8e8ce3337746a13256434ffa875adda878a7d4c34ae9bb73e7c27c"
+    },
+    {
+      "path": "BUILD_REPORT.json",
+      "bytes": 840,
+      "sha256": "d142d8409d746bc4c33c1dce52ee14bade1e2236632c8d291b118dd5681d838e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8517,
+      "sha256": "b91e9510687512aa8ea1705232462f91bc40dc50ade729c4a285c5750086c485"
+    },
+    {
+      "path": "access-verification.json",
+      "bytes": 903,
+      "sha256": "7be05d0b1be33e99036ebed5b05554b5dc82f17afa122981db1fc91c73d95bef"
+    },
+    {
+      "path": "archive-verification.json",
+      "bytes": 8830,
+      "sha256": "2fe56d1083a144d5763fd5e67b9db20f4b1131752f92d53dc66a67ce1bfb0a88"
+    },
+    {
+      "path": "asset-handoff.json",
+      "bytes": 2673,
+      "sha256": "4ded40ab9ddbc8eff7d7d5d42ab13d2b4e4d903119d3be37beda9249ae0ff91b"
+    },
+    {
+      "path": "build-manifest.json",
+      "bytes": 803,
+      "sha256": "efc60a2ae956aeb9815c6ff0c0b417307f9e32e3083c93efab53386a00a27ddb"
+    },
+    {
+      "path": "build-progress.png",
+      "bytes": 166601,
+      "sha256": "8cdc6570b1a75fd9fbb8032f244b681c4e4c26dd3bbb211bcad0bec50669cd00",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "c03-before-response.png",
+      "bytes": 219686,
+      "sha256": "84aee221069f25ef0dbabcbd3d6e1aa3fa699539db6f8728217255380ae70498",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "chair-build-focus-1024.png",
+      "bytes": 155808,
+      "sha256": "e0c78ccbe732421ecbcdd359761f48ad48e0d20c70dcdbfff81b88c9915dc74c",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "path": "chair-build-focus-1366.png",
+      "bytes": 178947,
+      "sha256": "3a911c23d05b41505b1ff7143fd025690a6e60e38eacc265e3b4583c9bc3017f",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "chair-complete.png",
+      "bytes": 224326,
+      "sha256": "130499a9af4d2c1f3baa2670bbf8dbd0ce2ff1099ae3e3fbc09c69f6c70f3007",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "cm-15-workspace.png",
+      "bytes": 162776,
+      "sha256": "ffa3b5824937ab2d053bd24893cb2fb63349420fafa20b6ef7ec8bb027b7a953",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "cm-15-wrong-inspection.png",
+      "bytes": 124253,
+      "sha256": "0949539324126493c2f70e872b669a7c3da7e0ce75f0b7e1ab24f1869e26ce7c",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "cm-30-workspace.png",
+      "bytes": 234208,
+      "sha256": "51c7b53bd81538b4777d77866eda849c22e81fd0cf518adfab78f6483a71cd02",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "cm-30-wrong-inspection.png",
+      "bytes": 107634,
+      "sha256": "82d31517a0ef5f483868040e79cbba0ada1d424a2a4c1775e2d5b0572df47caa",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "cup-and-plant-1280.png",
+      "bytes": 113523,
+      "sha256": "29b896da316733d537b83956b170c29b4f5ff0f2266bdf727655aab82e51fb6a",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "path": "cup-and-plant-1366.png",
+      "bytes": 143953,
+      "sha256": "dedda94edfeaaeaba3127dab2544592a9845c9d936fddf3cbe6cf7070c328b28",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "focus-review-verification.json",
+      "bytes": 574,
+      "sha256": "b445c6065919b07556a6eba09733d880a5923710fc471db94d0ca71470f38e6f"
+    },
+    {
+      "path": "focus-review.cjs",
+      "bytes": 2354,
+      "sha256": "efdacd0aa84fc1160629e68e374b8652bcb95e4ef0e22cfc46511cd1210b4078"
+    },
+    {
+      "path": "held-wrong-inspection.png",
+      "bytes": 134881,
+      "sha256": "b24939113e6c795ef8f5910c4d65ecc2b023ec4e1a963cb12d6c82b4928703b4",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "house-build-focus-1024.png",
+      "bytes": 162916,
+      "sha256": "93482a187a93e1a90835949d195af329a7d99bffa7a4de65cc12919324d6add2",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "path": "house-build-focus-1366.png",
+      "bytes": 194966,
+      "sha256": "08b0b52f8466f52a3b3e8e766c88c68ba7c556ef157ffa9ba22b55406f487f36",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "house-complete.png",
+      "bytes": 214487,
+      "sha256": "d6aabc7b905d79916086b4ce8e15fefdc8a2e41367502b84eb93cb235b36cb90",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "house-geometry-check.txt",
+      "bytes": 111,
+      "sha256": "b441a28a739ae33f82ee5cccb51356a436c4ec45f85ac8a941cc063e5cfbe094"
+    },
+    {
+      "path": "house-laptop.png",
+      "bytes": 180271,
+      "sha256": "02026ce69ac291d3400d56934ccbddb958eb64b28f0416c5adbb5e77a3d968e1",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "path": "inch-12-workspace.png",
+      "bytes": 226206,
+      "sha256": "74d61425ea6a498ca2d8cfcbfafc66f856c87948968077e056482f70010e7a61",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "inch-12-wrong-inspection.png",
+      "bytes": 106259,
+      "sha256": "86d1ea51d255e47750def82dd200fb72272913a96012c42f2ff41ae3fdf3a74e",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "inch-3-workspace.png",
+      "bytes": 215907,
+      "sha256": "868f55d707ed090f087c8e9e34bdba9b5ae2a895875131fe48e8c0f0be91299a",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "inch-3-wrong-inspection.png",
+      "bytes": 127938,
+      "sha256": "8bb9c49eee00d79eda2c3e4f5a53ef21e2ddca40e48f58e7fcd34ee575cf4101",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "inch-6-workspace.png",
+      "bytes": 160514,
+      "sha256": "da1925b2b86dcfe5896b833daaf3382d56700703412090a234e1cf820e3aac79",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "inch-6-wrong-inspection.png",
+      "bytes": 123294,
+      "sha256": "048e611da4b714b5fc78c4f3c7e5dbf6dd799489bb53eca4ed1d8a09e0542d02",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "learn-complete.png",
+      "bytes": 200462,
+      "sha256": "8bbc9ffa189852540de2c9cfafb0da2385c2e4fa0a9e221adfae3581e54271a0",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "log-cabin-daylight-on.png",
+      "bytes": 251288,
+      "sha256": "a697798921cf32142966c7daea9367f0f100b0bcaaea82712d878759c204679e",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "metre-workspace.png",
+      "bytes": 207015,
+      "sha256": "32820bbed195d20fe62000a18b0fee964b9c01fcdafc1e1095ea992e1d978a39",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "metre-wrong-inspection.png",
+      "bytes": 150100,
+      "sha256": "fb9883953cbfffe26ec5d77df659c3e380f389d4ccb100a61fa9906e2930a6e4",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "motion-clearance-verification.json",
+      "bytes": 2123,
+      "sha256": "b801a86fdab1279128d40135cd4d1de8a68dd89e1681527f087606e95971997e"
+    },
+    {
+      "path": "plane-build-focus-1024.png",
+      "bytes": 164721,
+      "sha256": "00cc3e2271ffcc7f9e04a3adb382f97ec26f7d167e9e403a810c2d32098af517",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "path": "plane-build-focus-1366.png",
+      "bytes": 187547,
+      "sha256": "e31d4c1b55c507e3274fd3c36f08ee1a3ae78b654e3bfe9425dfe3d02f244dc4",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "plane-complete.png",
+      "bytes": 223365,
+      "sha256": "347e8117470ded2250d6a8963e3025bae4eb2cffa3094021a62dda99036382b5",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "raised-1280.png",
+      "bytes": 103162,
+      "sha256": "25d30751b0ec9f7b84afbdc5e4be76de66a8dc6700a28c1bacff3418b81a1b36",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "path": "raised-1366.png",
+      "bytes": 127369,
+      "sha256": "8730233875218ac393f1ed6080d7dd74329a93363bd079fc332f9ba7f19d3d56",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "rear-1280.png",
+      "bytes": 97263,
+      "sha256": "ed40f81b68d5d8340a696af861b39da3f27f2edb49350ac295d6136e9b33aecc",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "path": "rear-1366.png",
+      "bytes": 123058,
+      "sha256": "4c7907dea625841e7d9d6dd36a0469fd652be6244036c468b4996755f4dc1154",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "reconciled-verification.json",
+      "bytes": 1780,
+      "sha256": "fda617f26e033d2269b12290434fc04574c356ba80b3c823d3f4a246c0799d73"
+    },
+    {
+      "path": "sequential-verification.json",
+      "bytes": 1157,
+      "sha256": "5a3e0fdc6aac87e08970d328c2eda33d281fe6103e80203ba9ff61cf982051e0"
+    },
+    {
+      "path": "start-at-zero-1024.png",
+      "bytes": 189697,
+      "sha256": "ab084cef697888c3e0651601453a95ac1026a18cb78c35c082a6e1554c043f02",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "path": "start-at-zero-1280.png",
+      "bytes": 171155,
+      "sha256": "99b044fbc1e567cb476c20f45b113a57f5d98bb06f7b0ca37137692eb6a15aac",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "path": "start-at-zero-eighths-1366.png",
+      "bytes": 220252,
+      "sha256": "1dd472a768a6f6383a7dadccd0370992c9a5ed606536a0b0d040c6204c957539",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "start-at-zero-sixteenths-1366.png",
+      "bytes": 223501,
+      "sha256": "26ebbe8aac7fa1c025c3a7cc4a957fc388be3f2565cc3b6a256364ae6351a57f",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "synthetic-anonymous-records.json",
+      "bytes": 13272,
+      "sha256": "63625523ef613bd178eaf6763b95c041e098517d73a168a056b04748d24e3bf4"
+    },
+    {
+      "path": "unit-tests.txt",
+      "bytes": 3614,
+      "sha256": "92c6ff1ad9046823816094f11f29cb3defba4d72beb7fb38c157098da4fe088d"
+    },
+    {
+      "path": "verification-environment.json",
+      "bytes": 684,
+      "sha256": "32665111cf5c56206f4bfb22987f51ab55c20b70f213e64acc7a46b4866351f8"
+    },
+    {
+      "path": "warm-timber-daylight-off.png",
+      "bytes": 208674,
+      "sha256": "953bfa5ecdc9b6bfc944ae186829b2d6679e6953d3085025e6c0c1b61ae99c70",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "warm-timber-daylight-on.png",
+      "bytes": 211490,
+      "sha256": "16c44ee8bcda990c214493414fe8ce296620cd24109ba659995e9718b65551c2",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "yardstick-workspace.png",
+      "bytes": 195109,
+      "sha256": "30c7051fa83d1b23d0abf0a37a5c7d2a9c5e76f2669e55ac5621ac72a3192c69",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "path": "yardstick-wrong-inspection.png",
+      "bytes": 146164,
+      "sha256": "e25f33a11700dba07b751a736d81315dadd0907753aab4b89d7d0a22e8f64ada",
+      "width": 1366,
+      "height": 768
+    }
+  ]
+}
