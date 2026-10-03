@@ -63,7 +63,7 @@ function ruler(){
  const x=pad+s.selected/max*span;svg+=`<line x1="${x}" x2="${x}" y1="5" y2="75" stroke="#305e7a" stroke-width="2.5"/><circle cx="${x}" cy="7" r="5" fill="#305e7a"/>`;el.innerHTML=svg;
  el.setAttribute('aria-valuenow',String(s.selected));el.setAttribute('aria-valuemax',String(max));el.setAttribute('aria-label',metric?'Length Prediction in Millimetres; Numbered Centimetres':'Length Prediction in Sixteenths of an Inch');el.setAttribute('aria-valuetext',s.mode==='challenge'||s.mode==='learn'&&s.lessonStage==='practice'?'Prediction selected; commit to inspect':measure(s.selected));
  $('ruler-unit').textContent=metric?'Centimetres / Millimetres':'Inches';
- $('readout').textContent=s.mode==='challenge'?'Mark Your Prediction':`Your Mark: ${measure(s.selected)}`;
+ $('readout').textContent=s.mode==='challenge'?'Mark Your Prediction':`Your Mark: ${measure(s.selected)}${metric?'':` = ${s.selected}/16 in`}`;
  $('left').setAttribute('aria-label',metric?'Move Left One Millimetre':'Move Left One Sixteenth Inch');$('right').setAttribute('aria-label',metric?'Move Right One Millimetre':'Move Right One Sixteenth Inch');
  $('instruction').textContent=(metric?(s.subdivision===1?'Each interval is 1 cm. Select millimetres between graduations.':'Each small interval is 1 mm; numbered graduations show cm.'):`Each small interval is 1/${s.subdivision} inch.`)+' Arrow keys move one '+(metric?'millimetre':'sixteenth inch')+'. Home shows zero; End shows the last graduation.';
 }
