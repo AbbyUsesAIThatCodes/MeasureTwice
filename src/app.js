@@ -67,7 +67,7 @@ function ruler(){
  $('ruler-unit').textContent=metric?'Centimetres / Millimetres':'Inches';
  $('readout').textContent=s.mode==='challenge'?'Mark Your Prediction':`Your Mark: ${measure(s.selected)}${metric?'':` = ${s.selected/gridStep(s)}/${s.subdivision} in`}`;
  $('left').setAttribute('aria-label','Move Left '+intervalName(s));$('right').setAttribute('aria-label','Move Right '+intervalName(s));
- $('instruction').textContent=`Each visible interval is ${intervalName(s).toLowerCase()}. Drag the pointer or use arrow keys to move one visible interval. Home selects zero; choose a positive length to cut.`;
+ $('input-help').textContent=`Each interval: ${intervalName(s).toLowerCase()}. Drag or use arrow keys; Home selects zero.`;
  el.setAttribute('aria-valuemin','0');el.setAttribute('aria-label','Length Prediction; Visible Intervals of '+intervalName(s));
 
 }
@@ -76,7 +76,7 @@ function selectorGuidance(t){
  for(const option of scale.options){const unavailable=t!==null&&!onGrid(t,s,Number(option.value));option.disabled=unavailable;option.hidden=unavailable;option.setAttribute('aria-disabled',String(unavailable));}
  const required=t===null?null:[...(i.unit==='in'?[2,4,8,16]:[1,10])].find(n=>onGrid(t,s,n));
  const text=s.phase!=='selecting'?'Ruler choices are locked while this piece is being inspected or placed.':s.mode==='challenge'?`This build step uses ${names[s.subdivision].toLowerCase()}. The visible graduations are fixed for this cut.`:required?`This target requires ${names[required].toLowerCase()}${required===(i.unit==='in'?16:10)?'':' or finer'}. Choices that cannot show its exact length are hidden.`:'Choose the visible graduations. Pointer and arrow keys use the same intervals.';
- $('scale-help').textContent=text;scale.setAttribute('aria-disabled',String(scale.disabled));scale.title=text;
+ if($('scale-help').textContent!==text)$('scale-help').textContent=text;scale.setAttribute('aria-disabled',String(scale.disabled));scale.title=text;
  for(const option of targetChoice.options){const unavailable=Boolean(option.value)&&!onGrid(Number(option.value),s);option.disabled=unavailable;option.hidden=unavailable;option.setAttribute('aria-disabled',String(unavailable));}
  targetChoice.disabled=s.phase!=='selecting';targetChoice.setAttribute('aria-disabled',String(targetChoice.disabled));$('target-help').textContent=s.phase!=='selecting'?'Comparison choices are locked until you finish this piece.':'Only targets on the current visible grid are listed. Choose finer graduations to see more targets.';
 }
