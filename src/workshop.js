@@ -34,7 +34,7 @@ for(const x of [-21,-12,8,30])box(.3,18,.35,woodDark,x,9,roomBounds.back+.22,tim
 const daylight=createWindowDaylight(THREE,{windowCenter:[-8,6.2,roomBounds.back+.5]});scene.add(daylight);
 function setAtmosphere(style,lit){timber.visible=style!=='logs';logs.visible=style==='logs';daylight.visible=lit;sun.intensity=lit?3.3:1.4;render()}
 const backdrop=new THREE.Group();backdrop.position.set(0,0,roomBounds.back+.3);scene.add(backdrop);
-for(const x of [-11.6,-4.4])box(.4,6.2,.2,ivory,x,6.2,0,backdrop);for(const y of [3.3,9.1])box(7.6,.4,.2,ivory,-8,y,0,backdrop);box(6.8,5.4,.23,mat(0xadd4cf,{emissive:0x7bbfc3,emissiveIntensity:.13,transparent:true,opacity:.28}),-8,6.2,.14,backdrop);box(.18,5.4,.25,ivory,-8,6.2,.35,backdrop);box(6.8,.18,.25,ivory,-8,6.2,.35,backdrop);box(8.3,.2,.8,woodLight,-8,3.14,.3,backdrop);
+for(const x of [-11.6,-4.4])box(.4,6.2,.2,ivory,x,6.2,0,backdrop);for(const y of [3.3,9.1])box(7.6,.4,.2,ivory,-8,y,0,backdrop);box(6.8,5.4,.23,mat(0xadd4cf,{emissive:0x7bbfc3,emissiveIntensity:.13,transparent:true,opacity:.28}),-8,6.2,.14,backdrop).castShadow=false;box(.18,5.4,.25,ivory,-8,6.2,.35,backdrop);box(6.8,.18,.25,ivory,-8,6.2,.35,backdrop);box(8.3,.2,.8,woodLight,-8,3.14,.3,backdrop);
 box(6.8,4.2,.15,woodDark,3,6.2,0,backdrop);
 for(let i=0;i<7;i++)for(let j=0;j<4;j++)cylinder(.05,.05,.1,dark,.2+i*.9,4.8+j*.86,.13,backdrop,6).rotation.set(Math.PI/2,0,0);
 // Tools drawn as solid models rather than labels.
