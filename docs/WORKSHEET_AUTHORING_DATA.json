@@ -1,0 +1,511 @@
+{
+  "purpose": "Teacher Authoring Basis For The Authorized Worksheet Draft",
+  "contentRevision": "2026-10-03-reconciled-interactions-v3",
+  "source": "https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/blob/1713a3bd537035f2ce09dfc7fe05ce6bf6b70cc3/units/01-introduction-to-design/1.3-measuring-matters/teacher-guides/measuring-matters-curricular-goals.pdf",
+  "limits": [
+    "Anonymous game records and automatically assembled parts do not establish independent physical measuring skill.",
+    "No AI-proof claim.",
+    "Metric instruments are Free Play extensions, not added assessed lesson goals.",
+    "Equivalent-fraction work follows EasyAsPie in the teacher sequence."
+  ],
+  "lessons": [
+    {
+      "id": "MT-L01",
+      "title": "Start At Zero",
+      "goals": [
+        "G07",
+        "G10",
+        "G16"
+      ],
+      "pages": "A p. 5, p. 11, pp. 37–38, p. 66",
+      "guidedInches": "3/8",
+      "practiceInches": "5/8",
+      "guidedSixteenths": 6,
+      "practiceSixteenths": 10,
+      "question": "Which starting mark should you use?",
+      "answer": "The Zero Graduation",
+      "options": [
+        "The Zero Graduation",
+        "The Physical Ruler Edge"
+      ],
+      "practiceQuestion": "Which starting mark should you use?"
+    },
+    {
+      "id": "MT-L02",
+      "title": "Meet The Fractions",
+      "goals": [
+        "G10",
+        "G11"
+      ],
+      "pages": "A step 3, pp. 11–25",
+      "guidedInches": "5/8",
+      "practiceInches": "7/16",
+      "guidedSixteenths": 10,
+      "practiceSixteenths": 7,
+      "question": null,
+      "answer": null,
+      "options": [],
+      "practiceQuestion": null
+    },
+    {
+      "id": "MT-L03",
+      "title": "Same Length, Different Names",
+      "goals": [
+        "G12"
+      ],
+      "pages": "A pp. 15, 17–21, 23, 25",
+      "guidedInches": "3/4",
+      "practiceInches": "1/4",
+      "guidedSixteenths": 12,
+      "practiceSixteenths": 4,
+      "question": "Would 3/4 inch and 6/8 inch land together?",
+      "answer": "Yes, the Same Endpoint",
+      "options": [
+        "Yes, the Same Endpoint",
+        "No, Different Endpoints"
+      ],
+      "practiceQuestion": "Do 2/8 inch and 1/4 inch end together?"
+    },
+    {
+      "id": "MT-L04",
+      "title": "Whole Inches And A Little More",
+      "goals": [
+        "G13"
+      ],
+      "pages": "A step 6, p. 39",
+      "guidedInches": "1 3/16",
+      "practiceInches": "1 5/8",
+      "guidedSixteenths": 19,
+      "practiceSixteenths": 26,
+      "question": null,
+      "answer": null,
+      "options": [],
+      "practiceQuestion": null
+    },
+    {
+      "id": "MT-L05",
+      "title": "Will It Fit?",
+      "goals": [
+        "G08",
+        "G07",
+        "G11"
+      ],
+      "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11–25",
+      "guidedInches": "1 1/4",
+      "practiceInches": "1 1/4",
+      "guidedSixteenths": 20,
+      "practiceSixteenths": 20,
+      "question": "Why does the 1 1/8-in piece leave a gap?",
+      "answer": "It Is Shorter Than the Opening",
+      "options": [
+        "It Is Shorter Than the Opening",
+        "Its Color Is Different"
+      ],
+      "practiceQuestion": "Why does the 1 1/8-in piece leave a gap?"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "house",
+      "title": "House",
+      "revision": "original-geometry-catalog-v1",
+      "partCount": 62,
+      "measurements": [
+        {
+          "id": "build:house:MT-C26",
+          "title": "House Platform",
+          "inches": "3",
+          "sixteenths": 48,
+          "visibleDenominator": 16,
+          "totalPieces": 4,
+          "additionalCopies": 3,
+          "supportingQuestion": "MT-C26"
+        },
+        {
+          "id": "build:house:MT-C05",
+          "title": "Frame Uprights and Rafters",
+          "inches": "1 1/4",
+          "sixteenths": 20,
+          "visibleDenominator": 16,
+          "totalPieces": 8,
+          "additionalCopies": 7,
+          "supportingQuestion": "MT-C05"
+        },
+        {
+          "id": "build:house:house:front-and-back-rails",
+          "title": "Frame Front and Back Rails",
+          "inches": "2",
+          "sixteenths": 32,
+          "visibleDenominator": 16,
+          "totalPieces": 4,
+          "additionalCopies": 3,
+          "supportingQuestion": null
+        },
+        {
+          "id": "build:house:house:side-rails-and-ridge",
+          "title": "Frame Sides, Ridge, and Side Walls",
+          "inches": "1",
+          "sixteenths": 16,
+          "visibleDenominator": 16,
+          "totalPieces": 13,
+          "additionalCopies": 12,
+          "supportingQuestion": null
+        },
+        {
+          "id": "build:house:MT-C30",
+          "title": "Five Outer Wall Boards",
+          "inches": "2 1/8",
+          "sixteenths": 34,
+          "visibleDenominator": 16,
+          "totalPieces": 5,
+          "additionalCopies": 4,
+          "supportingQuestion": "MT-C30"
+        },
+        {
+          "id": "build:house:MT-C19",
+          "title": "Wall Boards Beside the Door",
+          "inches": "1/2",
+          "sixteenths": 8,
+          "visibleDenominator": 16,
+          "totalPieces": 6,
+          "additionalCopies": 5,
+          "supportingQuestion": "MT-C19"
+        },
+        {
+          "id": "build:house:MT-C09",
+          "title": "Door Boards",
+          "inches": "7/8",
+          "sixteenths": 14,
+          "visibleDenominator": 8,
+          "totalPieces": 3,
+          "additionalCopies": 2,
+          "supportingQuestion": "MT-C09"
+        },
+        {
+          "id": "build:house:MT-C23",
+          "title": "Window Frames",
+          "inches": "11/16",
+          "sixteenths": 11,
+          "visibleDenominator": 16,
+          "totalPieces": 8,
+          "additionalCopies": 7,
+          "supportingQuestion": "MT-C23"
+        },
+        {
+          "id": "build:house:MT-C25",
+          "title": "Front and Back Fascia",
+          "inches": "2 1/4",
+          "sixteenths": 36,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C25"
+        },
+        {
+          "id": "build:house:MT-C24",
+          "title": "Pitched Roof Boards",
+          "inches": "1 9/16",
+          "sixteenths": 25,
+          "visibleDenominator": 16,
+          "totalPieces": 8,
+          "additionalCopies": 7,
+          "supportingQuestion": "MT-C24"
+        },
+        {
+          "id": "build:house:MT-C27",
+          "title": "Door Handle",
+          "inches": "3/16",
+          "sixteenths": 3,
+          "visibleDenominator": 16,
+          "totalPieces": 1,
+          "additionalCopies": 0,
+          "supportingQuestion": "MT-C27"
+        }
+      ]
+    },
+    {
+      "id": "plane",
+      "title": "Plane",
+      "revision": "original-geometry-catalog-v1",
+      "partCount": 18,
+      "measurements": [
+        {
+          "id": "build:plane:MT-C28",
+          "title": "Lengthwise Display Foot",
+          "inches": "2 5/16",
+          "sixteenths": 37,
+          "visibleDenominator": 16,
+          "totalPieces": 1,
+          "additionalCopies": 0,
+          "supportingQuestion": "MT-C28"
+        },
+        {
+          "id": "build:plane:MT-C18",
+          "title": "Crosswise Display Foot",
+          "inches": "3",
+          "sixteenths": 48,
+          "visibleDenominator": 16,
+          "totalPieces": 1,
+          "additionalCopies": 0,
+          "supportingQuestion": "MT-C18"
+        },
+        {
+          "id": "build:plane:MT-C12",
+          "title": "Landing Struts",
+          "inches": "15/16",
+          "sixteenths": 15,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C12"
+        },
+        {
+          "id": "build:plane:MT-C14",
+          "title": "Fuselage",
+          "inches": "1 7/8",
+          "sixteenths": 30,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C14"
+        },
+        {
+          "id": "build:plane:MT-C17",
+          "title": "Lower Wing Boards",
+          "inches": "2 15/16",
+          "sixteenths": 47,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C17"
+        },
+        {
+          "id": "build:plane:MT-C21",
+          "title": "Diagonal Wing Supports",
+          "inches": "1 1/4",
+          "sixteenths": 20,
+          "visibleDenominator": 16,
+          "totalPieces": 4,
+          "additionalCopies": 3,
+          "supportingQuestion": "MT-C21"
+        },
+        {
+          "id": "build:plane:MT-C16",
+          "title": "Upper Wing Boards",
+          "inches": "2 1/2",
+          "sixteenths": 40,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C16"
+        },
+        {
+          "id": "build:plane:MT-C22",
+          "title": "Tail Wing",
+          "inches": "1 3/4",
+          "sixteenths": 28,
+          "visibleDenominator": 16,
+          "totalPieces": 1,
+          "additionalCopies": 0,
+          "supportingQuestion": "MT-C22"
+        },
+        {
+          "id": "build:plane:MT-C20",
+          "title": "Tail Fin",
+          "inches": "3/8",
+          "sixteenths": 6,
+          "visibleDenominator": 16,
+          "totalPieces": 1,
+          "additionalCopies": 0,
+          "supportingQuestion": "MT-C20"
+        },
+        {
+          "id": "build:plane:MT-C11",
+          "title": "Wooden Propeller",
+          "inches": "11/16",
+          "sixteenths": 11,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C11"
+        }
+      ]
+    },
+    {
+      "id": "chair",
+      "title": "Chair",
+      "revision": "original-geometry-catalog-v1",
+      "partCount": 24,
+      "measurements": [
+        {
+          "id": "build:chair:MT-C13",
+          "title": "Front Legs",
+          "inches": "1 1/16",
+          "sixteenths": 17,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C13"
+        },
+        {
+          "id": "build:chair:MT-C15",
+          "title": "Back Posts",
+          "inches": "2 3/16",
+          "sixteenths": 35,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C15"
+        },
+        {
+          "id": "build:chair:MT-C04",
+          "title": "Seat Rails and Backrest Rails",
+          "inches": "1 3/16",
+          "sixteenths": 19,
+          "visibleDenominator": 16,
+          "totalPieces": 5,
+          "additionalCopies": 4,
+          "supportingQuestion": "MT-C04"
+        },
+        {
+          "id": "build:chair:MT-C29",
+          "title": "Three Seat Boards",
+          "inches": "1 3/8",
+          "sixteenths": 22,
+          "visibleDenominator": 16,
+          "totalPieces": 3,
+          "additionalCopies": 2,
+          "supportingQuestion": "MT-C29"
+        },
+        {
+          "id": "build:chair:MT-C03",
+          "title": "Backrest Slats",
+          "inches": "3/4",
+          "sixteenths": 12,
+          "visibleDenominator": 8,
+          "totalPieces": 3,
+          "additionalCopies": 2,
+          "supportingQuestion": "MT-C03"
+        },
+        {
+          "id": "build:chair:MT-C01",
+          "title": "Arm Supports",
+          "inches": "3/8",
+          "sixteenths": 6,
+          "visibleDenominator": 8,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C01"
+        },
+        {
+          "id": "build:chair:MT-C07",
+          "title": "Armrests",
+          "inches": "1/2",
+          "sixteenths": 8,
+          "visibleDenominator": 2,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C07"
+        },
+        {
+          "id": "build:chair:MT-C08",
+          "title": "Armrest Tips",
+          "inches": "1/4",
+          "sixteenths": 4,
+          "visibleDenominator": 4,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C08"
+        },
+        {
+          "id": "build:chair:MT-C02",
+          "title": "Backrest Crown",
+          "inches": "7/16",
+          "sixteenths": 7,
+          "visibleDenominator": 16,
+          "totalPieces": 1,
+          "additionalCopies": 0,
+          "supportingQuestion": "MT-C02"
+        },
+        {
+          "id": "build:chair:MT-C10",
+          "title": "Backrest Joint Caps",
+          "inches": "1/16",
+          "sixteenths": 1,
+          "visibleDenominator": 16,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": "MT-C10"
+        }
+      ]
+    },
+    {
+      "id": "tree",
+      "title": "Tree",
+      "revision": "wooden-tree-v1",
+      "partCount": 10,
+      "measurements": [
+        {
+          "id": "build:tree:base",
+          "title": "Crossed Display Feet",
+          "inches": "1 1/2",
+          "sixteenths": 24,
+          "visibleDenominator": 2,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": null
+        },
+        {
+          "id": "build:tree:trunk",
+          "title": "Tree Trunk",
+          "inches": "2",
+          "sixteenths": 32,
+          "visibleDenominator": 2,
+          "totalPieces": 1,
+          "additionalCopies": 0,
+          "supportingQuestion": null
+        },
+        {
+          "id": "build:tree:lower",
+          "title": "Lower Branches",
+          "inches": "1 3/4",
+          "sixteenths": 28,
+          "visibleDenominator": 4,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": null
+        },
+        {
+          "id": "build:tree:middle",
+          "title": "Middle Branches",
+          "inches": "1 1/4",
+          "sixteenths": 20,
+          "visibleDenominator": 4,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": null
+        },
+        {
+          "id": "build:tree:upper",
+          "title": "Upper Branches",
+          "inches": "3/4",
+          "sixteenths": 12,
+          "visibleDenominator": 4,
+          "totalPieces": 2,
+          "additionalCopies": 1,
+          "supportingQuestion": null
+        },
+        {
+          "id": "build:tree:crown",
+          "title": "Tree Crown",
+          "inches": "1/4",
+          "sixteenths": 4,
+          "visibleDenominator": 4,
+          "totalPieces": 1,
+          "additionalCopies": 0,
+          "supportingQuestion": null
+        }
+      ]
+    }
+  ]
+}

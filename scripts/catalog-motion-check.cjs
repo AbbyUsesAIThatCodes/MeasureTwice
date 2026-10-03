@@ -7,7 +7,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
  const overlap=(a,b)=>a.min.every((n,i)=>a.max[i]>b.min[i]+.00001&&n<b.max[i]-.00001);
  try{
   browser=await chromium.launch({executablePath:process.env.MT_BROWSER,headless:true,args:['--enable-unsafe-swiftshader']});const page=await browser.newPage({viewport:{width:1280,height:600}});page.on('pageerror',e=>result.errors.push(e.message));
-  await page.goto(base);await page.waitForFunction(()=>window.mtReview?.ready);await page.click('#close-panel');await page.click('[data-mode="free"]');
+  await page.goto(base);await page.waitForFunction(()=>window.mtReview?.ready);if(await page.locator('#panel').evaluate(e=>e.open))await page.click('#close-panel');await page.click('[data-mode="free"]');
   for(const [id,max] of [['inch-3',48],['metre',1000]])for(const [n,motion] of [[1,'full'],[max,'full'],[max-1,'skipped'],[max,'reduced']]){
    await page.check('#reduced');await page.evaluate(id=>mtReview.changeInstrument(id),id);await page.selectOption('#free-target',String(max));await page.setChecked('#reduced',motion==='reduced');
    await page.evaluate(n=>{mtReview.select(n);window.framesQA=[];window.watchQA=true;function sample(){if(!watchQA)return;framesQA.push({phase:mtReview.snapshot().phase,bounds:mtReview.clearance()});requestAnimationFrame(sample)}sample();mtReview.cut()},n);
