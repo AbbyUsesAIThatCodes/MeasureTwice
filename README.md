@@ -8,13 +8,15 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 
 **One successful measurement per distinct required length.** Retries are allowed. Repeated model parts come from visible copies of the accepted original, never repeated correct answers for the same length.
 
+The current Challenge automatically builds a **chair, plane and house exterior** through thirty mapped exercises. Each part follows measure, Cut, held inspection, confirmation and placement before the next part appears. Build Progress is review/status. All objectives and all three builds are required for the offline teacher report; original answers, retries and assistance remain separate. See [Current Challenge Review](docs/CHALLENGE_REVIEW.md).
+
 ## Start Here
 
 - [Game Design](docs/game-design.md): the approved foundation, full predict–cut–inspect loop, feedback, staging, access, and remaining decisions.
 - [Approved Workshop Mockup](docs/mockups/predict-cut-inspect/README.md): the accepted interactive reference, runnable export, exact source, and next-conversation handoff.
 - [Approved Direction Review](docs/direction-review.md): post-merge consistency findings, reference precedence, and remaining implementation boundaries.
 - [Free Play Learn and Challenge](docs/game-modes.md): the three modes and their support/evidence rules.
-- [Curriculum Content](docs/curriculum-content.md): five Learn scripts and six seed Challenge items with goal mappings.
+- [Curriculum Content](docs/curriculum-content.md): five Learn scripts and 30 Challenge exercises with goal mappings and an offline completion report.
 - [Curriculum Alignment](docs/curriculum-alignment.md): class sources, revision status, identifier rules, and coverage limits.
 - [Ruler Interaction](docs/ruler-interaction.md): exact values, neutral selection, stock movement, fair input, and acceptance examples.
 - [Roadmap](ROADMAP.md): existing issues and bounded handoffs.
@@ -23,7 +25,11 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 - [Design Brief](docs/design-brief.md): founding concept and the superseded correct-answer gate.
 - [Contributor Instructions](AGENTS.md): rules for preserving the agreed design.
 
-## Status
+## Current Review
+
+October 3 isolated integration: see [Current Review](docs/CURRENT_REVIEW.md) for the reconciled 30-question Challenge, corrected interval teaching, explicit instrument workspaces and workshop choices. Public main and deployment remain unchanged by this branch. Earlier review status below is historical.
+
+## Historical Status
 
 **Integrated Local Review - September 30, 2026 UTC.** The unchanged accepted mockup is preserved above. The review application now uses its real Three.js workshop with an exact 17-piece house, three retained modes, five selectable lessons, and six checks. See [Implementation Review](docs/IMPLEMENTATION_REVIEW.md), [Quick Review Checklist](docs/REVIEW_CHECKLIST.md), and [First House Schedule](docs/first-house.md). This is a development review; no production deployment or classroom pilot exists. Existing issues stay open for their remaining criteria. The prior Check & Cut concept remains superseded.
 

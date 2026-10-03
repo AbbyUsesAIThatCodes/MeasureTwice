@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "codename": "Predict Cut Inspect",
+  "slug": "Predict-Cut-Inspect",
+  "status": "Built for Local Review",
+  "codenameStatus": "Provisional Review Name From the Approved Study; Awaiting Teacher Acceptance",
+  "compatibility": "Development build. Session records are local to this page; no production save migration contract yet.",
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web",
+  "scope": "local-abigail-oct03",
+  "pr": null,
+  "ordinal": 4,
+  "builtAt": "2026-10-03T18:02:57.342Z",
+  "sourceRevision": "d60bdb3a04292584d28712df6f8d314514a7a708",
+  "dirty": false,
+  "fingerprint": "8886370ef5a2f1a2d46cf6673b6d011bfef510c44d39318c2a657247fbea9f2d",
+  "target": "web",
+  "allocator": "Abigail/MeasureTwice-local-build-ledger",
+  "productionDeployment": false
+}

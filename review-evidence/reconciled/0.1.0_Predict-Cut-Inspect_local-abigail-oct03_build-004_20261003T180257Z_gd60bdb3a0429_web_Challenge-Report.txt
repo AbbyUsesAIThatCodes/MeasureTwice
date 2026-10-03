@@ -1,0 +1,4026 @@
+MeasureTwice Challenge Completion Report
+
+Build: 0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web
+Built At UTC: 2026-10-03T18:02:57.342Z
+Source Revision: d60bdb3a04292584d28712df6f8d314514a7a708
+Source Fingerprint: 8886370ef5a2f1a2d46cf6673b6d011bfef510c44d39318c2a657247fbea9f2d
+Content Revision: 2026-10-03-reconciled-interactions-v3
+Construction Revision: 2026-10-01-chair-plane-house-v1
+Exported At UTC: 2026-10-03T18:03:38.977Z
+
+Automatic Components Complete: 30/30
+Chair: 24/24 Exact Pieces; Complete
+Plane: 18/18 Exact Pieces; Complete
+House Exterior: 62/62 Exact Pieces; Complete
+Original House Frame: 17/17 Members Preserved
+This is completion evidence, not a grade or a claim of unassisted mastery.
+Current activities record choices and measured cuts. Independent written reasoning is not assessed. Legacy explanations below remain for Teacher Review.
+No Recorded Assistance means no in-game support was recorded; it cannot rule out help outside the game.
+The report is an editable offline file, not a signed assessment record.
+Save this file and attach it to Google Classroom yourself. Nothing is uploaded automatically.
+
+Exercise Results
+Construction: chair / MT-C01 / Arm Supports
+
+MT-C01 — Find the Starting Graduation
+Prompt: Mark 3/8 inch. Select where your measurement begins.
+Mapping: DM 1.3 G10, G11, G16; A p. 5, p. 11, pp. 37–38, p. 66; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #7: 6/16 in; Target 6/16 in; Scale 1/8 in; 2026-10-03T18:03:29.693Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: The Zero Graduation | 2026-10-03T18:03:29.693Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: chair / MT-C02 / Backrest Crown
+
+MT-C02 — Read Sixteenths
+Prompt: Cut a piece 7/16 inch long.
+Mapping: DM 1.3 G11; A step 3, pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #10: 7/16 in; Target 7/16 in; Scale 1/16 in; 2026-10-03T18:03:29.839Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: chair / MT-C03 / Backrest Slats
+
+MT-C03 — Compare Equivalent Names
+Prompt: Mark 6/8 inch. Would a 3/4-inch piece have the same length?
+Mapping: DM 1.3 G12; A pp. 15, 17–21, 23, 25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Cut #6: 12/16 in; Target 12/16 in; Scale 1/8 in; 2026-10-03T18:03:29.476Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: No, Different Endpoints | 2026-10-03T18:03:29.476Z | Round 1 | Original | No Recorded Assistance | Incorrect
+Choice: Yes, the Same Endpoint | 2026-10-03T18:03:29.559Z | Round 2 | Retry | Assisted / Previously Exposed | Correct
+Construction: chair / MT-C04 / Seat Rails and Backrest Rails
+
+MT-C04 — Keep the Whole Inch
+Prompt: Cut a chair rail 1 3/16 inches long.
+Mapping: DM 1.3 G13; A step 6, p. 39; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #4: 19/16 in; Target 19/16 in; Scale 1/16 in; 2026-10-03T18:03:29.280Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: house / MT-C05 / Frame Uprights and Rafters
+
+MT-C05 — Predict the Fit
+Prompt: This opening needs 1 1/4 inches. Your piece measures 1 1/8 inches. Will it fit correctly? Then cut the needed 1 1/4-inch frame piece.
+Mapping: DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #23: 20/16 in; Target 20/16 in; Scale 1/16 in; 2026-10-03T18:03:35.093Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: Too Short | 2026-10-03T18:03:35.093Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: chair / MT-C06 / Read the Chair Order
+
+MT-C06 — Name the Missing Information
+Prompt: The order says “length: 2.” What information is missing?
+Mapping: DM 1.3 G07; A p. 5, p. 11, pp. 37–38, p. 66; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Choice: The Wood Color | 2026-10-03T18:03:20.177Z | Round 1 | Original | No Recorded Assistance | Incorrect
+Choice: The Unit | 2026-10-03T18:03:20.275Z | Round 2 | Retry | Assisted / Previously Exposed | Correct
+Construction: chair / MT-C07 / Armrests
+
+MT-C07 — Fraction Cut 1
+Prompt: Cut a 1/2-inch armrest. Read the printed graduations from zero.
+Mapping: DM 1.3 G10, G11; A step 3, pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #8: 8/16 in; Target 8/16 in; Scale 1/2 in; 2026-10-03T18:03:29.732Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: chair / MT-C08 / Armrest Tips
+
+MT-C08 — Fraction Cut 2
+Prompt: Cut a 1/4-inch armrest tip. Read the printed graduations from zero.
+Mapping: DM 1.3 G10, G11; A step 3, pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #9: 4/16 in; Target 4/16 in; Scale 1/4 in; 2026-10-03T18:03:29.791Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: house / MT-C09 / Door Boards
+
+MT-C09 — Fraction Cut 3
+Prompt: Cut a 7/8-inch door board. Read the printed graduations from zero.
+Mapping: DM 1.3 G10, G11; A step 3, pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #28: 14/16 in; Target 14/16 in; Scale 1/8 in; 2026-10-03T18:03:35.670Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: chair / MT-C10 / Backrest Joint Caps
+
+MT-C10 — Fraction Cut 4
+Prompt: Cut a 1/16-inch joint cap. Read the printed graduations from zero.
+Mapping: DM 1.3 G10, G11; A step 3, pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #11: 1/16 in; Target 1/16 in; Scale 1/16 in; 2026-10-03T18:03:29.881Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: plane / MT-C11 / Wooden Propeller
+
+MT-C11 — Fraction Cut 5
+Prompt: Cut an 11/16-inch joint cap. Read the printed graduations from zero.
+Mapping: DM 1.3 G10, G11; A step 3, pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #21: 11/16 in; Target 11/16 in; Scale 1/16 in; 2026-10-03T18:03:32.806Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: plane / MT-C12 / Landing Struts
+
+MT-C12 — Fraction Cut 6
+Prompt: Cut a 15/16-inch landing strut. Read the printed graduations from zero.
+Mapping: DM 1.3 G10, G11; A step 3, pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #14: 15/16 in; Target 15/16 in; Scale 1/16 in; 2026-10-03T18:03:32.126Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: chair / MT-C13 / Front Legs
+
+MT-C13 — Longer Cut 1
+Prompt: Cut a front leg 1 1/16 inches long. Keep every whole inch.
+Mapping: DM 1.3 G11, G13; A step 6, p. 39; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Cut #1: 16/16 in; Target 17/16 in; Scale 1/16 in; 2026-10-03T18:03:20.345Z | Round 1 | Original | No Recorded Assistance | Incorrect
+Cut #2: 17/16 in; Target 17/16 in; Scale 1/16 in; 2026-10-03T18:03:23.632Z | Round 1 | Retry | Assisted / Previously Exposed | Correct
+Construction: plane / MT-C14 / Fuselage
+
+MT-C14 — Longer Cut 2
+Prompt: Cut a fuselage 1 7/8 inches long. Keep every whole inch.
+Mapping: DM 1.3 G11, G13; A step 6, p. 39; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #15: 30/16 in; Target 30/16 in; Scale 1/16 in; 2026-10-03T18:03:32.196Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: chair / MT-C15 / Back Posts
+
+MT-C15 — Longer Cut 3
+Prompt: Cut a back post 2 3/16 inches long. Keep every whole inch.
+Mapping: DM 1.3 G11, G13; A step 6, p. 39; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #3: 35/16 in; Target 35/16 in; Scale 1/16 in; 2026-10-03T18:03:29.252Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: plane / MT-C16 / Upper Wing Boards
+
+MT-C16 — Longer Cut 4
+Prompt: Cut an upper wing 2 1/2 inches long. Keep every whole inch.
+Mapping: DM 1.3 G11, G13; A step 6, p. 39; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #18: 40/16 in; Target 40/16 in; Scale 1/16 in; 2026-10-03T18:03:32.477Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: plane / MT-C17 / Lower Wing Boards
+
+MT-C17 — Longer Cut 5
+Prompt: Cut a lower wing 2 15/16 inches long. Keep every whole inch.
+Mapping: DM 1.3 G11, G13; A step 6, p. 39; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #16: 47/16 in; Target 47/16 in; Scale 1/16 in; 2026-10-03T18:03:32.264Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: plane / MT-C18 / Crosswise Display Foot
+
+MT-C18 — Longer Cut 6
+Prompt: Cut a display foot 3 inches long. Keep every whole inch.
+Mapping: DM 1.3 G11, G13; A step 6, p. 39; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #13: 48/16 in; Target 48/16 in; Scale 1/16 in; 2026-10-03T18:03:32.053Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: house / MT-C19 / Wall Boards Beside the Door
+
+MT-C19 — Equivalent Cut 1
+Prompt: Mark 2/4 inch. Compare that length with 1/2 inch, then cut your prediction.
+Mapping: DM 1.3 G11, G12; A pp. 15, 17–21, 23, 25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Cut #27: 8/16 in; Target 8/16 in; Scale 1/16 in; 2026-10-03T18:03:35.560Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Choice: Yes, the Same Endpoint | 2026-10-03T18:03:35.560Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Construction: plane / MT-C20 / Tail Fin
+
+MT-C20 — Equivalent Cut 2
+Prompt: Mark 6/16 inch. Compare that length with 3/4 inch, then cut your prediction.
+Mapping: DM 1.3 G11, G12; A pp. 15, 17–21, 23, 25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Cut #20: 6/16 in; Target 6/16 in; Scale 1/16 in; 2026-10-03T18:03:32.743Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Choice: No, Different Endpoints | 2026-10-03T18:03:32.743Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Construction: plane / MT-C21 / Diagonal Wing Supports
+
+MT-C21 — Equivalent Cut 3
+Prompt: Mark 10/8 inch. Compare that length with 1 1/4 inch, then cut your prediction.
+Mapping: DM 1.3 G11, G12; A pp. 15, 17–21, 23, 25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Cut #17: 20/16 in; Target 20/16 in; Scale 1/16 in; 2026-10-03T18:03:32.396Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Choice: Yes, the Same Endpoint | 2026-10-03T18:03:32.395Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Construction: plane / MT-C22 / Tail Wing
+
+MT-C22 — Equivalent Cut 4
+Prompt: Mark 14/8 inch. Compare that length with 1 1/2 inch, then cut your prediction.
+Mapping: DM 1.3 G11, G12; A pp. 15, 17–21, 23, 25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Cut #19: 28/16 in; Target 28/16 in; Scale 1/16 in; 2026-10-03T18:03:32.610Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Choice: No, Different Endpoints | 2026-10-03T18:03:32.609Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Construction: house / MT-C23 / Window Frames
+
+MT-C23 — Fit and Cut 1
+Prompt: An opening needs 11/16 inches. The sample is 9/16 inches. Predict its fit, then cut a new piece to the needed length.
+Mapping: DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #29: 11/16 in; Target 11/16 in; Scale 1/16 in; 2026-10-03T18:03:35.844Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: Too Short | 2026-10-03T18:03:35.843Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: house / MT-C24 / Pitched Roof Boards
+
+MT-C24 — Fit and Cut 2
+Prompt: An opening needs 1 9/16 inches. The sample is 1 11/16 inches. Predict its fit, then cut a new piece to the needed length.
+Mapping: DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #31: 25/16 in; Target 25/16 in; Scale 1/16 in; 2026-10-03T18:03:36.210Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: Too Long | 2026-10-03T18:03:36.209Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: house / MT-C25 / Front and Back Fascia
+
+MT-C25 — Fit and Cut 3
+Prompt: An opening needs 2 1/4 inches. The sample is 2 1/4 inches. Predict its fit, then cut a new piece to the needed length.
+Mapping: DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #30: 36/16 in; Target 36/16 in; Scale 1/16 in; 2026-10-03T18:03:36.027Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: The Right Length | 2026-10-03T18:03:36.027Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: house / MT-C26 / House Platform
+
+MT-C26 — Fit and Cut 4
+Prompt: An opening needs 3 inches. The sample is 2 7/8 inches. Predict its fit, then cut a new piece to the needed length.
+Mapping: DM 1.3 G08, G07, G11; A pp. 5, 42, 47, 66; fractional reading pp. 11–25; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #22: 48/16 in; Target 48/16 in; Scale 1/16 in; 2026-10-03T18:03:34.961Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: Too Short | 2026-10-03T18:03:34.960Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: house / MT-C27 / Door Handle
+
+MT-C27 — Origin and Cut 1
+Prompt: Choose the correct starting reference and cut 3/16 inch.
+Mapping: DM 1.3 G10, G11, G16; A p. 5, p. 11, pp. 37–38, p. 66; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Cut #32: 3/16 in; Target 3/16 in; Scale 1/16 in; 2026-10-03T18:03:36.394Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Cut #33: 2/16 in; Target 3/16 in; Scale 1/16 in; 2026-10-03T18:03:38.777Z | Round 2 | Retry | Assisted / Previously Exposed | Incorrect
+Cut #34: 3/16 in; Target 3/16 in; Scale 1/16 in; 2026-10-03T18:03:38.818Z | Round 2 | Retry | Assisted / Previously Exposed | Correct
+Choice: The Zero Graduation | 2026-10-03T18:03:36.393Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Choice: The Zero Graduation | 2026-10-03T18:03:38.777Z | Round 2 | Retry | Assisted / Previously Exposed | Correct
+Construction: plane / MT-C28 / Lengthwise Display Foot
+
+MT-C28 — Origin and Cut 2
+Prompt: Choose the correct starting reference and cut 2 5/16 inch.
+Mapping: DM 1.3 G10, G11, G16; A p. 5, p. 11, pp. 37–38, p. 66; Source-Backed Digital Practice
+Source-Backed Digital Measurement Practice
+Final Automatic Result: Correct
+First Attempt: Do Not Count as Independent First-Attempt Success
+Cut #12: 37/16 in; Target 37/16 in; Scale 1/16 in; 2026-10-03T18:03:31.978Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Choice: The Zero Graduation | 2026-10-03T18:03:31.978Z | Round 1 | Original | Assisted / Previously Exposed | Correct
+Construction: chair / MT-C29 / Three Seat Boards
+
+MT-C29 — Equal Parts 1
+Prompt: Make 3 equal 1 3/8-inch pieces. One successful cut is kept as the original. Predict how many additional copies are needed, then cut.
+Mapping: DM 1.3 G11, G13; A step 6, p. 39; Source-Backed Measurement; Local Copy-Planning Extension
+Equal-copy planning is a local construction extension; the measured cut practices G11/G13.
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #5: 22/16 in; Target 22/16 in; Scale 1/16 in; 2026-10-03T18:03:29.376Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: 2 | 2026-10-03T18:03:29.376Z | Round 1 | Original | No Recorded Assistance | Correct
+Construction: house / MT-C30 / Five Outer Wall Boards
+
+MT-C30 — Equal Parts 2
+Prompt: Make 5 equal 2 1/8-inch pieces. One successful cut is kept as the original. Predict how many additional copies are needed, then cut.
+Mapping: DM 1.3 G11, G13; A step 6, p. 39; Source-Backed Measurement; Local Copy-Planning Extension
+Equal-copy planning is a local construction extension; the measured cut practices G11/G13.
+Final Automatic Result: Correct
+First Attempt: All Automatic Components Correct With No Recorded Assistance
+Cut #26: 34/16 in; Target 34/16 in; Scale 1/16 in; 2026-10-03T18:03:35.394Z | Round 1 | Original | No Recorded Assistance | Correct
+Choice: 4 | 2026-10-03T18:03:35.393Z | Round 1 | Original | No Recorded Assistance | Correct
+
+Additional House Frame Measurements
+house:front-and-back-rails: 32/16 in; Needed 32/16 in | 2026-10-03T18:03:35.165Z | Round 1 | Original | No Recorded Assistance | Correct
+house:side-rails-and-ridge: 16/16 in; Needed 16/16 in | 2026-10-03T18:03:35.246Z | Round 1 | Original | No Recorded Assistance | Correct
+
+Preserved Raw Observation History (Original Records Are Never Rewritten)
+{
+  "attempts": [
+    {
+      "id": 1,
+      "context": "MT-C13",
+      "actual": 16,
+      "target": 17,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 2032,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 2159,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1 1/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:20.345Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": false
+    },
+    {
+      "id": 2,
+      "context": "MT-C13",
+      "actual": 17,
+      "target": 17,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 2159,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 2159,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1 1/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:23.632Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    },
+    {
+      "id": 3,
+      "context": "MT-C15",
+      "actual": 35,
+      "target": 35,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 4445,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 4445,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "2 3/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:29.252Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 4,
+      "context": "MT-C04",
+      "actual": 19,
+      "target": 19,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 2413,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 2413,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1 3/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 5,
+      "recordedAt": "2026-10-03T18:03:29.280Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 5,
+      "context": "MT-C29",
+      "actual": 22,
+      "target": 22,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 2794,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 2794,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1 3/8 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 3,
+      "recordedAt": "2026-10-03T18:03:29.376Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 6,
+      "context": "MT-C03",
+      "actual": 12,
+      "target": 12,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 1524,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 1524,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 254,
+      "targetRepresentation": "6/8 in",
+      "scale": 8,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 3,
+      "recordedAt": "2026-10-03T18:03:29.476Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 7,
+      "context": "MT-C01",
+      "actual": 6,
+      "target": 6,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 762,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 762,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 254,
+      "targetRepresentation": "3/8 in",
+      "scale": 8,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:29.693Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 8,
+      "context": "MT-C07",
+      "actual": 8,
+      "target": 8,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 1016,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 1016,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 1016,
+      "targetRepresentation": "1/2 in",
+      "scale": 2,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:29.732Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 9,
+      "context": "MT-C08",
+      "actual": 4,
+      "target": 4,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 508,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 508,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 508,
+      "targetRepresentation": "1/4 in",
+      "scale": 4,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:29.791Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 10,
+      "context": "MT-C02",
+      "actual": 7,
+      "target": 7,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 889,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 889,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "7/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T18:03:29.839Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 11,
+      "context": "MT-C10",
+      "actual": 1,
+      "target": 1,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 127,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 127,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:29.881Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 12,
+      "context": "MT-C28",
+      "actual": 37,
+      "target": 37,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 4699,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 4699,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "2 5/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T18:03:31.978Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 13,
+      "context": "MT-C18",
+      "actual": 48,
+      "target": 48,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 6096,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 6096,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "3 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T18:03:32.053Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 14,
+      "context": "MT-C12",
+      "actual": 15,
+      "target": 15,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 1905,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 1905,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "15/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:32.126Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 15,
+      "context": "MT-C14",
+      "actual": 30,
+      "target": 30,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 3810,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 3810,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1 7/8 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:32.196Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 16,
+      "context": "MT-C17",
+      "actual": 47,
+      "target": 47,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 5969,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 5969,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "2 15/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:32.264Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 17,
+      "context": "MT-C21",
+      "actual": 20,
+      "target": 20,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 2540,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 2540,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "10/8 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 4,
+      "recordedAt": "2026-10-03T18:03:32.396Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 18,
+      "context": "MT-C16",
+      "actual": 40,
+      "target": 40,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 5080,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 5080,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "2 1/2 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:32.477Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 19,
+      "context": "MT-C22",
+      "actual": 28,
+      "target": 28,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 3556,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 3556,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "14/8 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T18:03:32.610Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 20,
+      "context": "MT-C20",
+      "actual": 6,
+      "target": 6,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 762,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 762,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "6/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T18:03:32.743Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 21,
+      "context": "MT-C11",
+      "actual": 11,
+      "target": 11,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 1397,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 1397,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "11/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:32.806Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 22,
+      "context": "MT-C26",
+      "actual": 48,
+      "target": 48,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 6096,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 6096,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "3 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 4,
+      "recordedAt": "2026-10-03T18:03:34.961Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 23,
+      "context": "MT-C05",
+      "actual": 20,
+      "target": 20,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 2540,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 2540,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1 1/4 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 8,
+      "recordedAt": "2026-10-03T18:03:35.093Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 24,
+      "context": "house:front-and-back-rails",
+      "actual": 32,
+      "target": 32,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 4064,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 4064,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "2 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 4,
+      "recordedAt": "2026-10-03T18:03:35.165Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 25,
+      "context": "house:side-rails-and-ridge",
+      "actual": 16,
+      "target": 16,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 2032,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 2032,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 13,
+      "recordedAt": "2026-10-03T18:03:35.246Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 26,
+      "context": "MT-C30",
+      "actual": 34,
+      "target": 34,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 4318,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 4318,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "2 1/8 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 5,
+      "recordedAt": "2026-10-03T18:03:35.394Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 27,
+      "context": "MT-C19",
+      "actual": 8,
+      "target": 8,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 1016,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 1016,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "2/4 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 6,
+      "recordedAt": "2026-10-03T18:03:35.560Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 28,
+      "context": "MT-C09",
+      "actual": 14,
+      "target": 14,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 1778,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 1778,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 254,
+      "targetRepresentation": "7/8 in",
+      "scale": 8,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 3,
+      "recordedAt": "2026-10-03T18:03:35.670Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 29,
+      "context": "MT-C23",
+      "actual": 11,
+      "target": 11,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 1397,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 1397,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "11/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 8,
+      "recordedAt": "2026-10-03T18:03:35.844Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 30,
+      "context": "MT-C25",
+      "actual": 36,
+      "target": 36,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 4572,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 4572,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "2 1/4 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 2,
+      "recordedAt": "2026-10-03T18:03:36.027Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 31,
+      "context": "MT-C24",
+      "actual": 25,
+      "target": 25,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 3175,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 3175,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "1 9/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 8,
+      "recordedAt": "2026-10-03T18:03:36.210Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 32,
+      "context": "MT-C27",
+      "actual": 3,
+      "target": 3,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 381,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 381,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "3/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T18:03:36.394Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": false,
+      "correct": true
+    },
+    {
+      "id": 33,
+      "context": "MT-C27",
+      "actual": 2,
+      "target": 3,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 254,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 381,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "3/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 1,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T18:03:38.777Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": false
+    },
+    {
+      "id": 34,
+      "context": "MT-C27",
+      "actual": 3,
+      "target": 3,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 381,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 381,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "3/16 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 1,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T18:03:38.818Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    }
+  ],
+  "responses": [
+    {
+      "id": "MT-C06",
+      "answer": "The Wood Color",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:20.177Z",
+      "correct": false,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C06",
+      "answer": "The Unit",
+      "round": 1,
+      "retry": true,
+      "recordedAt": "2026-10-03T18:03:20.275Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    },
+    {
+      "id": "MT-C29",
+      "answer": "2",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:29.376Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C03",
+      "answer": "No, Different Endpoints",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:29.476Z",
+      "correct": false,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C03",
+      "answer": "Yes, the Same Endpoint",
+      "round": 1,
+      "retry": true,
+      "recordedAt": "2026-10-03T18:03:29.559Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    },
+    {
+      "id": "MT-C01",
+      "answer": "The Zero Graduation",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:29.693Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C28",
+      "answer": "The Zero Graduation",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:31.978Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    },
+    {
+      "id": "MT-C21",
+      "answer": "Yes, the Same Endpoint",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:32.395Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    },
+    {
+      "id": "MT-C22",
+      "answer": "No, Different Endpoints",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:32.609Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    },
+    {
+      "id": "MT-C20",
+      "answer": "No, Different Endpoints",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:32.743Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    },
+    {
+      "id": "MT-C26",
+      "answer": "Too Short",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:34.960Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C05",
+      "answer": "Too Short",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:35.093Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C30",
+      "answer": "4",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:35.393Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C19",
+      "answer": "Yes, the Same Endpoint",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:35.560Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    },
+    {
+      "id": "MT-C23",
+      "answer": "Too Short",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:35.843Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C25",
+      "answer": "The Right Length",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:36.027Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C24",
+      "answer": "Too Long",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:36.209Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": false
+    },
+    {
+      "id": "MT-C27",
+      "answer": "The Zero Graduation",
+      "round": 0,
+      "retry": false,
+      "recordedAt": "2026-10-03T18:03:36.393Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    },
+    {
+      "id": "MT-C27",
+      "answer": "The Zero Graduation",
+      "round": 1,
+      "retry": true,
+      "recordedAt": "2026-10-03T18:03:38.777Z",
+      "correct": true,
+      "review": "Objective Component",
+      "assisted": true
+    }
+  ],
+  "acknowledgements": [
+    {
+      "attemptId": 1,
+      "context": "MT-C13",
+      "kept": false,
+      "recordedAt": "2026-10-03T18:03:22.764Z"
+    },
+    {
+      "attemptId": 2,
+      "context": "MT-C13",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:25.818Z"
+    },
+    {
+      "attemptId": 3,
+      "context": "MT-C15",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.264Z"
+    },
+    {
+      "attemptId": 4,
+      "context": "MT-C04",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.291Z"
+    },
+    {
+      "attemptId": 5,
+      "context": "MT-C29",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.390Z"
+    },
+    {
+      "attemptId": 6,
+      "context": "MT-C03",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.598Z"
+    },
+    {
+      "attemptId": 7,
+      "context": "MT-C01",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.710Z"
+    },
+    {
+      "attemptId": 8,
+      "context": "MT-C07",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.766Z"
+    },
+    {
+      "attemptId": 9,
+      "context": "MT-C08",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.810Z"
+    },
+    {
+      "attemptId": 10,
+      "context": "MT-C02",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.855Z"
+    },
+    {
+      "attemptId": 11,
+      "context": "MT-C10",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:29.897Z"
+    },
+    {
+      "attemptId": 12,
+      "context": "MT-C28",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.006Z"
+    },
+    {
+      "attemptId": 13,
+      "context": "MT-C18",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.081Z"
+    },
+    {
+      "attemptId": 14,
+      "context": "MT-C12",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.155Z"
+    },
+    {
+      "attemptId": 15,
+      "context": "MT-C14",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.228Z"
+    },
+    {
+      "attemptId": 16,
+      "context": "MT-C17",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.292Z"
+    },
+    {
+      "attemptId": 17,
+      "context": "MT-C21",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.428Z"
+    },
+    {
+      "attemptId": 18,
+      "context": "MT-C16",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.502Z"
+    },
+    {
+      "attemptId": 19,
+      "context": "MT-C22",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.633Z"
+    },
+    {
+      "attemptId": 20,
+      "context": "MT-C20",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.769Z"
+    },
+    {
+      "attemptId": 21,
+      "context": "MT-C11",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:32.831Z"
+    },
+    {
+      "attemptId": 22,
+      "context": "MT-C26",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:34.988Z"
+    },
+    {
+      "attemptId": 23,
+      "context": "MT-C05",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:35.121Z"
+    },
+    {
+      "attemptId": 24,
+      "context": "house:front-and-back-rails",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:35.198Z"
+    },
+    {
+      "attemptId": 25,
+      "context": "house:side-rails-and-ridge",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:35.277Z"
+    },
+    {
+      "attemptId": 26,
+      "context": "MT-C30",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:35.434Z"
+    },
+    {
+      "attemptId": 27,
+      "context": "MT-C19",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:35.598Z"
+    },
+    {
+      "attemptId": 28,
+      "context": "MT-C09",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:35.713Z"
+    },
+    {
+      "attemptId": 29,
+      "context": "MT-C23",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:35.887Z"
+    },
+    {
+      "attemptId": 30,
+      "context": "MT-C25",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:36.073Z"
+    },
+    {
+      "attemptId": 31,
+      "context": "MT-C24",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:36.257Z"
+    },
+    {
+      "attemptId": 32,
+      "context": "MT-C27",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:36.438Z"
+    },
+    {
+      "attemptId": 33,
+      "context": "MT-C27",
+      "kept": false,
+      "recordedAt": "2026-10-03T18:03:38.785Z"
+    },
+    {
+      "attemptId": 34,
+      "context": "MT-C27",
+      "kept": true,
+      "recordedAt": "2026-10-03T18:03:38.825Z"
+    }
+  ],
+  "exposed": [
+    "MT-C06",
+    "MT-C13",
+    "MT-C15",
+    "MT-C04",
+    "MT-C29",
+    "MT-C03",
+    "MT-C01",
+    "MT-C07",
+    "MT-L01",
+    "MT-C27",
+    "MT-C28",
+    "MT-L03",
+    "MT-C19",
+    "MT-C20",
+    "MT-C21",
+    "MT-C22",
+    "MT-C08",
+    "MT-C02",
+    "MT-C10",
+    "MT-C18",
+    "MT-C12",
+    "MT-C14",
+    "MT-C17",
+    "MT-C16",
+    "MT-C11",
+    "MT-C26",
+    "MT-C05",
+    "house:front-and-back-rails",
+    "house:side-rails-and-ridge",
+    "MT-C30",
+    "MT-C09",
+    "MT-C23",
+    "MT-C25",
+    "MT-C24"
+  ],
+  "responseRounds": {
+    "MT-C06": 1,
+    "MT-C03": 1,
+    "MT-C27": 1
+  },
+  "builtSteps": [
+    "MT-C06",
+    "MT-C13",
+    "MT-C15",
+    "MT-C04",
+    "MT-C29",
+    "MT-C03",
+    "MT-C01",
+    "MT-C07",
+    "MT-C08",
+    "MT-C02",
+    "MT-C10",
+    "MT-C28",
+    "MT-C18",
+    "MT-C12",
+    "MT-C14",
+    "MT-C17",
+    "MT-C21",
+    "MT-C16",
+    "MT-C22",
+    "MT-C20",
+    "MT-C11",
+    "MT-C26",
+    "MT-C05",
+    "house:front-and-back-rails",
+    "house:side-rails-and-ridge",
+    "MT-C30",
+    "MT-C19",
+    "MT-C09",
+    "MT-C23",
+    "MT-C25",
+    "MT-C24",
+    "MT-C27"
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "length": 17,
+      "project": "chair",
+      "step": "MT-C13",
+      "context": "MT-C13",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        0,
+        5
+      ],
+      "to": [
+        -9.5,
+        17,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "length": 17,
+      "project": "chair",
+      "step": "MT-C13",
+      "context": "MT-C13",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        9.5,
+        0,
+        5
+      ],
+      "to": [
+        9.5,
+        17,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "length": 35,
+      "project": "chair",
+      "step": "MT-C15",
+      "context": "MT-C15",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        0,
+        -5
+      ],
+      "to": [
+        -9.5,
+        35,
+        -5
+      ]
+    },
+    {
+      "id": 4,
+      "length": 35,
+      "project": "chair",
+      "step": "MT-C15",
+      "context": "MT-C15",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        9.5,
+        0,
+        -5
+      ],
+      "to": [
+        9.5,
+        35,
+        -5
+      ]
+    },
+    {
+      "id": 5,
+      "length": 19,
+      "project": "chair",
+      "step": "MT-C04",
+      "context": "MT-C04",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        16,
+        5
+      ],
+      "to": [
+        9.5,
+        16,
+        5
+      ]
+    },
+    {
+      "id": 6,
+      "length": 19,
+      "project": "chair",
+      "step": "MT-C04",
+      "context": "MT-C04",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        16,
+        -5
+      ],
+      "to": [
+        9.5,
+        16,
+        -5
+      ]
+    },
+    {
+      "id": 7,
+      "length": 19,
+      "project": "chair",
+      "step": "MT-C04",
+      "context": "MT-C04",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        22,
+        -5
+      ],
+      "to": [
+        9.5,
+        22,
+        -5
+      ]
+    },
+    {
+      "id": 8,
+      "length": 19,
+      "project": "chair",
+      "step": "MT-C04",
+      "context": "MT-C04",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        34,
+        -5
+      ],
+      "to": [
+        9.5,
+        34,
+        -5
+      ]
+    },
+    {
+      "id": 9,
+      "length": 19,
+      "project": "chair",
+      "step": "MT-C04",
+      "context": "MT-C04",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        6,
+        5
+      ],
+      "to": [
+        9.5,
+        6,
+        5
+      ]
+    },
+    {
+      "id": 10,
+      "length": 22,
+      "project": "chair",
+      "step": "MT-C29",
+      "context": "MT-C29",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -11,
+        17.76,
+        -5.04
+      ],
+      "to": [
+        11,
+        17.76,
+        -5.04
+      ],
+      "tone": "light"
+    },
+    {
+      "id": 11,
+      "length": 22,
+      "project": "chair",
+      "step": "MT-C29",
+      "context": "MT-C29",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -11,
+        17.76,
+        0
+      ],
+      "to": [
+        11,
+        17.76,
+        0
+      ],
+      "tone": "light"
+    },
+    {
+      "id": 12,
+      "length": 22,
+      "project": "chair",
+      "step": "MT-C29",
+      "context": "MT-C29",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -11,
+        17.76,
+        5.04
+      ],
+      "to": [
+        11,
+        17.76,
+        5.04
+      ],
+      "tone": "light"
+    },
+    {
+      "id": 13,
+      "length": 12,
+      "project": "chair",
+      "step": "MT-C03",
+      "context": "MT-C03",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -5.04,
+        22,
+        -5
+      ],
+      "to": [
+        -5.04,
+        34,
+        -5
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 14,
+      "length": 12,
+      "project": "chair",
+      "step": "MT-C03",
+      "context": "MT-C03",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        0,
+        22,
+        -5
+      ],
+      "to": [
+        0,
+        34,
+        -5
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 15,
+      "length": 12,
+      "project": "chair",
+      "step": "MT-C03",
+      "context": "MT-C03",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        5.04,
+        22,
+        -5
+      ],
+      "to": [
+        5.04,
+        34,
+        -5
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 16,
+      "length": 6,
+      "project": "chair",
+      "step": "MT-C01",
+      "context": "MT-C01",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        17,
+        4
+      ],
+      "to": [
+        -9.5,
+        23,
+        4
+      ]
+    },
+    {
+      "id": 17,
+      "length": 6,
+      "project": "chair",
+      "step": "MT-C01",
+      "context": "MT-C01",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        9.5,
+        17,
+        4
+      ],
+      "to": [
+        9.5,
+        23,
+        4
+      ]
+    },
+    {
+      "id": 18,
+      "length": 8,
+      "project": "chair",
+      "step": "MT-C07",
+      "context": "MT-C07",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -9.5,
+        23.88,
+        -4
+      ],
+      "to": [
+        -9.5,
+        23.88,
+        4
+      ]
+    },
+    {
+      "id": 19,
+      "length": 8,
+      "project": "chair",
+      "step": "MT-C07",
+      "context": "MT-C07",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        9.5,
+        23.88,
+        -4
+      ],
+      "to": [
+        9.5,
+        23.88,
+        4
+      ]
+    },
+    {
+      "id": 20,
+      "length": 4,
+      "project": "chair",
+      "step": "MT-C08",
+      "context": "MT-C08",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -11.5,
+        24.76,
+        3.5
+      ],
+      "to": [
+        -7.5,
+        24.76,
+        3.5
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 21,
+      "length": 4,
+      "project": "chair",
+      "step": "MT-C08",
+      "context": "MT-C08",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        7.5,
+        24.76,
+        3.5
+      ],
+      "to": [
+        11.5,
+        24.76,
+        3.5
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 22,
+      "length": 7,
+      "project": "chair",
+      "step": "MT-C02",
+      "context": "MT-C02",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -3.5,
+        35,
+        -5
+      ],
+      "to": [
+        3.5,
+        35,
+        -5
+      ],
+      "tone": "light"
+    },
+    {
+      "id": 23,
+      "length": 1,
+      "project": "chair",
+      "step": "MT-C10",
+      "context": "MT-C10",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -10,
+        34,
+        -2
+      ],
+      "to": [
+        -9,
+        34,
+        -2
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 24,
+      "length": 1,
+      "project": "chair",
+      "step": "MT-C10",
+      "context": "MT-C10",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        9,
+        34,
+        -2
+      ],
+      "to": [
+        10,
+        34,
+        -2
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 25,
+      "length": 37,
+      "project": "plane",
+      "step": "MT-C28",
+      "context": "MT-C28",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        0,
+        0.88,
+        -18.5
+      ],
+      "to": [
+        0,
+        0.88,
+        18.5
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 26,
+      "length": 48,
+      "project": "plane",
+      "step": "MT-C18",
+      "context": "MT-C18",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -24,
+        2.64,
+        0
+      ],
+      "to": [
+        24,
+        2.64,
+        0
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 27,
+      "length": 15,
+      "project": "plane",
+      "step": "MT-C12",
+      "context": "MT-C12",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        0,
+        1.76,
+        -6
+      ],
+      "to": [
+        0,
+        10.76,
+        6
+      ]
+    },
+    {
+      "id": 28,
+      "length": 15,
+      "project": "plane",
+      "step": "MT-C12",
+      "context": "MT-C12",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        0,
+        1.76,
+        6
+      ],
+      "to": [
+        0,
+        10.76,
+        -6
+      ]
+    },
+    {
+      "id": 29,
+      "length": 30,
+      "project": "plane",
+      "step": "MT-C14",
+      "context": "MT-C14",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        0,
+        10.76,
+        -15
+      ],
+      "to": [
+        0,
+        10.76,
+        15
+      ],
+      "tone": "light"
+    },
+    {
+      "id": 30,
+      "length": 30,
+      "project": "plane",
+      "step": "MT-C14",
+      "context": "MT-C14",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        0,
+        12.52,
+        -15
+      ],
+      "to": [
+        0,
+        12.52,
+        15
+      ],
+      "tone": "light"
+    },
+    {
+      "id": 31,
+      "length": 47,
+      "project": "plane",
+      "step": "MT-C17",
+      "context": "MT-C17",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -23.5,
+        14.28,
+        -2.52
+      ],
+      "to": [
+        23.5,
+        14.28,
+        -2.52
+      ]
+    },
+    {
+      "id": 32,
+      "length": 47,
+      "project": "plane",
+      "step": "MT-C17",
+      "context": "MT-C17",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -23.5,
+        14.28,
+        2.52
+      ],
+      "to": [
+        23.5,
+        14.28,
+        2.52
+      ]
+    },
+    {
+      "id": 33,
+      "length": 20,
+      "project": "plane",
+      "step": "MT-C21",
+      "context": "MT-C21",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -18,
+        14.28,
+        -2.52
+      ],
+      "to": [
+        -2,
+        26.28,
+        -2.52
+      ]
+    },
+    {
+      "id": 34,
+      "length": 20,
+      "project": "plane",
+      "step": "MT-C21",
+      "context": "MT-C21",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -18,
+        14.28,
+        2.52
+      ],
+      "to": [
+        -2,
+        26.28,
+        2.52
+      ]
+    },
+    {
+      "id": 35,
+      "length": 20,
+      "project": "plane",
+      "step": "MT-C21",
+      "context": "MT-C21",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        18,
+        14.28,
+        -2.52
+      ],
+      "to": [
+        2,
+        26.28,
+        -2.52
+      ]
+    },
+    {
+      "id": 36,
+      "length": 20,
+      "project": "plane",
+      "step": "MT-C21",
+      "context": "MT-C21",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        18,
+        14.28,
+        2.52
+      ],
+      "to": [
+        2,
+        26.28,
+        2.52
+      ]
+    },
+    {
+      "id": 37,
+      "length": 40,
+      "project": "plane",
+      "step": "MT-C16",
+      "context": "MT-C16",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -20,
+        27.16,
+        -2.52
+      ],
+      "to": [
+        20,
+        27.16,
+        -2.52
+      ],
+      "tone": "light"
+    },
+    {
+      "id": 38,
+      "length": 40,
+      "project": "plane",
+      "step": "MT-C16",
+      "context": "MT-C16",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -20,
+        27.16,
+        2.52
+      ],
+      "to": [
+        20,
+        27.16,
+        2.52
+      ],
+      "tone": "light"
+    },
+    {
+      "id": 39,
+      "length": 28,
+      "project": "plane",
+      "step": "MT-C22",
+      "context": "MT-C22",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -14,
+        14.28,
+        -12
+      ],
+      "to": [
+        14,
+        14.28,
+        -12
+      ]
+    },
+    {
+      "id": 40,
+      "length": 6,
+      "project": "plane",
+      "step": "MT-C20",
+      "context": "MT-C20",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        0,
+        14.28,
+        -12
+      ],
+      "to": [
+        0,
+        20.28,
+        -12
+      ]
+    },
+    {
+      "id": 41,
+      "length": 11,
+      "project": "plane",
+      "step": "MT-C11",
+      "context": "MT-C11",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -5.5,
+        10.76,
+        15.88
+      ],
+      "to": [
+        5.5,
+        10.76,
+        15.88
+      ],
+      "roll": 1.5707963267948966,
+      "tone": "dark"
+    },
+    {
+      "id": 42,
+      "length": 11,
+      "project": "plane",
+      "step": "MT-C11",
+      "context": "MT-C11",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        0,
+        5.26,
+        16.76
+      ],
+      "to": [
+        0,
+        16.259999999999998,
+        16.76
+      ],
+      "roll": 1.5707963267948966,
+      "tone": "dark"
+    },
+    {
+      "id": 43,
+      "length": 48,
+      "project": "house",
+      "step": "MT-C26",
+      "context": "MT-C26",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -24,
+        -1.76,
+        -7.56
+      ],
+      "to": [
+        24,
+        -1.76,
+        -7.56
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 44,
+      "length": 48,
+      "project": "house",
+      "step": "MT-C26",
+      "context": "MT-C26",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -24,
+        -1.76,
+        -2.52
+      ],
+      "to": [
+        24,
+        -1.76,
+        -2.52
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 45,
+      "length": 48,
+      "project": "house",
+      "step": "MT-C26",
+      "context": "MT-C26",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -24,
+        -1.76,
+        2.52
+      ],
+      "to": [
+        24,
+        -1.76,
+        2.52
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 46,
+      "length": 48,
+      "project": "house",
+      "step": "MT-C26",
+      "context": "MT-C26",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -24,
+        -1.76,
+        7.56
+      ],
+      "to": [
+        24,
+        -1.76,
+        7.56
+      ],
+      "tone": "dark"
+    },
+    {
+      "id": 47,
+      "length": 20,
+      "project": "house",
+      "step": "MT-C05",
+      "context": "MT-C05",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -16,
+        0,
+        -8
+      ],
+      "to": [
+        -16,
+        20,
+        -8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 48,
+      "length": 20,
+      "project": "house",
+      "step": "MT-C05",
+      "context": "MT-C05",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        16,
+        0,
+        -8
+      ],
+      "to": [
+        16,
+        20,
+        -8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 49,
+      "length": 20,
+      "project": "house",
+      "step": "MT-C05",
+      "context": "MT-C05",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        0,
+        8
+      ],
+      "to": [
+        -16,
+        20,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 50,
+      "length": 20,
+      "project": "house",
+      "step": "MT-C05",
+      "context": "MT-C05",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        16,
+        0,
+        8
+      ],
+      "to": [
+        16,
+        20,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 51,
+      "length": 20,
+      "project": "house",
+      "step": "MT-C05",
+      "context": "MT-C05",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        20,
+        -8
+      ],
+      "to": [
+        0,
+        32,
+        -8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 52,
+      "length": 20,
+      "project": "house",
+      "step": "MT-C05",
+      "context": "MT-C05",
+      "placement": 5,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        16,
+        20,
+        -8
+      ],
+      "to": [
+        0,
+        32,
+        -8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 53,
+      "length": 20,
+      "project": "house",
+      "step": "MT-C05",
+      "context": "MT-C05",
+      "placement": 6,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        20,
+        8
+      ],
+      "to": [
+        0,
+        32,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 54,
+      "length": 20,
+      "project": "house",
+      "step": "MT-C05",
+      "context": "MT-C05",
+      "placement": 7,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        16,
+        20,
+        8
+      ],
+      "to": [
+        0,
+        32,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 55,
+      "length": 32,
+      "project": "house",
+      "step": "house:front-and-back-rails",
+      "context": "house:front-and-back-rails",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -16,
+        0,
+        -8
+      ],
+      "to": [
+        16,
+        0,
+        -8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 56,
+      "length": 32,
+      "project": "house",
+      "step": "house:front-and-back-rails",
+      "context": "house:front-and-back-rails",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        0,
+        8
+      ],
+      "to": [
+        16,
+        0,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 57,
+      "length": 32,
+      "project": "house",
+      "step": "house:front-and-back-rails",
+      "context": "house:front-and-back-rails",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        20,
+        -8
+      ],
+      "to": [
+        16,
+        20,
+        -8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 58,
+      "length": 32,
+      "project": "house",
+      "step": "house:front-and-back-rails",
+      "context": "house:front-and-back-rails",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        20,
+        8
+      ],
+      "to": [
+        16,
+        20,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 59,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -16,
+        0,
+        -8
+      ],
+      "to": [
+        -16,
+        0,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 60,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        16,
+        0,
+        -8
+      ],
+      "to": [
+        16,
+        0,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 61,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        20,
+        -8
+      ],
+      "to": [
+        -16,
+        20,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 62,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        16,
+        20,
+        -8
+      ],
+      "to": [
+        16,
+        20,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 63,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        0,
+        32,
+        -8
+      ],
+      "to": [
+        0,
+        32,
+        8
+      ],
+      "role": "frame"
+    },
+    {
+      "id": 64,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 5,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -17.76,
+        2.5,
+        -8
+      ],
+      "to": [
+        -17.76,
+        2.5,
+        8
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 65,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 6,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -17.76,
+        7.5,
+        -8
+      ],
+      "to": [
+        -17.76,
+        7.5,
+        8
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 66,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 7,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -17.76,
+        12.5,
+        -8
+      ],
+      "to": [
+        -17.76,
+        12.5,
+        8
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 67,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 8,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -17.76,
+        17.5,
+        -8
+      ],
+      "to": [
+        -17.76,
+        17.5,
+        8
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 68,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 9,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        17.76,
+        2.5,
+        -8
+      ],
+      "to": [
+        17.76,
+        2.5,
+        8
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 69,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 10,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        17.76,
+        7.5,
+        -8
+      ],
+      "to": [
+        17.76,
+        7.5,
+        8
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 70,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 11,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        17.76,
+        12.5,
+        -8
+      ],
+      "to": [
+        17.76,
+        12.5,
+        8
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 71,
+      "length": 16,
+      "project": "house",
+      "step": "house:side-rails-and-ridge",
+      "context": "house:side-rails-and-ridge",
+      "placement": 12,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        17.76,
+        17.5,
+        -8
+      ],
+      "to": [
+        17.76,
+        17.5,
+        8
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 72,
+      "length": 34,
+      "project": "house",
+      "step": "MT-C30",
+      "context": "MT-C30",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -17,
+        2.5,
+        -8.88
+      ],
+      "to": [
+        17,
+        2.5,
+        -8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 73,
+      "length": 34,
+      "project": "house",
+      "step": "MT-C30",
+      "context": "MT-C30",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -17,
+        7.5,
+        -8.88
+      ],
+      "to": [
+        17,
+        7.5,
+        -8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 74,
+      "length": 34,
+      "project": "house",
+      "step": "MT-C30",
+      "context": "MT-C30",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -17,
+        12.5,
+        -8.88
+      ],
+      "to": [
+        17,
+        12.5,
+        -8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 75,
+      "length": 34,
+      "project": "house",
+      "step": "MT-C30",
+      "context": "MT-C30",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -17,
+        17.5,
+        -8.88
+      ],
+      "to": [
+        17,
+        17.5,
+        -8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 76,
+      "length": 34,
+      "project": "house",
+      "step": "MT-C30",
+      "context": "MT-C30",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -17,
+        17.5,
+        8.88
+      ],
+      "to": [
+        17,
+        17.5,
+        8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 77,
+      "length": 8,
+      "project": "house",
+      "step": "MT-C19",
+      "context": "MT-C19",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -16,
+        2.5,
+        8.88
+      ],
+      "to": [
+        -8,
+        2.5,
+        8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 78,
+      "length": 8,
+      "project": "house",
+      "step": "MT-C19",
+      "context": "MT-C19",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        7.5,
+        8.88
+      ],
+      "to": [
+        -8,
+        7.5,
+        8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 79,
+      "length": 8,
+      "project": "house",
+      "step": "MT-C19",
+      "context": "MT-C19",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -16,
+        12.5,
+        8.88
+      ],
+      "to": [
+        -8,
+        12.5,
+        8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 80,
+      "length": 8,
+      "project": "house",
+      "step": "MT-C19",
+      "context": "MT-C19",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        8,
+        2.5,
+        8.88
+      ],
+      "to": [
+        16,
+        2.5,
+        8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 81,
+      "length": 8,
+      "project": "house",
+      "step": "MT-C19",
+      "context": "MT-C19",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        8,
+        7.5,
+        8.88
+      ],
+      "to": [
+        16,
+        7.5,
+        8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 82,
+      "length": 8,
+      "project": "house",
+      "step": "MT-C19",
+      "context": "MT-C19",
+      "placement": 5,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        8,
+        12.5,
+        8.88
+      ],
+      "to": [
+        16,
+        12.5,
+        8.88
+      ],
+      "roll": 1.5707963267948966,
+      "role": "wall",
+      "tone": "light"
+    },
+    {
+      "id": 83,
+      "length": 14,
+      "project": "house",
+      "step": "MT-C09",
+      "context": "MT-C09",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -5.04,
+        0.88,
+        9.12
+      ],
+      "to": [
+        -5.04,
+        14.88,
+        9.12
+      ],
+      "roll": 1.5707963267948966,
+      "tone": "dark"
+    },
+    {
+      "id": 84,
+      "length": 14,
+      "project": "house",
+      "step": "MT-C09",
+      "context": "MT-C09",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        0,
+        0.88,
+        9.12
+      ],
+      "to": [
+        0,
+        14.88,
+        9.12
+      ],
+      "roll": 1.5707963267948966,
+      "tone": "dark"
+    },
+    {
+      "id": 85,
+      "length": 14,
+      "project": "house",
+      "step": "MT-C09",
+      "context": "MT-C09",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        5.04,
+        0.88,
+        9.12
+      ],
+      "to": [
+        5.04,
+        14.88,
+        9.12
+      ],
+      "roll": 1.5707963267948966,
+      "tone": "dark"
+    },
+    {
+      "id": 86,
+      "length": 11,
+      "project": "house",
+      "step": "MT-C23",
+      "context": "MT-C23",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -19.44,
+        4.5,
+        -5.5
+      ],
+      "to": [
+        -19.44,
+        15.5,
+        -5.5
+      ]
+    },
+    {
+      "id": 87,
+      "length": 11,
+      "project": "house",
+      "step": "MT-C23",
+      "context": "MT-C23",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -19.44,
+        4.5,
+        5.5
+      ],
+      "to": [
+        -19.44,
+        15.5,
+        5.5
+      ]
+    },
+    {
+      "id": 88,
+      "length": 11,
+      "project": "house",
+      "step": "MT-C23",
+      "context": "MT-C23",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -19.44,
+        4.5,
+        -5.5
+      ],
+      "to": [
+        -19.44,
+        4.5,
+        5.5
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 89,
+      "length": 11,
+      "project": "house",
+      "step": "MT-C23",
+      "context": "MT-C23",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -19.44,
+        15.5,
+        -5.5
+      ],
+      "to": [
+        -19.44,
+        15.5,
+        5.5
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 90,
+      "length": 11,
+      "project": "house",
+      "step": "MT-C23",
+      "context": "MT-C23",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        19.44,
+        4.5,
+        -5.5
+      ],
+      "to": [
+        19.44,
+        15.5,
+        -5.5
+      ]
+    },
+    {
+      "id": 91,
+      "length": 11,
+      "project": "house",
+      "step": "MT-C23",
+      "context": "MT-C23",
+      "placement": 5,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        19.44,
+        4.5,
+        5.5
+      ],
+      "to": [
+        19.44,
+        15.5,
+        5.5
+      ]
+    },
+    {
+      "id": 92,
+      "length": 11,
+      "project": "house",
+      "step": "MT-C23",
+      "context": "MT-C23",
+      "placement": 6,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        19.44,
+        4.5,
+        -5.5
+      ],
+      "to": [
+        19.44,
+        4.5,
+        5.5
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 93,
+      "length": 11,
+      "project": "house",
+      "step": "MT-C23",
+      "context": "MT-C23",
+      "placement": 7,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        19.44,
+        15.5,
+        -5.5
+      ],
+      "to": [
+        19.44,
+        15.5,
+        5.5
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 94,
+      "length": 36,
+      "project": "house",
+      "step": "MT-C25",
+      "context": "MT-C25",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -18,
+        18,
+        -10.4
+      ],
+      "to": [
+        18,
+        18,
+        -10.4
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 95,
+      "length": 36,
+      "project": "house",
+      "step": "MT-C25",
+      "context": "MT-C25",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -18,
+        18,
+        10.4
+      ],
+      "to": [
+        18,
+        18,
+        10.4
+      ],
+      "roll": 1.5707963267948966
+    },
+    {
+      "id": 96,
+      "length": 25,
+      "project": "house",
+      "step": "MT-C24",
+      "context": "MT-C24",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        -20.6,
+        17.8,
+        -7.56
+      ],
+      "to": [
+        -0.6,
+        32.8,
+        -7.56
+      ],
+      "role": "roof",
+      "tone": "dark"
+    },
+    {
+      "id": 97,
+      "length": 25,
+      "project": "house",
+      "step": "MT-C24",
+      "context": "MT-C24",
+      "placement": 1,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -20.6,
+        17.8,
+        -2.52
+      ],
+      "to": [
+        -0.6,
+        32.8,
+        -2.52
+      ],
+      "role": "roof",
+      "tone": "dark"
+    },
+    {
+      "id": 98,
+      "length": 25,
+      "project": "house",
+      "step": "MT-C24",
+      "context": "MT-C24",
+      "placement": 2,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -20.6,
+        17.8,
+        2.52
+      ],
+      "to": [
+        -0.6,
+        32.8,
+        2.52
+      ],
+      "role": "roof",
+      "tone": "dark"
+    },
+    {
+      "id": 99,
+      "length": 25,
+      "project": "house",
+      "step": "MT-C24",
+      "context": "MT-C24",
+      "placement": 3,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        -20.6,
+        17.8,
+        7.56
+      ],
+      "to": [
+        -0.6,
+        32.8,
+        7.56
+      ],
+      "role": "roof",
+      "tone": "dark"
+    },
+    {
+      "id": 100,
+      "length": 25,
+      "project": "house",
+      "step": "MT-C24",
+      "context": "MT-C24",
+      "placement": 4,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        20.6,
+        17.8,
+        -7.56
+      ],
+      "to": [
+        0.6,
+        32.8,
+        -7.56
+      ],
+      "role": "roof",
+      "tone": "dark"
+    },
+    {
+      "id": 101,
+      "length": 25,
+      "project": "house",
+      "step": "MT-C24",
+      "context": "MT-C24",
+      "placement": 5,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        20.6,
+        17.8,
+        -2.52
+      ],
+      "to": [
+        0.6,
+        32.8,
+        -2.52
+      ],
+      "role": "roof",
+      "tone": "dark"
+    },
+    {
+      "id": 102,
+      "length": 25,
+      "project": "house",
+      "step": "MT-C24",
+      "context": "MT-C24",
+      "placement": 6,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        20.6,
+        17.8,
+        2.52
+      ],
+      "to": [
+        0.6,
+        32.8,
+        2.52
+      ],
+      "role": "roof",
+      "tone": "dark"
+    },
+    {
+      "id": 103,
+      "length": 25,
+      "project": "house",
+      "step": "MT-C24",
+      "context": "MT-C24",
+      "placement": 7,
+      "original": false,
+      "mode": "challenge",
+      "from": [
+        20.6,
+        17.8,
+        7.56
+      ],
+      "to": [
+        0.6,
+        32.8,
+        7.56
+      ],
+      "role": "roof",
+      "tone": "dark"
+    },
+    {
+      "id": 104,
+      "length": 3,
+      "project": "house",
+      "step": "MT-C27",
+      "context": "MT-C27",
+      "placement": 0,
+      "original": true,
+      "mode": "challenge",
+      "from": [
+        4.8,
+        8,
+        10
+      ],
+      "to": [
+        4.8,
+        8,
+        13
+      ],
+      "tone": "light"
+    }
+  ]
+}

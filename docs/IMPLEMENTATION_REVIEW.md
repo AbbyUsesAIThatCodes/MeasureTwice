@@ -1,5 +1,8 @@
 # Workshop Implementation Review
 
+Historical review snapshot. The October 3 reconciled behavior and current artifact are described in [Current Review](CURRENT_REVIEW.md). Preserve these earlier observations and identities; their merge order and superseded geometry/evidence requirements are not current instructions.
+
+
 ## Scope
 
 The first application retains the accepted procedural Three.js 0.180.0 workshop, saw, wood, inspection composition, and camera sequence. The archive is unchanged. Exact lengths are integer sixteenths; one world unit is half an inch. The house schedule has 17 pieces across 3 families. Every valid commitment cuts; feedback first appears after camera travel and remains until acknowledgement. Free Play retains kept pieces and offers equal copies. Each mode retains its own in-memory session and pending inspection; restarting only resets that mode.
