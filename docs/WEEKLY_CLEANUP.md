@@ -1,6 +1,6 @@
 # Final Weekly UI Cleanup
 
-The owner reviewed catalog build 003 and requested three essential fixes before the now-authorized worksheet draft. The preserved artifact is `0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-003_20261003T220212Z_gd077179401f5_web`, source `d077179401f5c5991aa47df5813d1ee670cd1861`. Its ZIP and evidence remain unchanged in `review-evidence/catalog/`. New review builds keep the same explicit local scope and consume a new ordinal; the corrected local server uses port 18445 so build 003 can remain on port 18444.
+The owner reviewed catalog build 003 and requested three essential fixes before the now-authorized worksheet draft. The preserved artifact is `0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-003_20261003T220212Z_gd077179401f5_web`, source `d077179401f5c5991aa47df5813d1ee670cd1861`. Its ZIP and evidence remain unchanged in `review-evidence/catalog/`. New review builds keep the same explicit local scope and consume a new ordinal; the final primary review keeps port 18444 for existing browser saves. Build 003 remains available unchanged on archive port 18446; the portable corrected launcher uses alternate port 18445.
 
 ## Required Behavior
 
@@ -16,4 +16,4 @@ The owner authorized the worksheet **draft** after these stable corrections; it 
 
 [Deferred Cabin Polish](DEFERRED_CABIN_POLISH.md) preserves the later requested four cylindrical-log walls, arched timber roof, wood floor, forest window and eventual cabin default. This cleanup does not implement that scenery.
 
-No main merge, deployment or other-game change is included. Exact final artifact identity and verification are recorded in `review-evidence/weekly/README.md` when available; evidence-only commits do not relabel a built artifact.
+No main merge, deployment or other-game change is included. Exact final artifact identity and verification are recorded in `review-evidence/weekly/README.md` with the final build 005 results; evidence-only commits do not relabel a built artifact.

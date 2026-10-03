@@ -1,6 +1,6 @@
 # Worksheet Authoring Basis
 
-The owner has authorized a worksheet draft against the corrected weekly build. This document supplies the game's actual controls, workflow and teacher key; it is not the worksheet or a claim of final classroom acceptance. The exact tested artifact/source will be linked in the weekly evidence handoff. Build 003 remains preserved.
+The owner has authorized a worksheet draft against the corrected weekly build. This document supplies the game's actual controls, workflow and teacher key; it is not the worksheet or a claim of final classroom acceptance. The tested basis is clean source `6479bb949b7d19e4ae0e9b79b4edf67de7fea007`, build `0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web`; see [Weekly Evidence](../review-evidence/weekly/README.md). The primary review stays at http://127.0.0.1:18444 to retain existing browser saves. Build 003 remains preserved.
 
 ## Startup And Controls
 

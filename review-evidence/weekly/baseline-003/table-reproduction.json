@@ -1,0 +1,63 @@
+{
+  "build": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-003_20261003T220212Z_gd077179401f5_web",
+  "results": [
+    {
+      "step": 1,
+      "hiddenFrames": 152,
+      "phases": [
+        "duplicating",
+        "assembling"
+      ],
+      "sample": {
+        "phase": "duplicating",
+        "table": {
+          "min": [
+            13.025000095367432,
+            -1.4305114648394124e-8,
+            -7.250000047683716
+          ],
+          "max": [
+            20.22499990463257,
+            4.129999998211861,
+            -1.349999952316284
+          ],
+          "visible": false
+        },
+        "camera": [
+          20,
+          13,
+          24
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "hiddenFrames": 152,
+      "phases": [
+        "duplicating",
+        "assembling"
+      ],
+      "sample": {
+        "phase": "duplicating",
+        "table": {
+          "min": [
+            13.025000095367432,
+            -1.4305114648394124e-8,
+            -7.250000047683716
+          ],
+          "max": [
+            20.22499990463257,
+            4.129999998211861,
+            -1.349999952316284
+          ],
+          "visible": false
+        },
+        "camera": [
+          20,
+          13,
+          24
+        ]
+      }
+    }
+  ]
+}

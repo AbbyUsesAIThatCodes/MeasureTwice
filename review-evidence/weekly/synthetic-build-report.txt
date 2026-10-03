@@ -1,0 +1,61 @@
+Measure Twice Build Report
+
+Build: 0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web
+Built At UTC: 2026-10-03T22:58:33.060Z
+Source Revision: 6479bb949b7d19e4ae0e9b79b4edf67de7fea007
+Catalog Revision: 2026-10-03-independent-builds-v1
+Exported At UTC: 2026-10-03T22:59:17.157Z
+
+This report records chosen builds and replays. The 30 supporting questions are separate reference material, not a completion gate or an automatic score. Automatic assembly does not establish independent reasoning or physical fabrication mastery.
+
+House: 1 Completed Runs; 62 Parts Per Complete Model
+Run 1: Complete; 11/11 Measurements Placed; 62/62 Parts
+build:house:MT-C26 | Actual 3 in | Target 3 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:08.272Z
+build:house:MT-C05 | Actual 1 1/4 in | Target 1 1/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:08.739Z
+build:house:house:front-and-back-rails | Actual 2 in | Target 2 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:08.972Z
+build:house:house:side-rails-and-ridge | Actual 1 in | Target 1 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:09.172Z
+build:house:MT-C30 | Actual 2 1/8 in | Target 2 1/8 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:09.405Z
+build:house:MT-C19 | Actual 1/2 in | Target 1/2 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:09.573Z
+build:house:MT-C09 | Actual 7/8 in | Target 7/8 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:09.805Z
+build:house:MT-C23 | Actual 11/16 in | Target 11/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:09.989Z
+build:house:MT-C25 | Actual 2 1/4 in | Target 2 1/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:10.222Z
+build:house:MT-C24 | Actual 1 9/16 in | Target 1 9/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:10.505Z
+build:house:MT-C27 | Actual 3/16 in | Target 3/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:10.739Z
+Plane: 1 Completed Runs; 18 Parts Per Complete Model
+Run 1: Complete; 10/10 Measurements Placed; 18/18 Parts
+build:plane:MT-C28 | Actual 2 5/16 in | Target 2 5/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:11.105Z
+build:plane:MT-C18 | Actual 3 in | Target 3 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:11.422Z
+build:plane:MT-C12 | Actual 15/16 in | Target 15/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:11.639Z
+build:plane:MT-C14 | Actual 1 7/8 in | Target 1 7/8 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:11.872Z
+build:plane:MT-C17 | Actual 2 15/16 in | Target 2 15/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:12.089Z
+build:plane:MT-C21 | Actual 1 1/4 in | Target 1 1/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:12.289Z
+build:plane:MT-C16 | Actual 2 1/2 in | Target 2 1/2 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:12.522Z
+build:plane:MT-C22 | Actual 1 3/4 in | Target 1 3/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:12.755Z
+build:plane:MT-C20 | Actual 3/8 in | Target 3/8 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:12.972Z
+build:plane:MT-C11 | Actual 11/16 in | Target 11/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:13.156Z
+Chair: 1 Completed Runs; 24 Parts Per Complete Model
+Run 1: Complete; 10/10 Measurements Placed; 24/24 Parts
+build:chair:MT-C13 | Actual 1 1/16 in | Target 1 1/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:13.506Z
+build:chair:MT-C15 | Actual 2 3/16 in | Target 2 3/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:13.772Z
+build:chair:MT-C04 | Actual 1 3/16 in | Target 1 3/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:13.990Z
+build:chair:MT-C29 | Actual 1 3/8 in | Target 1 3/8 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:14.206Z
+build:chair:MT-C03 | Actual 3/4 in | Target 3/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:14.439Z
+build:chair:MT-C01 | Actual 3/8 in | Target 3/8 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:14.572Z
+build:chair:MT-C07 | Actual 1/2 in | Target 1/2 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:14.805Z
+build:chair:MT-C08 | Actual 1/4 in | Target 1/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:14.905Z
+build:chair:MT-C02 | Actual 7/16 in | Target 7/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:15.139Z
+build:chair:MT-C10 | Actual 1/16 in | Target 1/16 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:15.255Z
+Tree: 1 Completed Runs; 10 Parts Per Complete Model
+Run 1: Complete; 6/6 Measurements Placed; 10/10 Parts
+build:tree:base | Actual 1 in | Target 1 1/2 in | Incorrect | No Recorded Assistance | Original | 2026-10-03T22:59:07.673Z
+build:tree:base | Actual 1 1/2 in | Target 1 1/2 in | Correct | Assisted / Previously Exposed | Retry | 2026-10-03T22:59:15.639Z
+build:tree:trunk | Actual 2 in | Target 2 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:15.755Z
+build:tree:lower | Actual 1 3/4 in | Target 1 3/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:15.988Z
+build:tree:middle | Actual 1 1/4 in | Target 1 1/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:16.106Z
+build:tree:upper | Actual 3/4 in | Target 3/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:16.326Z
+build:tree:crown | Actual 1/4 in | Target 1/4 in | Correct | No Recorded Assistance | Original | 2026-10-03T22:59:16.459Z
+Run 2: Partial; 1/6 Measurements Placed; 2/10 Parts
+build:tree:base | Actual 1 1/2 in | Target 1 1/2 in | Correct | Assisted / Previously Exposed | Original | 2026-10-03T22:59:16.790Z
+
+Supporting Questions Viewed: None
+Related Learn / Reference Support Exposed: None

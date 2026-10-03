@@ -1,0 +1,72 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web",
+  "sourceRevision": "6479bb949b7d19e4ae0e9b79b4edf67de7fea007",
+  "checks": [
+    "Five Learn Lessons, Ten Stages, Wrong Cut and Wrong Choice Retry, Held Inspection, Once-Only Advancement, Hidden Practice Readout, All Subdivisions and Magnified Pointer/Keyboard",
+    "Seven Explicit Instruments, Endpoints, Adjacent Wrong Cut, Exact Physical Geometry, Held Mode Return, Duplicate, Keyboard Scroll and Zero Recovery, Anonymous Download and Retained Restart History",
+    "Visible Grid Only In Pointer And Keyboard; Zero Cannot Cut; Real 3D Pointer Drag Does Not Orbit; Background Drag Does Orbit; CDP Touch Drag And Tap; Reduced Motion Tiles; Focus Vocabulary; Persisted Learn Exposure In Catalog"
+  ],
+  "instruments": [
+    {
+      "id": "inch-3",
+      "max": 48,
+      "cameraSamples": 144,
+      "stepTicks": 127,
+      "parts": 3,
+      "physicalEndTicks": 6096
+    },
+    {
+      "id": "inch-6",
+      "max": 96,
+      "cameraSamples": 144,
+      "stepTicks": 127,
+      "parts": 3,
+      "physicalEndTicks": 12192
+    },
+    {
+      "id": "inch-12",
+      "max": 192,
+      "cameraSamples": 144,
+      "stepTicks": 127,
+      "parts": 3,
+      "physicalEndTicks": 24384
+    },
+    {
+      "id": "yardstick",
+      "max": 576,
+      "cameraSamples": 144,
+      "stepTicks": 127,
+      "parts": 3,
+      "physicalEndTicks": 73152
+    },
+    {
+      "id": "cm-15",
+      "max": 150,
+      "cameraSamples": 144,
+      "stepTicks": 80,
+      "parts": 3,
+      "physicalEndTicks": 12000
+    },
+    {
+      "id": "cm-30",
+      "max": 300,
+      "cameraSamples": 144,
+      "stepTicks": 80,
+      "parts": 3,
+      "physicalEndTicks": 24000
+    },
+    {
+      "id": "metre",
+      "max": 1000,
+      "cameraSamples": 144,
+      "stepTicks": 80,
+      "parts": 3,
+      "physicalEndTicks": 80000
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "touchEmulation": true,
+  "syntheticStudentData": true,
+  "physicalChromebookTest": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web",
+  "sourceRevision": "6479bb949b7d19e4ae0e9b79b4edf67de7fea007",
+  "checks": [
+    "Four Independent Recipes Through Real Ruler Pointer Drag And Keyboard Input",
+    "Wrong Cut And Refresh Mid-Cut Restore One Held Attempt",
+    "Refresh Mid-Placement Advances Once With Exact Parts",
+    "Persistent Challenge Ruler In Every Tested Phase",
+    "Completion Miniatures, Retained Badges, Replay And Partial Refresh",
+    "Actual Build Report And Progress JSON Downloads",
+    "Thirty Supporting Questions Retained",
+    "Classroom And Small-Laptop Catalog Layouts"
+  ],
+  "recipes": [
+    {
+      "id": "house",
+      "measurements": 11,
+      "parts": 62
+    },
+    {
+      "id": "plane",
+      "measurements": 10,
+      "parts": 18
+    },
+    {
+      "id": "chair",
+      "measurements": 10,
+      "parts": 24
+    },
+    {
+      "id": "tree",
+      "measurements": 6,
+      "parts": 10
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "syntheticStudentData": true,
+  "physicalChromebookTest": false
+}

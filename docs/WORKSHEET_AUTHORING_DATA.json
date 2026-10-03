@@ -17,7 +17,7 @@
         "G10",
         "G16"
       ],
-      "pages": "A p. 5, p. 11, pp. 37–38, p. 66",
+      "pages": "A p. 5, p. 11, pp. 37\u201338, p. 66",
       "guidedInches": "3/8",
       "practiceInches": "5/8",
       "guidedSixteenths": 6,
@@ -37,7 +37,7 @@
         "G10",
         "G11"
       ],
-      "pages": "A step 3, pp. 11–25",
+      "pages": "A step 3, pp. 11\u201325",
       "guidedInches": "5/8",
       "practiceInches": "7/16",
       "guidedSixteenths": 10,
@@ -53,7 +53,7 @@
       "goals": [
         "G12"
       ],
-      "pages": "A pp. 15, 17–21, 23, 25",
+      "pages": "A pp. 15, 17\u201321, 23, 25",
       "guidedInches": "3/4",
       "practiceInches": "1/4",
       "guidedSixteenths": 12,
@@ -90,7 +90,7 @@
         "G07",
         "G11"
       ],
-      "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11–25",
+      "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11\u201325",
       "guidedInches": "1 1/4",
       "practiceInches": "1 1/4",
       "guidedSixteenths": 20,
@@ -507,5 +507,10 @@
         }
       ]
     }
-  ]
+  ],
+  "testedBuild": {
+    "id": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web",
+    "sourceRevision": "6479bb949b7d19e4ae0e9b79b4edf67de7fea007",
+    "builtAt": "2026-10-03T22:58:33.060Z"
+  }
 }

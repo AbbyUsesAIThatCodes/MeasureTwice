@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 2,
+  "build": {
+    "version": "0.1.0",
+    "codename": "Predict Cut Inspect",
+    "slug": "Predict-Cut-Inspect",
+    "status": "development-review",
+    "codenameStatus": "Provisional Review Name From the Approved Study; Awaiting Teacher Acceptance",
+    "compatibility": "Development build. Challenge catalog schema v1 persists anonymous runs in this browser. Prior page-only sessions and schema-v2 evidence exports remain distinct; unsupported stored revisions are preserved for recovery.",
+    "id": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web",
+    "scope": "local-abigail-catalog",
+    "pr": null,
+    "ordinal": 5,
+    "builtAt": "2026-10-03T22:58:33.060Z",
+    "sourceRevision": "6479bb949b7d19e4ae0e9b79b4edf67de7fea007",
+    "dirty": false,
+    "fingerprint": "be3d91c54dfdda5331b0318c5674f8735b923d68b003658f492aaf460cb86e81",
+    "target": "web",
+    "allocator": "Abigail/MeasureTwice-local-build-ledger"
+  },
+  "contentRevision": "2026-10-03-reconciled-interactions-v3",
+  "mode": "free",
+  "instrument": "metre",
+  "attempts": [
+    {
+      "id": 1,
+      "context": "free:inch-3:1",
+      "actual": 47,
+      "target": 48,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 5969,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 6096,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "3 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:10.648Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": false
+    },
+    {
+      "id": 2,
+      "context": "free:inch-3:1",
+      "actual": 48,
+      "target": 48,
+      "unit": "in",
+      "instrument": "inch-3",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 6096,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 6096,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "3 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:10.818Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    },
+    {
+      "id": 3,
+      "context": "free:inch-6:2",
+      "actual": 95,
+      "target": 96,
+      "unit": "in",
+      "instrument": "inch-6",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 12065,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 12192,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "6 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:11.647Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": false
+    },
+    {
+      "id": 4,
+      "context": "free:inch-6:2",
+      "actual": 96,
+      "target": 96,
+      "unit": "in",
+      "instrument": "inch-6",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 12192,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 12192,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "6 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:11.820Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    },
+    {
+      "id": 5,
+      "context": "free:inch-12:3",
+      "actual": 191,
+      "target": 192,
+      "unit": "in",
+      "instrument": "inch-12",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 24257,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 24384,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "12 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:12.630Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": false
+    },
+    {
+      "id": 6,
+      "context": "free:inch-12:3",
+      "actual": 192,
+      "target": 192,
+      "unit": "in",
+      "instrument": "inch-12",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 24384,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 24384,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "12 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:12.801Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    },
+    {
+      "id": 7,
+      "context": "free:yardstick:4",
+      "actual": 575,
+      "target": 576,
+      "unit": "in",
+      "instrument": "yardstick",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 73025,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 73152,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "36 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:13.686Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": false
+    },
+    {
+      "id": 8,
+      "context": "free:yardstick:4",
+      "actual": 576,
+      "target": 576,
+      "unit": "in",
+      "instrument": "yardstick",
+      "representation": "sixteenths",
+      "physical": {
+        "ticks": 73152,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "targetPhysical": {
+        "ticks": 73152,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1/16 in"
+      },
+      "visibleIntervalTicks": 127,
+      "targetRepresentation": "36 in",
+      "scale": 16,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:13.882Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    },
+    {
+      "id": 9,
+      "context": "free:cm-15:5",
+      "actual": 149,
+      "target": 150,
+      "unit": "mm",
+      "instrument": "cm-15",
+      "representation": "millimetres",
+      "physical": {
+        "ticks": 11920,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "targetPhysical": {
+        "ticks": 12000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "visibleIntervalTicks": 80,
+      "targetRepresentation": "150 mm (15 cm)",
+      "scale": 10,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:14.748Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": false
+    },
+    {
+      "id": 10,
+      "context": "free:cm-15:5",
+      "actual": 150,
+      "target": 150,
+      "unit": "mm",
+      "instrument": "cm-15",
+      "representation": "millimetres",
+      "physical": {
+        "ticks": 12000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "targetPhysical": {
+        "ticks": 12000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "visibleIntervalTicks": 80,
+      "targetRepresentation": "150 mm (15 cm)",
+      "scale": 10,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:14.914Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    },
+    {
+      "id": 11,
+      "context": "free:cm-30:6",
+      "actual": 299,
+      "target": 300,
+      "unit": "mm",
+      "instrument": "cm-30",
+      "representation": "millimetres",
+      "physical": {
+        "ticks": 23920,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "targetPhysical": {
+        "ticks": 24000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "visibleIntervalTicks": 80,
+      "targetRepresentation": "300 mm (30 cm)",
+      "scale": 10,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:15.749Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": false
+    },
+    {
+      "id": 12,
+      "context": "free:cm-30:6",
+      "actual": 300,
+      "target": 300,
+      "unit": "mm",
+      "instrument": "cm-30",
+      "representation": "millimetres",
+      "physical": {
+        "ticks": 24000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "targetPhysical": {
+        "ticks": 24000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "visibleIntervalTicks": 80,
+      "targetRepresentation": "300 mm (30 cm)",
+      "scale": 10,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:15.924Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    },
+    {
+      "id": 13,
+      "context": "free:metre:7",
+      "actual": 999,
+      "target": 1000,
+      "unit": "mm",
+      "instrument": "metre",
+      "representation": "millimetres",
+      "physical": {
+        "ticks": 79920,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "targetPhysical": {
+        "ticks": 80000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "visibleIntervalTicks": 80,
+      "targetRepresentation": "1000 mm (100 cm)",
+      "scale": 10,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:16.911Z",
+      "assisted": false,
+      "kind": "student-response",
+      "retry": false,
+      "correct": false
+    },
+    {
+      "id": 14,
+      "context": "free:metre:7",
+      "actual": 1000,
+      "target": 1000,
+      "unit": "mm",
+      "instrument": "metre",
+      "representation": "millimetres",
+      "physical": {
+        "ticks": 80000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "targetPhysical": {
+        "ticks": 80000,
+        "tickUnit": "1/80 mm",
+        "stepUnit": "1 mm"
+      },
+      "visibleIntervalTicks": 80,
+      "targetRepresentation": "1000 mm (100 cm)",
+      "scale": 10,
+      "schemaVersion": 2,
+      "round": 0,
+      "copyCount": 1,
+      "recordedAt": "2026-10-03T22:59:17.136Z",
+      "assisted": true,
+      "kind": "student-response",
+      "retry": true,
+      "correct": true
+    }
+  ],
+  "responses": [],
+  "acknowledgements": [
+    {
+      "attemptId": 1,
+      "context": "free:inch-3:1",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:10.806Z"
+    },
+    {
+      "attemptId": 2,
+      "context": "free:inch-3:1",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:10.826Z"
+    },
+    {
+      "attemptId": 3,
+      "context": "free:inch-6:2",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:11.810Z"
+    },
+    {
+      "attemptId": 4,
+      "context": "free:inch-6:2",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:11.830Z"
+    },
+    {
+      "attemptId": 5,
+      "context": "free:inch-12:3",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:12.789Z"
+    },
+    {
+      "attemptId": 6,
+      "context": "free:inch-12:3",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:12.812Z"
+    },
+    {
+      "attemptId": 7,
+      "context": "free:yardstick:4",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:13.853Z"
+    },
+    {
+      "attemptId": 8,
+      "context": "free:yardstick:4",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:13.905Z"
+    },
+    {
+      "attemptId": 9,
+      "context": "free:cm-15:5",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:14.901Z"
+    },
+    {
+      "attemptId": 10,
+      "context": "free:cm-15:5",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:14.925Z"
+    },
+    {
+      "attemptId": 11,
+      "context": "free:cm-30:6",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:15.908Z"
+    },
+    {
+      "attemptId": 12,
+      "context": "free:cm-30:6",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:15.938Z"
+    },
+    {
+      "attemptId": 13,
+      "context": "free:metre:7",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:17.105Z"
+    },
+    {
+      "attemptId": 14,
+      "context": "free:metre:7",
+      "kept": true,
+      "recordedAt": "2026-10-03T22:59:17.160Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web",
+  "sourceRevision": "6479bb949b7d19e4ae0e9b79b4edf67de7fea007",
+  "url": "http://127.0.0.1:18444",
+  "archive003Url": "http://127.0.0.1:18446",
+  "portableLauncherPort": 18445,
+  "browser": "153.0.8010.12",
+  "checkedAt": "2026-10-03T23:04:41.818Z",
+  "checks": [
+    "Actual Primary Server Manifest",
+    "Fresh Free Play With No Modal",
+    "Bellringer SVG Decodes",
+    "Exact Build 003 Saved Recipes And Attempts Resume At Same Origin"
+  ],
+  "errors": []
+}
