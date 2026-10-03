@@ -1,5 +1,7 @@
 # Free Play Learn and Challenge
 
+Current October 3 catalog revision: [Build Catalog Review](BUILD_CATALOG_REVIEW.md) takes precedence for Challenge. House, Plane, Chair and Tree are independent; the thirty original questions below remain supporting/historical references rather than required sequential objectives. All five Learn lessons remain available. Current report and completion limits are in that review; older sequential procedures below are preserved history.
+
 The teacher's accepted three-mode pattern uses the display names **Free Play**, **Learn**, and **Challenge**. This refines the September 27 label Free. Follow the approved [Game Design](game-design.md) and the shared predict–cut–inspect loop. The [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) demonstrates their navigation and visual treatment; the contracts below describe the full production behavior.
 
 ## Mode Contract

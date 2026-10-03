@@ -1,5 +1,7 @@
 # Chair, Plane, and House Challenge
 
+Current October 3 catalog revision: [Build Catalog Review](BUILD_CATALOG_REVIEW.md) takes precedence for Challenge. House, Plane, Chair and Tree are independent; the thirty original questions below remain supporting/historical references rather than required sequential objectives. All five Learn lessons remain available. Current report and completion limits are in that review; older sequential procedures below are preserved history.
+
 Historical review snapshot. The October 3 reconciled behavior and current artifact are described in [Current Review](CURRENT_REVIEW.md). Preserve these earlier observations and identities; their merge order and superseded geometry/evidence requirements are not current instructions.
 
 

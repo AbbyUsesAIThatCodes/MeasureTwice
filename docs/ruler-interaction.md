@@ -1,5 +1,7 @@
 # Ruler Interaction
 
+Current October 3 owner instruction: the visible graduation grid is the sole input grid in every mode. Off-grid fixed targets require an exact finer scale; incompatible coarser options are disabled. Pointer, drag, touch, keyboard and commitment use the same neutral grid. The sparse-ruler discussion below is preserved historical design and is superseded. See [Build Catalog Review](BUILD_CATALOG_REVIEW.md).
+
 Follow the approved [Game Design](game-design.md). The student chooses a length, sees neutral stock movement, and commits with Cut. Correctness appears during inspection after the saw runs. This replaces the earlier answer gate.
 
 ## Representations
