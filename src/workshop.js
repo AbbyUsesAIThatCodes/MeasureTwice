@@ -118,8 +118,15 @@ function configureSpan(length){
  return l;
 }
 
-function render(){camera.lookAt(look.clone().add(workRoot.position));renderer.render(scene,camera)}
+const cameraObstacles=[benchTop,...benchLegs,sawArm,bladeGroup,guard,plant,pencilCup,receivingTray,extensions];
+const addCameraObstacle=q=>cameraObstacles.push(q);
+function render(){
+ scene.updateMatrixWorld(true);const point=camera.getWorldPosition(new THREE.Vector3());
+ const clearance=camera.near*Math.sqrt(1+Math.tan(camera.fov*Math.PI/360)**2*(1+camera.aspect**2))+.025;
+ for(const q of cameraObstacles){if(!q.visible)continue;const b=new THREE.Box3().setFromObject(q);if(b.isEmpty())continue;if(b.distanceToPoint(point)<clearance){const rise=b.max.y+clearance-point.y;camera.position.y+=rise;point.y+=rise;}}
+ camera.lookAt(look.clone().add(workRoot.position));renderer.render(scene,camera);
+}
 function resize(){renderer.setSize(stage.clientWidth,stage.clientHeight);camera.aspect=stage.clientWidth/stage.clientHeight;camera.updateProjectionMatrix();render()}
 new ResizeObserver(resize).observe(stage);
-return {THREE,scene:workRoot,camera,renderer,look,homePos,homeLook,nearPos,nearLook,render,resize,box,plank,line,mat,wood,woodLight,woodDark,ghost,bladeGroup,guard,STOCK,SAW_X,BOARD_Y,BOARD_Z,orbitLimits,roomBounds,roomSurfaces,sawArm,plant,clearOrbitRadius,configureSpan,setAtmosphere,daylight,extensions,benchRise,benchTop,benchLegs,pencilCup,cupProfile,pencils,receivingTray,stagingPosition};
+return {THREE,scene:workRoot,camera,renderer,look,homePos,homeLook,nearPos,nearLook,render,resize,box,plank,line,mat,wood,woodLight,woodDark,ghost,bladeGroup,guard,STOCK,SAW_X,BOARD_Y,BOARD_Z,orbitLimits,roomBounds,roomSurfaces,sawArm,plant,clearOrbitRadius,addCameraObstacle,cameraObstacles,configureSpan,setAtmosphere,daylight,extensions,benchRise,benchTop,benchLegs,pencilCup,cupProfile,pencils,receivingTray,stagingPosition};
 }

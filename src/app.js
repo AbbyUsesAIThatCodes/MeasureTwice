@@ -16,7 +16,7 @@ let s=sessions.challenge,animation=null,token=0,shiftToken=0,inspection=null,pie
 const transient=[],placed=[],ghosts=[];
 const origin=new THREE.Vector3(3.35,2.76,-.9);
 let layout=workshopLayout(),stock=plank(STOCK);scene.add(stock);stock.userData.label='Stock: choose a length, then press Cut.';
-const comparisonRack=new THREE.Group();comparisonRack.name='Side Build Table';scene.add(comparisonRack);
+const comparisonRack=new THREE.Group();comparisonRack.name='Side Build Table';scene.add(comparisonRack);w.addCameraObstacle(comparisonRack);
 function configureWorkspace(){
  layout=w.configureSpan(worldLength(instrument(s).max,s));
  stock.children[0].geometry.dispose();stock.children[0].geometry=new THREE.BoxGeometry(layout.stockLength,.22,.63);
@@ -118,7 +118,7 @@ window.mtReview.view=()=>{
   scene.updateMatrixWorld(true);
   const bounds=q=>{const b=new THREE.Box3().setFromObject(q);return {min:b.min.toArray(),max:b.max.toArray()}};
   const mesh=q=>q?{visible:q.visible,position:q.position.toArray(),length:q.children[0]?.geometry?.parameters?.width,bounds:bounds(q)}:null;
-  return {camera:camera.getWorldPosition(new THREE.Vector3()).toArray(),look:look.clone().add(scene.position).toArray(),near:camera.near,aspect:camera.aspect,limits:w.orbitLimits,room:w.roomBounds,benchRise:w.benchRise,benchTop:bounds(w.benchTop),benchLegs:w.benchLegs.map(bounds),pencilCup:{position:w.pencilCup.getWorldPosition(new THREE.Vector3()).toArray(),profile:w.cupProfile.map(p=>p.toArray()),pencils:w.pencils},receivingTray:bounds(w.receivingTray),staging:w.stagingPosition.clone().add(scene.position).toArray(),walls:w.roomSurfaces.map(bounds),handle:[],handleMount:bounds(w.sawArm),leaves:w.plant.children.filter(q=>q.name==='Pointed Leaf').map(bounds),stock:mesh(stock),piece:mesh(piece),offcut:mesh(offcut),inspection:inspection?{visible:inspection.visible,bounds:bounds(inspection)}:null};
+  return {camera:camera.getWorldPosition(new THREE.Vector3()).toArray(),look:look.clone().add(scene.position).toArray(),near:camera.near,aspect:camera.aspect,limits:w.orbitLimits,room:w.roomBounds,benchRise:w.benchRise,benchTop:bounds(w.benchTop),benchLegs:w.benchLegs.map(bounds),pencilCup:{position:w.pencilCup.getWorldPosition(new THREE.Vector3()).toArray(),profile:w.cupProfile.map(p=>p.toArray()),pencils:w.pencils},receivingTray:bounds(w.receivingTray),staging:w.stagingPosition.clone().add(scene.position).toArray(),obstacles:w.cameraObstacles.filter(q=>q.visible).map(bounds),walls:w.roomSurfaces.map(bounds),handle:[],handleMount:bounds(w.sawArm),leaves:w.plant.children.filter(q=>q.name==='Pointed Leaf').map(bounds),stock:mesh(stock),piece:mesh(piece),offcut:mesh(offcut),inspection:inspection?{visible:inspection.visible,bounds:bounds(inspection)}:null};
 };
 function comparison(actual,needed,diagnosis=false){clearTransient();stock.visible=false;marker.visible=false;const left=-needed/16;for(const [length,y] of [[needed,.4],[actual,-.3]]){const q=addTransient(plank(length/8));q.position.set(left+length/16,3.72+y,3.7);scene.add(q)}if(diagnosis&&actual<needed)addTransient(box((needed-actual)/8,.225,.645,mat(0xed6055,{transparent:true,opacity:.48}),left+actual/8+(needed-actual)/16,3.42,3.7));camera.position.set(0,5.5,11);look.set(0,3.72,3.7);render()}
 export const game={manifest,construction,get session(){return s},house,panel,update,move,cut,settle,switchMode,nextSelection,rebuildParts,emit,comparison,expose:id=>{for(const mode of Object.values(sessions))exposeActivity(mode,id)},setHooks:value=>{hooks=value},$};

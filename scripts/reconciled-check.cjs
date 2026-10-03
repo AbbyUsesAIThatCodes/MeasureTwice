@@ -29,6 +29,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   const presets=[['inch-3',48,127],['inch-6',96,127],['inch-12',192,127],['yardstick',576,127],['cm-15',150,80],['cm-30',300,80],['metre',1000,80]];
   for(const [id,max,ticks] of presets){
    await page.click('#instruments');await page.selectOption('#instrument-choice',id);await page.click('#begin-instrument');assert.equal((await snap()).instrument,id);
+   const sweep=await page.evaluate(()=>{const out=[];for(const radius of [4,mtReview.view().limits.maxRadius])for(const phi of [.2,.85,1.5]){let v=mtReview.view(),offset=v.camera.map((n,i)=>n-v.look[i]),r=Math.hypot(...offset);mtReview.orbit(0,phi-Math.acos(offset[1]/r),radius/r);for(let j=0;j<24;j++){v=mtReview.view();r=Math.hypot(...v.camera.map((n,i)=>n-v.look[i]));mtReview.orbit(Math.PI/12,0,radius/r);out.push(mtReview.view())}}return out});for(const v of sweep){const margin=v.near*Math.sqrt(1+Math.tan(35*Math.PI/360)**2*(1+v.aspect**2));for(const b of [...v.walls,...v.obstacles]){if(b.min.some(n=>n===null))continue;const d=Math.hypot(...v.camera.map((n,i)=>Math.max(b.min[i]-n,0,n-b.max[i])));assert.ok(d>=margin-1e-6,'Camera near-plane clearance '+id)}}await page.click('#home');
    const c=await page.evaluate(()=>mtReview.clearance());assert.ok(c.rack.min[0]-c.bench.max[0]>=.8999);assert.ok(c.rack.min[1]>=-.001);
    if(max>48){const width=await page.locator('#ruler').evaluate(e=>e.clientWidth);assert.ok((width-48)/max>=14)}
    await page.locator('#ruler').press('End');assert.equal((await snap()).selected,max);await page.locator('#ruler').press('ArrowLeft');assert.equal((await snap()).selected,max-1);await page.click('#ruler-zero');assert.equal(await page.locator('#ruler-scroll').evaluate(e=>e.scrollLeft),0);
@@ -37,7 +38,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
    await page.evaluate(()=>{mtReview.acknowledge();mtReview.skip()});await cut(max);assert.equal((await snap()).pending.correct,true);await page.evaluate(()=>{mtReview.acknowledge();mtReview.skip()});await page.click('#duplicate');
    const parts=await page.evaluate(()=>mtReview.geometry());assert.equal(parts.length,3);for(const p of parts){assert.ok(Math.abs(p.meshLength-p.physical.ticks/1016)<1e-8);assert.deepEqual(p.scale,[1,1,1])}
    await page.locator('#ruler').press('Home');await shot(id+'-workspace');
-   result.instruments.push({id,max,stepTicks:ticks,parts:parts.length,physicalEndTicks:max*ticks});
+   result.instruments.push({id,max,cameraSamples:sweep.length,stepTicks:ticks,parts:parts.length,physicalEndTicks:max*ticks});
   }
   await page.click('#curriculum');await page.click('#records');const pending=page.waitForEvent('download');await page.click('#export-records');const download=await pending;await download.saveAs(path.join(out,'synthetic-anonymous-records.json'));const exported=JSON.parse(fs.readFileSync(path.join(out,'synthetic-anonymous-records.json')));assert.ok(exported.attempts.some(a=>a.instrument==='metre'&&a.actual===999));assert.ok(exported.attempts.some(a=>a.instrument==='yardstick'&&a.actual===576));await page.click('#close-panel');
   const history=JSON.stringify((await snap()).attempts);await page.click('#restart');assert.equal(JSON.stringify((await snap()).attempts),history);assert.equal((await snap()).parts.length,0);
