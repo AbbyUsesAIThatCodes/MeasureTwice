@@ -1,5 +1,7 @@
 # Curriculum Content
 
+October 3 current implementation: [Challenge Reconciliation](CHALLENGE_RECONCILIATION.md) preserves every prior question and records the interaction-only evidence change. [Instrument Review](INSTRUMENT_REVIEW.md) documents the live interval explanation and optional metric Free Play. Historical scripted written responses below remain provenance, not current required UI.
+
 This is the instructional record for MeasureTwice's approved [Game Design](game-design.md), connecting Free Play, Learn, and Challenge to [Design And Modeling](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27) and [Activity 1.3 Measuring Matters](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/tree/main/units/01-introduction-to-design/1.3-measuring-matters).
 
 **Content Revision: October 1, 2026; Sequential Construction Review.** Thirty exercises now follow chair → plane → house exterior automatically. Five Learn lessons and all original response evidence rules remain. A classroom pilot and richer worked teaching animations remain pending.

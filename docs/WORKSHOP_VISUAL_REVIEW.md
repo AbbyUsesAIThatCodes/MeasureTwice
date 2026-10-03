@@ -1,5 +1,8 @@
 # Workshop Visual Repair
 
+Historical review snapshot. The October 3 reconciled behavior and current artifact are described in [Current Review](CURRENT_REVIEW.md). Preserve these earlier observations and identities; their merge order and superseded geometry/evidence requirements are not current instructions.
+
+
 [Issue 19](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/issues/19) fixes three teacher-reported visual defects. This changes decoration and camera clearance; all measurement values, stock profiles, 17 house placements, instructional records and gameplay transitions remain unchanged. The approved source archive is preserved.
 
 ## Identified Object

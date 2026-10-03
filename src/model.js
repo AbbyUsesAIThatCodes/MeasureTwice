@@ -10,10 +10,10 @@ export const isAssisted=(s,id)=>s.hint||s.mode==='learn'||hasExposure(s,id);
 export function restartSession(s){return {...newSession(s.mode),exposed:[...s.exposed],attempts:[...s.attempts],responses:[...s.responses],responseRounds:{...s.responseRounds},acknowledgements:[...s.acknowledgements]}}
 export const responseRound=(s,id)=>s.responseRounds[activityId(id)]??0;
 export function beginRetry(s,id){const key=activityId(id);s.responseRounds[key]=responseRound(s,id)+1;s.readyQuestion=null;return s.responseRounds[key]}
-export function commit(s,target,context,{copyCount=1}={}){
+export function commit(s,target,context,{copyCount=1,targetRepresentation=null}={}){
   if(s.phase!=='selecting'||!Number.isInteger(s.selected)||s.selected<1||s.selected>instrument(s).max)return false;
   const repeated=s.attempts.some(a=>a.context===context);
-  const record={id:s.attempts.length+1,context,actual:s.selected,target,unit:instrument(s).unit,instrument:instrument(s).id,representation:instrument(s).unit==='in'?'sixteenths':'millimetres',physical:exactRecord(s.selected,s),targetPhysical:target===null?null:exactRecord(target,s),targetRepresentation:target===null?null:instrument(s).unit==='in'?fraction(target)+' in':target+' mm',scale:s.subdivision,schemaVersion:2,round:responseRound(s,context),copyCount,recordedAt:new Date().toISOString(),assisted:isAssisted(s,context)||(s.mode==='challenge'&&repeated),kind:s.demonstrating?'demonstration':'student-response',retry:repeated,correct:target===null?null:s.selected===target};
+  const record={id:s.attempts.length+1,context,actual:s.selected,target,unit:instrument(s).unit,instrument:instrument(s).id,representation:instrument(s).unit==='in'?'sixteenths':'millimetres',physical:exactRecord(s.selected,s),targetPhysical:target===null?null:exactRecord(target,s),visibleIntervalTicks:instrument(s).unit==='in'?2032/s.subdivision:800/s.subdivision,targetRepresentation:target===null?null:targetRepresentation??(instrument(s).unit==='in'?fraction(target)+' in':target+' mm'),scale:s.subdivision,schemaVersion:2,round:responseRound(s,context),copyCount,recordedAt:new Date().toISOString(),assisted:isAssisted(s,context)||(s.mode==='challenge'&&repeated),kind:s.demonstrating?'demonstration':'student-response',retry:repeated,correct:target===null?null:s.selected===target};
   s.attempts.push(record);s.pending={...record,acknowledged:false};s.phase='cutting';return true;
 }
 export function acknowledge(s,house){

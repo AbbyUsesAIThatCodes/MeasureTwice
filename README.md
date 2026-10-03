@@ -25,7 +25,11 @@ The current Challenge automatically builds a **chair, plane and house exterior**
 - [Design Brief](docs/design-brief.md): founding concept and the superseded correct-answer gate.
 - [Contributor Instructions](AGENTS.md): rules for preserving the agreed design.
 
-## Status
+## Current Review
+
+October 3 isolated integration: see [Current Review](docs/CURRENT_REVIEW.md) for the reconciled 30-question Challenge, corrected interval teaching, explicit instrument workspaces and workshop choices. Public main and deployment remain unchanged by this branch. Earlier review status below is historical.
+
+## Historical Status
 
 **Integrated Local Review - September 30, 2026 UTC.** The unchanged accepted mockup is preserved above. The review application now uses its real Three.js workshop with an exact 17-piece house, three retained modes, five selectable lessons, and six checks. See [Implementation Review](docs/IMPLEMENTATION_REVIEW.md), [Quick Review Checklist](docs/REVIEW_CHECKLIST.md), and [First House Schedule](docs/first-house.md). This is a development review; no production deployment or classroom pilot exists. Existing issues stay open for their remaining criteria. The prior Check & Cut concept remains superseded.
 

@@ -1,6 +1,10 @@
 # MeasureTwice Roadmap
 
-## Current Position
+## Current Review
+
+The October 3 approved review is tracked in [Current Review](docs/CURRENT_REVIEW.md), with a question-by-question reconciliation and exact artifact evidence. Issues #19/#21/#27–31 remain open for teacher acceptance and remaining classroom limits.
+
+## Historical Position
 
 October 1 review update: issue #22 / PR #24 now sequences thirty exercises through chair, plane and house exterior, retaining the original 17-member house frame. Inspection and placement advance the next part automatically. Completion requires every objective and all three constructions. See [Current Challenge Review](docs/CHALLENGE_REVIEW.md). The earlier foundation and issue map below remain historical. A classroom pilot and richer teaching animations remain pending.
 

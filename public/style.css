@@ -2,3 +2,7 @@ html,body{margin:0;height:100%;background:#d6eac7}body{overflow:hidden}#mt-cut-s
 #mt-cut-study .mt-result{width:max-content;max-width:min(620px,calc(100% - 70px))}#mt-cut-study .mt-result small{display:block;max-width:540px}.vocab{display:block;margin:8px 0}.vocab>div{position:relative;z-index:1}
 
 .classroom-brand{display:block;font-size:10px;letter-spacing:0;font-weight:normal}.camera-controls label{font-size:11px;background:#fffbee;padding:3px;border-radius:5px}#instrument{display:block;font-size:11px}#ruler{max-width:none!important;flex-shrink:0}#mt-cut-study .mt-order{width:250px}#mt-cut-study .mt-order p{line-height:1.35}#mt-cut-study .mt-ruler-header{gap:8px}
+
+#mt-cut-study dialog,#mt-cut-study .mt-stage-chip,#mt-cut-study .mt-fly-status,#mt-cut-study .mt-foot{font-family:"Comic Sans MS","Comic Sans",cursive}
+
+#end-detail{width:294px;max-width:100%;margin:auto}#end-detail svg{display:block;width:100%}#end-detail[hidden]{display:none}

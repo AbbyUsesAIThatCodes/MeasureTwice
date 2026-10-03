@@ -1,5 +1,8 @@
 # Chair, Plane, and House Challenge
 
+Historical review snapshot. The October 3 reconciled behavior and current artifact are described in [Current Review](CURRENT_REVIEW.md). Preserve these earlier observations and identities; their merge order and superseded geometry/evidence requirements are not current instructions.
+
+
 The teacher approved this revision of issue #22 / PR #24 on September 30, 2026. Challenge follows the same automatic loop for each part: **measure → Cut → held inspection → confirm → staging and copies → place → next part**. Build Progress is status and completed-step review; future exercises are not a picker. There is no required menu visit between parts. Completed models remain visible until the first accepted part of the next build is placed.
 
 These are original MeasureTwice wooden models, with no Tinkercad adaptation claim. The tree idea is outside this revision. The unchanged approved reference and every older identified review build remain historical evidence.

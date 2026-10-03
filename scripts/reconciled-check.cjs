@@ -1,0 +1,47 @@
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+(async()=>{
+ const build=JSON.parse(fs.readFileSync('latest-review.json')),root=build.directory,out=path.join('test-results',build.id),base='http://127.0.0.1:18467';fs.mkdirSync(out,{recursive:true});
+ const result={id:build.id,sourceRevision:build.sourceRevision,checks:[],instruments:[],errors:[],requests:[],syntheticStudentData:true,physicalChromebookTest:false};
+ const server=http.createServer((req,res)=>{let f=path.resolve(root,'.'+new URL(req.url,base).pathname);if(!f.startsWith(root+path.sep)&&f!==root){res.writeHead(403).end();return}if(fs.existsSync(f)&&fs.statSync(f).isDirectory())f=path.join(f,'index.html');if(!fs.existsSync(f)){res.writeHead(404).end();return}res.setHeader('Content-Type',f.endsWith('.js')?'text/javascript':f.endsWith('.css')?'text/css':f.endsWith('.html')?'text/html':'application/json');fs.createReadStream(f).pipe(res)});
+ await new Promise(r=>server.listen(18467,'127.0.0.1',r));let browser;
+ try{
+  browser=await chromium.launch({executablePath:process.env.MT_BROWSER,headless:true,args:['--enable-unsafe-swiftshader']});const page=await browser.newPage({viewport:{width:1366,height:768},acceptDownloads:true});
+  page.on('pageerror',e=>result.errors.push(e.message));page.on('console',m=>{if(m.text().startsWith('Learning module:'))result.errors.push(m.text())});await page.route('**/*',r=>r.request().url().startsWith(base)?r.continue():(result.requests.push(r.request().url()),r.abort()));
+  const snap=()=>page.evaluate(()=>mtReview.snapshot()),shot=async(name)=>page.screenshot({path:path.join(out,name+'.png')}),fresh=async()=>{await page.goto(base);await page.waitForFunction(()=>window.mtReview?.content);await page.check('#reduced')};
+  const answer=async(l,wrong=false)=>{assert.equal(await page.locator('textarea').count(),0);await page.getByRole('radio',{name:wrong?l.options.find(o=>o!==l.answer):l.answer,exact:true}).check();await page.locator('#response-form button[type="submit"]').click()};
+  const cut=async(n)=>{await page.evaluate(n=>{mtReview.select(n);mtReview.cut();mtReview.skip()},n);assert.equal((await snap()).phase,'inspecting')};
+  await fresh();assert.equal(await page.locator('#build-id').textContent(),build.id);
+  await page.click('[data-mode="learn"]');await page.evaluate(()=>mtReview.chooseLesson(0));await page.selectOption('#subdivision','8');assert.match(await page.locator('#guidance').textContent(),/3 small intervals/);await shot('start-at-zero-eighths-1366');
+  const before=await snap();await page.selectOption('#subdivision','16');assert.equal((await snap()).selected,before.selected);assert.match(await page.locator('#guidance').textContent(),/6 small intervals: 6\/16 inch = 3\/8 inch/);await shot('start-at-zero-sixteenths-1366');
+  for(const size of [{width:1280,height:600},{width:1024,height:768}]){await page.setViewportSize(size);await shot('start-at-zero-'+size.width);assert.equal(await page.locator('#cut').isVisible(),true);assert.equal(await page.locator('#subdivision').isVisible(),true)}await page.setViewportSize({width:1366,height:768});
+  for(const scale of ['2','4']){await page.selectOption('#subdivision',scale);assert.match(await page.locator('#guidance').textContent(),/Sparse-Ruler Extension/)}await page.selectOption('#subdivision','16');
+  await page.click('#magnify');const bb=await page.locator('#ruler').boundingBox();await page.locator('#ruler').click({position:{x:24+6/48*(bb.width-48),y:40}});assert.equal((await snap()).selected,6);await page.locator('#ruler').press('ArrowLeft');assert.equal((await snap()).selected,5);await page.click('#magnify');await cut(5);await page.evaluate(()=>mtReview.acknowledge());assert.equal((await snap()).lessonStage,'guided');
+  const content=await page.evaluate(()=>mtReview.content());
+  for(let i=0;i<10;i++){
+   const s=await snap(),l=content.lessons[s.lesson];assert.equal(s.lesson,Math.floor(i/2));assert.equal(s.lessonStage,i%2?'practice':'guided');
+   if(i%2){assert.equal(await page.locator('#guidance').isVisible(),false);assert.equal(await page.locator('#readout').isVisible(),false)}
+   await cut(i%2?l.practice:l.guided);assert.equal((await snap()).lessonStage,s.lessonStage);await page.evaluate(()=>{mtReview.acknowledge();mtReview.acknowledge();mtReview.skip()});
+   if((await snap()).phase==='reasoning'){await page.waitForSelector('#response-form');if(i===0){await answer(l,true);const original=JSON.stringify((await snap()).responses[0]);await page.click('#retry-lesson-reasoning');await answer(l);assert.equal(JSON.stringify((await snap()).responses[0]),original)}else await answer(l)}
+  }
+  assert.equal((await snap()).lessonFinished.length,10);assert.equal((await snap()).phase,'complete');await shot('learn-complete');result.checks.push('Five Learn Lessons, Ten Stages, Wrong Cut and Wrong Choice Retry, Held Inspection, Once-Only Advancement, Hidden Practice Readout, All Subdivisions and Magnified Pointer/Keyboard');
+  await fresh();await page.click('[data-mode="free"]');await shot('warm-timber-daylight-on');await page.uncheck('#daylight');await shot('warm-timber-daylight-off');await page.check('#daylight');await page.selectOption('#room-style','logs');await shot('log-cabin-daylight-on');await page.selectOption('#room-style','timber');
+  const presets=[['inch-3',48,127],['inch-6',96,127],['inch-12',192,127],['yardstick',576,127],['cm-15',150,80],['cm-30',300,80],['metre',1000,80]];
+  for(const [id,max,ticks] of presets){
+   await page.click('#instruments');await page.selectOption('#instrument-choice',id);await page.click('#begin-instrument');assert.equal((await snap()).instrument,id);
+   const c=await page.evaluate(()=>mtReview.clearance());assert.ok(c.rack.min[0]-c.bench.max[0]>=.8999);assert.ok(c.rack.min[1]>=-.001);
+   if(max>48){const width=await page.locator('#ruler').evaluate(e=>e.clientWidth);assert.ok((width-48)/max>=14)}
+   await page.locator('#ruler').press('End');assert.equal((await snap()).selected,max);await page.locator('#ruler').press('ArrowLeft');assert.equal((await snap()).selected,max-1);await page.click('#ruler-zero');assert.equal(await page.locator('#ruler-scroll').evaluate(e=>e.scrollLeft),0);
+   await page.selectOption('#free-target',String(max));await cut(max-1);assert.equal((await snap()).pending.correct,false);assert.equal((await snap()).pending.physical.ticks,(max-1)*ticks);assert.equal(await page.evaluate(()=>mtReview.changeInstrument('inch-3')),false);
+   const record=JSON.stringify((await snap()).attempts.at(-1));await page.click('[data-mode="challenge"]');assert.equal((await snap()).instrument,'inch-3');await page.click('[data-mode="free"]');assert.equal((await snap()).phase,'inspecting');assert.equal(JSON.stringify((await snap()).attempts.at(-1)),record);await shot(id+'-wrong-inspection');
+   await page.evaluate(()=>{mtReview.acknowledge();mtReview.skip()});await cut(max);assert.equal((await snap()).pending.correct,true);await page.evaluate(()=>{mtReview.acknowledge();mtReview.skip()});await page.click('#duplicate');
+   const parts=await page.evaluate(()=>mtReview.geometry());assert.equal(parts.length,3);for(const p of parts){assert.ok(Math.abs(p.meshLength-p.physical.ticks/1016)<1e-8);assert.deepEqual(p.scale,[1,1,1])}
+   await page.locator('#ruler').press('Home');await shot(id+'-workspace');
+   result.instruments.push({id,max,stepTicks:ticks,parts:parts.length,physicalEndTicks:max*ticks});
+  }
+  await page.click('#curriculum');await page.click('#records');const pending=page.waitForEvent('download');await page.click('#export-records');const download=await pending;await download.saveAs(path.join(out,'synthetic-anonymous-records.json'));const exported=JSON.parse(fs.readFileSync(path.join(out,'synthetic-anonymous-records.json')));assert.ok(exported.attempts.some(a=>a.instrument==='metre'&&a.actual===999));assert.ok(exported.attempts.some(a=>a.instrument==='yardstick'&&a.actual===576));await page.click('#close-panel');
+  const history=JSON.stringify((await snap()).attempts);await page.click('#restart');assert.equal(JSON.stringify((await snap()).attempts),history);assert.equal((await snap()).parts.length,0);
+  result.checks.push('Seven Explicit Instruments, Endpoints, Adjacent Wrong Cut, Exact Physical Geometry, Held Mode Return, Duplicate, Keyboard Scroll and Zero Recovery, Anonymous Download and Retained Restart History');
+  assert.deepEqual(result.errors,[]);assert.deepEqual(result.requests,[]);
+ }catch(e){result.failure=e.stack;throw e}finally{fs.writeFileSync(path.join(out,'reconciled-verification.json'),JSON.stringify(result,null,2));await browser?.close();await new Promise(r=>server.close(r));console.log(JSON.stringify(result))}
+})().catch(e=>{console.error(e);process.exitCode=1});

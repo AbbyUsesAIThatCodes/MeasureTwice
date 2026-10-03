@@ -2,12 +2,16 @@
 
 **Status: Local Review And Pages Build Pipelines Implemented; Pages Deployment Awaits Owner Setup.** The archived [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) remains unchanged and keeps its historical interface-study identity. The application uses development version 0.1.0 and provisional review codename Predict Cut Inspect, drawn from that accepted study. The teacher has not accepted a production release name or compatibility contract. See [Pages Deployment](PAGES.md) for the owner setup and merge-trigger behavior.
 
+## October 3 Local Review
+
+See [Current Review](CURRENT_REVIEW.md). Abigail uses explicit local scope and `.build-state/<hostname>/` for atomic reservations. PR-scoped allocation remains restricted to Jess_PC and is not relabelled on another machine. The local manifest records the actual host, source, dirty state and fingerprint. Source, console, immutable artifact directory, ZIP, visible footer, report and evidence agree on one ID. Earlier Pages setup/deployment statements above describe their historical preparation, not this branch’s deployment state.
+
 ## Current Implementation Inventory
 
 | Surface | Authoritative Location | Verification |
 | --- | --- | --- |
 | Version, codename, compatibility | `release.json` | Development review; reload resets sessions. |
-| Atomic allocation | `scripts/identity.mjs`; persistent `C:\Users\jessg\Documents\Codex\2026-09-29\task-3\build-ledger` on Jess_PC | Exclusive receipt creation; all local clones use this one allocator; PR scope refused on other hosts. Back up this ledger before moving build machines. |
+| Atomic allocation | `scripts/identity.mjs`; persistent `C:\Users\jessg\Documents\Codex\2026-09-29\task-3\build-ledger` on Jess_PC | Exclusive receipt creation; all PR-scoped clones use this one allocator; PR scope refused on other hosts. Back up this ledger before moving build machines. |
 | Local build entrypoint and console | `scripts/build.mjs` | Preserved one timestamp; start/success/failure ID; explicit local/PR scope. |
 | Pages entrypoint and reservation | `scripts/build-pages.mjs`, `scripts/pages-identity.mjs` | `main-run-<GITHUB_RUN_ID>` scope with monotonic `GITHUB_RUN_ATTEMPT` ordinal; exclusive attempt receipt; exact clean event SHA required. Local Pages builds share the existing local/PR ledger. |
 | Pages output and payload | `dist/pages/<full-id>/MeasureTwice/`; `scripts/pages-output.mjs` | One timestamp, full source SHA/fingerprint, target `pages`, project base path; allowlisted tracked static inputs and pinned Three.js runtime. Local launcher is outside payload. |
