@@ -17,11 +17,11 @@ Always display in or an unambiguous inch label. Fractions and decimals do not id
 
 Use whole inches and larger fractions before reducing support for eighths, sixteenths, equivalents, and mixed numbers. The final ruler span and house schedule remain in issue #1.
 
-## Printed Marks and Empty Space
+## Full Tick Pattern
 
-Marked practice renders accurate subdivisions and accepts selection within a response band at the chosen horizontal position. Do not require contact with a hairline mark.
+The teacher clarified on October 1: always draw all 15 interior sixteenth-inch hatch marks between inch marks, across Free Play, Learn, Challenge, denominator settings and existing zooms. Whole-inch, half, quarter, eighth and sixteenth marks retain their descending tick lengths. Only whole inches receive numerical scale labels; no target-solving annotation is added. The earlier sparse-ruler display proposal is superseded.
 
-The sparse-ruler extension displays coarser marks while requesting a finer location: for example, 3/8 in halfway between 1/4 and 1/2 on a quarter-inch scale. Keep anchors visible, label this as local transfer practice, and never introduce unexpected thirty-seconds in the initial content. Keyboard movement must permit the same finer positions. Implement marked practice first; add sparse practice as a bounded extension of issue #2.
+The denominator setting remains the existing practice context, not a filter on visible marks. Students map halves, quarters, eighths and sixteenths onto the same inch: 1/2, 2/4, 4/8 and 8/16 share one physical position. An eighth spans two smallest intervals, a quarter four and a half eight; counting every adjacent hatch as the requested denominator would be incorrect. Questions, lesson prompts, exact targets, scoring and session/report records remain unchanged. Pointer and keyboard input already select every sixteenth regardless of denominator; keep that precision and the existing magnification/scroll behavior. Selection accepts the same target-independent response bands without requiring contact with a hairline mark.
 
 ## Selection and Stock Movement
 
@@ -51,7 +51,7 @@ Hold for Keep Piece or Try Again. A rejected piece moves left; an accepted one m
 | Target 1 1/4 in, selected 1 3/8 in | Cut 22/16 in; show the target cut line and 2/16 = 1/8 in red excess. |
 | Target and selected both 7/16 in | Cut once, inspect green, await Keep Piece, then advance the family once. |
 | 3/4 in, 6/8 in, 0.75 in | Same exact length; one successful family per build, with decimal coverage labeled as an extension. |
-| 3/8 in with quarter-inch marks | Position lies in blank space; pointer and keyboard can select it using fair, nonoverlapping tolerances. |
+| 3/8 in with Quarters selected | All sixteenth marks remain visible; select the sixth sixteenth at the same physical position as three eighths. Pointer and keyboard use the unchanged response bands. |
 | Wrong cut followed by a correct retry | Two committed attempts and two cuts, but only one accepted family and one allocation of its required parts. |
 | Marker moved five times before Cut | One committed attempt, not five. |
 | Four equal parts required | Original plus three copies, four placements, one successful measurement. |

@@ -10,7 +10,7 @@ The teacher's accepted three-mode pattern uses the display names **Free Play**, 
 | Learn | Open any of five short fundamental lessons; see an example, predict, cut, inspect, and retry. | Demonstrations and hints are labeled support. Optional practice fades support without locking access. |
 | Challenge | Commit answers to curriculum-based checks and see the consequences. | Hide target-solving cursor readouts before commitment. Preserve first unassisted responses separately from supported attempts. |
 
-Marked and sparse ruler settings are options within modes, not additional top-level modes. All three modes use the same exact measurement values and physical lengths. Correctness-dependent colors, target lines, and target ghosts appear only after Cut for cut tasks. Pre-cut interactions use neutral feedback.
+All three modes show the same complete ruler pattern: 15 interior sixteenth-inch marks between inch marks, with hierarchical tick lengths at every denominator setting and zoom. The October 1 teacher clarification supersedes the sparse-ruler proposal. All modes use the same exact measurement values and physical lengths. Correctness-dependent colors, target lines, and target ghosts appear only after Cut for cut tasks. Pre-cut interactions use neutral feedback.
 
 ## Free Play
 
