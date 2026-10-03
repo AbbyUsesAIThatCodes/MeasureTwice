@@ -30,7 +30,9 @@ Title: **Measure Twice**, with a space and no period. Per the teacher's explicit
 
 ## Verification Status
 
-The first clean catalog artifact passed all four recipes, real ruler pointer drag/keyboard, wrong-cut and interrupted-placement refreshes, completed badges, partial replay persistence, actual downloads and three viewport layouts. All 40 unit tests passed. The subsequent mechanics/lesson check also covers Learn support propagation, reduced-motion wiring and recovered PR #34 changes; see the final identified evidence handoff for results. Target checks include all four recipes, exact geometry/connectivity, visible-grid input bands, real pointer/keyboard/touch interactions, wrong-answer retries, all ten Learn stages, persistence at cut/placement boundaries, replay badges, corrupt/full/conflicting storage, exports, four-corner table supports, camera extremes and actual small-laptop screenshots. No physical Chromebook test or classroom performance pilot is claimed.
+The final mechanics checkpoint is clean `local-abigail-catalog` build 003, source `d077179401f5c5991aa47df5813d1ee670cd1861`, built `2026-10-03T22:02:12.731Z`. Its [identified evidence and portable ZIP](../review-evidence/catalog/README.md) record 40 passing unit tests; all four models (37 measurements / 114 parts); ten Learn stages; seven instruments; 1,008 camera samples; 1,406 animation frames; actual pointer/keyboard and emulated touch; persistence/replay/downloads; and 34 screenshots across three laptop viewports. The actual localhost server manifest and bellringer SVG decoding also passed.
+
+Teacher weekly acceptance, physical Chromebook/classroom performance testing and optional scenery/miniature polish remain. The worksheet waits for final build acceptance. No deployment or main merge occurred. These evidence-only documentation updates do not relabel the built source.
 
 ## Recovered PR #34
 

@@ -1,0 +1,48 @@
+Γ£ö The independent catalog retains all original measured parts and adds a connected ten-piece tree (4.7972ms)
+Γ£ö All input bands share the visible imperial or metric grid and off-grid cuts are refused (11.2305ms)
+Γ£ö All four table corners have grounded supports and intermediate gaps are bounded (0.543ms)
+Γ£ö Interrupted cutting restores one held attempt; acknowledged placement finishes exactly once (0.9913ms)
+Γ£ö Completion and partial replays retain every original attempt and all badges through refresh (1.5683ms)
+Γ£ö Corrupt or unsupported saves are preserved; blocked storage and concurrent tabs do not erase progress (0.5863ms)
+Γ£ö Compact header identity derives from the manifest and excludes its timestamp (0.1374ms)
+Γ£ö Thirty mapped checks preserve seed IDs, use exact printable marks, and keep authored equivalence names (0.1553ms)
+Γ£ö A correct unacknowledged cut cannot finish an exercise; every current objective is needed and legacy explanations remain separate (0.3257ms)
+Γ£ö Wrong objective can be retried without overwriting first responses or counting support as independent success (0.1919ms)
+Γ£ö Equal-copy tasks retain one original plus N minus one unchanged pieces (0.1516ms)
+Γ£ö Thirty exercise IDs appear once in the chair-plane-house order, with two extra original frame cuts (0.1313ms)
+Γ£ö Every measured placement has its exact length and the original 17 frame endpoints are unchanged (0.2446ms)
+Γ£ö Each model forms a connected wooden structure using the actual constant-profile oriented boxes (0.6222ms)
+Γ£ö A correct cut stays held through reasoning repair, with one cut and immutable original responses (0.3839ms)
+Γ£ö All objectives and all placed models gate the report; redo and restart preserve evidence without duplicate awards (2.4746ms)
+Γ£ö Concurrent builders reserve different ordinals and failed attempts remain consumed (33.3454ms)
+Γ£ö inch and metric lengths are exact, distinct and monotonic at every supported position (5.0595ms)
+Γ£ö switching instruments is explicit, unavailable during inspection, and preserves committed evidence (0.2163ms)
+Γ£ö counts visible intervals at a fixed 3/8 endpoint (0.129ms)
+Γ£ö practice hides solved counts and handles mixed lengths (0.1326ms)
+Γ£ö Five indexed lessons and six seed checks preserve exact targets and source provenance (0.2088ms)
+Γ£ö Typed text is retained for teacher review and never automatically passed (0.0829ms)
+Γ£ö A wrong concept answer is distinguishable; hints and exposure mark support (0.0879ms)
+Γ£ö Activity support reaches every component and does not rewrite original independent records (0.1331ms)
+Γ£ö Restart retains exposure and immutable first responses while clearing construction (0.0826ms)
+Γ£ö Learn advances once from accepted guided to practice and requires all ten stages for completion (0.2062ms)
+Γ£ö Wrong cuts and demonstrations never unlock the next Learn stage; manual access cannot fake all-lessons completion (0.0989ms)
+Γ£ö An intentionally reviewed completed stage advances again after its accepted cut (0.0918ms)
+Γ£ö Every valid wrong/right endpoint commits once, then inspection holds (0.1267ms)
+Γ£ö Wrong cut preserves family; exactly three successes produce 17 equal-length parts (0.2084ms)
+Γ£ö Free Play may keep a mismatch; no-target result is neutral (0.0849ms)
+Γ£ö All adjacent pointer bands and keyboard positions are target-independent (0.1235ms)
+Γ£ö Feedback-informed correct retry preserves the first answer and is assisted (0.1212ms)
+Γ£ö Seven comparison pieces align starts with a gap beyond the physical profile (0.1297ms)
+Γ£ö Pages identities distinguish runs and reruns without assigning fake PR ordinals (0.3293ms)
+Γ£ö Pages production identity rejects PR events, feature branches, forks and missing provenance (0.2592ms)
+Γ£ö Pages selection excludes checkout infrastructure, private documents and response evidence (0.3206ms)
+Γ£ö Every orbit direction and zoom stays clear of walls and mounted props (9.8592ms)
+Γ£ö Open-front zoom retains its full range while a rear wall bounds only that direction (0.0898ms)
+Γä╣ tests 40
+Γä╣ suites 0
+Γä╣ pass 40
+Γä╣ fail 0
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 130.5675

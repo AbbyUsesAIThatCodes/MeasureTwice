@@ -1,0 +1,33 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-003_20261003T220212Z_gd077179401f5_web",
+  "sourceRevision": "d077179401f5c5991aa47df5813d1ee670cd1861",
+  "builtAt": "2026-10-03T22:02:12.731Z",
+  "dirty": false,
+  "fingerprint": "554859d330a3c5cc58474b7766daf3d9de1232026f3756c75efc41896a026d31",
+  "unitTestsPassed": 40,
+  "models": 4,
+  "modelMeasurements": 37,
+  "modelParts": 114,
+  "learnStages": 10,
+  "instruments": 7,
+  "cameraSamples": 1008,
+  "animationFrames": 1406,
+  "screenshots": 34,
+  "viewports": [
+    "1366x768",
+    "1280x600",
+    "1024x768"
+  ],
+  "browser": "Chromium 153.0.8010.12",
+  "physicalChromebookTest": false,
+  "touch": "Browser Emulation; Not Physical Device Testing",
+  "syntheticStudentData": true,
+  "mainRevision": "ff5fec1144ca57448baad9f5205809bae15f0333",
+  "preservedBuild004ZipSha256": "4736fe735b14444f2d83553bc6161f86cebc15fe1ee6f304a0568f9e8635d652",
+  "remaining": [
+    "Teacher Weekly Build Acceptance",
+    "Physical Chromebook / Classroom Performance Pilot",
+    "Optional Model Miniature And Scenery Polish After Mechanics Acceptance",
+    "Worksheet Deferred Until Final Build Acceptance"
+  ]
+}

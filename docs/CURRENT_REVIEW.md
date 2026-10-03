@@ -4,7 +4,7 @@ Draft PR #33 extends the preserved [PR #32](https://github.com/AbbyUsesAIThatCod
 
 Public main remains `ff5fec1144ca57448baad9f5205809bae15f0333`. PR #32 source/evidence and immutable build 004 remain in `review-evidence/reconciled/`. The catalog uses `local-abigail-catalog`, an atomic ignored `.build-state/<hostname>/` ledger and local port 18444. Jess_PC retains PR ordinal allocation; Abigail does not invent a PR ordinal. Development version 0.1.0 and provisional Predict Cut Inspect codename are unchanged.
 
-Current exact artifact/source, ZIP, screenshots and checks are recorded in the draft PR and `review-evidence/catalog/` handoff when published. Every artifact carries its own immutable manifest. Later documentation/evidence commits do not relabel built sources.
+Current exact artifact/source, ZIP, screenshots and checks are recorded in the draft PR and the [catalog evidence handoff](../review-evidence/catalog/README.md). Every artifact carries its own immutable manifest. Later documentation/evidence commits do not relabel built sources.
 
 The public #26 hotfix and reconciled #20/#23/#24 geometry/workshop repairs remain incorporated. PR #34's recovered unpublished source is explicitly reconciled, not blindly merged. Earlier sequential Challenge and sparse-ruler documents are historical; the current owner-approved catalog and visible-grid contract take precedence.
 
