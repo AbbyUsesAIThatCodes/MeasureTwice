@@ -63,3 +63,9 @@ The table below preserves the September 28 planning snapshot. Its pending entrie
 Before claiming the first build identity implementation complete, compare the actual build console, artifact name, embedded manifest, prominent game display, and current report. Verify two builds get different IDs, reuse preserves an existing ID, and concurrent allocation cannot collide. Keep historical identifiers intact. Update documentation without generating a self-referential rebuild loop.
 
 This records the teacher's standing requirement. It does not authorize a release, merge, or deployment by itself.
+
+## Catalog Header And Evidence Inventory
+
+The October 3 explicit owner revision replaces the full-ID footer with `src/build-display.js`'s compact version, codename, actual scope/ordinal and source beneath Measure Twice. No timestamp appears on that line. `public/dm-bellringer-cube.svg` is the verified bellringer mark. Full ID/time/source/fingerprint remain in Build Details, manifests, console, folder/ZIP names and exports.
+
+Current catalog locations: `src/catalog.js` (full-ID build report and progress JSON), `src/catalog-progress.js` (browser progress), `scripts/catalog-browser-check.cjs` and `scripts/catalog-access-check.cjs` (identified browser evidence), and `review-evidence/catalog/` (immutable artifact plus checks/screenshots). Local scope `local-abigail-catalog` uses the local ledger and port 18444. PR #32's old scope/artifact remains unchanged.

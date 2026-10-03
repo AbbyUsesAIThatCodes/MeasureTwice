@@ -3,7 +3,7 @@ import {catalogRevision} from './recipes.js';
 import {onGrid} from './grid.js';
 
 export const progressKey='MeasureTwice:ChallengeCatalog:v1';
-export const freshProgress=recipes=>({schemaVersion:1,catalogRevision,activeRecipeId:null,supportViewed:[],recipes:Object.fromEntries(recipes.map(r=>[r.id,{revision:r.revision,runs:[]}]))});
+export const freshProgress=recipes=>({schemaVersion:1,catalogRevision,activeRecipeId:null,supportViewed:[],supportExposed:[],recipes:Object.fromEntries(recipes.map(r=>[r.id,{revision:r.revision,runs:[]}]))});
 export const completedRun=(s,r)=>s.step===r.steps.length&&s.builtSteps.length===r.steps.length&&s.parts.length===r.partCount;
 export const currentRun=(data,id)=>data.recipes[id]?.runs.at(-1)??null;
 export function startRun(data,recipe,{replay=false}={}){
@@ -47,7 +47,8 @@ export function decodeProgress(text,recipes){
   if(typeof text!=='string'||text.length>8_000_000)fail();const data=JSON.parse(text);
   if(data.schemaVersion!==1||data.catalogRevision!==catalogRevision||!data.recipes||data.activeRecipeId!==null&&!recipes.some(r=>r.id===data.activeRecipeId))fail();
   list(data.supportViewed,100);if(data.supportViewed.some(id=>!/^MT-C\d{2}$/.test(id)))fail();
-  const out=freshProgress(recipes);out.activeRecipeId=data.activeRecipeId;out.supportViewed=[...data.supportViewed];
+  list(data.supportExposed??[],100);if((data.supportExposed??[]).some(id=>!/^MT-C\d{2}$/.test(id)))fail();
+  const out=freshProgress(recipes);out.supportExposed=[...(data.supportExposed??[])];out.activeRecipeId=data.activeRecipeId;out.supportViewed=[...data.supportViewed];
   for(const recipe of recipes){const entry=data.recipes[recipe.id];if(!entry||entry.revision!==recipe.revision)fail();out.recipes[recipe.id].runs=list(entry.runs,1000).map((s,i)=>validateRun(s,recipe,i+1));}
   if(out.activeRecipeId&&!currentRun(out,out.activeRecipeId))fail();return out;
 }

@@ -1,8 +1,8 @@
-# MeasureTwice Roadmap
+# Measure Twice Roadmap
 
 ## Current Review
 
-The October 3 approved review is tracked in [Current Review](docs/CURRENT_REVIEW.md), with a question-by-question reconciliation and exact artifact evidence. Issues #19/#21/#27–31 remain open for teacher acceptance and remaining classroom limits.
+The October 3 approved review is tracked in [Current Review](docs/CURRENT_REVIEW.md), with the independent four-build catalog, retained question-by-question history and exact artifact evidence. Weekly acceptance prioritizes mechanics, lesson usability, then the post-acceptance worksheet, then decorative polish. Issues #19/#21/#27–31 remain open for teacher acceptance and remaining classroom limits.
 
 ## Historical Position
 

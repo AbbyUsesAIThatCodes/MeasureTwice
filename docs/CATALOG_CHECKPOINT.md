@@ -43,3 +43,9 @@ New tests cover the four exact recipes and connected oriented-box geometry; all 
 Runtime paths used on Abigail: bundled Node under `.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe`; Playwright module in the adjacent `node_modules/playwright`; Chromium under `AppData/Local/ms-playwright/chromium-1243/chrome-win64/chrome.exe`. The local dependency copy is pinned Three.js 0.180.0. A new computer can restore dependencies from the repository lockfile.
 
 The ignored editing helpers and temporary PDF render are not needed to resume; the actual changes, icon, provenance and tests are all in tracked source. Physical Chromebook and classroom performance testing remain pending.
+
+## Resumed Mechanics Checkpoint
+
+Work resumed from the exact pushed source after the owner reconnected. Clean source `ebd16ea92a4d18afc189ef3ae31c0acc9d40f6a8` produced `0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-001_20261003T214043Z_gebd16ea92a4d_web`. Its browser check passed 37 distinct measurements and 114 pieces across all four models, real pointer drag/keyboard, one held wrong cut after refresh, once-only interrupted placement, replay/partial progress/badges, downloads and 1366x768, 1280x600 and 1024x768 layouts. Later integration fixes use a new clean artifact rather than overwriting 001.
+
+The pause/resume list above is retained as history. Current checks and remaining limits are in the identified `review-evidence/catalog/` handoff. No new scenery detail is required for this mechanics checkpoint. Physical-device performance, subjective scenery/miniature polish and final weekly acceptance remain separate.

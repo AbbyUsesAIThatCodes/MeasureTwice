@@ -1,9 +1,11 @@
-# Current MeasureTwice Review
+# Current Measure Twice Review
 
-The October 3 review branch reconciles the public #26 hotfix with unmerged #20/#23/#24 work, the subdivision-aware lesson correction, explicit longer/metric Free Play presets, the side build table, warm wall choices and reusable window daylight. Public main remains `ff5fec1144ca57448baad9f5205809bae15f0333`.
+Draft PR #33 extends the preserved [PR #32](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/pull/32) build 004 in a separate checkout. The teacher approved independent House, Plane, Chair and Tree tiles, a persistent Challenge ruler, visible-grid input, saved progress/replays, the exact bellringer icon and compact build header. See [Build Catalog Review](BUILD_CATALOG_REVIEW.md), [Catalog Checkpoint](CATALOG_CHECKPOINT.md), and [Recovered Question History](RECOVERED_QUESTION_HISTORY.md).
 
-Read [Challenge Reconciliation](CHALLENGE_RECONCILIATION.md), [Instrument And Workshop Review](INSTRUMENT_REVIEW.md) and [Window Daylight](WINDOW_DAYLIGHT.md). The exact tested artifact, immutable manifest, screenshots, downloadable ZIP and verification results are in the branch's `review-evidence/reconciled/` handoff and draft PR. Every artifact independently contains its full build ID, source fingerprint and build report; reopening it preserves that identity.
+Public main remains `ff5fec1144ca57448baad9f5205809bae15f0333`. PR #32 source/evidence and immutable build 004 remain in `review-evidence/reconciled/`. The catalog uses `local-abigail-catalog`, an atomic ignored `.build-state/<hostname>/` ledger and local port 18444. Jess_PC retains PR ordinal allocation; Abigail does not invent a PR ordinal. Development version 0.1.0 and provisional Predict Cut Inspect codename are unchanged.
 
-Builds on Abigail use the explicit `local-abigail-oct03` scope and the repository's ignored `.build-state/<hostname>/` atomic ledger. Jess_PC remains the designated PR ordinal allocator; no PR ordinal is invented on Abigail. The development version `0.1.0` and provisional `Predict Cut Inspect` codename remain unchanged.
+Current exact artifact/source, ZIP, screenshots and checks are recorded in the draft PR and `review-evidence/catalog/` handoff when published. Every artifact carries its own immutable manifest. Later documentation/evidence commits do not relabel built sources.
 
-Earlier workshop/Challenge review documents are historical snapshots. Their old stacked-merge instructions, supported grip, table coordinates, written-input requirements and deployment-status statements do not define this reconciled branch. No draft merge, deployment, worksheet or physical classroom pilot is authorized or claimed by this review.
+The public #26 hotfix and reconciled #20/#23/#24 geometry/workshop repairs remain incorporated. PR #34's recovered unpublished source is explicitly reconciled, not blindly merged. Earlier sequential Challenge and sparse-ruler documents are historical; the current owner-approved catalog and visible-grid contract take precedence.
+
+No main merge, deployment, worksheet or physical Chromebook/classroom pilot is authorized or claimed. Mechanics and lessons come first; optional visual refinement may follow weekly acceptance. EasyAsPie precedes equivalent-fraction work in the teaching sequence.

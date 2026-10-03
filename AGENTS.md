@@ -26,7 +26,7 @@ Read [README](README.md), [Game Design](docs/game-design.md), [Curriculum Alignm
 
 Target student laptops with mouse/trackpad and keyboard input. Use bright cartoony 3D, fullscreen graphics, compact overlays, readable inch rulers, coherent zero, and straight-on inspection. Apply Title Case to authored titles. Phone optimization is outside the classroom scope.
 
-Support printed-mark practice and the explicitly labeled sparse-ruler extension; do not silently add new curricular requirements. Reduced motion or skipping must reach the same inspection and still require acknowledgement. Verify exact measurement arithmetic, fair nonoverlapping input, once-only commitments/transitions, correct duplicate quantities, mode switching, mute, keyboard controls, and laptop readability before classroom release. Consult the examples in Ruler Interaction.
+Use visible graduations as the only input grid for pointer, touch, keyboard and commitment. Disable incompatible coarse fixed-target scales without rounding targets; the former sparse-ruler extension is superseded. Do not silently add new curricular requirements. Reduced motion or skipping must reach the same inspection and still require acknowledgement. Verify exact measurement arithmetic, fair nonoverlapping input, once-only commitments/transitions, correct duplicate quantities, mode switching, mute, keyboard controls, and laptop readability before classroom release. Consult the examples in Ruler Interaction.
 
 ## Build Identity and Scope
 
@@ -35,3 +35,9 @@ Follow [Build Identity](docs/BUILD_IDENTITY.md) for every artifact-producing imp
 For Pages changes, read [Pages Deployment](docs/PAGES.md). Keep the local review builder and historical artifacts intact. Production uses explicit GitHub-run identity, never the Jess_PC PR allocator. Do not dispatch, change Pages settings, merge or deploy without the user's authorization for that action.
 
 Use bounded issues and reviewable PRs; inspect current main and open work first. Read the [Approved Workshop Mockup](docs/mockups/predict-cut-inspect/README.md) for the accepted visual/interaction reference and its explicit prototype limitations. Preserve that snapshot; its mode-reset and sample-content shortcuts do not supersede the game design. Begin the next handoff with issue #1's house plan, then issue #2's implementation. Preserve the distinction between accepted direction and remaining engine, access, geometry, scoring, and timing decisions. Report checks actually performed; tie deployment and classroom-readiness claims to a verified real build and pilot.
+
+## October 3 Catalog Revision
+
+The owner approved independent House, Plane, Chair and Tree choices, browser progress/replay persistence, and thirty original questions as supporting references rather than mandatory gates. Keep the ruler visible throughout Challenge. Preserve all Learn stages and modes, exact geometry, historical attempts, and honest support/export labels. Follow [Build Catalog Review](docs/BUILD_CATALOG_REVIEW.md) and [Current Review](docs/CURRENT_REVIEW.md). The public main and PR #32 build 004 are preserved; do not merge or deploy. Mechanics and lesson usability precede decorative polish. The worksheet waits for final weekly build acceptance.
+
+The header uses the verified bellringer icon, Measure Twice with a space and no period, and compact manifest-derived identity without its timestamp. Full identity remains in metadata and exports. This is an explicit owner override of the earlier full-ID footer requirement.
