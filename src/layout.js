@@ -8,3 +8,9 @@ export function workshopLayout(stockLength=6){
     roomLeft:Math.min(-22,benchLeft-5),roomRight:Math.max(32,tableLeft+tableWidth+5)};
 }
 export function comparisonPosition(index,length,layout){return {x:layout.tableLeft+.3+length/2,y:2.89+Math.floor(index/8)*.4,z:layout.tableZ+2.55-(index%8)*.72};}
+export function tableLegPositions(layout){
+  const left=layout.tableLeft+.2,right=layout.tableLeft+layout.tableWidth-.2;
+  const spans=Math.ceil((right-left)/4),positions=[];
+  for(let i=0;i<=spans;i++)for(const z of [layout.tableZ-2.7,layout.tableZ+2.7])positions.push({x:left+(right-left)*i/spans,z});
+  return positions;
+}

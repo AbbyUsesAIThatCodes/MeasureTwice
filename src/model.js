@@ -1,4 +1,5 @@
 import {instrument,exactRecord} from './instruments.js';
+import {onGrid} from './grid.js';
 export const gcd=(a,b)=>b?gcd(b,a%b):a;
 export function fraction(n){const w=Math.floor(n/16),r=n%16;if(!r)return String(w);const d=gcd(r,16);return `${w?w+' ':''}${r/d}/${16/d}`}
 export function pick(clientX,left,width){return Math.max(1,Math.min(48,Math.round((clientX-left-24)/(width-48)*48)))}
@@ -11,9 +12,9 @@ export function restartSession(s){return {...newSession(s.mode),exposed:[...s.ex
 export const responseRound=(s,id)=>s.responseRounds[activityId(id)]??0;
 export function beginRetry(s,id){const key=activityId(id);s.responseRounds[key]=responseRound(s,id)+1;s.readyQuestion=null;return s.responseRounds[key]}
 export function commit(s,target,context,{copyCount=1,targetRepresentation=null}={}){
-  if(s.phase!=='selecting'||!Number.isInteger(s.selected)||s.selected<1||s.selected>instrument(s).max)return false;
+  if(s.phase!=='selecting'||!Number.isInteger(s.selected)||s.selected<1||s.selected>instrument(s).max||!onGrid(s.selected,s)||target!==null&&!onGrid(target,s))return false;
   const repeated=s.attempts.some(a=>a.context===context);
-  const record={id:s.attempts.length+1,context,actual:s.selected,target,unit:instrument(s).unit,instrument:instrument(s).id,representation:instrument(s).unit==='in'?'sixteenths':'millimetres',physical:exactRecord(s.selected,s),targetPhysical:target===null?null:exactRecord(target,s),visibleIntervalTicks:instrument(s).unit==='in'?2032/s.subdivision:800/s.subdivision,targetRepresentation:target===null?null:targetRepresentation??(instrument(s).unit==='in'?fraction(target)+' in':target+' mm'),scale:s.subdivision,schemaVersion:2,round:responseRound(s,context),copyCount,recordedAt:new Date().toISOString(),assisted:isAssisted(s,context)||(s.mode==='challenge'&&repeated),kind:s.demonstrating?'demonstration':'student-response',retry:repeated,correct:target===null?null:s.selected===target};
+  const record={id:s.attempts.length+1,context,...(s.recipeId?{recipeId:s.recipeId,recipeRevision:s.recipeRevision,runNumber:s.runNumber,replay:s.runNumber>1}:{}),actual:s.selected,target,unit:instrument(s).unit,instrument:instrument(s).id,representation:instrument(s).unit==='in'?'sixteenths':'millimetres',physical:exactRecord(s.selected,s),targetPhysical:target===null?null:exactRecord(target,s),visibleIntervalTicks:instrument(s).unit==='in'?2032/s.subdivision:800/s.subdivision,targetRepresentation:target===null?null:targetRepresentation??(instrument(s).unit==='in'?fraction(target)+' in':target+' mm'),scale:s.subdivision,schemaVersion:2,round:responseRound(s,context),copyCount,recordedAt:new Date().toISOString(),assisted:isAssisted(s,context)||(s.mode==='challenge'&&repeated),kind:s.demonstrating?'demonstration':'student-response',retry:repeated,correct:target===null?null:s.selected===target};
   s.attempts.push(record);s.pending={...record,acknowledged:false};s.phase='cutting';return true;
 }
 export function acknowledge(s,house){

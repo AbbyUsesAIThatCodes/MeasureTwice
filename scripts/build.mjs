@@ -23,6 +23,7 @@ const id=`${release.version}_${release.slug}_${scope}_build-${String(ordinal).pa
 const manifest={...release,id,scope,pr:scope.startsWith('pr-')?Number(scope.slice(3)):null,ordinal,builtAt,sourceRevision,dirty,fingerprint,target:'web',allocator:scope.startsWith('local-')?os.hostname()+'/MeasureTwice-local-build-ledger':'Jess_PC/MeasureTwice-build-ledger'};
 console.log('BUILD START '+id);
 const destination=path.resolve('review-builds',id);
+const reviewPort=Number(process.env.MT_REVIEW_PORT||18444);if(!Number.isInteger(reviewPort)||reviewPort<1024||reviewPort>65535)throw new Error('Invalid review port');
 try{
   fs.mkdirSync('review-builds',{recursive:true});
   fs.mkdirSync(destination,{recursive:false});
@@ -32,8 +33,8 @@ try{
   fs.copyFileSync('node_modules/three/LICENSE',path.join(destination,'vendor/three-LICENSE.txt'));
   fs.writeFileSync(path.join(destination,'build-manifest.json'),JSON.stringify(manifest,null,2));
   fs.copyFileSync('scripts/serve.mjs',path.join(destination,'serve.mjs'));
-  fs.writeFileSync(path.join(destination,'Start Review.cmd'),'@echo off\r\ncd /d "%~dp0"\r\nset "MT_NODE=node"\r\nwhere node >nul 2>nul\r\nif errorlevel 1 set "MT_NODE=%USERPROFILE%\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"\r\nstart "" http://127.0.0.1:18443\r\n"%MT_NODE%" serve.mjs . 18443\r\npause\r\n');
-  fs.writeFileSync(path.join(destination,'REVIEW.txt'),`${id}\nRun: node serve.mjs . 18443\nOpen http://127.0.0.1:18443\nNo external requests or deployment required. Teacher review build, not a classroom release.\n`);
+  fs.writeFileSync(path.join(destination,'Start Review.cmd'),`@echo off\r\ncd /d "%~dp0"\r\nset "MT_NODE=node"\r\nwhere node >nul 2>nul\r\nif errorlevel 1 set "MT_NODE=%USERPROFILE%\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"\r\nstart "" http://127.0.0.1:${reviewPort}\r\n"%MT_NODE%" serve.mjs . ${reviewPort}\r\npause\r\n`);
+  fs.writeFileSync(path.join(destination,'REVIEW.txt'),`${id}\nRun: node serve.mjs . ${reviewPort}\nOpen http://127.0.0.1:${reviewPort}\nNo external requests or deployment required. Teacher review build, not a classroom release.\n`);
   fs.writeFileSync(path.join(destination,'BUILD_REPORT.json'),JSON.stringify({...manifest,status:'Built for Local Review',productionDeployment:false},null,2));
   const report={...manifest,status:'success',completedAt:new Date().toISOString(),directory:destination};
   fs.writeFileSync(receipt,JSON.stringify(report,null,2));
