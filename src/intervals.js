@@ -6,7 +6,7 @@ export function intervalExplanation(target, subdivision, solved=true) {
   const intro=`Each small interval is 1/${subdivision} inch.`;
   if(!solved)return `${intro} Begin at the zero graduation and count intervals, not lines.`;
   const count=target*subdivision/16;
-  if(!Number.isInteger(count))return `${intro} Sparse-Ruler Extension: ${fraction(target)} inch lies between printed graduations. The zero and one-inch length stay fixed.`;
+  if(!Number.isInteger(count))return `${intro} This target requires finer visible graduations before cutting.`;
   const whole=Math.floor(target/16),remainder=target%16;
   if(whole&&remainder)return `${intro} Keep ${whole} whole ${whole===1?'inch':'inches'}, then count ${remainder*subdivision/16} more small intervals to ${fraction(target)} inches.`;
   const equivalent=`${count}/${subdivision} inch`;

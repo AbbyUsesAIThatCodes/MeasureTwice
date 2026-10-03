@@ -1,0 +1,1 @@
+export const compactBuild=m=>m?`${m.version} · ${m.codename} · ${m.scope} #${String(m.ordinal).padStart(3,'0')} · g${m.sourceRevision.slice(0,12)}${m.dirty?' · Modified Sources':''}`:'Development Session · Unbuilt Sources';
