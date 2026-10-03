@@ -5,6 +5,11 @@
   "sha256Note": "Every evidence file except this inventory itself is listed; ZIP contents have a separate complete file inventory.",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 79,
+      "sha256": "f09d4343ed6aa0f71fa6fe9dab2fb1371b1ae870166cfa53e70028c85b8a9b59"
+    },
+    {
       "path": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web.zip",
       "bytes": 567894,
       "sha256": "4736fe735b14444f2d83553bc6161f86cebc15fe1ee6f304a0568f9e8635d652"
