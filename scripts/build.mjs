@@ -8,7 +8,7 @@ const release=JSON.parse(fs.readFileSync('release.json'));
 const scope=process.argv[2]||'local-jess-recovery';
 if(!/^(pr-\d+|local-[a-z0-9-]+)$/.test(scope))throw new Error('Use a real pr-N or explicit local-session scope.');
 // This machine is the designated review allocator. Shared by all local clones.
-const ledger=path.join(os.homedir(),'Documents','Codex','2026-09-29','task-3','build-ledger');
+const ledger=scope.startsWith('local-')?path.resolve('.build-state',os.hostname()):path.join(os.homedir(),'Documents','Codex','2026-09-29','task-3','build-ledger');
 if(scope.startsWith('pr-')&&os.hostname().toLowerCase()!=='jess_pc')throw new Error('PR builds are allocated on Jess_PC only. Use an explicit local scope on another machine.');
 const {ordinal,receipt}=reserve(ledger,scope);
 const git=(...args)=>execFileSync('git',args,{encoding:'utf8'}).trim();
@@ -20,7 +20,7 @@ function digest(p){if(!fs.existsSync(p))return;if(fs.statSync(p).isDirectory()){
 inputs.forEach(digest);const fingerprint=hash.digest('hex');
 const builtAt=new Date().toISOString(),stamp=builtAt.replace(/[-:]/g,'').replace(/\.\d{3}Z$/,'Z');
 const id=`${release.version}_${release.slug}_${scope}_build-${String(ordinal).padStart(3,'0')}_${stamp}_g${sourceRevision.slice(0,12)}${dirty?'-dirty-'+fingerprint.slice(0,8):''}_web`;
-const manifest={...release,id,scope,pr:scope.startsWith('pr-')?Number(scope.slice(3)):null,ordinal,builtAt,sourceRevision,dirty,fingerprint,target:'web',allocator:'Jess_PC/MeasureTwice-build-ledger'};
+const manifest={...release,id,scope,pr:scope.startsWith('pr-')?Number(scope.slice(3)):null,ordinal,builtAt,sourceRevision,dirty,fingerprint,target:'web',allocator:scope.startsWith('local-')?os.hostname()+'/MeasureTwice-local-build-ledger':'Jess_PC/MeasureTwice-build-ledger'};
 console.log('BUILD START '+id);
 const destination=path.resolve('review-builds',id);
 try{
