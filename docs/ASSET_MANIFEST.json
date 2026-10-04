@@ -1,12 +1,70 @@
 {
-  "repository":"AbbyUsesAIThatCodes/MeasureTwice",
-  "sharedCatalogWrites":false,
-  "baseline":{"source":"docs/mockups/predict-cut-inspect/source.fragment.html","commit":"e67bf168a54feaa291f8f33009f23fb46138af48","sha256":"dc9a6aa15a42497c54bb52d3fc6d72d5fa6a358904ff7950dd1c86d1954ad992","attribution":"Teacher-approved MeasureTwice procedural workshop; no new repository-wide license inferred."},
-  "reusableCandidates":[
-    {"name":"Sunny Woodshop","source":"src/workshop.js","type":"Procedural Three.js Geometry","status":"Recovered and Adapted Existing MeasureTwice Asset","parts":["wood grain canvas texture","workbench","saw and guard","plant","tool cup","workshop walls and window"]},
-    {"name":"Exact Timber House","source":"data/house.json","type":"Parameterized Geometry Schedule","status":"New Review Asset","notes":"17 constant-profile pieces, 3 normalized lengths; parent may consolidate in EdugamesGraphicsStorage after review."},
-    {"name":"Wood Comparison Rack","source":"src/app.js:comparisonRack; src/model.js:comparisonPlacement","type":"Procedural Three.js Geometry","status":"New Review Asset","notes":"Aligned starts; 0.63-world-unit wood width plus a 0.09 gap. Eight pieces per raised layer. Uses the recovered workshop wood materials."}
+  "repository": "AbbyUsesAIThatCodes/MeasureTwice",
+  "sharedCatalogWrites": false,
+  "baseline": {
+    "source": "docs/mockups/predict-cut-inspect/source.fragment.html",
+    "commit": "e67bf168a54feaa291f8f33009f23fb46138af48",
+    "sha256": "dc9a6aa15a42497c54bb52d3fc6d72d5fa6a358904ff7950dd1c86d1954ad992",
+    "attribution": "Teacher-approved MeasureTwice procedural workshop; no new repository-wide license inferred."
+  },
+  "reusableCandidates": [
+    {
+      "name": "Sunny Woodshop",
+      "source": "src/workshop.js",
+      "type": "Procedural Three.js Geometry",
+      "status": "Recovered and Adapted Existing MeasureTwice Asset",
+      "parts": [
+        "wood grain canvas texture",
+        "workbench",
+        "saw and guard",
+        "plant",
+        "tool cup",
+        "workshop walls and window"
+      ],
+      "issue19Changes": [
+        "yellow saw grip attached to housing by two supports",
+        "seven pointed curved leaves with stems, midribs, soil and pot rim",
+        "roomier wall/window/tool backdrop with clearance-aware 360-degree camera orbit"
+      ],
+      "cameraSource": "src/view-limits.js",
+      "handoff": "Exact source commit and source file hashes accompany the PR review artifact. Preserve original archive attribution; coordinate the shared-storage update through the parent task.",
+      "issue21Changes": [
+        "hollow lathed pencil cup with seated nonintersecting hexagonal pencils",
+        "raised and extended bench with grounded legs and shared work-surface transform",
+        "receiving tray beyond stock/offcut envelope and aligned staging destination",
+        "comparison rack behind receiving station with unchanged aligned piece starts"
+      ]
+    },
+    {
+      "name": "Exact Timber House",
+      "source": "data/house.json",
+      "type": "Parameterized Geometry Schedule",
+      "status": "New Review Asset",
+      "notes": "17 constant-profile pieces, 3 normalized lengths; parent may consolidate in EdugamesGraphicsStorage after review."
+    },
+    {
+      "name": "Wood Comparison Rack",
+      "source": "src/app.js:comparisonRack; src/model.js:comparisonPlacement",
+      "type": "Procedural Three.js Geometry",
+      "status": "New Review Asset",
+      "notes": "Aligned starts; 0.63-world-unit wood width plus a 0.09 gap. Eight pieces per raised layer. Uses the recovered workshop wood materials."
+    },
+    {
+      "name": "Chair, Biplane, and House Exterior",
+      "source": "src/construction.js; src/app.js:partDestination and rebuildParts",
+      "type": "Original Parameterized Three.js Wooden Models",
+      "status": "New PR24 Review Assets",
+      "revision": "2026-10-01-chair-plane-house-v1",
+      "notes": "104 constant-profile measured wood pieces across three builds, retaining all original 17 frame members. Plane canopy/hub and house glazing are decorative, excluded from measurement counts. Reuses the accepted workshop wood materials and Three.js MIT runtime. No Tinkercad adaptation claim. Parent coordinates shared storage; no central catalog writes."
+    }
   ],
-  "externalAssets":[{"name":"Three.js","version":"0.180.0","license":"MIT","licenseInBuild":"vendor/three-LICENSE.txt"}],
-  "sharedStorageReviewed":"packs/levers-load-effort-distance/provenance.json; existing textures and models have upstream attribution. The accepted MeasureTwice workshop is retained to avoid replacing the approved reference. No EES/DM private course assets copied."
+  "externalAssets": [
+    {
+      "name": "Three.js",
+      "version": "0.180.0",
+      "license": "MIT",
+      "licenseInBuild": "vendor/three-LICENSE.txt"
+    }
+  ],
+  "sharedStorageReviewed": "packs/levers-load-effort-distance/provenance.json; existing textures and models have upstream attribution. The accepted MeasureTwice workshop is retained to avoid replacing the approved reference. No EES/DM private course assets copied."
 }

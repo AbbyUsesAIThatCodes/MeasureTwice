@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "validatedAt": "2026-10-04T14:44:45.984Z",
+  "buildId": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web",
+  "runtimeRevision": "6479bb949b7d19e4ae0e9b79b4edf67de7fea007",
+  "status": "passed",
+  "unitTests": {
+    "passed": 40,
+    "failed": 0
+  },
+  "browserSuites": [
+    {
+      "suite": "catalog-verification.json",
+      "status": "passed",
+      "reportSha256": "aa424542757bce225a04d81d4ac2aa1d0b11839514db17eeb7488ba17abf71cb"
+    },
+    {
+      "suite": "catalog-access-verification.json",
+      "status": "passed",
+      "reportSha256": "892dd80510e427d524588fbd8a0e3ec9021b3469bde8de2c8a48d1ef8d77f775"
+    },
+    {
+      "suite": "weekly-cleanup-verification.json",
+      "status": "passed",
+      "reportSha256": "898fd1fb6770a39a11c3110788479d7b9d1bc5369fe13401645baef7f8630e3c"
+    }
+  ],
+  "statistics": {
+    "assemblyCycles": 37,
+    "sampledFrames": 3678,
+    "learnStages": 10,
+    "instruments": 7
+  },
+  "publicPayloadFiles": 31,
+  "preflight": "Project-path loading, all served byte hashes, manifest/visible identity, forbidden-file 404s, wrong-build/extra-file guards, and rollback loading passed.",
+  "limits": "Chromium on Abigail; fresh synthetic browser state. No physical school laptop, projector or screen-reader pilot claimed. Hosted CI was not run."
+}

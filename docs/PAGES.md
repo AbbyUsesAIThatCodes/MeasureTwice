@@ -1,5 +1,9 @@
 # GitHub Pages Deployment
 
+## October 4 Publication Procedure
+
+[Locally Verified Pages Release](LOCAL_PAGES_RELEASE.md) supersedes the workflow and payload procedure below. Pages is already configured. The current workflow publishes only the locally checked `site/` inventory after an explicit main-branch dispatch; it does not install, build, or run browser tests on GitHub. A merge alone does not deploy. The historical builder now excludes the broad `docs/` tree and maps only `deployment/student-reference.md` to the public curriculum reference path. Historical setup details below are retained for provenance.
+
 This workflow publishes the existing static game at the intended project address `https://AbbyUsesAIThatCodes.github.io/MeasureTwice/`. That address is not a verified live deployment yet. The owner must merge this change and configure Pages. No gameplay, curriculum, UI or classroom-readiness claim changes.
 
 ## Owner Setup After Merge

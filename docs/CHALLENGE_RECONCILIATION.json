@@ -1,0 +1,1656 @@
+{
+  "publicSource": "ff5fec1144ca57448baad9f5205809bae15f0333",
+  "priorSource": "e10cf36e8515a00e10d410fb8937fdc9f434b9c9",
+  "policy": "Interaction-Only Review; Legacy Written Responses Preserved",
+  "items": [
+    {
+      "id": "MT-C01",
+      "public": {
+        "id": "MT-C01",
+        "title": "Find the Starting Graduation",
+        "lesson": 0,
+        "target": 6,
+        "scale": 8,
+        "goals": [
+          "G10",
+          "G11",
+          "G16"
+        ],
+        "prompt": "Mark 3/8 inch. Select where your measurement begins.",
+        "question": "Where does the measurement begin?",
+        "options": [
+          "The Zero Graduation",
+          "The Physical Ruler Edge"
+        ],
+        "answer": "The Zero Graduation",
+        "feedback": "Begin at the zero graduation. Three eighth-inch spaces give 3/8 in. The physical edge may extend before zero.",
+        "kind": "cut"
+      },
+      "prior": {
+        "id": "MT-C01",
+        "title": "Find the Starting Graduation",
+        "lesson": 0,
+        "target": 6,
+        "scale": 8,
+        "goals": [
+          "G10",
+          "G11",
+          "G16"
+        ],
+        "prompt": "Mark 3/8 inch. Select where your measurement begins.",
+        "question": "Where does the measurement begin?",
+        "options": [
+          "The Zero Graduation",
+          "The Physical Ruler Edge"
+        ],
+        "answer": "The Zero Graduation",
+        "feedback": "Begin at the zero graduation. Three eighth-inch spaces give 3/8 in. The physical edge may extend before zero.",
+        "kind": "cut",
+        "pages": "A p. 5, p. 11, pp. 37ΓÇô38, p. 66",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C01",
+        "title": "Find the Starting Graduation",
+        "lesson": 0,
+        "target": 6,
+        "scale": 8,
+        "goals": [
+          "G10",
+          "G11",
+          "G16"
+        ],
+        "prompt": "Mark 3/8 inch. Select where your measurement begins.",
+        "question": "Where does the measurement begin?",
+        "options": [
+          "The Zero Graduation",
+          "The Physical Ruler Edge"
+        ],
+        "answer": "The Zero Graduation",
+        "feedback": "Begin at the zero graduation. Three eighth-inch intervals give 3/8 in. The physical edge may extend before zero.",
+        "kind": "cut",
+        "pages": "A p. 5, p. 11, pp. 37–38, p. 66",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 7,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C02",
+      "public": {
+        "id": "MT-C02",
+        "title": "Read Sixteenths",
+        "lesson": 1,
+        "target": 7,
+        "scale": 16,
+        "goals": [
+          "G11"
+        ],
+        "prompt": "Cut a piece 7/16 inch long.",
+        "feedback": "Seven equal sixteenth-inch spaces from zero give 7/16 in.",
+        "kind": "cut"
+      },
+      "prior": {
+        "id": "MT-C02",
+        "title": "Read Sixteenths",
+        "lesson": 1,
+        "target": 7,
+        "scale": 16,
+        "goals": [
+          "G11"
+        ],
+        "prompt": "Cut a piece 7/16 inch long.",
+        "feedback": "Seven equal sixteenth-inch spaces from zero give 7/16 in.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C02",
+        "title": "Read Sixteenths",
+        "lesson": 1,
+        "target": 7,
+        "scale": 16,
+        "goals": [
+          "G11"
+        ],
+        "prompt": "Cut a piece 7/16 inch long.",
+        "feedback": "Seven equal sixteenth-inch intervals from zero give 7/16 in.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 10,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C03",
+      "public": {
+        "id": "MT-C03",
+        "title": "Compare Equivalent Names",
+        "lesson": 2,
+        "target": 12,
+        "targetLabel": "6/8",
+        "scale": 8,
+        "goals": [
+          "G12"
+        ],
+        "prompt": "Mark 6/8 inch. Would a 3/4-inch piece have the same length? Explain.",
+        "question": "Would they have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "Yes, the Same Endpoint",
+        "explanation": true,
+        "feedback": "Yes. Six eighths and three quarters span the same length and end at the same position. Your written reasoning is saved for teacher review.",
+        "kind": "cut"
+      },
+      "prior": {
+        "id": "MT-C03",
+        "title": "Compare Equivalent Names",
+        "lesson": 2,
+        "target": 12,
+        "targetLabel": "6/8",
+        "scale": 8,
+        "goals": [
+          "G12"
+        ],
+        "prompt": "Mark 6/8 inch. Would a 3/4-inch piece have the same length? Explain.",
+        "question": "Would they have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "Yes, the Same Endpoint",
+        "explanation": true,
+        "feedback": "Yes. Six eighths and three quarters span the same length and end at the same position. Your written reasoning is saved for teacher review.",
+        "kind": "cut",
+        "pages": "A pp. 15, 17ΓÇô21, 23, 25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C03",
+        "title": "Compare Equivalent Names",
+        "lesson": 2,
+        "target": 12,
+        "targetLabel": "6/8",
+        "scale": 8,
+        "goals": [
+          "G12"
+        ],
+        "prompt": "Mark 6/8 inch. Would a 3/4-inch piece have the same length?",
+        "question": "Would they have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "Yes, the Same Endpoint",
+        "explanation": false,
+        "feedback": "Yes. Six eighths and three quarters span the same length and end at the same position. This choice is limited evidence; independent reasoning is not assessed.",
+        "kind": "cut",
+        "pages": "A pp. 15, 17–21, 23, 25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 6,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C04",
+      "public": {
+        "id": "MT-C04",
+        "title": "Keep the Whole Inch",
+        "lesson": 3,
+        "target": 19,
+        "scale": 16,
+        "goals": [
+          "G13"
+        ],
+        "prompt": "Cut an upright 1 3/16 inches long.",
+        "feedback": "Keep the whole inch, then count three sixteenths. A 3/16-in response is one inch too short.",
+        "kind": "cut"
+      },
+      "prior": {
+        "id": "MT-C04",
+        "title": "Keep the Whole Inch",
+        "lesson": 3,
+        "target": 19,
+        "scale": 16,
+        "goals": [
+          "G13"
+        ],
+        "prompt": "Cut a chair rail 1 3/16 inches long.",
+        "feedback": "Keep the whole inch, then count three sixteenths. A 3/16-in response is one inch too short.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C04",
+        "title": "Keep the Whole Inch",
+        "lesson": 3,
+        "target": 19,
+        "scale": 16,
+        "goals": [
+          "G13"
+        ],
+        "prompt": "Cut a chair rail 1 3/16 inches long.",
+        "feedback": "Keep the whole inch, then count three sixteenths. A 3/16-in response is one inch too short.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 4,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C05",
+      "public": {
+        "id": "MT-C05",
+        "title": "Predict the Fit",
+        "lesson": 4,
+        "target": null,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "This opening needs 1 1/4 inches. Your piece measures 1 1/8 inches. Will it fit correctly? Why?",
+        "question": "Predict the fit before seeing the diagnosis.",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Short",
+        "explanation": true,
+        "feedback": "It is 1/8 in too short and leaves a gap because its length is less than the opening. Your written explanation is for teacher review; viewing this feedback is not an independent response.",
+        "kind": "concept"
+      },
+      "prior": {
+        "id": "MT-C05",
+        "title": "Predict the Fit",
+        "lesson": 4,
+        "target": 20,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "This opening needs 1 1/4 inches. Your piece measures 1 1/8 inches. Will it fit correctly? Why? Then cut the needed 1 1/4-inch frame piece.",
+        "question": "Predict the fit before seeing the diagnosis.",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Short",
+        "explanation": true,
+        "feedback": "It is 1/8 in too short and leaves a gap because its length is less than the opening. Your written explanation is for teacher review; viewing this feedback is not an independent response.",
+        "comparison": {
+          "actual": 18,
+          "needed": 20
+        },
+        "kind": "cut",
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C05",
+        "title": "Predict the Fit",
+        "lesson": 4,
+        "target": 20,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "This opening needs 1 1/4 inches. Your piece measures 1 1/8 inches. Will it fit correctly? Then cut the needed 1 1/4-inch frame piece.",
+        "question": "Predict the fit before seeing the diagnosis.",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Short",
+        "explanation": false,
+        "feedback": "It is 1/8 in too short and leaves a gap because its length is less than the opening. This choice is limited evidence; independent reasoning is not assessed.",
+        "comparison": {
+          "actual": 18,
+          "needed": 20
+        },
+        "kind": "cut",
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 23,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C06",
+      "public": {
+        "id": "MT-C06",
+        "title": "Name the Missing Information",
+        "lesson": 0,
+        "target": null,
+        "scale": 16,
+        "goals": [
+          "G07"
+        ],
+        "prompt": "The order says ΓÇ£length: 2.ΓÇ¥ What information is missing?",
+        "question": "Choose the missing information.",
+        "options": [
+          "The Unit",
+          "The Wood Color",
+          "The Saw Speed"
+        ],
+        "answer": "The Unit",
+        "feedback": "The unit is missing. Two inches and two centimeters are different lengths. Normal orders need both a value and a unit.",
+        "kind": "concept"
+      },
+      "prior": {
+        "id": "MT-C06",
+        "title": "Name the Missing Information",
+        "lesson": 0,
+        "target": null,
+        "scale": 16,
+        "goals": [
+          "G07"
+        ],
+        "prompt": "The order says ΓÇ£length: 2.ΓÇ¥ What information is missing?",
+        "question": "Choose the missing information.",
+        "options": [
+          "The Unit",
+          "The Wood Color",
+          "The Saw Speed"
+        ],
+        "answer": "The Unit",
+        "feedback": "The unit is missing. Two inches and two centimeters are different lengths. Normal orders need both a value and a unit.",
+        "kind": "concept",
+        "pages": "A p. 5, p. 11, pp. 37ΓÇô38, p. 66",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C06",
+        "title": "Name the Missing Information",
+        "lesson": 0,
+        "target": null,
+        "scale": 16,
+        "goals": [
+          "G07"
+        ],
+        "prompt": "The order says “length: 2.” What information is missing?",
+        "question": "Choose the missing information.",
+        "options": [
+          "The Unit",
+          "The Wood Color",
+          "The Saw Speed"
+        ],
+        "answer": "The Unit",
+        "feedback": "The unit is missing. Two inches and two centimeters are different lengths. Normal orders need both a value and a unit.",
+        "kind": "concept",
+        "pages": "A p. 5, p. 11, pp. 37–38, p. 66",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 1,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C07",
+      "public": null,
+      "prior": {
+        "id": "MT-C07",
+        "title": "Fraction Cut 1",
+        "lesson": 1,
+        "target": 8,
+        "scale": 2,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 1/2-inch armrest. Read the printed marks from zero.",
+        "feedback": "The spacer needs 1/2 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C07",
+        "title": "Fraction Cut 1",
+        "lesson": 1,
+        "target": 8,
+        "scale": 2,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 1/2-inch armrest. Read the printed graduations from zero.",
+        "feedback": "The spacer needs 1/2 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 8,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C08",
+      "public": null,
+      "prior": {
+        "id": "MT-C08",
+        "title": "Fraction Cut 2",
+        "lesson": 1,
+        "target": 4,
+        "scale": 4,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 1/4-inch armrest tip. Read the printed marks from zero.",
+        "feedback": "The spacer needs 1/4 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C08",
+        "title": "Fraction Cut 2",
+        "lesson": 1,
+        "target": 4,
+        "scale": 4,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 1/4-inch armrest tip. Read the printed graduations from zero.",
+        "feedback": "The spacer needs 1/4 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 9,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C09",
+      "public": null,
+      "prior": {
+        "id": "MT-C09",
+        "title": "Fraction Cut 3",
+        "lesson": 1,
+        "target": 14,
+        "scale": 8,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 7/8-inch door board. Read the printed marks from zero.",
+        "feedback": "The spacer needs 7/8 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C09",
+        "title": "Fraction Cut 3",
+        "lesson": 1,
+        "target": 14,
+        "scale": 8,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 7/8-inch door board. Read the printed graduations from zero.",
+        "feedback": "The spacer needs 7/8 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 28,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C10",
+      "public": null,
+      "prior": {
+        "id": "MT-C10",
+        "title": "Fraction Cut 4",
+        "lesson": 1,
+        "target": 1,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 1/16-inch joint cap. Read the printed marks from zero.",
+        "feedback": "The spacer needs 1/16 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C10",
+        "title": "Fraction Cut 4",
+        "lesson": 1,
+        "target": 1,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 1/16-inch joint cap. Read the printed graduations from zero.",
+        "feedback": "The spacer needs 1/16 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 11,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C11",
+      "public": null,
+      "prior": {
+        "id": "MT-C11",
+        "title": "Fraction Cut 5",
+        "lesson": 1,
+        "target": 11,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut an 11/16-inch joint cap. Read the printed marks from zero.",
+        "feedback": "The spacer needs 11/16 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C11",
+        "title": "Fraction Cut 5",
+        "lesson": 1,
+        "target": 11,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut an 11/16-inch joint cap. Read the printed graduations from zero.",
+        "feedback": "The spacer needs 11/16 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 21,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C12",
+      "public": null,
+      "prior": {
+        "id": "MT-C12",
+        "title": "Fraction Cut 6",
+        "lesson": 1,
+        "target": 15,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 15/16-inch landing strut. Read the printed marks from zero.",
+        "feedback": "The spacer needs 15/16 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C12",
+        "title": "Fraction Cut 6",
+        "lesson": 1,
+        "target": 15,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11"
+        ],
+        "prompt": "Cut a 15/16-inch landing strut. Read the printed graduations from zero.",
+        "feedback": "The spacer needs 15/16 in. Compare your actual endpoint with that requested length.",
+        "kind": "cut",
+        "pages": "A step 3, pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 14,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C13",
+      "public": null,
+      "prior": {
+        "id": "MT-C13",
+        "title": "Longer Cut 1",
+        "lesson": 3,
+        "target": 17,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a front leg 1 1/16 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 1 1/16 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C13",
+        "title": "Longer Cut 1",
+        "lesson": 3,
+        "target": 17,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a front leg 1 1/16 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 1 1/16 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 2,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C14",
+      "public": null,
+      "prior": {
+        "id": "MT-C14",
+        "title": "Longer Cut 2",
+        "lesson": 3,
+        "target": 30,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a fuselage 1 7/8 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 1 7/8 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C14",
+        "title": "Longer Cut 2",
+        "lesson": 3,
+        "target": 30,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a fuselage 1 7/8 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 1 7/8 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 15,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C15",
+      "public": null,
+      "prior": {
+        "id": "MT-C15",
+        "title": "Longer Cut 3",
+        "lesson": 3,
+        "target": 35,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a back post 2 3/16 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 2 3/16 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C15",
+        "title": "Longer Cut 3",
+        "lesson": 3,
+        "target": 35,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a back post 2 3/16 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 2 3/16 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 3,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C16",
+      "public": null,
+      "prior": {
+        "id": "MT-C16",
+        "title": "Longer Cut 4",
+        "lesson": 3,
+        "target": 40,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut an upper wing 2 1/2 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 2 1/2 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C16",
+        "title": "Longer Cut 4",
+        "lesson": 3,
+        "target": 40,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut an upper wing 2 1/2 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 2 1/2 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 18,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C17",
+      "public": null,
+      "prior": {
+        "id": "MT-C17",
+        "title": "Longer Cut 5",
+        "lesson": 3,
+        "target": 47,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a lower wing 2 15/16 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 2 15/16 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C17",
+        "title": "Longer Cut 5",
+        "lesson": 3,
+        "target": 47,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a lower wing 2 15/16 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 2 15/16 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 16,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C18",
+      "public": null,
+      "prior": {
+        "id": "MT-C18",
+        "title": "Longer Cut 6",
+        "lesson": 3,
+        "target": 48,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a display foot 3 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 3 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C18",
+        "title": "Longer Cut 6",
+        "lesson": 3,
+        "target": 48,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Cut a display foot 3 inches long. Keep every whole inch.",
+        "feedback": "The rail needs 3 in. Whole inches and the remaining fraction belong to one length.",
+        "kind": "cut",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 13,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C19",
+      "public": null,
+      "prior": {
+        "id": "MT-C19",
+        "title": "Equivalent Cut 1",
+        "lesson": 2,
+        "target": 8,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G12"
+        ],
+        "prompt": "Mark 2/4 inch. Compare that length with 1/2 inch, then cut your prediction.",
+        "feedback": "2/4 inch and 1/2 inch end together. Compare the measured spans; the inch stays the same.",
+        "kind": "cut",
+        "targetLabel": "2/4",
+        "question": "Do 2/4 inch and 1/2 inch have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "Yes, the Same Endpoint",
+        "explanation": true,
+        "pages": "A pp. 15, 17ΓÇô21, 23, 25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C19",
+        "title": "Equivalent Cut 1",
+        "lesson": 2,
+        "target": 8,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G12"
+        ],
+        "prompt": "Mark 2/4 inch. Compare that length with 1/2 inch, then cut your prediction.",
+        "feedback": "2/4 inch and 1/2 inch end together. Compare the measured spans; the inch stays the same.",
+        "kind": "cut",
+        "targetLabel": "2/4",
+        "question": "Do 2/4 inch and 1/2 inch have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "Yes, the Same Endpoint",
+        "explanation": false,
+        "pages": "A pp. 15, 17–21, 23, 25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 27,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C20",
+      "public": null,
+      "prior": {
+        "id": "MT-C20",
+        "title": "Equivalent Cut 2",
+        "lesson": 2,
+        "target": 6,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G12"
+        ],
+        "prompt": "Mark 6/16 inch. Compare that length with 3/4 inch, then cut your prediction.",
+        "feedback": "6/16 inch and 3/4 inch end at different positions. Compare the measured spans; the inch stays the same.",
+        "kind": "cut",
+        "targetLabel": "6/16",
+        "question": "Do 6/16 inch and 3/4 inch have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "No, Different Endpoints",
+        "explanation": true,
+        "pages": "A pp. 15, 17ΓÇô21, 23, 25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C20",
+        "title": "Equivalent Cut 2",
+        "lesson": 2,
+        "target": 6,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G12"
+        ],
+        "prompt": "Mark 6/16 inch. Compare that length with 3/4 inch, then cut your prediction.",
+        "feedback": "6/16 inch and 3/4 inch end at different positions. Compare the measured spans; the inch stays the same.",
+        "kind": "cut",
+        "targetLabel": "6/16",
+        "question": "Do 6/16 inch and 3/4 inch have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "No, Different Endpoints",
+        "explanation": false,
+        "pages": "A pp. 15, 17–21, 23, 25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 20,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C21",
+      "public": null,
+      "prior": {
+        "id": "MT-C21",
+        "title": "Equivalent Cut 3",
+        "lesson": 2,
+        "target": 20,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G12"
+        ],
+        "prompt": "Mark 10/8 inch. Compare that length with 1 1/4 inch, then cut your prediction.",
+        "feedback": "10/8 inch and 1 1/4 inch end together. Compare the measured spans; the inch stays the same.",
+        "kind": "cut",
+        "targetLabel": "10/8",
+        "question": "Do 10/8 inch and 1 1/4 inch have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "Yes, the Same Endpoint",
+        "explanation": true,
+        "pages": "A pp. 15, 17ΓÇô21, 23, 25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C21",
+        "title": "Equivalent Cut 3",
+        "lesson": 2,
+        "target": 20,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G12"
+        ],
+        "prompt": "Mark 10/8 inch. Compare that length with 1 1/4 inch, then cut your prediction.",
+        "feedback": "10/8 inch and 1 1/4 inch end together. Compare the measured spans; the inch stays the same.",
+        "kind": "cut",
+        "targetLabel": "10/8",
+        "question": "Do 10/8 inch and 1 1/4 inch have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "Yes, the Same Endpoint",
+        "explanation": false,
+        "pages": "A pp. 15, 17–21, 23, 25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 17,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C22",
+      "public": null,
+      "prior": {
+        "id": "MT-C22",
+        "title": "Equivalent Cut 4",
+        "lesson": 2,
+        "target": 28,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G12"
+        ],
+        "prompt": "Mark 14/8 inch. Compare that length with 1 1/2 inch, then cut your prediction.",
+        "feedback": "14/8 inch and 1 1/2 inch end at different positions. Compare the measured spans; the inch stays the same.",
+        "kind": "cut",
+        "targetLabel": "14/8",
+        "question": "Do 14/8 inch and 1 1/2 inch have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "No, Different Endpoints",
+        "explanation": true,
+        "pages": "A pp. 15, 17ΓÇô21, 23, 25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C22",
+        "title": "Equivalent Cut 4",
+        "lesson": 2,
+        "target": 28,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G12"
+        ],
+        "prompt": "Mark 14/8 inch. Compare that length with 1 1/2 inch, then cut your prediction.",
+        "feedback": "14/8 inch and 1 1/2 inch end at different positions. Compare the measured spans; the inch stays the same.",
+        "kind": "cut",
+        "targetLabel": "14/8",
+        "question": "Do 14/8 inch and 1 1/2 inch have the same length?",
+        "options": [
+          "Yes, the Same Endpoint",
+          "No, Different Endpoints"
+        ],
+        "answer": "No, Different Endpoints",
+        "explanation": false,
+        "pages": "A pp. 15, 17–21, 23, 25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 19,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C23",
+      "public": null,
+      "prior": {
+        "id": "MT-C23",
+        "title": "Fit and Cut 1",
+        "lesson": 4,
+        "target": 11,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "An opening needs 11/16 inches. The sample is 9/16 inches. Predict its fit, then cut a new piece to the needed length.",
+        "feedback": "The sample is too short. The new piece needs 11/16 in. Compare the aligned ends after commitment.",
+        "kind": "cut",
+        "question": "How does the sample fit the opening?",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Short",
+        "explanation": true,
+        "comparison": {
+          "actual": 9,
+          "needed": 11
+        },
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C23",
+        "title": "Fit and Cut 1",
+        "lesson": 4,
+        "target": 11,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "An opening needs 11/16 inches. The sample is 9/16 inches. Predict its fit, then cut a new piece to the needed length.",
+        "feedback": "The sample is too short. The new piece needs 11/16 in. Compare the aligned ends after commitment.",
+        "kind": "cut",
+        "question": "How does the sample fit the opening?",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Short",
+        "explanation": false,
+        "comparison": {
+          "actual": 9,
+          "needed": 11
+        },
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 29,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C24",
+      "public": null,
+      "prior": {
+        "id": "MT-C24",
+        "title": "Fit and Cut 2",
+        "lesson": 4,
+        "target": 25,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "An opening needs 1 9/16 inches. The sample is 1 11/16 inches. Predict its fit, then cut a new piece to the needed length.",
+        "feedback": "The sample is too long. The new piece needs 1 9/16 in. Compare the aligned ends after commitment.",
+        "kind": "cut",
+        "question": "How does the sample fit the opening?",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Long",
+        "explanation": true,
+        "comparison": {
+          "actual": 27,
+          "needed": 25
+        },
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C24",
+        "title": "Fit and Cut 2",
+        "lesson": 4,
+        "target": 25,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "An opening needs 1 9/16 inches. The sample is 1 11/16 inches. Predict its fit, then cut a new piece to the needed length.",
+        "feedback": "The sample is too long. The new piece needs 1 9/16 in. Compare the aligned ends after commitment.",
+        "kind": "cut",
+        "question": "How does the sample fit the opening?",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Long",
+        "explanation": false,
+        "comparison": {
+          "actual": 27,
+          "needed": 25
+        },
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 31,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C25",
+      "public": null,
+      "prior": {
+        "id": "MT-C25",
+        "title": "Fit and Cut 3",
+        "lesson": 4,
+        "target": 36,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "An opening needs 2 1/4 inches. The sample is 2 1/4 inches. Predict its fit, then cut a new piece to the needed length.",
+        "feedback": "The sample is the right length. The new piece needs 2 1/4 in. Compare the aligned ends after commitment.",
+        "kind": "cut",
+        "question": "How does the sample fit the opening?",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "The Right Length",
+        "explanation": true,
+        "comparison": {
+          "actual": 36,
+          "needed": 36
+        },
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C25",
+        "title": "Fit and Cut 3",
+        "lesson": 4,
+        "target": 36,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "An opening needs 2 1/4 inches. The sample is 2 1/4 inches. Predict its fit, then cut a new piece to the needed length.",
+        "feedback": "The sample is the right length. The new piece needs 2 1/4 in. Compare the aligned ends after commitment.",
+        "kind": "cut",
+        "question": "How does the sample fit the opening?",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "The Right Length",
+        "explanation": false,
+        "comparison": {
+          "actual": 36,
+          "needed": 36
+        },
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 30,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C26",
+      "public": null,
+      "prior": {
+        "id": "MT-C26",
+        "title": "Fit and Cut 4",
+        "lesson": 4,
+        "target": 48,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "An opening needs 3 inches. The sample is 2 7/8 inches. Predict its fit, then cut a new piece to the needed length.",
+        "feedback": "The sample is too short. The new piece needs 3 in. Compare the aligned ends after commitment.",
+        "kind": "cut",
+        "question": "How does the sample fit the opening?",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Short",
+        "explanation": true,
+        "comparison": {
+          "actual": 46,
+          "needed": 48
+        },
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11ΓÇô25",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C26",
+        "title": "Fit and Cut 4",
+        "lesson": 4,
+        "target": 48,
+        "scale": 16,
+        "goals": [
+          "G08",
+          "G07",
+          "G11"
+        ],
+        "prompt": "An opening needs 3 inches. The sample is 2 7/8 inches. Predict its fit, then cut a new piece to the needed length.",
+        "feedback": "The sample is too short. The new piece needs 3 in. Compare the aligned ends after commitment.",
+        "kind": "cut",
+        "question": "How does the sample fit the opening?",
+        "options": [
+          "Too Short",
+          "Too Long",
+          "The Right Length"
+        ],
+        "answer": "Too Short",
+        "explanation": false,
+        "comparison": {
+          "actual": 46,
+          "needed": 48
+        },
+        "pages": "A pp. 5, 42, 47, 66; fractional reading pp. 11–25",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": true,
+        "responseMode": "interaction"
+      },
+      "sequence": 22,
+      "decision": "Revise",
+      "reason": "Retain answer/target and require committed choice plus cut. Remove typed input under current interaction-only direction; independent written reasoning is no longer assessed."
+    },
+    {
+      "id": "MT-C27",
+      "public": null,
+      "prior": {
+        "id": "MT-C27",
+        "title": "Origin and Cut 1",
+        "lesson": 0,
+        "target": 3,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11",
+          "G16"
+        ],
+        "prompt": "Choose the correct starting reference and cut 3/16 inch.",
+        "feedback": "The zero graduation is the origin. Measure 3/16 inch from it; the physical edge may extend past zero.",
+        "kind": "cut",
+        "question": "Which starting reference measures this length?",
+        "options": [
+          "The Zero Graduation",
+          "The Physical Ruler Edge"
+        ],
+        "answer": "The Zero Graduation",
+        "pages": "A p. 5, p. 11, pp. 37ΓÇô38, p. 66",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C27",
+        "title": "Origin and Cut 1",
+        "lesson": 0,
+        "target": 3,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11",
+          "G16"
+        ],
+        "prompt": "Choose the correct starting reference and cut 3/16 inch.",
+        "feedback": "The zero graduation is the origin. Measure 3/16 inch from it; the physical edge may extend past zero.",
+        "kind": "cut",
+        "question": "Which starting reference measures this length?",
+        "options": [
+          "The Zero Graduation",
+          "The Physical Ruler Edge"
+        ],
+        "answer": "The Zero Graduation",
+        "pages": "A p. 5, p. 11, pp. 37–38, p. 66",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 32,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C28",
+      "public": null,
+      "prior": {
+        "id": "MT-C28",
+        "title": "Origin and Cut 2",
+        "lesson": 0,
+        "target": 37,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11",
+          "G16"
+        ],
+        "prompt": "Choose the correct starting reference and cut 2 5/16 inch.",
+        "feedback": "The zero graduation is the origin. Measure 2 5/16 inch from it; the physical edge may extend past zero.",
+        "kind": "cut",
+        "question": "Which starting reference measures this length?",
+        "options": [
+          "The Zero Graduation",
+          "The Physical Ruler Edge"
+        ],
+        "answer": "The Zero Graduation",
+        "pages": "A p. 5, p. 11, pp. 37ΓÇô38, p. 66",
+        "mapping": "Source-Backed Digital Practice"
+      },
+      "review": {
+        "id": "MT-C28",
+        "title": "Origin and Cut 2",
+        "lesson": 0,
+        "target": 37,
+        "scale": 16,
+        "goals": [
+          "G10",
+          "G11",
+          "G16"
+        ],
+        "prompt": "Choose the correct starting reference and cut 2 5/16 inch.",
+        "feedback": "The zero graduation is the origin. Measure 2 5/16 inch from it; the physical edge may extend past zero.",
+        "kind": "cut",
+        "question": "Which starting reference measures this length?",
+        "options": [
+          "The Zero Graduation",
+          "The Physical Ruler Edge"
+        ],
+        "answer": "The Zero Graduation",
+        "pages": "A p. 5, p. 11, pp. 37–38, p. 66",
+        "mapping": "Source-Backed Digital Practice",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 12,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C29",
+      "public": null,
+      "prior": {
+        "id": "MT-C29",
+        "title": "Equal Parts 1",
+        "lesson": 3,
+        "target": 22,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Make 3 equal 1 3/8-inch pieces. One successful cut is kept as the original. Predict how many additional copies are needed, then cut.",
+        "feedback": "Keep the original and add 2 copies for 3 equal parts. Each part remains 1 3/8 in; none is stretched.",
+        "kind": "cut",
+        "question": "How many additional copies, after retaining the original?",
+        "options": [
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": "2",
+        "copies": 3,
+        "extension": "Equal-copy planning is a local construction extension; the measured cut practices G11/G13.",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Measurement; Local Copy-Planning Extension"
+      },
+      "review": {
+        "id": "MT-C29",
+        "title": "Equal Parts 1",
+        "lesson": 3,
+        "target": 22,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Make 3 equal 1 3/8-inch pieces. One successful cut is kept as the original. Predict how many additional copies are needed, then cut.",
+        "feedback": "Keep the original and add 2 copies for 3 equal parts. Each part remains 1 3/8 in; none is stretched.",
+        "kind": "cut",
+        "question": "How many additional copies, after retaining the original?",
+        "options": [
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": "2",
+        "copies": 3,
+        "extension": "Equal-copy planning is a local construction extension; the measured cut practices G11/G13.",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Measurement; Local Copy-Planning Extension",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 5,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    },
+    {
+      "id": "MT-C30",
+      "public": null,
+      "prior": {
+        "id": "MT-C30",
+        "title": "Equal Parts 2",
+        "lesson": 3,
+        "target": 34,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Make 5 equal 2 1/8-inch pieces. One successful cut is kept as the original. Predict how many additional copies are needed, then cut.",
+        "feedback": "Keep the original and add 4 copies for 5 equal parts. Each part remains 2 1/8 in; none is stretched.",
+        "kind": "cut",
+        "question": "How many additional copies, after retaining the original?",
+        "options": [
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": "4",
+        "copies": 5,
+        "extension": "Equal-copy planning is a local construction extension; the measured cut practices G11/G13.",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Measurement; Local Copy-Planning Extension"
+      },
+      "review": {
+        "id": "MT-C30",
+        "title": "Equal Parts 2",
+        "lesson": 3,
+        "target": 34,
+        "scale": 16,
+        "goals": [
+          "G11",
+          "G13"
+        ],
+        "prompt": "Make 5 equal 2 1/8-inch pieces. One successful cut is kept as the original. Predict how many additional copies are needed, then cut.",
+        "feedback": "Keep the original and add 4 copies for 5 equal parts. Each part remains 2 1/8 in; none is stretched.",
+        "kind": "cut",
+        "question": "How many additional copies, after retaining the original?",
+        "options": [
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": "4",
+        "copies": 5,
+        "extension": "Equal-copy planning is a local construction extension; the measured cut practices G11/G13.",
+        "pages": "A step 6, p. 39",
+        "mapping": "Source-Backed Measurement; Local Copy-Planning Extension",
+        "legacyExplanation": false,
+        "explanation": false,
+        "responseMode": "interaction"
+      },
+      "sequence": 26,
+      "decision": "Retain",
+      "reason": "Retain prior exact target, answer, source goals, construction use, and stable ID."
+    }
+  ]
+}

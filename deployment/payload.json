@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "repo": "MeasureTwice",
+  "buildId": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-005_20261003T225833Z_g6479bb949b7d_web",
+  "manifest": "build-manifest.json",
+  "runtimeRevision": "6479bb949b7d19e4ae0e9b79b4edf67de7fea007",
+  "runtimeBuiltAt": "2026-10-03T22:58:33.060Z",
+  "reviewPR": 33,
+  "preparedAt": "2026-10-04T14:25:51.885Z",
+  "status": "Prepared Locally; Publication Requires A Successful Explicit Dispatch",
+  "rollbackRevision": "ff5fec1144ca57448baad9f5205809bae15f0333",
+  "policy": "Promote existing runtime bytes without compilation or relabeling. Public reference is separately inventoried. No review archives, teacher keys, student records or private course material.",
+  "files": [
+    {
+      "path": "BUILD_REPORT.json",
+      "bytes": 960,
+      "sha256": "0ccff691ee92021de4ec542a67feb0669605e015a9f1153a79a86a931a137d3e",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "build-manifest.json",
+      "bytes": 923,
+      "sha256": "0830c668a0dafe1c05e8fac95d3e713a9ca2d200e4fc5feaf88435cffe6b3ee2",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "data/house.json",
+      "bytes": 1227,
+      "sha256": "8fc1262ab7b08002336b615b195e9659ea2050b9eca12a8f317a3f5d9e7eed9c",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "dm-bellringer-cube.svg",
+      "bytes": 561,
+      "sha256": "19fe1d1f628da386cacfc49416c7a0764f118b3c6125fba49c8b425e4bbbd86e",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "docs/curriculum-content.md",
+      "bytes": 1436,
+      "sha256": "c026479f9c5c14cdf8be0fa71366360048b62fb831993b7b33c93e2ae3b5096a",
+      "origin": "deployment/student-reference.md; public reference replaces teacher-facing material"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5805,
+      "sha256": "34b47ae207611aaf23dd52a8e3970bf83af0cf2a48dabaa1b4a7e0e479c42cb2",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "reference.css",
+      "bytes": 7722,
+      "sha256": "89ca4bb31e5300c823baf60b181ef6324cf548ee27b27d99aac0a3ecdd917a71",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/app.js",
+      "bytes": 40403,
+      "sha256": "e464b16151196f32c6d8a54bf61dbcb514cdafe83e38c8351323884f4f77a354",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/assessment.js",
+      "bytes": 5398,
+      "sha256": "24cb19cac0f7fae0287140cbe1dff8794b1fd432b3bf6f1e49feacf02d9812b8",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/build-display.js",
+      "bytes": 229,
+      "sha256": "562d1ba5317f59e5916c6ca5571e7fe6c416db109c4657b4abded11d11addeae",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/catalog-progress.js",
+      "bytes": 6456,
+      "sha256": "15ed67bf2d253eaec4d142e331b46b9dcfd974083399e69d574fae0da12ac64b",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/catalog.js",
+      "bytes": 11203,
+      "sha256": "21250d3fd81a45670cb650f784781680e1db85653057c6f3f563e941be13182d",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/construction.js",
+      "bytes": 6778,
+      "sha256": "2804a0bef4b101162e03adc7afb35c90ce7009ff63d2bc414aecc06ee16fb240",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/content.js",
+      "bytes": 17986,
+      "sha256": "21fcba40fe85fe2ae2829c7f83635069156b1cba61ebbc60942efd8633964a4c",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/grid.js",
+      "bytes": 1126,
+      "sha256": "b2ac091517a56f3288fff91d875e9c15090fb04de40a7c5e9c1eff879f3d203d",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/instruments.js",
+      "bytes": 1560,
+      "sha256": "165b9b04f58d99a7fba5efb570639d0c7780f80b5b7d1fdd5733428d9f0ea5ae",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/intervals.js",
+      "bytes": 1433,
+      "sha256": "9a8998a9ec34e1971122033de2f7abfe234e7c69816717a1087c7bb0cce81b9b",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/layout.js",
+      "bytes": 1116,
+      "sha256": "c4d040ce736bddc98880d96d32764023d70772917f73439ca0c521d6fbee783f",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/learning.js",
+      "bytes": 22517,
+      "sha256": "7c5619696fd88368ec763a196903dd4c28d22f6e6b804d71a677536bcb2439d6",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/lesson-flow.js",
+      "bytes": 1056,
+      "sha256": "31b855d079a8cdc51ff10fa0007529813582f7df23de4666c7f46b1af8d2a283",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/miniatures.js",
+      "bytes": 1735,
+      "sha256": "27a36fe300e68e58455186eb8ccd790b9b826704db6da190f9548e10adff659d",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/model.js",
+      "bytes": 4448,
+      "sha256": "f68b73266b5744cfda22df052edbdd9782b63f4cd7c7635dadc18767cb0fc709",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/recipes.js",
+      "bytes": 2080,
+      "sha256": "8a69011fee55436dde4db15b3318a7662e51d50403042c77569059b64971b669",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/support-history.js",
+      "bytes": 260,
+      "sha256": "7f177b74a02a3b3f9e9ddc92b03173516d6a6a8acce8e621cabe3bf8de8f2e6d",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/view-limits.js",
+      "bytes": 875,
+      "sha256": "bd11bca5997d85cc04c0a2452e134260d7fad39c58a3c629755c5d7dfc84bdb3",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/window-daylight.js",
+      "bytes": 1434,
+      "sha256": "bf4d31e82594b945be6375a7a75db428a449cec41f06b8d6febb56adcd641b84",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "src/workshop.js",
+      "bytes": 14812,
+      "sha256": "e7abf37f9e0865a078be841fe6e63db72f00ef92589c0d283fa7b93e8835deae",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8856,
+      "sha256": "1386e2fc71719b7af88037baad136769a17c253f3b60a96c0a61dfd9bdaa1789",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "vendor/three-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "origin": "unchanged reviewed runtime"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "origin": "unchanged reviewed runtime"
+    }
+  ]
+}

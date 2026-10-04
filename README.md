@@ -1,4 +1,8 @@
-# MeasureTwice
+# Measure Twice
+
+## October 4 Pages Release
+
+The owner has approved publishing the tested runtime. [Release Status And Procedure](docs/LOCAL_PAGES_RELEASE.md) supersedes the earlier review-only deployment restrictions below. Local validation and actual deployment remain separate gates.
 
 A bright, cartoony 3D measuring woodshop for **Design And Modeling, Activity 1.3 — Measuring Matters**.
 
@@ -8,13 +12,16 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 
 **One successful measurement per distinct required length.** Retries are allowed. Repeated model parts come from visible copies of the accepted original, never repeated correct answers for the same length.
 
+Challenge opens an independent **House, Plane, Chair and Tree** chooser. Each model uses one successful measurement per distinct part length. The ruler stays visible through choosing, cutting, inspection, assembly and completion. Completed miniatures, partial runs, replays and original attempts save in this browser. Reports and JSON can be downloaded at any point; the thirty original questions remain supporting references, not a mandatory sequence or mastery score. See [Build Catalog Review](docs/BUILD_CATALOG_REVIEW.md).
+
+
 ## Start Here
 
 - [Game Design](docs/game-design.md): the approved foundation, full predict–cut–inspect loop, feedback, staging, access, and remaining decisions.
 - [Approved Workshop Mockup](docs/mockups/predict-cut-inspect/README.md): the accepted interactive reference, runnable export, exact source, and next-conversation handoff.
 - [Approved Direction Review](docs/direction-review.md): post-merge consistency findings, reference precedence, and remaining implementation boundaries.
 - [Free Play Learn and Challenge](docs/game-modes.md): the three modes and their support/evidence rules.
-- [Curriculum Content](docs/curriculum-content.md): five Learn scripts and six seed Challenge items with goal mappings.
+- [Curriculum Content](docs/curriculum-content.md): five Learn scripts and the original 30-question support bank with source mappings.
 - [Curriculum Alignment](docs/curriculum-alignment.md): class sources, revision status, identifier rules, and coverage limits.
 - [Ruler Interaction](docs/ruler-interaction.md): exact values, neutral selection, stock movement, fair input, and acceptance examples.
 - [Roadmap](ROADMAP.md): existing issues and bounded handoffs.
@@ -23,11 +30,15 @@ Correct pieces glow green and move into the right-hand stack before duplication 
 - [Design Brief](docs/design-brief.md): founding concept and the superseded correct-answer gate.
 - [Contributor Instructions](AGENTS.md): rules for preserving the agreed design.
 
-## Status
+## Current Review
+
+October 3 isolated integration: see [Current Review](docs/CURRENT_REVIEW.md) for the independent build catalog, visible-grid interactions, retained Learn progression, explicit instrument workspaces and workshop choices. Public main and deployment remain unchanged by this branch. Earlier review status below is historical.
+
+## Historical Status
 
 **Integrated Local Review - September 30, 2026 UTC.** The unchanged accepted mockup is preserved above. The review application now uses its real Three.js workshop with an exact 17-piece house, three retained modes, five selectable lessons, and six checks. See [Implementation Review](docs/IMPLEMENTATION_REVIEW.md), [Quick Review Checklist](docs/REVIEW_CHECKLIST.md), and [First House Schedule](docs/first-house.md). This is a development review; no production deployment or classroom pilot exists. Existing issues stay open for their remaining criteria. The prior Check & Cut concept remains superseded.
 
-Build from source with `pnpm install --frozen-lockfile --ignore-scripts`, then `node scripts/build.mjs local-your-session`. Run the printed review directory's `Start Review.cmd` or `node serve.mjs . 18443`. Each artifact includes its pinned Three.js dependency and works without external runtime requests. See the draft PR handoff for exact snapshot identities; never substitute the archived four-upright reference for the new complete-house build.
+Build from source with `pnpm install --frozen-lockfile --ignore-scripts`, then `node scripts/build.mjs local-your-session`. Run the printed review directory's `Start Review.cmd` or `node serve.mjs . 18444`. Each artifact includes its pinned Three.js dependency and works without external runtime requests. See the draft PR handoff for exact snapshot identities; never substitute the archived four-upright reference for the new complete-house build.
 
 The curricular home is [DesignAndModeling26-27](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27), especially [1.3 Measuring Matters](https://github.com/AbbyUsesAIThatCodes/DesignAndModeling26-27/tree/main/units/01-introduction-to-design/1.3-measuring-matters). Its goals document is currently in draft PR #21; pinned source links are maintained in the alignment record. The public game must work without access to the private class repository. This repository contains original planning and references, not the proprietary course archive.
 

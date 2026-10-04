@@ -2,10 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 
-export const siteRoots = ['public', 'src', 'data', 'docs'];
+export const siteRoots = ['public', 'src', 'data'];
+const studentReference = 'deployment/student-reference.md';
 const extensions = new Set(['.html', '.css', '.js', '.json', '.md', '.txt', '.png', '.jpg', '.svg', '.webp', '.woff2']);
 export function siteInputs(tracked) {
-  return tracked.filter(file => siteRoots.some(root => file.startsWith(root + '/'))).map(file => {
+  return tracked.filter(file => file === studentReference || siteRoots.some(root => file.startsWith(root + '/'))).map(file => {
     if (file.split('/').some(part => part.startsWith('.')) || !extensions.has(path.extname(file))) throw new Error(`Unexpected site input: ${file}`);
     if (!fs.lstatSync(file).isFile()) throw new Error(`Site input must be a regular file: ${file}`);
     return file;
@@ -20,7 +21,7 @@ export function assemblePages(directory, inputs, manifest) {
   fs.mkdirSync(path.dirname(directory), {recursive: true});
   fs.mkdirSync(directory); // Never overwrite an existing identified artifact.
   for (const file of inputs) {
-    const destination = path.join(directory, file.replace(/^public\//, ''));
+    const destination = path.join(directory, file === studentReference ? 'docs/curriculum-content.md' : file.replace(/^public\//, ''));
     fs.mkdirSync(path.dirname(destination), {recursive: true});
     fs.copyFileSync(file, destination);
   }

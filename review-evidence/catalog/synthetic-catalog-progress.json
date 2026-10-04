@@ -1,0 +1,4345 @@
+{
+  "schemaVersion": 1,
+  "build": {
+    "version": "0.1.0",
+    "codename": "Predict Cut Inspect",
+    "slug": "Predict-Cut-Inspect",
+    "status": "development-review",
+    "codenameStatus": "Provisional Review Name From the Approved Study; Awaiting Teacher Acceptance",
+    "compatibility": "Development build. Challenge catalog schema v1 persists anonymous runs in this browser. Prior page-only sessions and schema-v2 evidence exports remain distinct; unsupported stored revisions are preserved for recovery.",
+    "id": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-003_20261003T220212Z_gd077179401f5_web",
+    "scope": "local-abigail-catalog",
+    "pr": null,
+    "ordinal": 3,
+    "builtAt": "2026-10-03T22:02:12.731Z",
+    "sourceRevision": "d077179401f5c5991aa47df5813d1ee670cd1861",
+    "dirty": false,
+    "fingerprint": "554859d330a3c5cc58474b7766daf3d9de1232026f3756c75efc41896a026d31",
+    "target": "web",
+    "allocator": "Abigail/MeasureTwice-local-build-ledger"
+  },
+  "contentRevision": "2026-10-03-reconciled-interactions-v3",
+  "catalogRevision": "2026-10-03-independent-builds-v1",
+  "exportedAt": "2026-10-03T22:02:50.145Z",
+  "progress": {
+    "schemaVersion": 1,
+    "catalogRevision": "2026-10-03-independent-builds-v1",
+    "activeRecipeId": "tree",
+    "supportViewed": [],
+    "supportExposed": [],
+    "recipes": {
+      "house": {
+        "revision": "original-geometry-catalog-v1",
+        "runs": [
+          {
+            "mode": "challenge",
+            "instrument": "inch-3",
+            "workspace": 0,
+            "selected": 3,
+            "phase": "complete",
+            "family": 0,
+            "step": 11,
+            "resumeStep": null,
+            "builtSteps": [
+              "build:house:MT-C26",
+              "build:house:MT-C05",
+              "build:house:house:front-and-back-rails",
+              "build:house:house:side-rails-and-ridge",
+              "build:house:MT-C30",
+              "build:house:MT-C19",
+              "build:house:MT-C09",
+              "build:house:MT-C23",
+              "build:house:MT-C25",
+              "build:house:MT-C24",
+              "build:house:MT-C27"
+            ],
+            "requiresNewCut": [],
+            "attempts": [
+              {
+                "id": 1,
+                "context": "build:house:MT-C26",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 48,
+                "target": 48,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 6096,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 6096,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "3 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 4,
+                "recordedAt": "2026-10-03T22:02:41.111Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 2,
+                "context": "build:house:MT-C05",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 20,
+                "target": 20,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 2540,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 2540,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 1/4 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 8,
+                "recordedAt": "2026-10-03T22:02:41.628Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 3,
+                "context": "build:house:house:front-and-back-rails",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 32,
+                "target": 32,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 4064,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 4064,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "2 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 4,
+                "recordedAt": "2026-10-03T22:02:41.860Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 4,
+                "context": "build:house:house:side-rails-and-ridge",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 16,
+                "target": 16,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 2032,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 2032,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 13,
+                "recordedAt": "2026-10-03T22:02:42.061Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 5,
+                "context": "build:house:MT-C30",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 34,
+                "target": 34,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 4318,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 4318,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "2 1/8 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 5,
+                "recordedAt": "2026-10-03T22:02:42.294Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 6,
+                "context": "build:house:MT-C19",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 8,
+                "target": 8,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 1016,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 1016,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1/2 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 6,
+                "recordedAt": "2026-10-03T22:02:42.461Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 7,
+                "context": "build:house:MT-C09",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 14,
+                "target": 14,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 1778,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 1778,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 254,
+                "targetRepresentation": "7/8 in",
+                "scale": 8,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 3,
+                "recordedAt": "2026-10-03T22:02:42.695Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 8,
+                "context": "build:house:MT-C23",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 11,
+                "target": 11,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 1397,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 1397,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "11/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 8,
+                "recordedAt": "2026-10-03T22:02:42.895Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 9,
+                "context": "build:house:MT-C25",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 36,
+                "target": 36,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 4572,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 4572,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "2 1/4 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:43.127Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 10,
+                "context": "build:house:MT-C24",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 25,
+                "target": 25,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 3175,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 3175,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 9/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 8,
+                "recordedAt": "2026-10-03T22:02:43.394Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 11,
+                "context": "build:house:MT-C27",
+                "recipeId": "house",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 3,
+                "target": 3,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 381,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 381,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "3/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 1,
+                "recordedAt": "2026-10-03T22:02:43.628Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              }
+            ],
+            "parts": [
+              {
+                "length": 48,
+                "project": "house",
+                "step": "build:house:MT-C26",
+                "context": "build:house:MT-C26",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -24,
+                  -1.76,
+                  -7.56
+                ],
+                "to": [
+                  24,
+                  -1.76,
+                  -7.56
+                ],
+                "tone": "dark",
+                "id": 1
+              },
+              {
+                "length": 48,
+                "project": "house",
+                "step": "build:house:MT-C26",
+                "context": "build:house:MT-C26",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -24,
+                  -1.76,
+                  -2.52
+                ],
+                "to": [
+                  24,
+                  -1.76,
+                  -2.52
+                ],
+                "tone": "dark",
+                "id": 2
+              },
+              {
+                "length": 48,
+                "project": "house",
+                "step": "build:house:MT-C26",
+                "context": "build:house:MT-C26",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -24,
+                  -1.76,
+                  2.52
+                ],
+                "to": [
+                  24,
+                  -1.76,
+                  2.52
+                ],
+                "tone": "dark",
+                "id": 3
+              },
+              {
+                "length": 48,
+                "project": "house",
+                "step": "build:house:MT-C26",
+                "context": "build:house:MT-C26",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -24,
+                  -1.76,
+                  7.56
+                ],
+                "to": [
+                  24,
+                  -1.76,
+                  7.56
+                ],
+                "tone": "dark",
+                "id": 4
+              },
+              {
+                "length": 20,
+                "project": "house",
+                "step": "build:house:MT-C05",
+                "context": "build:house:MT-C05",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  0,
+                  -8
+                ],
+                "to": [
+                  -16,
+                  20,
+                  -8
+                ],
+                "role": "frame",
+                "id": 5
+              },
+              {
+                "length": 20,
+                "project": "house",
+                "step": "build:house:MT-C05",
+                "context": "build:house:MT-C05",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  16,
+                  0,
+                  -8
+                ],
+                "to": [
+                  16,
+                  20,
+                  -8
+                ],
+                "role": "frame",
+                "id": 6
+              },
+              {
+                "length": 20,
+                "project": "house",
+                "step": "build:house:MT-C05",
+                "context": "build:house:MT-C05",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  0,
+                  8
+                ],
+                "to": [
+                  -16,
+                  20,
+                  8
+                ],
+                "role": "frame",
+                "id": 7
+              },
+              {
+                "length": 20,
+                "project": "house",
+                "step": "build:house:MT-C05",
+                "context": "build:house:MT-C05",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  16,
+                  0,
+                  8
+                ],
+                "to": [
+                  16,
+                  20,
+                  8
+                ],
+                "role": "frame",
+                "id": 8
+              },
+              {
+                "length": 20,
+                "project": "house",
+                "step": "build:house:MT-C05",
+                "context": "build:house:MT-C05",
+                "placement": 4,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  20,
+                  -8
+                ],
+                "to": [
+                  0,
+                  32,
+                  -8
+                ],
+                "role": "frame",
+                "id": 9
+              },
+              {
+                "length": 20,
+                "project": "house",
+                "step": "build:house:MT-C05",
+                "context": "build:house:MT-C05",
+                "placement": 5,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  16,
+                  20,
+                  -8
+                ],
+                "to": [
+                  0,
+                  32,
+                  -8
+                ],
+                "role": "frame",
+                "id": 10
+              },
+              {
+                "length": 20,
+                "project": "house",
+                "step": "build:house:MT-C05",
+                "context": "build:house:MT-C05",
+                "placement": 6,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  20,
+                  8
+                ],
+                "to": [
+                  0,
+                  32,
+                  8
+                ],
+                "role": "frame",
+                "id": 11
+              },
+              {
+                "length": 20,
+                "project": "house",
+                "step": "build:house:MT-C05",
+                "context": "build:house:MT-C05",
+                "placement": 7,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  16,
+                  20,
+                  8
+                ],
+                "to": [
+                  0,
+                  32,
+                  8
+                ],
+                "role": "frame",
+                "id": 12
+              },
+              {
+                "length": 32,
+                "project": "house",
+                "step": "build:house:house:front-and-back-rails",
+                "context": "build:house:house:front-and-back-rails",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  0,
+                  -8
+                ],
+                "to": [
+                  16,
+                  0,
+                  -8
+                ],
+                "role": "frame",
+                "id": 13
+              },
+              {
+                "length": 32,
+                "project": "house",
+                "step": "build:house:house:front-and-back-rails",
+                "context": "build:house:house:front-and-back-rails",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  0,
+                  8
+                ],
+                "to": [
+                  16,
+                  0,
+                  8
+                ],
+                "role": "frame",
+                "id": 14
+              },
+              {
+                "length": 32,
+                "project": "house",
+                "step": "build:house:house:front-and-back-rails",
+                "context": "build:house:house:front-and-back-rails",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  20,
+                  -8
+                ],
+                "to": [
+                  16,
+                  20,
+                  -8
+                ],
+                "role": "frame",
+                "id": 15
+              },
+              {
+                "length": 32,
+                "project": "house",
+                "step": "build:house:house:front-and-back-rails",
+                "context": "build:house:house:front-and-back-rails",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  20,
+                  8
+                ],
+                "to": [
+                  16,
+                  20,
+                  8
+                ],
+                "role": "frame",
+                "id": 16
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  0,
+                  -8
+                ],
+                "to": [
+                  -16,
+                  0,
+                  8
+                ],
+                "role": "frame",
+                "id": 17
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  16,
+                  0,
+                  -8
+                ],
+                "to": [
+                  16,
+                  0,
+                  8
+                ],
+                "role": "frame",
+                "id": 18
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  20,
+                  -8
+                ],
+                "to": [
+                  -16,
+                  20,
+                  8
+                ],
+                "role": "frame",
+                "id": 19
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  16,
+                  20,
+                  -8
+                ],
+                "to": [
+                  16,
+                  20,
+                  8
+                ],
+                "role": "frame",
+                "id": 20
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 4,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  32,
+                  -8
+                ],
+                "to": [
+                  0,
+                  32,
+                  8
+                ],
+                "role": "frame",
+                "id": 21
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 5,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -17.76,
+                  2.5,
+                  -8
+                ],
+                "to": [
+                  -17.76,
+                  2.5,
+                  8
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 22
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 6,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -17.76,
+                  7.5,
+                  -8
+                ],
+                "to": [
+                  -17.76,
+                  7.5,
+                  8
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 23
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 7,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -17.76,
+                  12.5,
+                  -8
+                ],
+                "to": [
+                  -17.76,
+                  12.5,
+                  8
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 24
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 8,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -17.76,
+                  17.5,
+                  -8
+                ],
+                "to": [
+                  -17.76,
+                  17.5,
+                  8
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 25
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 9,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  17.76,
+                  2.5,
+                  -8
+                ],
+                "to": [
+                  17.76,
+                  2.5,
+                  8
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 26
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 10,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  17.76,
+                  7.5,
+                  -8
+                ],
+                "to": [
+                  17.76,
+                  7.5,
+                  8
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 27
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 11,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  17.76,
+                  12.5,
+                  -8
+                ],
+                "to": [
+                  17.76,
+                  12.5,
+                  8
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 28
+              },
+              {
+                "length": 16,
+                "project": "house",
+                "step": "build:house:house:side-rails-and-ridge",
+                "context": "build:house:house:side-rails-and-ridge",
+                "placement": 12,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  17.76,
+                  17.5,
+                  -8
+                ],
+                "to": [
+                  17.76,
+                  17.5,
+                  8
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 29
+              },
+              {
+                "length": 34,
+                "project": "house",
+                "step": "build:house:MT-C30",
+                "context": "build:house:MT-C30",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -17,
+                  2.5,
+                  -8.88
+                ],
+                "to": [
+                  17,
+                  2.5,
+                  -8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 30
+              },
+              {
+                "length": 34,
+                "project": "house",
+                "step": "build:house:MT-C30",
+                "context": "build:house:MT-C30",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -17,
+                  7.5,
+                  -8.88
+                ],
+                "to": [
+                  17,
+                  7.5,
+                  -8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 31
+              },
+              {
+                "length": 34,
+                "project": "house",
+                "step": "build:house:MT-C30",
+                "context": "build:house:MT-C30",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -17,
+                  12.5,
+                  -8.88
+                ],
+                "to": [
+                  17,
+                  12.5,
+                  -8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 32
+              },
+              {
+                "length": 34,
+                "project": "house",
+                "step": "build:house:MT-C30",
+                "context": "build:house:MT-C30",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -17,
+                  17.5,
+                  -8.88
+                ],
+                "to": [
+                  17,
+                  17.5,
+                  -8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 33
+              },
+              {
+                "length": 34,
+                "project": "house",
+                "step": "build:house:MT-C30",
+                "context": "build:house:MT-C30",
+                "placement": 4,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -17,
+                  17.5,
+                  8.88
+                ],
+                "to": [
+                  17,
+                  17.5,
+                  8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 34
+              },
+              {
+                "length": 8,
+                "project": "house",
+                "step": "build:house:MT-C19",
+                "context": "build:house:MT-C19",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  2.5,
+                  8.88
+                ],
+                "to": [
+                  -8,
+                  2.5,
+                  8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 35
+              },
+              {
+                "length": 8,
+                "project": "house",
+                "step": "build:house:MT-C19",
+                "context": "build:house:MT-C19",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  7.5,
+                  8.88
+                ],
+                "to": [
+                  -8,
+                  7.5,
+                  8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 36
+              },
+              {
+                "length": 8,
+                "project": "house",
+                "step": "build:house:MT-C19",
+                "context": "build:house:MT-C19",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -16,
+                  12.5,
+                  8.88
+                ],
+                "to": [
+                  -8,
+                  12.5,
+                  8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 37
+              },
+              {
+                "length": 8,
+                "project": "house",
+                "step": "build:house:MT-C19",
+                "context": "build:house:MT-C19",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  8,
+                  2.5,
+                  8.88
+                ],
+                "to": [
+                  16,
+                  2.5,
+                  8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 38
+              },
+              {
+                "length": 8,
+                "project": "house",
+                "step": "build:house:MT-C19",
+                "context": "build:house:MT-C19",
+                "placement": 4,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  8,
+                  7.5,
+                  8.88
+                ],
+                "to": [
+                  16,
+                  7.5,
+                  8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 39
+              },
+              {
+                "length": 8,
+                "project": "house",
+                "step": "build:house:MT-C19",
+                "context": "build:house:MT-C19",
+                "placement": 5,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  8,
+                  12.5,
+                  8.88
+                ],
+                "to": [
+                  16,
+                  12.5,
+                  8.88
+                ],
+                "roll": 1.5707963267948966,
+                "role": "wall",
+                "tone": "light",
+                "id": 40
+              },
+              {
+                "length": 14,
+                "project": "house",
+                "step": "build:house:MT-C09",
+                "context": "build:house:MT-C09",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -5.04,
+                  0.88,
+                  9.12
+                ],
+                "to": [
+                  -5.04,
+                  14.88,
+                  9.12
+                ],
+                "roll": 1.5707963267948966,
+                "tone": "dark",
+                "id": 41
+              },
+              {
+                "length": 14,
+                "project": "house",
+                "step": "build:house:MT-C09",
+                "context": "build:house:MT-C09",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  0.88,
+                  9.12
+                ],
+                "to": [
+                  0,
+                  14.88,
+                  9.12
+                ],
+                "roll": 1.5707963267948966,
+                "tone": "dark",
+                "id": 42
+              },
+              {
+                "length": 14,
+                "project": "house",
+                "step": "build:house:MT-C09",
+                "context": "build:house:MT-C09",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  5.04,
+                  0.88,
+                  9.12
+                ],
+                "to": [
+                  5.04,
+                  14.88,
+                  9.12
+                ],
+                "roll": 1.5707963267948966,
+                "tone": "dark",
+                "id": 43
+              },
+              {
+                "length": 11,
+                "project": "house",
+                "step": "build:house:MT-C23",
+                "context": "build:house:MT-C23",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -19.44,
+                  4.5,
+                  -5.5
+                ],
+                "to": [
+                  -19.44,
+                  15.5,
+                  -5.5
+                ],
+                "id": 44
+              },
+              {
+                "length": 11,
+                "project": "house",
+                "step": "build:house:MT-C23",
+                "context": "build:house:MT-C23",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -19.44,
+                  4.5,
+                  5.5
+                ],
+                "to": [
+                  -19.44,
+                  15.5,
+                  5.5
+                ],
+                "id": 45
+              },
+              {
+                "length": 11,
+                "project": "house",
+                "step": "build:house:MT-C23",
+                "context": "build:house:MT-C23",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -19.44,
+                  4.5,
+                  -5.5
+                ],
+                "to": [
+                  -19.44,
+                  4.5,
+                  5.5
+                ],
+                "roll": 1.5707963267948966,
+                "id": 46
+              },
+              {
+                "length": 11,
+                "project": "house",
+                "step": "build:house:MT-C23",
+                "context": "build:house:MT-C23",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -19.44,
+                  15.5,
+                  -5.5
+                ],
+                "to": [
+                  -19.44,
+                  15.5,
+                  5.5
+                ],
+                "roll": 1.5707963267948966,
+                "id": 47
+              },
+              {
+                "length": 11,
+                "project": "house",
+                "step": "build:house:MT-C23",
+                "context": "build:house:MT-C23",
+                "placement": 4,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  19.44,
+                  4.5,
+                  -5.5
+                ],
+                "to": [
+                  19.44,
+                  15.5,
+                  -5.5
+                ],
+                "id": 48
+              },
+              {
+                "length": 11,
+                "project": "house",
+                "step": "build:house:MT-C23",
+                "context": "build:house:MT-C23",
+                "placement": 5,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  19.44,
+                  4.5,
+                  5.5
+                ],
+                "to": [
+                  19.44,
+                  15.5,
+                  5.5
+                ],
+                "id": 49
+              },
+              {
+                "length": 11,
+                "project": "house",
+                "step": "build:house:MT-C23",
+                "context": "build:house:MT-C23",
+                "placement": 6,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  19.44,
+                  4.5,
+                  -5.5
+                ],
+                "to": [
+                  19.44,
+                  4.5,
+                  5.5
+                ],
+                "roll": 1.5707963267948966,
+                "id": 50
+              },
+              {
+                "length": 11,
+                "project": "house",
+                "step": "build:house:MT-C23",
+                "context": "build:house:MT-C23",
+                "placement": 7,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  19.44,
+                  15.5,
+                  -5.5
+                ],
+                "to": [
+                  19.44,
+                  15.5,
+                  5.5
+                ],
+                "roll": 1.5707963267948966,
+                "id": 51
+              },
+              {
+                "length": 36,
+                "project": "house",
+                "step": "build:house:MT-C25",
+                "context": "build:house:MT-C25",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -18,
+                  18,
+                  -10.4
+                ],
+                "to": [
+                  18,
+                  18,
+                  -10.4
+                ],
+                "roll": 1.5707963267948966,
+                "id": 52
+              },
+              {
+                "length": 36,
+                "project": "house",
+                "step": "build:house:MT-C25",
+                "context": "build:house:MT-C25",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -18,
+                  18,
+                  10.4
+                ],
+                "to": [
+                  18,
+                  18,
+                  10.4
+                ],
+                "roll": 1.5707963267948966,
+                "id": 53
+              },
+              {
+                "length": 25,
+                "project": "house",
+                "step": "build:house:MT-C24",
+                "context": "build:house:MT-C24",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -20.6,
+                  17.8,
+                  -7.56
+                ],
+                "to": [
+                  -0.6,
+                  32.8,
+                  -7.56
+                ],
+                "role": "roof",
+                "tone": "dark",
+                "id": 54
+              },
+              {
+                "length": 25,
+                "project": "house",
+                "step": "build:house:MT-C24",
+                "context": "build:house:MT-C24",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -20.6,
+                  17.8,
+                  -2.52
+                ],
+                "to": [
+                  -0.6,
+                  32.8,
+                  -2.52
+                ],
+                "role": "roof",
+                "tone": "dark",
+                "id": 55
+              },
+              {
+                "length": 25,
+                "project": "house",
+                "step": "build:house:MT-C24",
+                "context": "build:house:MT-C24",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -20.6,
+                  17.8,
+                  2.52
+                ],
+                "to": [
+                  -0.6,
+                  32.8,
+                  2.52
+                ],
+                "role": "roof",
+                "tone": "dark",
+                "id": 56
+              },
+              {
+                "length": 25,
+                "project": "house",
+                "step": "build:house:MT-C24",
+                "context": "build:house:MT-C24",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -20.6,
+                  17.8,
+                  7.56
+                ],
+                "to": [
+                  -0.6,
+                  32.8,
+                  7.56
+                ],
+                "role": "roof",
+                "tone": "dark",
+                "id": 57
+              },
+              {
+                "length": 25,
+                "project": "house",
+                "step": "build:house:MT-C24",
+                "context": "build:house:MT-C24",
+                "placement": 4,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  20.6,
+                  17.8,
+                  -7.56
+                ],
+                "to": [
+                  0.6,
+                  32.8,
+                  -7.56
+                ],
+                "role": "roof",
+                "tone": "dark",
+                "id": 58
+              },
+              {
+                "length": 25,
+                "project": "house",
+                "step": "build:house:MT-C24",
+                "context": "build:house:MT-C24",
+                "placement": 5,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  20.6,
+                  17.8,
+                  -2.52
+                ],
+                "to": [
+                  0.6,
+                  32.8,
+                  -2.52
+                ],
+                "role": "roof",
+                "tone": "dark",
+                "id": 59
+              },
+              {
+                "length": 25,
+                "project": "house",
+                "step": "build:house:MT-C24",
+                "context": "build:house:MT-C24",
+                "placement": 6,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  20.6,
+                  17.8,
+                  2.52
+                ],
+                "to": [
+                  0.6,
+                  32.8,
+                  2.52
+                ],
+                "role": "roof",
+                "tone": "dark",
+                "id": 60
+              },
+              {
+                "length": 25,
+                "project": "house",
+                "step": "build:house:MT-C24",
+                "context": "build:house:MT-C24",
+                "placement": 7,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  20.6,
+                  17.8,
+                  7.56
+                ],
+                "to": [
+                  0.6,
+                  32.8,
+                  7.56
+                ],
+                "role": "roof",
+                "tone": "dark",
+                "id": 61
+              },
+              {
+                "length": 3,
+                "project": "house",
+                "step": "build:house:MT-C27",
+                "context": "build:house:MT-C27",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  4.8,
+                  8,
+                  10
+                ],
+                "to": [
+                  4.8,
+                  8,
+                  13
+                ],
+                "tone": "light",
+                "id": 62
+              }
+            ],
+            "completed": [],
+            "pending": null,
+            "hint": false,
+            "lesson": 0,
+            "lessonStage": "guided",
+            "check": 0,
+            "activity": "catalog",
+            "responses": [],
+            "exposed": [
+              "build:house:MT-C26",
+              "build:house:MT-C05",
+              "build:house:house:front-and-back-rails",
+              "build:house:house:side-rails-and-ridge",
+              "build:house:MT-C30",
+              "build:house:MT-C19",
+              "build:house:MT-C09",
+              "build:house:MT-C23",
+              "build:house:MT-C25",
+              "build:house:MT-C24",
+              "build:house:MT-C27"
+            ],
+            "responseRounds": {},
+            "acknowledgements": [
+              {
+                "attemptId": 1,
+                "context": "build:house:MT-C26",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:41.194Z"
+              },
+              {
+                "attemptId": 2,
+                "context": "build:house:MT-C05",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:41.677Z"
+              },
+              {
+                "attemptId": 3,
+                "context": "build:house:house:front-and-back-rails",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:41.910Z"
+              },
+              {
+                "attemptId": 4,
+                "context": "build:house:house:side-rails-and-ridge",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:42.111Z"
+              },
+              {
+                "attemptId": 5,
+                "context": "build:house:MT-C30",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:42.344Z"
+              },
+              {
+                "attemptId": 6,
+                "context": "build:house:MT-C19",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:42.510Z"
+              },
+              {
+                "attemptId": 7,
+                "context": "build:house:MT-C09",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:42.744Z"
+              },
+              {
+                "attemptId": 8,
+                "context": "build:house:MT-C23",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:42.944Z"
+              },
+              {
+                "attemptId": 9,
+                "context": "build:house:MT-C25",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:43.178Z"
+              },
+              {
+                "attemptId": 10,
+                "context": "build:house:MT-C24",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:43.444Z"
+              },
+              {
+                "attemptId": 11,
+                "context": "build:house:MT-C27",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:43.677Z"
+              }
+            ],
+            "freeTarget": null,
+            "subdivision": 16,
+            "sparse": false,
+            "comparison": null,
+            "recipeId": "house",
+            "recipeRevision": "original-geometry-catalog-v1",
+            "runNumber": 1,
+            "startedAt": "2026-10-03T22:02:40.928Z",
+            "completedAt": "2026-10-03T22:02:43.687Z"
+          }
+        ]
+      },
+      "plane": {
+        "revision": "original-geometry-catalog-v1",
+        "runs": [
+          {
+            "mode": "challenge",
+            "instrument": "inch-3",
+            "workspace": 0,
+            "selected": 11,
+            "phase": "complete",
+            "family": 0,
+            "step": 10,
+            "resumeStep": null,
+            "builtSteps": [
+              "build:plane:MT-C28",
+              "build:plane:MT-C18",
+              "build:plane:MT-C12",
+              "build:plane:MT-C14",
+              "build:plane:MT-C17",
+              "build:plane:MT-C21",
+              "build:plane:MT-C16",
+              "build:plane:MT-C22",
+              "build:plane:MT-C20",
+              "build:plane:MT-C11"
+            ],
+            "requiresNewCut": [],
+            "attempts": [
+              {
+                "id": 1,
+                "context": "build:plane:MT-C28",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 37,
+                "target": 37,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 4699,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 4699,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "2 5/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 1,
+                "recordedAt": "2026-10-03T22:02:43.994Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 2,
+                "context": "build:plane:MT-C18",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 48,
+                "target": 48,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 6096,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 6096,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "3 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 1,
+                "recordedAt": "2026-10-03T22:02:44.327Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 3,
+                "context": "build:plane:MT-C12",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 15,
+                "target": 15,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 1905,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 1905,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "15/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:44.544Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 4,
+                "context": "build:plane:MT-C14",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 30,
+                "target": 30,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 3810,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 3810,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 7/8 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:44.777Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 5,
+                "context": "build:plane:MT-C17",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 47,
+                "target": 47,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 5969,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 5969,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "2 15/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:44.994Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 6,
+                "context": "build:plane:MT-C21",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 20,
+                "target": 20,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 2540,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 2540,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 1/4 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 4,
+                "recordedAt": "2026-10-03T22:02:45.211Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 7,
+                "context": "build:plane:MT-C16",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 40,
+                "target": 40,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 5080,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 5080,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "2 1/2 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:45.428Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 8,
+                "context": "build:plane:MT-C22",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 28,
+                "target": 28,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 3556,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 3556,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 3/4 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 1,
+                "recordedAt": "2026-10-03T22:02:45.678Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 9,
+                "context": "build:plane:MT-C20",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 6,
+                "target": 6,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 762,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 762,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "3/8 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 1,
+                "recordedAt": "2026-10-03T22:02:45.911Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 10,
+                "context": "build:plane:MT-C11",
+                "recipeId": "plane",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 11,
+                "target": 11,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 1397,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 1397,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "11/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:46.078Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              }
+            ],
+            "parts": [
+              {
+                "length": 37,
+                "project": "plane",
+                "step": "build:plane:MT-C28",
+                "context": "build:plane:MT-C28",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  0.88,
+                  -18.5
+                ],
+                "to": [
+                  0,
+                  0.88,
+                  18.5
+                ],
+                "tone": "dark",
+                "id": 1
+              },
+              {
+                "length": 48,
+                "project": "plane",
+                "step": "build:plane:MT-C18",
+                "context": "build:plane:MT-C18",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -24,
+                  2.64,
+                  0
+                ],
+                "to": [
+                  24,
+                  2.64,
+                  0
+                ],
+                "tone": "dark",
+                "id": 2
+              },
+              {
+                "length": 15,
+                "project": "plane",
+                "step": "build:plane:MT-C12",
+                "context": "build:plane:MT-C12",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  1.76,
+                  -6
+                ],
+                "to": [
+                  0,
+                  10.76,
+                  6
+                ],
+                "id": 3
+              },
+              {
+                "length": 15,
+                "project": "plane",
+                "step": "build:plane:MT-C12",
+                "context": "build:plane:MT-C12",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  1.76,
+                  6
+                ],
+                "to": [
+                  0,
+                  10.76,
+                  -6
+                ],
+                "id": 4
+              },
+              {
+                "length": 30,
+                "project": "plane",
+                "step": "build:plane:MT-C14",
+                "context": "build:plane:MT-C14",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  10.76,
+                  -15
+                ],
+                "to": [
+                  0,
+                  10.76,
+                  15
+                ],
+                "tone": "light",
+                "id": 5
+              },
+              {
+                "length": 30,
+                "project": "plane",
+                "step": "build:plane:MT-C14",
+                "context": "build:plane:MT-C14",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  12.52,
+                  -15
+                ],
+                "to": [
+                  0,
+                  12.52,
+                  15
+                ],
+                "tone": "light",
+                "id": 6
+              },
+              {
+                "length": 47,
+                "project": "plane",
+                "step": "build:plane:MT-C17",
+                "context": "build:plane:MT-C17",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -23.5,
+                  14.28,
+                  -2.52
+                ],
+                "to": [
+                  23.5,
+                  14.28,
+                  -2.52
+                ],
+                "id": 7
+              },
+              {
+                "length": 47,
+                "project": "plane",
+                "step": "build:plane:MT-C17",
+                "context": "build:plane:MT-C17",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -23.5,
+                  14.28,
+                  2.52
+                ],
+                "to": [
+                  23.5,
+                  14.28,
+                  2.52
+                ],
+                "id": 8
+              },
+              {
+                "length": 20,
+                "project": "plane",
+                "step": "build:plane:MT-C21",
+                "context": "build:plane:MT-C21",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -18,
+                  14.28,
+                  -2.52
+                ],
+                "to": [
+                  -2,
+                  26.28,
+                  -2.52
+                ],
+                "id": 9
+              },
+              {
+                "length": 20,
+                "project": "plane",
+                "step": "build:plane:MT-C21",
+                "context": "build:plane:MT-C21",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -18,
+                  14.28,
+                  2.52
+                ],
+                "to": [
+                  -2,
+                  26.28,
+                  2.52
+                ],
+                "id": 10
+              },
+              {
+                "length": 20,
+                "project": "plane",
+                "step": "build:plane:MT-C21",
+                "context": "build:plane:MT-C21",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  18,
+                  14.28,
+                  -2.52
+                ],
+                "to": [
+                  2,
+                  26.28,
+                  -2.52
+                ],
+                "id": 11
+              },
+              {
+                "length": 20,
+                "project": "plane",
+                "step": "build:plane:MT-C21",
+                "context": "build:plane:MT-C21",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  18,
+                  14.28,
+                  2.52
+                ],
+                "to": [
+                  2,
+                  26.28,
+                  2.52
+                ],
+                "id": 12
+              },
+              {
+                "length": 40,
+                "project": "plane",
+                "step": "build:plane:MT-C16",
+                "context": "build:plane:MT-C16",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -20,
+                  27.16,
+                  -2.52
+                ],
+                "to": [
+                  20,
+                  27.16,
+                  -2.52
+                ],
+                "tone": "light",
+                "id": 13
+              },
+              {
+                "length": 40,
+                "project": "plane",
+                "step": "build:plane:MT-C16",
+                "context": "build:plane:MT-C16",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -20,
+                  27.16,
+                  2.52
+                ],
+                "to": [
+                  20,
+                  27.16,
+                  2.52
+                ],
+                "tone": "light",
+                "id": 14
+              },
+              {
+                "length": 28,
+                "project": "plane",
+                "step": "build:plane:MT-C22",
+                "context": "build:plane:MT-C22",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -14,
+                  14.28,
+                  -12
+                ],
+                "to": [
+                  14,
+                  14.28,
+                  -12
+                ],
+                "id": 15
+              },
+              {
+                "length": 6,
+                "project": "plane",
+                "step": "build:plane:MT-C20",
+                "context": "build:plane:MT-C20",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  14.28,
+                  -12
+                ],
+                "to": [
+                  0,
+                  20.28,
+                  -12
+                ],
+                "id": 16
+              },
+              {
+                "length": 11,
+                "project": "plane",
+                "step": "build:plane:MT-C11",
+                "context": "build:plane:MT-C11",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -5.5,
+                  10.76,
+                  15.88
+                ],
+                "to": [
+                  5.5,
+                  10.76,
+                  15.88
+                ],
+                "roll": 1.5707963267948966,
+                "tone": "dark",
+                "id": 17
+              },
+              {
+                "length": 11,
+                "project": "plane",
+                "step": "build:plane:MT-C11",
+                "context": "build:plane:MT-C11",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  5.26,
+                  16.76
+                ],
+                "to": [
+                  0,
+                  16.259999999999998,
+                  16.76
+                ],
+                "roll": 1.5707963267948966,
+                "tone": "dark",
+                "id": 18
+              }
+            ],
+            "completed": [],
+            "pending": null,
+            "hint": false,
+            "lesson": 0,
+            "lessonStage": "guided",
+            "check": 0,
+            "activity": "catalog",
+            "responses": [],
+            "exposed": [
+              "build:plane:MT-C28",
+              "build:plane:MT-C18",
+              "build:plane:MT-C12",
+              "build:plane:MT-C14",
+              "build:plane:MT-C17",
+              "build:plane:MT-C21",
+              "build:plane:MT-C16",
+              "build:plane:MT-C22",
+              "build:plane:MT-C20",
+              "build:plane:MT-C11"
+            ],
+            "responseRounds": {},
+            "acknowledgements": [
+              {
+                "attemptId": 1,
+                "context": "build:plane:MT-C28",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:44.027Z"
+              },
+              {
+                "attemptId": 2,
+                "context": "build:plane:MT-C18",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:44.361Z"
+              },
+              {
+                "attemptId": 3,
+                "context": "build:plane:MT-C12",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:44.578Z"
+              },
+              {
+                "attemptId": 4,
+                "context": "build:plane:MT-C14",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:44.810Z"
+              },
+              {
+                "attemptId": 5,
+                "context": "build:plane:MT-C17",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:45.044Z"
+              },
+              {
+                "attemptId": 6,
+                "context": "build:plane:MT-C21",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:45.244Z"
+              },
+              {
+                "attemptId": 7,
+                "context": "build:plane:MT-C16",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:45.477Z"
+              },
+              {
+                "attemptId": 8,
+                "context": "build:plane:MT-C22",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:45.728Z"
+              },
+              {
+                "attemptId": 9,
+                "context": "build:plane:MT-C20",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:45.961Z"
+              },
+              {
+                "attemptId": 10,
+                "context": "build:plane:MT-C11",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:46.128Z"
+              }
+            ],
+            "freeTarget": null,
+            "subdivision": 16,
+            "sparse": false,
+            "comparison": null,
+            "recipeId": "plane",
+            "recipeRevision": "original-geometry-catalog-v1",
+            "runNumber": 1,
+            "startedAt": "2026-10-03T22:02:43.828Z",
+            "completedAt": "2026-10-03T22:02:46.135Z"
+          }
+        ]
+      },
+      "chair": {
+        "revision": "original-geometry-catalog-v1",
+        "runs": [
+          {
+            "mode": "challenge",
+            "instrument": "inch-3",
+            "workspace": 0,
+            "selected": 1,
+            "phase": "complete",
+            "family": 0,
+            "step": 10,
+            "resumeStep": null,
+            "builtSteps": [
+              "build:chair:MT-C13",
+              "build:chair:MT-C15",
+              "build:chair:MT-C04",
+              "build:chair:MT-C29",
+              "build:chair:MT-C03",
+              "build:chair:MT-C01",
+              "build:chair:MT-C07",
+              "build:chair:MT-C08",
+              "build:chair:MT-C02",
+              "build:chair:MT-C10"
+            ],
+            "requiresNewCut": [],
+            "attempts": [
+              {
+                "id": 1,
+                "context": "build:chair:MT-C13",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 17,
+                "target": 17,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 2159,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 2159,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 1/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:46.427Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 2,
+                "context": "build:chair:MT-C15",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 35,
+                "target": 35,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 4445,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 4445,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "2 3/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:46.694Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 3,
+                "context": "build:chair:MT-C04",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 19,
+                "target": 19,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 2413,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 2413,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 3/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 5,
+                "recordedAt": "2026-10-03T22:02:46.927Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 4,
+                "context": "build:chair:MT-C29",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 22,
+                "target": 22,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 2794,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 2794,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1 3/8 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 3,
+                "recordedAt": "2026-10-03T22:02:47.128Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 5,
+                "context": "build:chair:MT-C03",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 12,
+                "target": 12,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 1524,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 1524,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 254,
+                "targetRepresentation": "3/4 in",
+                "scale": 8,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 3,
+                "recordedAt": "2026-10-03T22:02:47.361Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 6,
+                "context": "build:chair:MT-C01",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 6,
+                "target": 6,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 762,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 762,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 254,
+                "targetRepresentation": "3/8 in",
+                "scale": 8,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:47.478Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 7,
+                "context": "build:chair:MT-C07",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 8,
+                "target": 8,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 1016,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 1016,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 1016,
+                "targetRepresentation": "1/2 in",
+                "scale": 2,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:47.711Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 8,
+                "context": "build:chair:MT-C08",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 4,
+                "target": 4,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 508,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 508,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 508,
+                "targetRepresentation": "1/4 in",
+                "scale": 4,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:47.828Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 9,
+                "context": "build:chair:MT-C02",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 7,
+                "target": 7,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 889,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 889,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "7/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 1,
+                "recordedAt": "2026-10-03T22:02:48.061Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 10,
+                "context": "build:chair:MT-C10",
+                "recipeId": "chair",
+                "recipeRevision": "original-geometry-catalog-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 1,
+                "target": 1,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 127,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 127,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 127,
+                "targetRepresentation": "1/16 in",
+                "scale": 16,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:48.178Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              }
+            ],
+            "parts": [
+              {
+                "length": 17,
+                "project": "chair",
+                "step": "build:chair:MT-C13",
+                "context": "build:chair:MT-C13",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  0,
+                  5
+                ],
+                "to": [
+                  -9.5,
+                  17,
+                  5
+                ],
+                "id": 1
+              },
+              {
+                "length": 17,
+                "project": "chair",
+                "step": "build:chair:MT-C13",
+                "context": "build:chair:MT-C13",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  9.5,
+                  0,
+                  5
+                ],
+                "to": [
+                  9.5,
+                  17,
+                  5
+                ],
+                "id": 2
+              },
+              {
+                "length": 35,
+                "project": "chair",
+                "step": "build:chair:MT-C15",
+                "context": "build:chair:MT-C15",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  0,
+                  -5
+                ],
+                "to": [
+                  -9.5,
+                  35,
+                  -5
+                ],
+                "id": 3
+              },
+              {
+                "length": 35,
+                "project": "chair",
+                "step": "build:chair:MT-C15",
+                "context": "build:chair:MT-C15",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  9.5,
+                  0,
+                  -5
+                ],
+                "to": [
+                  9.5,
+                  35,
+                  -5
+                ],
+                "id": 4
+              },
+              {
+                "length": 19,
+                "project": "chair",
+                "step": "build:chair:MT-C04",
+                "context": "build:chair:MT-C04",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  16,
+                  5
+                ],
+                "to": [
+                  9.5,
+                  16,
+                  5
+                ],
+                "id": 5
+              },
+              {
+                "length": 19,
+                "project": "chair",
+                "step": "build:chair:MT-C04",
+                "context": "build:chair:MT-C04",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  16,
+                  -5
+                ],
+                "to": [
+                  9.5,
+                  16,
+                  -5
+                ],
+                "id": 6
+              },
+              {
+                "length": 19,
+                "project": "chair",
+                "step": "build:chair:MT-C04",
+                "context": "build:chair:MT-C04",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  22,
+                  -5
+                ],
+                "to": [
+                  9.5,
+                  22,
+                  -5
+                ],
+                "id": 7
+              },
+              {
+                "length": 19,
+                "project": "chair",
+                "step": "build:chair:MT-C04",
+                "context": "build:chair:MT-C04",
+                "placement": 3,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  34,
+                  -5
+                ],
+                "to": [
+                  9.5,
+                  34,
+                  -5
+                ],
+                "id": 8
+              },
+              {
+                "length": 19,
+                "project": "chair",
+                "step": "build:chair:MT-C04",
+                "context": "build:chair:MT-C04",
+                "placement": 4,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  6,
+                  5
+                ],
+                "to": [
+                  9.5,
+                  6,
+                  5
+                ],
+                "id": 9
+              },
+              {
+                "length": 22,
+                "project": "chair",
+                "step": "build:chair:MT-C29",
+                "context": "build:chair:MT-C29",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -11,
+                  17.76,
+                  -5.04
+                ],
+                "to": [
+                  11,
+                  17.76,
+                  -5.04
+                ],
+                "tone": "light",
+                "id": 10
+              },
+              {
+                "length": 22,
+                "project": "chair",
+                "step": "build:chair:MT-C29",
+                "context": "build:chair:MT-C29",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -11,
+                  17.76,
+                  0
+                ],
+                "to": [
+                  11,
+                  17.76,
+                  0
+                ],
+                "tone": "light",
+                "id": 11
+              },
+              {
+                "length": 22,
+                "project": "chair",
+                "step": "build:chair:MT-C29",
+                "context": "build:chair:MT-C29",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -11,
+                  17.76,
+                  5.04
+                ],
+                "to": [
+                  11,
+                  17.76,
+                  5.04
+                ],
+                "tone": "light",
+                "id": 12
+              },
+              {
+                "length": 12,
+                "project": "chair",
+                "step": "build:chair:MT-C03",
+                "context": "build:chair:MT-C03",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -5.04,
+                  22,
+                  -5
+                ],
+                "to": [
+                  -5.04,
+                  34,
+                  -5
+                ],
+                "roll": 1.5707963267948966,
+                "id": 13
+              },
+              {
+                "length": 12,
+                "project": "chair",
+                "step": "build:chair:MT-C03",
+                "context": "build:chair:MT-C03",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  22,
+                  -5
+                ],
+                "to": [
+                  0,
+                  34,
+                  -5
+                ],
+                "roll": 1.5707963267948966,
+                "id": 14
+              },
+              {
+                "length": 12,
+                "project": "chair",
+                "step": "build:chair:MT-C03",
+                "context": "build:chair:MT-C03",
+                "placement": 2,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  5.04,
+                  22,
+                  -5
+                ],
+                "to": [
+                  5.04,
+                  34,
+                  -5
+                ],
+                "roll": 1.5707963267948966,
+                "id": 15
+              },
+              {
+                "length": 6,
+                "project": "chair",
+                "step": "build:chair:MT-C01",
+                "context": "build:chair:MT-C01",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  17,
+                  4
+                ],
+                "to": [
+                  -9.5,
+                  23,
+                  4
+                ],
+                "id": 16
+              },
+              {
+                "length": 6,
+                "project": "chair",
+                "step": "build:chair:MT-C01",
+                "context": "build:chair:MT-C01",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  9.5,
+                  17,
+                  4
+                ],
+                "to": [
+                  9.5,
+                  23,
+                  4
+                ],
+                "id": 17
+              },
+              {
+                "length": 8,
+                "project": "chair",
+                "step": "build:chair:MT-C07",
+                "context": "build:chair:MT-C07",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -9.5,
+                  23.88,
+                  -4
+                ],
+                "to": [
+                  -9.5,
+                  23.88,
+                  4
+                ],
+                "id": 18
+              },
+              {
+                "length": 8,
+                "project": "chair",
+                "step": "build:chair:MT-C07",
+                "context": "build:chair:MT-C07",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  9.5,
+                  23.88,
+                  -4
+                ],
+                "to": [
+                  9.5,
+                  23.88,
+                  4
+                ],
+                "id": 19
+              },
+              {
+                "length": 4,
+                "project": "chair",
+                "step": "build:chair:MT-C08",
+                "context": "build:chair:MT-C08",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -11.5,
+                  24.76,
+                  3.5
+                ],
+                "to": [
+                  -7.5,
+                  24.76,
+                  3.5
+                ],
+                "tone": "dark",
+                "id": 20
+              },
+              {
+                "length": 4,
+                "project": "chair",
+                "step": "build:chair:MT-C08",
+                "context": "build:chair:MT-C08",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  7.5,
+                  24.76,
+                  3.5
+                ],
+                "to": [
+                  11.5,
+                  24.76,
+                  3.5
+                ],
+                "tone": "dark",
+                "id": 21
+              },
+              {
+                "length": 7,
+                "project": "chair",
+                "step": "build:chair:MT-C02",
+                "context": "build:chair:MT-C02",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -3.5,
+                  35,
+                  -5
+                ],
+                "to": [
+                  3.5,
+                  35,
+                  -5
+                ],
+                "tone": "light",
+                "id": 22
+              },
+              {
+                "length": 1,
+                "project": "chair",
+                "step": "build:chair:MT-C10",
+                "context": "build:chair:MT-C10",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -10,
+                  34,
+                  -2
+                ],
+                "to": [
+                  -9,
+                  34,
+                  -2
+                ],
+                "tone": "dark",
+                "id": 23
+              },
+              {
+                "length": 1,
+                "project": "chair",
+                "step": "build:chair:MT-C10",
+                "context": "build:chair:MT-C10",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  9,
+                  34,
+                  -2
+                ],
+                "to": [
+                  10,
+                  34,
+                  -2
+                ],
+                "tone": "dark",
+                "id": 24
+              }
+            ],
+            "completed": [],
+            "pending": null,
+            "hint": false,
+            "lesson": 0,
+            "lessonStage": "guided",
+            "check": 0,
+            "activity": "catalog",
+            "responses": [],
+            "exposed": [
+              "build:chair:MT-C13",
+              "build:chair:MT-C15",
+              "build:chair:MT-C04",
+              "build:chair:MT-C29",
+              "build:chair:MT-C03",
+              "build:chair:MT-C01",
+              "build:chair:MT-C07",
+              "build:chair:MT-C08",
+              "build:chair:MT-C02",
+              "build:chair:MT-C10"
+            ],
+            "responseRounds": {},
+            "acknowledgements": [
+              {
+                "attemptId": 1,
+                "context": "build:chair:MT-C13",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:46.460Z"
+              },
+              {
+                "attemptId": 2,
+                "context": "build:chair:MT-C15",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:46.744Z"
+              },
+              {
+                "attemptId": 3,
+                "context": "build:chair:MT-C04",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:46.960Z"
+              },
+              {
+                "attemptId": 4,
+                "context": "build:chair:MT-C29",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:47.177Z"
+              },
+              {
+                "attemptId": 5,
+                "context": "build:chair:MT-C03",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:47.411Z"
+              },
+              {
+                "attemptId": 6,
+                "context": "build:chair:MT-C01",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:47.527Z"
+              },
+              {
+                "attemptId": 7,
+                "context": "build:chair:MT-C07",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:47.761Z"
+              },
+              {
+                "attemptId": 8,
+                "context": "build:chair:MT-C08",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:47.877Z"
+              },
+              {
+                "attemptId": 9,
+                "context": "build:chair:MT-C02",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:48.110Z"
+              },
+              {
+                "attemptId": 10,
+                "context": "build:chair:MT-C10",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:48.227Z"
+              }
+            ],
+            "freeTarget": null,
+            "subdivision": 16,
+            "sparse": false,
+            "comparison": null,
+            "recipeId": "chair",
+            "recipeRevision": "original-geometry-catalog-v1",
+            "runNumber": 1,
+            "startedAt": "2026-10-03T22:02:46.261Z",
+            "completedAt": "2026-10-03T22:02:48.235Z"
+          }
+        ]
+      },
+      "tree": {
+        "revision": "wooden-tree-v1",
+        "runs": [
+          {
+            "mode": "challenge",
+            "instrument": "inch-3",
+            "workspace": 0,
+            "selected": 4,
+            "phase": "complete",
+            "family": 0,
+            "step": 6,
+            "resumeStep": null,
+            "builtSteps": [
+              "build:tree:base",
+              "build:tree:trunk",
+              "build:tree:lower",
+              "build:tree:middle",
+              "build:tree:upper",
+              "build:tree:crown"
+            ],
+            "requiresNewCut": [],
+            "attempts": [
+              {
+                "id": 1,
+                "context": "build:tree:base",
+                "recipeId": "tree",
+                "recipeRevision": "wooden-tree-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 16,
+                "target": 24,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 2032,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 3048,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 1016,
+                "targetRepresentation": "1 1/2 in",
+                "scale": 2,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:40.479Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": false
+              },
+              {
+                "id": 2,
+                "context": "build:tree:base",
+                "recipeId": "tree",
+                "recipeRevision": "wooden-tree-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 24,
+                "target": 24,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 3048,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 3048,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 1016,
+                "targetRepresentation": "1 1/2 in",
+                "scale": 2,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:48.545Z",
+                "assisted": true,
+                "kind": "student-response",
+                "retry": true,
+                "correct": true
+              },
+              {
+                "id": 3,
+                "context": "build:tree:trunk",
+                "recipeId": "tree",
+                "recipeRevision": "wooden-tree-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 32,
+                "target": 32,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 4064,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 4064,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 1016,
+                "targetRepresentation": "2 in",
+                "scale": 2,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 1,
+                "recordedAt": "2026-10-03T22:02:48.663Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 4,
+                "context": "build:tree:lower",
+                "recipeId": "tree",
+                "recipeRevision": "wooden-tree-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 28,
+                "target": 28,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 3556,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 3556,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 508,
+                "targetRepresentation": "1 3/4 in",
+                "scale": 4,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:48.895Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 5,
+                "context": "build:tree:middle",
+                "recipeId": "tree",
+                "recipeRevision": "wooden-tree-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 20,
+                "target": 20,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 2540,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 2540,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 508,
+                "targetRepresentation": "1 1/4 in",
+                "scale": 4,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:49.028Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 6,
+                "context": "build:tree:upper",
+                "recipeId": "tree",
+                "recipeRevision": "wooden-tree-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 12,
+                "target": 12,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 1524,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 1524,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 508,
+                "targetRepresentation": "3/4 in",
+                "scale": 4,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:49.244Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              },
+              {
+                "id": 7,
+                "context": "build:tree:crown",
+                "recipeId": "tree",
+                "recipeRevision": "wooden-tree-v1",
+                "runNumber": 1,
+                "replay": false,
+                "actual": 4,
+                "target": 4,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 508,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 508,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 508,
+                "targetRepresentation": "1/4 in",
+                "scale": 4,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 1,
+                "recordedAt": "2026-10-03T22:02:49.361Z",
+                "assisted": false,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              }
+            ],
+            "parts": [
+              {
+                "length": 24,
+                "project": "tree",
+                "step": "build:tree:base",
+                "context": "build:tree:base",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -12,
+                  0.88,
+                  0
+                ],
+                "to": [
+                  12,
+                  0.88,
+                  0
+                ],
+                "tone": "light",
+                "id": 1
+              },
+              {
+                "length": 24,
+                "project": "tree",
+                "step": "build:tree:base",
+                "context": "build:tree:base",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  2.64,
+                  -12
+                ],
+                "to": [
+                  0,
+                  2.64,
+                  12
+                ],
+                "tone": "light",
+                "id": 2
+              },
+              {
+                "length": 32,
+                "project": "tree",
+                "step": "build:tree:trunk",
+                "context": "build:tree:trunk",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  1.76,
+                  0
+                ],
+                "to": [
+                  0,
+                  33.76,
+                  0
+                ],
+                "tone": "light",
+                "id": 3
+              },
+              {
+                "length": 28,
+                "project": "tree",
+                "step": "build:tree:lower",
+                "context": "build:tree:lower",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -14,
+                  10,
+                  0
+                ],
+                "to": [
+                  14,
+                  10,
+                  0
+                ],
+                "tone": "light",
+                "id": 4
+              },
+              {
+                "length": 28,
+                "project": "tree",
+                "step": "build:tree:lower",
+                "context": "build:tree:lower",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -14,
+                  13,
+                  0
+                ],
+                "to": [
+                  14,
+                  13,
+                  0
+                ],
+                "tone": "light",
+                "id": 5
+              },
+              {
+                "length": 20,
+                "project": "tree",
+                "step": "build:tree:middle",
+                "context": "build:tree:middle",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -10,
+                  19,
+                  0
+                ],
+                "to": [
+                  10,
+                  19,
+                  0
+                ],
+                "tone": "light",
+                "id": 6
+              },
+              {
+                "length": 20,
+                "project": "tree",
+                "step": "build:tree:middle",
+                "context": "build:tree:middle",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -10,
+                  22,
+                  0
+                ],
+                "to": [
+                  10,
+                  22,
+                  0
+                ],
+                "tone": "light",
+                "id": 7
+              },
+              {
+                "length": 12,
+                "project": "tree",
+                "step": "build:tree:upper",
+                "context": "build:tree:upper",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -6,
+                  28,
+                  0
+                ],
+                "to": [
+                  6,
+                  28,
+                  0
+                ],
+                "tone": "light",
+                "id": 8
+              },
+              {
+                "length": 12,
+                "project": "tree",
+                "step": "build:tree:upper",
+                "context": "build:tree:upper",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  -6,
+                  31,
+                  0
+                ],
+                "to": [
+                  6,
+                  31,
+                  0
+                ],
+                "tone": "light",
+                "id": 9
+              },
+              {
+                "length": 4,
+                "project": "tree",
+                "step": "build:tree:crown",
+                "context": "build:tree:crown",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -2,
+                  34,
+                  0
+                ],
+                "to": [
+                  2,
+                  34,
+                  0
+                ],
+                "tone": "light",
+                "id": 10
+              }
+            ],
+            "completed": [],
+            "pending": null,
+            "hint": false,
+            "lesson": 0,
+            "lessonStage": "guided",
+            "check": 0,
+            "activity": "catalog",
+            "responses": [],
+            "exposed": [
+              "build:tree:base",
+              "build:tree:trunk",
+              "build:tree:lower",
+              "build:tree:middle",
+              "build:tree:upper",
+              "build:tree:crown"
+            ],
+            "responseRounds": {},
+            "acknowledgements": [
+              {
+                "attemptId": 1,
+                "context": "build:tree:base",
+                "kept": false,
+                "recordedAt": "2026-10-03T22:02:40.844Z"
+              },
+              {
+                "attemptId": 2,
+                "context": "build:tree:base",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:48.594Z"
+              },
+              {
+                "attemptId": 3,
+                "context": "build:tree:trunk",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:48.711Z"
+              },
+              {
+                "attemptId": 4,
+                "context": "build:tree:lower",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:48.944Z"
+              },
+              {
+                "attemptId": 5,
+                "context": "build:tree:middle",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:49.060Z"
+              },
+              {
+                "attemptId": 6,
+                "context": "build:tree:upper",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:49.294Z"
+              },
+              {
+                "attemptId": 7,
+                "context": "build:tree:crown",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:49.411Z"
+              }
+            ],
+            "freeTarget": null,
+            "subdivision": 16,
+            "sparse": false,
+            "comparison": null,
+            "recipeId": "tree",
+            "recipeRevision": "wooden-tree-v1",
+            "runNumber": 1,
+            "startedAt": "2026-10-03T22:02:40.385Z",
+            "completedAt": "2026-10-03T22:02:49.418Z"
+          },
+          {
+            "mode": "challenge",
+            "instrument": "inch-3",
+            "workspace": 0,
+            "selected": 24,
+            "phase": "selecting",
+            "family": 0,
+            "step": 1,
+            "resumeStep": null,
+            "builtSteps": [
+              "build:tree:base"
+            ],
+            "requiresNewCut": [],
+            "attempts": [
+              {
+                "id": 1,
+                "context": "build:tree:base",
+                "recipeId": "tree",
+                "recipeRevision": "wooden-tree-v1",
+                "runNumber": 2,
+                "replay": true,
+                "actual": 24,
+                "target": 24,
+                "unit": "in",
+                "instrument": "inch-3",
+                "representation": "sixteenths",
+                "physical": {
+                  "ticks": 3048,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "targetPhysical": {
+                  "ticks": 3048,
+                  "tickUnit": "1/80 mm",
+                  "stepUnit": "1/16 in"
+                },
+                "visibleIntervalTicks": 1016,
+                "targetRepresentation": "1 1/2 in",
+                "scale": 2,
+                "schemaVersion": 2,
+                "round": 0,
+                "copyCount": 2,
+                "recordedAt": "2026-10-03T22:02:49.660Z",
+                "assisted": true,
+                "kind": "student-response",
+                "retry": false,
+                "correct": true
+              }
+            ],
+            "parts": [
+              {
+                "length": 24,
+                "project": "tree",
+                "step": "build:tree:base",
+                "context": "build:tree:base",
+                "placement": 0,
+                "original": true,
+                "mode": "challenge",
+                "from": [
+                  -12,
+                  0.88,
+                  0
+                ],
+                "to": [
+                  12,
+                  0.88,
+                  0
+                ],
+                "tone": "light",
+                "id": 1
+              },
+              {
+                "length": 24,
+                "project": "tree",
+                "step": "build:tree:base",
+                "context": "build:tree:base",
+                "placement": 1,
+                "original": false,
+                "mode": "challenge",
+                "from": [
+                  0,
+                  2.64,
+                  -12
+                ],
+                "to": [
+                  0,
+                  2.64,
+                  12
+                ],
+                "tone": "light",
+                "id": 2
+              }
+            ],
+            "completed": [],
+            "pending": null,
+            "hint": false,
+            "lesson": 0,
+            "lessonStage": "guided",
+            "check": 0,
+            "activity": "catalog",
+            "responses": [],
+            "exposed": [
+              "build:tree:base"
+            ],
+            "responseRounds": {},
+            "acknowledgements": [
+              {
+                "attemptId": 1,
+                "context": "build:tree:base",
+                "kept": true,
+                "recordedAt": "2026-10-03T22:02:49.694Z"
+              }
+            ],
+            "freeTarget": null,
+            "subdivision": 2,
+            "sparse": false,
+            "comparison": null,
+            "recipeId": "tree",
+            "recipeRevision": "wooden-tree-v1",
+            "runNumber": 2,
+            "startedAt": "2026-10-03T22:02:49.595Z",
+            "completedAt": null
+          }
+        ]
+      }
+    }
+  },
+  "limits": "Build completion records exact cuts and automatic placement. It does not mean all 30 supporting questions were answered or independently explained."
+}

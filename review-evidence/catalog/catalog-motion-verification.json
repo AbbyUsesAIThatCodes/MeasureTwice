@@ -1,0 +1,108 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-catalog_build-003_20261003T220212Z_gd077179401f5_web",
+  "sourceRevision": "d077179401f5c5991aa47df5813d1ee670cd1861",
+  "cases": [
+    {
+      "instrument": "inch-3",
+      "selected": 1,
+      "motion": "full",
+      "samples": 343,
+      "phases": [
+        "selecting",
+        "cutting",
+        "approaching",
+        "inspecting",
+        "departing",
+        "duplicating",
+        "assembling"
+      ]
+    },
+    {
+      "instrument": "inch-3",
+      "selected": 48,
+      "motion": "full",
+      "samples": 343,
+      "phases": [
+        "selecting",
+        "cutting",
+        "approaching",
+        "inspecting",
+        "departing",
+        "duplicating",
+        "assembling"
+      ]
+    },
+    {
+      "instrument": "inch-3",
+      "selected": 47,
+      "motion": "skipped",
+      "samples": 9,
+      "phases": [
+        "selecting",
+        "inspecting"
+      ]
+    },
+    {
+      "instrument": "inch-3",
+      "selected": 48,
+      "motion": "reduced",
+      "samples": 9,
+      "phases": [
+        "selecting",
+        "inspecting"
+      ]
+    },
+    {
+      "instrument": "metre",
+      "selected": 1,
+      "motion": "full",
+      "samples": 342,
+      "phases": [
+        "selecting",
+        "cutting",
+        "approaching",
+        "inspecting",
+        "departing",
+        "duplicating",
+        "assembling"
+      ]
+    },
+    {
+      "instrument": "metre",
+      "selected": 1000,
+      "motion": "full",
+      "samples": 342,
+      "phases": [
+        "selecting",
+        "cutting",
+        "approaching",
+        "inspecting",
+        "departing",
+        "duplicating",
+        "assembling"
+      ]
+    },
+    {
+      "instrument": "metre",
+      "selected": 999,
+      "motion": "skipped",
+      "samples": 9,
+      "phases": [
+        "selecting",
+        "inspecting"
+      ]
+    },
+    {
+      "instrument": "metre",
+      "selected": 1000,
+      "motion": "reduced",
+      "samples": 9,
+      "phases": [
+        "selecting",
+        "inspecting"
+      ]
+    }
+  ],
+  "errors": [],
+  "syntheticStudentData": true
+}

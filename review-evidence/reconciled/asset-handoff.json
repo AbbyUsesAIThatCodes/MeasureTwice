@@ -1,0 +1,65 @@
+{
+  "repository": "AbbyUsesAIThatCodes/MeasureTwice",
+  "issue": "https://github.com/AbbyUsesAIThatCodes/EdugamesGraphicsStorage/issues/12",
+  "buildId": "0.1.0_Predict-Cut-Inspect_local-abigail-oct03_build-004_20261003T180257Z_gd60bdb3a0429_web",
+  "sourceRevision": "d60bdb3a04292584d28712df6f8d314514a7a708",
+  "baseline": {
+    "pack": "packs/measure-twice",
+    "name": "Sunny Woodshop",
+    "repository": "AbbyUsesAIThatCodes/EdugamesGraphicsStorage",
+    "sourceRevision": "3408719e614a0531eee21135b562462dbf824a5f"
+  },
+  "status": "Editable Consumer Recipe Ready For Visual Review; Shared Archive Pending Acceptance",
+  "sharedCatalogWrites": false,
+  "license": "No new original-art license inferred; preserve existing provenance and attribution. Three.js 0.180.0 MIT license is in the artifact.",
+  "reusableParts": [
+    "Parameterized Four-Pane Floor Daylight Projection",
+    "Warm Timber And Log Cabin Wall Treatments",
+    "Separate Supported Build Table And Long-Instrument Supports",
+    "Varied Mounted Wall Tools",
+    "Raised Bench, Pointed Leaves And Hollow Pencil Cup"
+  ],
+  "historicalManifest": "docs/ASSET_MANIFEST.json preserves an earlier draft. Its decorative grip and former comparison-rack placement are superseded by this handoff.",
+  "files": [
+    {
+      "path": "src/window-daylight.js",
+      "sha256": "dc72a7bd0095cccd85bdf1a5f733795e4bff4a94574813c981eaae1439b293e0"
+    },
+    {
+      "path": "src/workshop.js",
+      "sha256": "7ad43bcc170e516c1a9bb561cbf97f5dbc701bf97e89a2f77215a0def2edb897"
+    },
+    {
+      "path": "src/layout.js",
+      "sha256": "353850327025ec2cec222c3a80f22a7423c9f09923a60f5e6f53a45bd3c9c36d"
+    },
+    {
+      "path": "src/view-limits.js",
+      "sha256": "bd11bca5997d85cc04c0a2452e134260d7fad39c58a3c629755c5d7dfc84bdb3"
+    },
+    {
+      "path": "src/construction.js",
+      "sha256": "2804a0bef4b101162e03adc7afb35c90ce7009ff63d2bc414aecc06ee16fb240"
+    },
+    {
+      "path": "src/instruments.js",
+      "sha256": "059a65f2747d8e1659bc88c6e8ec75c035665861a5b5df0a6846228934c9f492"
+    },
+    {
+      "path": "src/intervals.js",
+      "sha256": "bb4bf00bf945e8e776ce484f69a37e55e54e4084f484b2b81bbda3dd69815d8e"
+    },
+    {
+      "path": "data/house.json",
+      "sha256": "8fc1262ab7b08002336b615b195e9659ea2050b9eca12a8f317a3f5d9e7eed9c"
+    },
+    {
+      "path": "docs/WINDOW_DAYLIGHT.md",
+      "sha256": "a39fc3a95d0923981761c26c156bc9c893d6fc9cbcc3aac5ab654d2c6dcd59fd"
+    },
+    {
+      "path": "docs/INSTRUMENT_REVIEW.md",
+      "sha256": "fdc826c53baf6e704c2852317a92b3e1deeefd717a8412bdef2f32048620b026"
+    }
+  ]
+}
