@@ -1,5 +1,9 @@
 # Measure Twice
 
+## October 4 Pages Release
+
+The owner has approved publishing the tested runtime. [Release Status And Procedure](docs/LOCAL_PAGES_RELEASE.md) supersedes the earlier review-only deployment restrictions below. Local validation and actual deployment remain separate gates.
+
 A bright, cartoony 3D measuring woodshop for **Design And Modeling, Activity 1.3 — Measuring Matters**.
 
 Read a requested inch measurement, choose its position on a ruler, and watch the plank move beneath the saw. Press **Cut** to commit the prediction. The saw cuts the selected length, correct or incorrect, with a shower of cartoony sawdust. The piece swings toward the camera for an inspection that compares what was cut with what was needed.

@@ -69,3 +69,7 @@ This records the teacher's standing requirement. It does not authorize a release
 The October 3 explicit owner revision replaces the full-ID footer with `src/build-display.js`'s compact version, codename, actual scope/ordinal and source beneath Measure Twice. No timestamp appears on that line. `public/dm-bellringer-cube.svg` is the verified bellringer mark. Full ID/time/source/fingerprint remain in Build Details, manifests, console, folder/ZIP names and exports.
 
 Current catalog locations: `src/catalog.js` (full-ID build report and progress JSON), `src/catalog-progress.js` (browser progress), `scripts/catalog-browser-check.cjs` and `scripts/catalog-access-check.cjs` (identified browser evidence), and `review-evidence/catalog/` (immutable artifact plus checks/screenshots). Local scope `local-abigail-catalog` uses the local ledger and port 18444. PR #32's old scope/artifact remains unchanged.
+
+## October 4 Local Pages Promotion
+
+[Locally Verified Pages Release](LOCAL_PAGES_RELEASE.md) is the current publication path. `site/` contains the unchanged identified runtime; `deployment/payload.json` records the separate deployment inventory. The manual-only workflow validates and publishes these bytes without rebuilding, relabeling or changing build counters. Runtime source and release-orchestration commit remain distinct.

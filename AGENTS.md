@@ -45,3 +45,7 @@ The header uses the verified bellringer icon, Measure Twice with a space and no 
 ## Final Weekly Cleanup
 
 Preserve catalog build 003. Fresh sessions and empty/invalid catalog saves start in Free Play; valid active catalog saves retain their existing Challenge resume behavior and all attempts/badges. No deep-link startup interface exists in this version. Hide incompatible scale/target choices, retain native disabled semantics, and display the reason via visible text linked with `aria-describedby`. Keep the side build table visible through duplication and assembly. Deferred cabin scenery is recorded in `docs/DEFERRED_CABIN_POLISH.md`; do not implement it in the weekly cleanup.
+
+## October 4 Approved Release
+
+The owner approved the bounded Pages update for this game. Follow [Locally Verified Pages Release](docs/LOCAL_PAGES_RELEASE.md): test locally, publish only the inventoried runtime, retain its original identity, and dispatch the manual-only workflow only after the deployment allowance/storage gate is satisfied. Earlier review-only prohibitions are preserved history. Preserve every original checkout, archive, ledger and browser save.

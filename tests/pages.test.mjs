@@ -26,6 +26,8 @@ test('Pages production identity rejects PR events, feature branches, forks and m
 });
 test('Pages selection excludes checkout infrastructure, private documents and response evidence', () => {
   assert.deepEqual(siteInputs(['public/index.html', 'src/app.js', '.env', '.git/config', 'review-evidence/session.json', 'test-results/records.json', 'node_modules/.modules.yaml']), ['public/index.html', 'src/app.js']);
-  assert.throws(() => siteInputs(['docs/private-course.pdf']), /Unexpected site input/);
+  assert.deepEqual(siteInputs(['docs/private-course.pdf', 'docs/WORKSHEET_AUTHORING_DATA.json', 'docs/WORKSHEET_AUTHORING_BASIS.md', 'docs/curriculum-content.md']), []);
+  assert.deepEqual(siteInputs(['deployment/student-reference.md']), ['deployment/student-reference.md']);
+  assert.throws(() => siteInputs(['public/private-course.pdf']), /Unexpected site input/);
   assert.throws(() => siteInputs(['public/.env']), /Unexpected site input/);
 });
