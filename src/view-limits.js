@@ -1,8 +1,8 @@
-export const orbitLimits=Object.freeze({minRadius:4,maxRadius:27,minPolar:.2,maxPolar:1.5});
-export const roomBounds=Object.freeze({left:-22,right:32,back:-16,front:32,floor:0});
+export const orbitLimits=Object.freeze({minRadius:4,maxRadius:270,minPolar:.2,maxPolar:1.5});
+export const roomBounds=Object.freeze({left:-144,right:144,back:-120,front:120,floor:0});
 // Includes wall thickness, the projecting window sill/tools and near-plane
 // clearance at laptop aspect ratios. No azimuth is disabled.
-export const roomMargin=1.5;
+export const roomMargin=8;
 export const preferredRadius=(distance,zoom,limits=orbitLimits)=>Math.max(limits.minRadius,Math.min(limits.maxRadius,distance*zoom));
 // Enter clearance immediately; ease outward without changing the user's zoom.
 export function recoverRadius(current,clear,seconds,reduced=false){

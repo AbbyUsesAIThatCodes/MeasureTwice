@@ -1,0 +1,146 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-layout-20261014_build-008_20261014T235044Z_g29772f9fcca7_web",
+  "sourceRevision": "29772f9fcca7b833f5c9ee205ec251bbd72c0ce4",
+  "checks": [
+    "All Seven Instruments Keep Identical Bench, Six Legs, Room, Tray And Orbit Limits; Full Stock Travel Supported; Exact Kept Lengths; Comparison Cuts Behind Tray",
+    "Kept Pieces Visit Ready To Assemble Before Duplication And Front-Right Placement; Existing Model And Tray Focus"
+  ],
+  "instruments": [
+    {
+      "id": "inch-3",
+      "max": 48,
+      "stockLength": 6,
+      "bench": {
+        "min": [
+          -102,
+          64,
+          -36
+        ],
+        "max": [
+          102,
+          68,
+          36
+        ]
+      },
+      "legCount": 6,
+      "preferred": 185.63674205285977
+    },
+    {
+      "id": "inch-6",
+      "max": 96,
+      "stockLength": 12,
+      "bench": {
+        "min": [
+          -102,
+          64,
+          -36
+        ],
+        "max": [
+          102,
+          68,
+          36
+        ]
+      },
+      "legCount": 6,
+      "preferred": 185.63674205285977
+    },
+    {
+      "id": "inch-12",
+      "max": 192,
+      "stockLength": 24,
+      "bench": {
+        "min": [
+          -102,
+          64,
+          -36
+        ],
+        "max": [
+          102,
+          68,
+          36
+        ]
+      },
+      "legCount": 6,
+      "preferred": 185.63674205285977
+    },
+    {
+      "id": "yardstick",
+      "max": 576,
+      "stockLength": 72,
+      "bench": {
+        "min": [
+          -102,
+          64,
+          -36
+        ],
+        "max": [
+          102,
+          68,
+          36
+        ]
+      },
+      "legCount": 6,
+      "preferred": 185.63674205285977
+    },
+    {
+      "id": "cm-15",
+      "max": 150,
+      "stockLength": 11.811023622047244,
+      "bench": {
+        "min": [
+          -102,
+          64,
+          -36
+        ],
+        "max": [
+          102,
+          68,
+          36
+        ]
+      },
+      "legCount": 6,
+      "preferred": 185.63674205285977
+    },
+    {
+      "id": "cm-30",
+      "max": 300,
+      "stockLength": 23.62204724409449,
+      "bench": {
+        "min": [
+          -102,
+          64,
+          -36
+        ],
+        "max": [
+          102,
+          68,
+          36
+        ]
+      },
+      "legCount": 6,
+      "preferred": 185.63674205285977
+    },
+    {
+      "id": "metre",
+      "max": 1000,
+      "stockLength": 78.74015748031496,
+      "bench": {
+        "min": [
+          -102,
+          64,
+          -36
+        ],
+        "max": [
+          102,
+          68,
+          36
+        ]
+      },
+      "legCount": 6,
+      "preferred": 185.63674205285977
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "syntheticData": true
+}

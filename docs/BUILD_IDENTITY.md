@@ -4,6 +4,8 @@
 
 ## October 14 Review Inventory
 
+The subsequent approved layout uses `local-abigail-layout-20261014`, the same atomic `.build-state/ABIGAIL/` allocator, and port 18448. `scripts/layout-check.cjs` verifies actual fixed furniture, all seven spans, exact retained pieces, staging/assembly and laptop framing. Its immutable manifest, ZIP, screenshots, browser/unit results and local-server byte comparison are inventoried in `review-evidence/fixed-layout/README.md`. Later evidence commits preserve the built source SHA. No PR-scoped ordinal is allocated on Abigail, and the public catalog build 005 remains a separate artifact.
+
 The polish pass uses `local-abigail-polish-20261014`, allocated exclusively in this checkout's ignored `.build-state/ABIGAIL/` ledger. PR numbering remains reserved to Jess_PC; do not relabel an Abigail artifact when its PR is created. `scripts/polish-check.cjs` verifies the artifact folder, immutable manifest/report and compact header identity, then confirms reopening retains it. [Polish Review](POLISH_REVIEW.md) and `review-evidence/polish/` record the latest review separately from deployed catalog build 005. The owner-approved compact header override below still applies. Existing save schema and development version are unchanged.
 
 ## October 3 Local Review

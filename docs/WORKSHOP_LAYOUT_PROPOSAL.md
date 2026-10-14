@@ -1,5 +1,7 @@
 # Workshop Layout And Scale Proposal
 
+**Historical Proposal:** The owner subsequently approved trying this arrangement, retaining the green tray, shifting the saw slightly farther left, and lengthening the single cutting table instead of adding a separate support. See [Fixed Workshop Layout](WORKSHOP_LAYOUT_REVIEW.md) for the implemented dimensions and review evidence. The drawing and original proposal text below are preserved as the decision record.
+
 **Review proposal only. No furniture, plank profile or physical-scale changes from this proposal are implemented.** This uses the owner's clarified October 14 arrangement: saw front-left, green tray in the center, a rectangular example/comparison area behind the tray, and the assembly model front-right. It supersedes the earlier two-by-two suggestion. The camera recovery, contrast and room-surface fixes are separate approved refinements.
 
 ![Top-Down Plan And Front Elevation](mockups/workshop-layout-proposal.svg)

@@ -1,10 +1,14 @@
 # Current Measure Twice Review
 
+## Approved Fixed Workshop Layout
+
+PR #36 merged externally as `0b2f288678c2a419e66c475cf8228fd87a453a76`. The new `layout/fixed-scale-workshop-20261014` branch begins at that merge. The owner approved the revised arrangement and retaining the green tray. See [Fixed Workshop Layout](WORKSHOP_LAYOUT_REVIEW.md) and [Current Layout Evidence](../review-evidence/fixed-layout/README.md) for the actual build, source, screenshots and checks. Abigail's playable review is http://127.0.0.1:18448; this is local to that computer. No merge or deployment is authorized for this layout review.
+
 ## October 14 Polish Pass
 
 See [Polish Review](POLISH_REVIEW.md) for the current isolated review branch, artifact and checks. The public URL was verified on October 14 as catalog build 005, source `6479bb949b7d19e4ae0e9b79b4edf67de7fea007`. Main was `8c445776b47338bb028fe1e8e39d02fe9edab0ef` when this pass began. The new polish build is for review only; no merge, deployment or colleague delivery is authorized by this pass.
 
-The owner subsequently requested camera collision recovery, contrast diagnosis, finished existing room surfaces, workspace framing and a narrow click-to-focus interaction. These are included in [Workshop Evidence](../review-evidence/workshop-polish/README.md). [Layout And Scale Proposal](WORKSHOP_LAYOUT_PROPOSAL.md) is a review drawing only; its furniture arrangement and realistic reference dimensions are not implemented.
+The owner subsequently requested camera collision recovery, contrast diagnosis, finished existing room surfaces, workspace framing and a narrow click-to-focus interaction. These are preserved in [Workshop Evidence](../review-evidence/workshop-polish/README.md). The historical [Layout And Scale Proposal](WORKSHOP_LAYOUT_PROPOSAL.md) led to the approved fixed-layout implementation above.
 
 ## Historical October 3 Handoff
 
