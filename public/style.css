@@ -14,3 +14,7 @@ html,body{margin:0;height:100%;background:#d6eac7}body{overflow:hidden}#mt-cut-s
 #mt-cut-study[data-reduced=true] .build-catalog .build-tile{transition:none}#mt-cut-study[data-reduced=true] .build-catalog .build-tile:hover,#mt-cut-study[data-reduced=true] .build-catalog .build-tile:focus-visible{transform:none}
 
 #mt-cut-study .selector-help{margin:4px 0 3px;font-size:11px;line-height:1.25;color:#405647}#mt-cut-study select:disabled{opacity:1;color:#53624e;background:#e7eadf;border-style:dashed;cursor:not-allowed}#mt-cut-study select option[hidden]{display:none}
+
+/* Preserve the existing overlays, with clearance based on the rendered ruler dock. */
+#mt-cut-study .mt-order{max-height:calc(100% - var(--dock-height,188px) - 38px);scrollbar-gutter:stable}
+#mt-cut-study .camera-controls{bottom:calc(var(--dock-height,188px) + 24px)}

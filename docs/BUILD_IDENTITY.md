@@ -1,6 +1,10 @@
 # Build Identity
 
-**Status: Local Review And Pages Build Pipelines Implemented; Pages Deployment Awaits Owner Setup.** The archived [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) remains unchanged and keeps its historical interface-study identity. The application uses development version 0.1.0 and provisional review codename Predict Cut Inspect, drawn from that accepted study. The teacher has not accepted a production release name or compatibility contract. See [Pages Deployment](PAGES.md) for the owner setup and merge-trigger behavior.
+**Status: Local Review Builds And Manual Pages Publication Implemented.** The archived [Approved Workshop Mockup](mockups/predict-cut-inspect/README.md) remains unchanged and keeps its historical interface-study identity. The application retains development version 0.1.0 and provisional review codename Predict Cut Inspect under the existing development-review policy. The current workflow publishes an inventoried existing artifact only on explicit dispatch; see [Locally Verified Pages Release](LOCAL_PAGES_RELEASE.md).
+
+## October 14 Review Inventory
+
+The polish pass uses `local-abigail-polish-20261014`, allocated exclusively in this checkout's ignored `.build-state/ABIGAIL/` ledger. PR numbering remains reserved to Jess_PC; do not relabel an Abigail artifact when its PR is created. `scripts/polish-check.cjs` verifies the artifact folder, immutable manifest/report and compact header identity, then confirms reopening retains it. [Polish Review](POLISH_REVIEW.md) and `review-evidence/polish/` record the latest review separately from deployed catalog build 005. The owner-approved compact header override below still applies. Existing save schema and development version are unchanged.
 
 ## October 3 Local Review
 
@@ -10,7 +14,7 @@ See [Current Review](CURRENT_REVIEW.md). Abigail uses explicit local scope and `
 
 | Surface | Authoritative Location | Verification |
 | --- | --- | --- |
-| Version, codename, compatibility | `release.json` | Development review; reload resets sessions. |
+| Version, codename, compatibility | `release.json` | Development review; catalog schema v1 persists Challenge runs; Free Play/Learn remain page sessions. |
 | Atomic allocation | `scripts/identity.mjs`; persistent `C:\Users\jessg\Documents\Codex\2026-09-29\task-3\build-ledger` on Jess_PC | Exclusive receipt creation; all PR-scoped clones use this one allocator; PR scope refused on other hosts. Back up this ledger before moving build machines. |
 | Local build entrypoint and console | `scripts/build.mjs` | Preserved one timestamp; start/success/failure ID; explicit local/PR scope. |
 | Pages entrypoint and reservation | `scripts/build-pages.mjs`, `scripts/pages-identity.mjs` | `main-run-<GITHUB_RUN_ID>` scope with monotonic `GITHUB_RUN_ATTEMPT` ordinal; exclusive attempt receipt; exact clean event SHA required. Local Pages builds share the existing local/PR ledger. |
@@ -21,7 +25,7 @@ See [Current Review](CURRENT_REVIEW.md). Abigail uses explicit local scope and `
 | Source provenance | Build manifest | Full SHA, dirty flag and SHA-256 of application, copied docs, data, dependency lock and build scripts. |
 | Artifact directory | `review-builds/<full-id>/` | Immutable new directory for every invocation. Failed reservations remain consumed. |
 | Manifest and current artifact report | `build-manifest.json`, `BUILD_REPORT.json`, `REVIEW.txt` inside each artifact | Same full ID. `latest-review.json` is an ignored local pointer to the newest artifact. |
-| Visible game footer | `public/index.html#build-id`; `src/app.js` | Copyable, wrapping full manifest identity. |
+| Visible game header | `public/index.html#build-id`; `src/app.js`; `src/build-display.js` | Compact version/codename/scope/ordinal/revision per owner override; full identity in Build Details and exports. |
 | Review handoff | `docs/IMPLEMENTATION_REVIEW.md`, `docs/REVIEW_CHECKLIST.md`, draft PR bodies | Exact per-PR artifact IDs and final tested source supplied in the PR handoff. |
 | Workshop visual repair evidence | `scripts/visual-check.cjs`, `test-results/<full-id>/visual-verification.json`; `docs/WORKSHOP_VISUAL_REVIEW.md` | Real rendered geometry, cut-state checks, viewport/camera sweep and screenshots carry the artifact identity; saved review evidence preserves its built source even when committed later. |
 | Downloadable Challenge report | `src/assessment.js`, `src/learning.js`; `<full-id>_Challenge-Report.txt` | Report reads the immutable build manifest; its export time is separately labeled and never replaces the build timestamp. Full source SHA/fingerprint, content and construction revisions accompany project/step/exercise history. |

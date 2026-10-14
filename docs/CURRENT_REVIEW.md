@@ -1,5 +1,13 @@
 # Current Measure Twice Review
 
+## October 14 Polish Pass
+
+See [Polish Review](POLISH_REVIEW.md) for the current isolated review branch, artifact and checks. The public URL was verified on October 14 as catalog build 005, source `6479bb949b7d19e4ae0e9b79b4edf67de7fea007`. Main was `8c445776b47338bb028fe1e8e39d02fe9edab0ef` when this pass began. The new polish build is for review only; no merge, deployment or colleague delivery is authorized by this pass.
+
+## Historical October 3 Handoff
+
+The statements below preserve that review checkpoint; the October 4 release subsequently published build 005.
+
 **Corrected weekly build 005 is ready for review and the authorized worksheet draft:** [Weekly Evidence](../review-evidence/weekly/README.md), [Cleanup Changes](WEEKLY_CLEANUP.md), and [Worksheet Authoring Basis](WORKSHEET_AUTHORING_BASIS.md). Primary local URL: http://127.0.0.1:18444. Clean source `6479bb949b7d19e4ae0e9b79b4edf67de7fea007`, built `2026-10-03T22:58:33.060Z`. Catalog build 003 remains preserved. Later cabin redesign is deferred.
 
 Draft PR #33 extends the preserved [PR #32](https://github.com/AbbyUsesAIThatCodes/MeasureTwice/pull/32) build 004 in a separate checkout. The teacher approved independent House, Plane, Chair and Tree tiles, a persistent Challenge ruler, visible-grid input, saved progress/replays, the exact bellringer icon and compact build header. See [Build Catalog Review](BUILD_CATALOG_REVIEW.md), [Catalog Checkpoint](CATALOG_CHECKPOINT.md), and [Recovered Question History](RECOVERED_QUESTION_HISTORY.md).

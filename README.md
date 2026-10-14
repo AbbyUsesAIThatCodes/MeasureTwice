@@ -1,6 +1,10 @@
 # Measure Twice
 
-**[Play MeasureTwice Online](https://abbyusesaithatcodes.github.io/MeasureTwice/)**
+**[Play Measure Twice Online](https://abbyusesaithatcodes.github.io/MeasureTwice/)**
+
+## October 14 Polish Review
+
+The live game was checked on Abigail against catalog build 005 from October 3. A fresh, isolated polish pass improves ruler numeral legibility, spacing around the ruler dock, full-screen action labels and build-chooser guidance. It preserves the existing workshop, lessons, catalog, exact measurements and save format. See [Polish Review](docs/POLISH_REVIEW.md) for the review artifact, verification and limitations. This pass does not update the public game.
 
 ## October 4 Pages Release
 
@@ -34,7 +38,7 @@ Challenge opens an independent **House, Plane, Chair and Tree** chooser. Each mo
 
 ## Current Review
 
-October 3 isolated integration: see [Current Review](docs/CURRENT_REVIEW.md) for the independent build catalog, visible-grid interactions, retained Learn progression, explicit instrument workspaces and workshop choices. Public main and deployment remain unchanged by this branch. Earlier review status below is historical.
+See [Current Review](docs/CURRENT_REVIEW.md) for the latest polish handoff and the separately identified live build. Earlier integration and release records below are historical.
 
 ## Historical Status
 
