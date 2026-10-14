@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "codename": "Predict Cut Inspect",
+  "slug": "Predict-Cut-Inspect",
+  "status": "Built for Local Review",
+  "codenameStatus": "Provisional Review Name From the Approved Study; Awaiting Teacher Acceptance",
+  "compatibility": "Development build. Challenge catalog schema v1 persists anonymous runs in this browser. Prior page-only sessions and schema-v2 evidence exports remain distinct; unsupported stored revisions are preserved for recovery.",
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-002_20261014T215301Z_gbe01344fa2a5_web",
+  "scope": "local-abigail-polish-20261014",
+  "pr": null,
+  "ordinal": 2,
+  "builtAt": "2026-10-14T21:53:01.996Z",
+  "sourceRevision": "be01344fa2a5019a0221fe9dc8f1cc775868fa46",
+  "dirty": false,
+  "fingerprint": "a8170a41793e0277b7e4c4cb46fc6b19fdba88a1b1dddde4fab5c3692b44e3f1",
+  "target": "web",
+  "allocator": "Abigail/MeasureTwice-local-build-ledger",
+  "productionDeployment": false
+}

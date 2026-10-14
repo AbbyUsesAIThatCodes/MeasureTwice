@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1230" viewBox="0 0 1500 1230" role="img" aria-labelledby="title desc">
+<title id="title">Measure Twice — Workshop Layout And Scale Proposal</title><desc id="desc">Saw front-left, tray center, examples behind tray, model front-right. Fixed 84-inch bench and 16-inch support at two world units per inch. Proposal only, no furniture has moved.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8" fill="none" stroke="#617269" stroke-width="1.5"/></marker><style>text{font-family:Arial,sans-serif;fill:#29463e}.title{font-size:30px;font-weight:700}.head{font-size:23px;font-weight:700}.label{font-size:18px;font-weight:700}.body{font-size:18px}.small{font-size:16px}.dim{fill:none;stroke:#617269;stroke-width:1.5;marker-start:url(#a);marker-end:url(#a)}.dash{stroke-dasharray:7 5}</style></defs>
+<rect width="1500" height="1230" fill="#faf8f0"/><text x="52" y="57" class="title">Measure Twice • Workshop Layout And Scale</text>
+<rect x="1100" y="26" width="348" height="43" rx="8" fill="#f1dfb2"/><text x="1120" y="54" class="label">Proposal Only • No Furniture Moved</text>
+<text x="52" y="96" class="body">Owner's clarified arrangement • One physical scale for every instrument • Zoom changes the view, never a part's length</text>
+<path d="M52 120H1448" stroke="#d8d3c2"/><text x="52" y="160" class="head">1 / Top-Down Plan</text><text x="616" y="160" class="small">Back / Window Wall ↑</text>
+<g transform="translate(210 215)">
+<rect width="588" height="252" rx="5" fill="#e8d6ad" stroke="#9d8256" stroke-width="2"/>
+<rect x="-112" y="154" width="112" height="98" fill="#eadcc0" stroke="#9d8256" stroke-width="2"/>
+<rect x="98" y="70" width="168" height="168" rx="5" fill="#438674" fill-opacity=".2" stroke="#438674" stroke-width="2"/>
+<rect x="280" y="91" width="280" height="56" rx="4" fill="#4e8a70" stroke="#2e5e50" stroke-width="2"/>
+<text x="314" y="115" font-size="18" font-weight="700" style="fill:white">Green Tray</text><text x="331" y="138" font-size="16" style="fill:white">40 × 8 in</text>
+<rect x="280" y="7" width="280" height="56" rx="4" fill="#e4e9d9" stroke="#819481" stroke-width="2"/>
+<text x="315" y="32" class="label">Example Cuts</text><text x="331" y="55" class="small">40 × 8 in</text>
+<rect x="483" y="168" width="84" height="70" rx="4" fill="#e3eadf" stroke="#819481" stroke-width="2"/>
+<text x="495" y="190" class="label">Model</text><text x="492" y="213" class="small">12 × 10</text>
+<rect x="514.5" y="215" width="21" height="16.2" fill="#ba9966" stroke="#8e7751"/>
+<rect x="-93.6" y="201" width="551.2" height="18" fill="#e8c772" fill-opacity=".65" stroke="#b3923f" class="dash"/>
+<path d="M-86 210H450" class="dim"/>
+<rect x="182" y="205" width="21" height="10" fill="#d7ad6c" stroke="#8c6537"/>
+<path d="M182 173V234" stroke="#29483e" stroke-width="4"/>
+<text x="123" y="107" class="label">Saw</text><text x="117" y="134" class="small">24 × 24 in</text><text x="116" y="160" class="small">Front-Left</text>
+<text x="-109" y="280" class="small">Fixed Support</text><text x="-100" y="304" class="small">16 × 14 in</text>
+<text x="82" y="280" class="small">Dashed lane: full metre-stock travel (78.74 in)</text><text x="82" y="304" class="small">Short solid board beside blade: actual 3-inch stock</text>
+<path d="M0 -22H588" class="dim"/><text x="258" y="-32" class="small">84 inches</text>
+<path d="M609 0V252" class="dim"/><text x="632" y="147" class="small" transform="rotate(-90 632 147)">36 inches</text>
+<path d="M570 63V91" class="dim"/><text x="582" y="82" class="small">4 in</text>
+<path d="M266 81H280" class="dim"/>
+<text x="80" y="349" class="small">Front / Student View ↓ • 7 px per inch • 2 world units per inch</text>
+</g>
+<rect x="930" y="179" width="518" height="420" rx="12" fill="#f0eee4"/>
+<text x="955" y="217" class="head">Fixed Reference Dimensions</text>
+<text x="955" y="255" class="body">Room: 12 × 10 feet, walls 8 feet high</text><text x="955" y="288" class="body">Bench: 7 × 3 feet, top 34 inches high</text>
+<text x="955" y="321" class="body">Same dimensions with every instrument.</text>
+<text x="955" y="368" class="label">Clear Cutting Lane</text><text x="955" y="402" class="body">Blade at x = 26 in; stock sweeps x = -13.37</text><text x="955" y="432" class="body">to 65.37 in. Model zone starts at 69 in.</text>
+<text x="955" y="477" class="label">Known Tradeoff</text><text x="955" y="511" class="body">Real three-inch pieces look small in this room.</text><text x="955" y="541" class="body">Use existing focus, zoom and ruler magnifier.</text><text x="955" y="571" class="body">Uses approved focus controls; no scale switching.</text>
+<path d="M52 629H1448" stroke="#d8d3c2"/><text x="52" y="669" class="head">2 / Front Elevation</text>
+<text x="52" y="701" class="body">Same physical scale. The model remains a small model made from the exact pieces the student cut.</text>
+<g transform="translate(210 1077)">
+<path d="M-132 0H630" stroke="#798779" stroke-width="2"/>
+<rect x="-112" y="-238" width="112" height="10" fill="#d6b479" stroke="#9e814e"/>
+<rect y="-238" width="588" height="10" fill="#d6b479" stroke="#9e814e"/>
+<path d="M-103 -228V0M12 -228V0M294 -228V0M576 -228V0" stroke="#af8b55" stroke-width="12"/>
+<rect x="98" y="-256" width="168" height="18" rx="3" fill="#438674"/>
+<path d="M157 -256V-320H206L223 -278H169" fill="#438674" stroke="#2e5e50" stroke-width="3"/>
+<circle cx="185" cy="-278" r="29" fill="#c6cfc3" stroke="#607b69" stroke-width="2"/>
+<rect x="280" y="-242" width="280" height="4" fill="#4e8a70"/>
+<path d="M514.5 -238V-246L525 -254L535.5 -246V-238Z" fill="#ba9966" stroke="#8e7751"/>
+<path d="M525 -258L566 -306" stroke="#617269"/><text x="426" y="-320" class="small">House: 3 in wide × 2.26 in high</text>
+<path d="M609 0V-238" class="dim"/><text x="628" y="-95" class="small" transform="rotate(-90 628 -95)">34 inches high</text>
+<path d="M-112 29H588" class="dim"/><text x="125" y="57" class="small">100 inches overall, including fixed support</text>
+</g>
+<rect x="930" y="743" width="518" height="365" rx="12" fill="#f1e5cf"/>
+<text x="955" y="783" class="head">Can A Student See 1/16 Inch?</text>
+<text x="955" y="821" class="body">1/16 in = 1.5875 mm = 0.125 world units</text>
+<text x="955" y="865" class="body">Across a 100-inch view at 1366 px:</text><text x="955" y="898" class="label">Only 0.85 px per sixteenth (before perspective)</text>
+<text x="955" y="940" class="body">For 6 px per sixteenth in 1000 useful pixels:</text><text x="955" y="973" class="label">Zoom to a view no wider than 10.42 inches.</text>
+<text x="955" y="1019" class="body">Keyboard keeps exact graduation steps.</text><text x="955" y="1050" class="body">Magnification supports observation; precision</text><text x="955" y="1081" class="body">must not require subpixel 3D dragging.</text>
+<text x="52" y="1181" class="small">Review the fixed support, realistic small-model appearance and elevated camera sightlines before any furniture changes.</text>
+<text x="52" y="1210" class="small">October 14, 2026 • Proposed game dimensions, not real-workshop safety specifications • See WORKSHOP_LAYOUT_PROPOSAL.md</text>
+</svg>

@@ -1,0 +1,36 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-002_20261014T215301Z_gbe01344fa2a5_web",
+  "url": "http://127.0.0.1:18448",
+  "checkedAt": "2026-10-14T21:55:39.416Z",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "10b70704edeb2ed8249c31d21b91be2a08552f96f7944d494d32435ac2a222b4"
+    },
+    {
+      "path": "style.css",
+      "sha256": "2757daebdfbdc9b91662d1bcc0b601a7cc7ba6c7bd1b8a65844ac3fc31bbca6c"
+    },
+    {
+      "path": "src/app.js",
+      "sha256": "1f79f0505a5089c3f737b1b8a9aaaad24759fd0e856f6ccb9fc3601aacfe018b"
+    },
+    {
+      "path": "build-manifest.json",
+      "sha256": "f0aa915c283fc9aebb6a9f97f3069abaeb0878412f9931c3d7b3de5ac0137823"
+    },
+    {
+      "path": "BUILD_REPORT.json",
+      "sha256": "d753fa8e8c5f9bc38d13e2378af23ec1854730138781011abcb0957d4a057761"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    }
+  ],
+  "identityMatch": true
+}

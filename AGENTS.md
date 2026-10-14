@@ -49,3 +49,7 @@ Preserve catalog build 003. Fresh sessions and empty/invalid catalog saves start
 ## October 4 Approved Release
 
 The owner approved the bounded Pages update for this game. Follow [Locally Verified Pages Release](docs/LOCAL_PAGES_RELEASE.md): test locally, publish only the inventoried runtime, retain its original identity, and dispatch the manual-only workflow only after the deployment allowance/storage gate is satisfied. Earlier review-only prohibitions are preserved history. Preserve every original checkout, archive, ledger and browser save.
+
+## October 14 Teacher Review
+
+The fresh review branch is separate from the October 4 deployment. The owner authorized professional polish, then camera recovery, contrast fixes, finished existing wall/floor treatments, instrument-specific cutting-area framing and click-to-focus for the saw, tray and model. Preserve the cutting marker and existing piece interactions. See [Polish Review](docs/POLISH_REVIEW.md). The [Layout And Scale Proposal](docs/WORKSHOP_LAYOUT_PROPOSAL.md) is awaiting review: do not rearrange furniture or implement its reference dimensions yet. No merge, deployment or message to the colleague is authorized.
