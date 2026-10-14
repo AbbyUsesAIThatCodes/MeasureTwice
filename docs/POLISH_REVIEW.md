@@ -25,6 +25,8 @@ The blue sphere is the existing cutting pointer, offset just in front of the pla
 
 Furniture placement, stock profiles, measurement conversion, model dimensions, content and saved-history format remain unchanged. The current long-instrument layout still expands with stock length. The owner requested a plan before changing that arrangement: [Layout And Scale Proposal](WORKSHOP_LAYOUT_PROPOSAL.md) contains the clarified saw-front-left / tray-center / examples-behind / model-front-right plan, front elevation, exact current mapping and a fixed-dimension proposal. It quantifies why a wide view cannot resolve sixteenths and retains exact keyboard/ruler controls. The proposed physical dimensions and furniture remain unapproved and unimplemented.
 
+The final laptop check also found that the Home View's build table sat behind the camera controls at 1024 x 600. Its short-screen overview framing now places the work surfaces above those overlays when the preset is chosen. Resize does not continually recenter a user's camera. The pointer and all three focus targets are verified at 1366 x 768 and 1024 x 600.
+
 ## Source And Scope
 
 Branch: `polish/teacher-handoff-20261014`. Work occurs in a separate clone on Abigail. The four discovered October 3/4/8 checkouts, old draft PRs, original ledgers, browser saves and historical artifacts remain untouched. The public `site/` and deployment inventory are not modified.
@@ -33,7 +35,7 @@ The same existing DM 1.3 G07, G08, G10–G13 and G16 practice remains, traced in
 
 ## Review Build And Verification
 
-The current identified artifact, portable ZIP, screenshots and test outcomes are recorded in [Workshop Evidence](../review-evidence/workshop-polish/README.md). Abigail uses an explicit local scope; it cannot mint a Jess_PC PR ordinal. Development version `0.1.0` and provisional codename `Predict Cut Inspect` follow the repository's current policy. Earlier artifacts remain preserved: initial polish 002, and exploratory modified-source builds 001, 003 and 004.
+The current identified artifact, portable ZIP, screenshots and test outcomes are recorded in [Workshop Evidence](../review-evidence/workshop-polish/README.md). Abigail uses an explicit local scope; it cannot mint a Jess_PC PR ordinal. Development version `0.1.0` and provisional codename `Predict Cut Inspect` follow the repository's current policy. Earlier artifacts remain preserved: initial polish 002, exploratory modified-source builds 001/003/004, and build 005 before the short-screen framing correction. Build 006 is the corrected review candidate.
 
 Run tests with Node 24. The existing `npm test` command covers exact arithmetic, visible grids, catalog persistence, connected model geometry, progression and build identity allocation, plus room coverage and camera recovery. Browser checks use the existing Playwright/Chromium overrides `PLAYWRIGHT_MODULE` and `MT_BROWSER`; run `scripts/workshop-polish-check.cjs`, `scripts/polish-check.cjs`, `scripts/catalog-browser-check.cjs`, `scripts/catalog-access-check.cjs` and `scripts/weekly-cleanup-check.cjs` against `latest-review.json`.
 

@@ -1,5 +1,7 @@
 # October 14 Measure Twice Polish Evidence
 
+Historical initial-pass artifact, build 002. The shared Abigail preview URL below now serves the newer [Workshop Review](../workshop-polish/README.md). Use this preserved ZIP to reopen the original pass. Its identifiers, tests and screenshots remain unchanged.
+
 Ready for owner review. This is a small refinement of the existing game, with no redesign, new feature, merge or deployment. The changes and their rationale are in [Polish Review](../../docs/POLISH_REVIEW.md).
 
 ## Open The Review Build

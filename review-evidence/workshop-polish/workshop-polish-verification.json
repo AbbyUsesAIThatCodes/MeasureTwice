@@ -1,0 +1,548 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-006_20261014T223550Z_g0a4ff39f45e7_web",
+  "sourceRevision": "0a4ff39f45e7063ca71a72d71add03cff5546e37",
+  "checks": [
+    "Two Choose Instrument Cycles Across All Seven Spans And Both Room Styles; Stable Light Instances, Exposure And GPU Resource Counts; No Distance Fog; Four Walls; Detail Above And Below Window; Daylight Toggle",
+    "Collision Shrinks Only Effective Radius; Smooth Monotonic Recovery To Preferred Zoom; Manual Zoom While Blocked; Bounds; Reduced Motion; Cutting Cancels Recovery And Holds Inspection",
+    "Workspace Switch Frames The Cutting Bench; Saw, Tray, Build Table And Model Click Focus Synchronize Dropdown; Cumulative Drag Threshold; Pointer And Existing Piece Click Priority; Hover Labels; Smooth/Reduced Motion; Free Orbit Cancels Focus Transition",
+    "Cut Pointer And All Three Click Targets Reachable At 1366x768 And 1024x600"
+  ],
+  "environments": [
+    {
+      "pass": 0,
+      "id": "inch-3",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 291,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        6
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "inch-3",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 291,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        6
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "inch-6",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 300,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        9
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "inch-6",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 300,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        9
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "inch-12",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 319,
+        "textures": 3
+      },
+      "floorRepeat": [
+        10.512500000000001,
+        12
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "inch-12",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 319,
+        "textures": 3
+      },
+      "floorRepeat": [
+        10.512500000000001,
+        12
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "yardstick",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 363,
+        "textures": 3
+      },
+      "floorRepeat": [
+        28.512499999999996,
+        24
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "yardstick",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 363,
+        "textures": 3
+      },
+      "floorRepeat": [
+        28.512499999999996,
+        24
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "cm-15",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 299,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        8.952755905511811
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "cm-15",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 299,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        8.952755905511811
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "cm-30",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 316,
+        "textures": 3
+      },
+      "floorRepeat": [
+        10.370767716535434,
+        11.905511811023622
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "cm-30",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 316,
+        "textures": 3
+      },
+      "floorRepeat": [
+        10.370767716535434,
+        11.905511811023622
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "metre",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 368,
+        "textures": 3
+      },
+      "floorRepeat": [
+        31.040059055118107,
+        25.68503937007874
+      ]
+    },
+    {
+      "pass": 0,
+      "id": "metre",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 368,
+        "textures": 3
+      },
+      "floorRepeat": [
+        31.040059055118107,
+        25.68503937007874
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "inch-3",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 291,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        6
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "inch-3",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 291,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        6
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "inch-6",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 300,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        9
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "inch-6",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 300,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        9
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "inch-12",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 319,
+        "textures": 3
+      },
+      "floorRepeat": [
+        10.512500000000001,
+        12
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "inch-12",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 319,
+        "textures": 3
+      },
+      "floorRepeat": [
+        10.512500000000001,
+        12
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "yardstick",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 363,
+        "textures": 3
+      },
+      "floorRepeat": [
+        28.512499999999996,
+        24
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "yardstick",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 363,
+        "textures": 3
+      },
+      "floorRepeat": [
+        28.512499999999996,
+        24
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "cm-15",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 299,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        8.952755905511811
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "cm-15",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 299,
+        "textures": 3
+      },
+      "floorRepeat": [
+        6.75,
+        8.952755905511811
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "cm-30",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 316,
+        "textures": 3
+      },
+      "floorRepeat": [
+        10.370767716535434,
+        11.905511811023622
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "cm-30",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 316,
+        "textures": 3
+      },
+      "floorRepeat": [
+        10.370767716535434,
+        11.905511811023622
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "metre",
+      "style": "logs",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 368,
+        "textures": 3
+      },
+      "floorRepeat": [
+        31.040059055118107,
+        25.68503937007874
+      ]
+    },
+    {
+      "pass": 1,
+      "id": "metre",
+      "style": "timber",
+      "lights": 3,
+      "exposure": 1.12,
+      "fog": null,
+      "memory": {
+        "geometries": 368,
+        "textures": 3
+      },
+      "floorRepeat": [
+        31.040059055118107,
+        25.68503937007874
+      ]
+    }
+  ],
+  "orbit": [
+    {
+      "step": "home",
+      "preferred": 30.55094106570205,
+      "effective": 30.55094106570205,
+      "recovering": false
+    },
+    {
+      "step": "blocked",
+      "preferred": 30.55094106570205,
+      "effective": 16.497508175479105,
+      "recovering": false
+    },
+    {
+      "step": "recovery-frames",
+      "samples": [
+        {
+          "preferred": 30.55094106570205,
+          "effective": 17.449284211055602,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 19.090895358812258,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 20.50803320727115,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 21.77102630138422,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 22.856741824427683,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 23.82436202401974,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 24.656164094834118,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 25.397489486891054,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 26.03837168094859,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 26.602713740849627,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 27.093714490908727,
+          "recovering": true
+        },
+        {
+          "preferred": 30.55094106570205,
+          "effective": 27.528494272850327,
+          "recovering": true
+        }
+      ]
+    },
+    {
+      "step": "zoom-while-blocked",
+      "preferred": 24.440752852561644,
+      "effective": 16.497508175479098,
+      "recovering": false
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "physicalDeviceTest": false
+}

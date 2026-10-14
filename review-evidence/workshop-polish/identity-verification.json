@@ -1,0 +1,16 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-006_20261014T223550Z_g0a4ff39f45e7_web",
+  "sourceRevision": "0a4ff39f45e7063ca71a72d71add03cff5546e37",
+  "dirty": false,
+  "scope": "local-abigail-polish-20261014",
+  "ordinal": 6,
+  "distinctArtifactIds": [
+    "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-001_20261014T215121Z_g8c445776b473-dirty-64a4573d_web",
+    "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-002_20261014T215301Z_gbe01344fa2a5_web",
+    "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-003_20261014T221810Z_gf5d4c869ab1d-dirty-424530f1_web",
+    "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-004_20261014T222654Z_gf5d4c869ab1d-dirty-18309770_web",
+    "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-005_20261014T222952Z_g5876409dd919_web",
+    "0.1.0_Predict-Cut-Inspect_local-abigail-polish-20261014_build-006_20261014T223550Z_g0a4ff39f45e7_web"
+  ],
+  "archiveRetainsId": true
+}

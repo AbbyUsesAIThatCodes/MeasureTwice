@@ -60,7 +60,8 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await page.selectOption('#view-focus','build');const modelPoint=await page.evaluate(async()=>{const THREE=await import('/vendor/three.module.js'),v=mtReview.view(),p=mtReview.geometry()[0].position;const c=new THREE.PerspectiveCamera(35,v.aspect,v.near,600);c.position.fromArray(v.camera);c.lookAt(new THREE.Vector3(...v.look));c.updateMatrixWorld();const point=new THREE.Vector3(p[0],p[1]+v.benchRise,p[2]).project(c),b=document.querySelector('canvas').getBoundingClientRect();return {x:b.left+(point.x+1)*b.width/2,y:b.top+(1-point.y)*b.height/2}});assert.equal(await page.evaluate(p=>mtReview.focusHit(p.x,p.y),modelPoint),'build');await page.mouse.click(modelPoint.x,modelPoint.y);assert.equal(await page.locator('#view-focus').inputValue(),'build');
   await page.click('[data-mode="free"]');
   for(const size of [{width:1366,height:768},{width:1024,height:600}]){
-   await page.setViewportSize(size);await page.evaluate(()=>mtReview.changeInstrument('inch-3'));
+   await page.setViewportSize(size);await page.waitForFunction(()=>{const b=document.querySelector('canvas').getBoundingClientRect();return Math.abs(mtReview.view().aspect-b.width/b.height)<1e-9});
+   await page.click('#instruments');await page.selectOption('#instrument-choice','inch-3');await page.click('#begin-instrument');
    const pointer=await page.evaluate(()=>mtReview.pointerScreen());assert.equal(await page.evaluate(p=>document.elementFromPoint(p.x,p.y)?.tagName,pointer),'CANVAS','Cut pointer reachable at '+size.width);
    for(const kind of ['cut','tray','build']){await page.click('#home');const p=await hitPoint(kind);assert.ok(p,kind+' visible at '+size.width);await page.mouse.click(p.x,p.y);assert.equal(await page.locator('#view-focus').inputValue(),kind)}
    await page.screenshot({path:path.join(out,'workshop-focus-laptop-'+size.width+'.png')});
