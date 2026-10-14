@@ -62,7 +62,13 @@ function homeView(){
   return {position:focus.clone().add(new THREE.Vector3(distance*.12,distance*.5,distance)),look:focus};
  }
  const center=layout.tableLeft+layout.tableWidth/2,view=cameraChoice==='build'?{position:[center+Math.max(8,layout.stockLength*.6),8+layout.stockLength*.3,layout.tableZ+Math.max(11,layout.stockLength*1.1)],look:[center,3.3,layout.tableZ]}:layout.long?{position:[layout.tableLeft/2+layout.stockLength*.5,12+layout.stockLength*.55,18+layout.stockLength*1.1],look:[layout.tableLeft/2,2.8,-1]}:null;
- return view?{position:new THREE.Vector3(...view.position),look:new THREE.Vector3(...view.look)}:{position:homePos,look:homeLook};
+ const framed=view?{position:new THREE.Vector3(...view.position),look:new THREE.Vector3(...view.look)}:{position:homePos.clone(),look:homeLook.clone()};
+ if(cameraChoice==='workshop'){
+  // Keep the work surfaces above the ruler and camera overlays on short laptops.
+  // Apply only when choosing this preset; never recenter a user's orbit on resize.
+  const shift=Math.max(0,Math.min(3.5,(650-$('stage').clientHeight)/40));framed.position.y-=shift;framed.look.y-=shift;
+ }
+ return framed;
 }
 function home(){const view=homeView();camera.position.copy(view.position);look.copy(view.look);resetOrbitPreference();render()}
 const focusNames={workshop:'Workshop',cut:'Cutting Bench',tray:'Cut Tray',build:'Build Table'};

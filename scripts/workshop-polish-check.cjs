@@ -59,7 +59,15 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await page.click('[data-mode="challenge"]');await page.click('[data-recipe="house"]');await page.evaluate(()=>{mtReview.select(mtReview.plan().steps[0].length);mtReview.cut();mtReview.skip();mtReview.acknowledge();mtReview.skip()});
   await page.selectOption('#view-focus','build');const modelPoint=await page.evaluate(async()=>{const THREE=await import('/vendor/three.module.js'),v=mtReview.view(),p=mtReview.geometry()[0].position;const c=new THREE.PerspectiveCamera(35,v.aspect,v.near,600);c.position.fromArray(v.camera);c.lookAt(new THREE.Vector3(...v.look));c.updateMatrixWorld();const point=new THREE.Vector3(p[0],p[1]+v.benchRise,p[2]).project(c),b=document.querySelector('canvas').getBoundingClientRect();return {x:b.left+(point.x+1)*b.width/2,y:b.top+(1-point.y)*b.height/2}});assert.equal(await page.evaluate(p=>mtReview.focusHit(p.x,p.y),modelPoint),'build');await page.mouse.click(modelPoint.x,modelPoint.y);assert.equal(await page.locator('#view-focus').inputValue(),'build');
   await page.click('[data-mode="free"]');
+  for(const size of [{width:1366,height:768},{width:1024,height:600}]){
+   await page.setViewportSize(size);await page.evaluate(()=>mtReview.changeInstrument('inch-3'));
+   const pointer=await page.evaluate(()=>mtReview.pointerScreen());assert.equal(await page.evaluate(p=>document.elementFromPoint(p.x,p.y)?.tagName,pointer),'CANVAS','Cut pointer reachable at '+size.width);
+   for(const kind of ['cut','tray','build']){await page.click('#home');const p=await hitPoint(kind);assert.ok(p,kind+' visible at '+size.width);await page.mouse.click(p.x,p.y);assert.equal(await page.locator('#view-focus').inputValue(),kind)}
+   await page.screenshot({path:path.join(out,'workshop-focus-laptop-'+size.width+'.png')});
+  }
+  await page.setViewportSize({width:1920,height:1080});
   report.checks.push('Workspace Switch Frames The Cutting Bench; Saw, Tray, Build Table And Model Click Focus Synchronize Dropdown; Cumulative Drag Threshold; Pointer And Existing Piece Click Priority; Hover Labels; Smooth/Reduced Motion; Free Orbit Cancels Focus Transition');
+  report.checks.push('Cut Pointer And All Three Click Targets Reachable At 1366x768 And 1024x600');
   await page.evaluate(()=>mtReview.changeInstrument('inch-6'));await page.click('#home');await page.evaluate(()=>mtReview.orbit(0,0,2));await page.screenshot({path:path.join(out,'workshop-inch-6-zoom-out.png')});
   await page.evaluate(()=>mtReview.changeInstrument('inch-3'));await page.click('#home');
   for(const [name,angle] of [['back',0],['left',Math.PI/2],['front',Math.PI],['right',Math.PI*1.5]]){await page.click('#home');await page.evaluate(a=>mtReview.orbit(a),angle);await page.screenshot({path:path.join(out,'workshop-wall-'+name+'.png')})}
