@@ -36,7 +36,9 @@ function configureWorkspace(){
   w.surfaceLabel('Example Cuts',20,center,layout.tableTop+.01,-34.5,comparisonRack,'#46584a');
   w.surfaceLabel('Assembly',16,layout.modelOrigin[0],layout.tableTop+.01,14,comparisonRack,'#46584a');
  }
- for(const p of construction.projects)p.origin=[layout.modelOrigin[0],layout.modelOrigin[1]+(p.id==='house'?.33:0),layout.modelOrigin[2]];
+ // Seat the actual oriented profiles on the surface without changing any part.
+ // The plane's rolled landing gear extends 0.0016 world units below its origin.
+ for(const p of construction.projects)p.origin=[layout.modelOrigin[0],layout.modelOrigin[1]+(p.id==='house'?.33:p.id==='plane'?.0016:0),layout.modelOrigin[2]];
  $('instrument').value=instrument(s).id;
  $('free-target').innerHTML='<option value="">No Target</option>'+[...new Set(instrument(s).unit==='in'?[16,20,32,instrument(s).max/2,instrument(s).max]:[1,10,instrument(s).max/2,instrument(s).max-1,instrument(s).max])].filter(n=>n<=instrument(s).max).map(n=>`<option value="${n}">${measure(n)}</option>`).join('');
  $('subdivision').innerHTML=instrument(s).unit==='in'?'<option value="2">Halves</option><option value="4">Quarters</option><option value="8">Eighths</option><option value="16">Sixteenths</option>':'<option value="10">Millimetres</option><option value="1">Centimetres</option>';
