@@ -4,6 +4,8 @@
 
 See [Polish Review](POLISH_REVIEW.md) for the current isolated review branch, artifact and checks. The public URL was verified on October 14 as catalog build 005, source `6479bb949b7d19e4ae0e9b79b4edf67de7fea007`. Main was `8c445776b47338bb028fe1e8e39d02fe9edab0ef` when this pass began. The new polish build is for review only; no merge, deployment or colleague delivery is authorized by this pass.
 
+The owner subsequently requested camera collision recovery, contrast diagnosis, finished existing room surfaces, workspace framing and a narrow click-to-focus interaction. These are included in [Workshop Evidence](../review-evidence/workshop-polish/README.md). [Layout And Scale Proposal](WORKSHOP_LAYOUT_PROPOSAL.md) is a review drawing only; its furniture arrangement and realistic reference dimensions are not implemented.
+
 ## Historical October 3 Handoff
 
 The statements below preserve that review checkpoint; the October 4 release subsequently published build 005.

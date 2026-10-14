@@ -10,7 +10,20 @@ This is a fresh refinement pass for teacher review before the intended October 1
 - The empty/completed Challenge chooser said a piece was being inspected or placed. Its ruler guidance now directs the student to choose a build.
 - README and Current Review now distinguish the live catalog build from this review pass and label the older handoff as historical.
 
-The live orbit buttons render correctly; apparent question marks in shell output were an encoding artifact and required no change. No arithmetic defect was found in the existing unit coverage. No model, lesson, question, target, save key, geometry, font, workshop design or feature was added or replaced.
+The live orbit buttons render correctly; apparent question marks in shell output were an encoding artifact and required no change. No arithmetic defect was found in the existing unit coverage. The initial polish artifact is preserved in [Build 002 Evidence](../review-evidence/polish/README.md).
+
+## Owner-Requested Workshop Refinements
+
+The owner reviewed build 002 and explicitly authorized these additional changes:
+
+- Collision shortening now affects an effective orbit radius, while manual zoom maintains a separate preferred radius. Clearing a wall eases back toward the current preference; reduced motion restores immediately. Cutting, focus changes and manual orbit cancel competing camera motion.
+- Repeated instrument switches kept exactly three light instances and exposure 1.12. The pale 6-inch scene came from fog changing from near/far 35/70 to 24/48 while the camera was about 36.37 units away. The indoor scene now has no distance fog; existing daylight, light intensity and tone mapping are preserved.
+- All four room walls are present. Both existing themes continue above and below the window; log ends are buried under its trim. A subdued procedural plank floor uses constant-size texture repeats. Replaced wall geometry is disposed on instrument changes; repeated cycles stabilize at the same geometry/texture counts.
+- An explicit instrument/workspace switch frames the cutting bench and actual stock span. The user retains orbit/zoom afterward. Saw/bench, green tray, build table and assembled model clicks focus their existing area, with a synchronized dropdown and brief hover label. This is the owner's explicit narrow exception to the original no-new-features scope. A cumulative six-pixel drag threshold distinguishes orbit from click; the blue cutting pointer and ordinary piece highlighting keep priority. Transitions respect reduced motion and can be interrupted by orbit.
+
+The blue sphere is the existing cutting pointer, offset just in front of the plank at the saw line. Its geometry and exact graduation input are preserved. It was not stray scenery or a second measurement marker.
+
+Furniture placement, stock profiles, measurement conversion, model dimensions, content and saved-history format remain unchanged. The current long-instrument layout still expands with stock length. The owner requested a plan before changing that arrangement: [Layout And Scale Proposal](WORKSHOP_LAYOUT_PROPOSAL.md) contains the clarified saw-front-left / tray-center / examples-behind / model-front-right plan, front elevation, exact current mapping and a fixed-dimension proposal. It quantifies why a wide view cannot resolve sixteenths and retains exact keyboard/ruler controls. The proposed physical dimensions and furniture remain unapproved and unimplemented.
 
 ## Source And Scope
 
@@ -20,9 +33,9 @@ The same existing DM 1.3 G07, G08, G10–G13 and G16 practice remains, traced in
 
 ## Review Build And Verification
 
-The final identified artifact, portable ZIP, screenshot evidence and test outcomes are recorded in [Polish Evidence](../review-evidence/polish/README.md). Abigail uses an explicit local scope; it cannot mint a Jess_PC PR ordinal. Development version `0.1.0` and provisional codename `Predict Cut Inspect` follow the repository's current policy. The first exploratory artifact is preserved as build 001; it is explicitly marked as modified sources.
+The current identified artifact, portable ZIP, screenshots and test outcomes are recorded in [Workshop Evidence](../review-evidence/workshop-polish/README.md). Abigail uses an explicit local scope; it cannot mint a Jess_PC PR ordinal. Development version `0.1.0` and provisional codename `Predict Cut Inspect` follow the repository's current policy. Earlier artifacts remain preserved: initial polish 002, and exploratory modified-source builds 001, 003 and 004.
 
-Run tests with Node 24. The existing `npm test` command covers exact arithmetic, visible grids, catalog persistence, connected model geometry, progression and build identity allocation. Browser checks use the existing Playwright/Chromium overrides `PLAYWRIGHT_MODULE` and `MT_BROWSER`; run `scripts/polish-check.cjs`, `scripts/catalog-browser-check.cjs`, `scripts/catalog-access-check.cjs` and `scripts/weekly-cleanup-check.cjs` against `latest-review.json`.
+Run tests with Node 24. The existing `npm test` command covers exact arithmetic, visible grids, catalog persistence, connected model geometry, progression and build identity allocation, plus room coverage and camera recovery. Browser checks use the existing Playwright/Chromium overrides `PLAYWRIGHT_MODULE` and `MT_BROWSER`; run `scripts/workshop-polish-check.cjs`, `scripts/polish-check.cjs`, `scripts/catalog-browser-check.cjs`, `scripts/catalog-access-check.cjs` and `scripts/weekly-cleanup-check.cjs` against `latest-review.json`.
 
 ## Live Build And Limits
 

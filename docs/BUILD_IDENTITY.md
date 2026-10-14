@@ -77,3 +77,7 @@ Current catalog locations: `src/catalog.js` (full-ID build report and progress J
 ## October 4 Local Pages Promotion
 
 [Locally Verified Pages Release](LOCAL_PAGES_RELEASE.md) is the current publication path. `site/` contains the unchanged identified runtime; `deployment/payload.json` records the separate deployment inventory. The manual-only workflow validates and publishes these bytes without rebuilding, relabeling or changing build counters. Runtime source and release-orchestration commit remain distinct.
+
+## October 14 Workshop Review Inventory
+
+The fresh review uses `local-abigail-polish-20261014`, the ignored Abigail local ledger and the existing local builder. [Workshop Evidence](../review-evidence/workshop-polish/README.md) records the current immutable build, portable ZIP, reports and screenshots; [Initial Polish Evidence](../review-evidence/polish/README.md) preserves build 002. The review URL on Abigail is port 18448. No Jess_PC PR ordinal or new production identity is assigned. Later evidence commits do not relabel the built runtime. The layout drawing is a proposal document, not a second game build.

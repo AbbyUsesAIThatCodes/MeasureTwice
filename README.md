@@ -4,7 +4,7 @@
 
 ## October 14 Polish Review
 
-The live game was checked on Abigail against catalog build 005 from October 3. A fresh, isolated polish pass improves ruler numeral legibility, spacing around the ruler dock, full-screen action labels and build-chooser guidance. It preserves the existing workshop, lessons, catalog, exact measurements and save format. See [Polish Review](docs/POLISH_REVIEW.md) for the review artifact, verification and limitations. This pass does not update the public game.
+The live game was checked on Abigail against catalog build 005 from October 3. This isolated pass improves ruler legibility, overlay spacing, full-screen labels and chooser guidance, followed by owner-requested camera recovery, stable room contrast, finished wall/floor surfaces and click-to-focus. Exact measurements, lessons, catalog and save format are preserved. See [Polish Review](docs/POLISH_REVIEW.md) for the artifact and checks, and [Layout And Scale Proposal](docs/WORKSHOP_LAYOUT_PROPOSAL.md) for the drawing that requires review before furniture changes. This pass does not update the public game.
 
 ## October 4 Pages Release
 
