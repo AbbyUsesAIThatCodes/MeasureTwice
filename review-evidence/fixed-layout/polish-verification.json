@@ -1,0 +1,169 @@
+{
+  "id": "0.1.0_Predict-Cut-Inspect_local-abigail-layout-20261014_build-008_20261014T235044Z_g29772f9fcca7_web",
+  "sourceRevision": "29772f9fcca7b833f5c9ee205ec251bbd72c0ce4",
+  "checks": [
+    "Lesson Card And Camera Clearance At Five Laptop/Zoom Viewports",
+    "Keyboard Access To Scrolled Lesson Controls",
+    "Skip Reaches Held Inspection; Repeated Cut Commits Once; Mute Gates Real AudioContext Creation (No Speaker Check)",
+    "Whole-Inch Numerals Clear Of Marker",
+    "Pointer/Keyboard Endpoints And Zero-Length Guard",
+    "Full-Screen Button And Browser-Initiated Exit Labels",
+    "Chooser Guidance Describes The Actual State",
+    "Artifact Folder, Manifest, Report And Header Identity Agree; Reload Preserves Identity"
+  ],
+  "layouts": [
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "mode": "free",
+      "orderGap": 82.421875,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "mode": "learn",
+      "orderGap": 12,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "mode": "challenge",
+      "orderGap": 240.96875,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 600
+      },
+      "mode": "free",
+      "orderGap": 12,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 600
+      },
+      "mode": "learn",
+      "orderGap": 12,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 600
+      },
+      "mode": "challenge",
+      "orderGap": 72.96875,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "mode": "free",
+      "orderGap": 84.421875,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "mode": "learn",
+      "orderGap": 12,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "mode": "challenge",
+      "orderGap": 242.96875,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 600
+      },
+      "mode": "free",
+      "orderGap": 12,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 600
+      },
+      "mode": "learn",
+      "orderGap": 12,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 600
+      },
+      "mode": "challenge",
+      "orderGap": 74.96875,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 900,
+        "height": 600
+      },
+      "mode": "free",
+      "orderGap": 12,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 900,
+        "height": 600
+      },
+      "mode": "learn",
+      "orderGap": 12,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    },
+    {
+      "size": {
+        "width": 900,
+        "height": 600
+      },
+      "mode": "challenge",
+      "orderGap": 74.96875,
+      "cameraGap": 12,
+      "bodyOverflow": 0
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "physicalChromebookTest": false
+}

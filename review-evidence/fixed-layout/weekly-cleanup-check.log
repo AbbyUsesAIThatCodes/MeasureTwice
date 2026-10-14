@@ -1,0 +1,5 @@
+Verified House 11 assembly cycles
+Verified Plane 10 assembly cycles
+Verified Chair 10 assembly cycles
+Verified Tree 6 assembly cycles
+{"id":"0.1.0_Predict-Cut-Inspect_local-abigail-layout-20261014_build-008_20261014T235044Z_g29772f9fcca7_web","assemblies":37,"frames":7659,"checks":["Fresh And Empty-Save Startup In Free Play","Hidden Incompatible Scale And Target Choices With Visible Accessible Reasons","Imperial And Metric Target/Grid Compatibility","All 37 Recipe Assembly Cycles: Table Visible, Stable Bounds/Camera, In Frustum And Depth Enabled","Persistent Challenge Ruler Through Every Sampled Assembly","Saved Held Attempt, Badges And Replay Resume Without Reset","Invalid Save Preserved With Fresh Free Play Fallback","Selector Guidance At Three Laptop Viewports"]}
