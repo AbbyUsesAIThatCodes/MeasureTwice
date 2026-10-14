@@ -18,3 +18,6 @@ html,body{margin:0;height:100%;background:#d6eac7}body{overflow:hidden}#mt-cut-s
 /* Preserve the existing overlays, with clearance based on the rendered ruler dock. */
 #mt-cut-study .mt-order{max-height:calc(100% - var(--dock-height,188px) - 38px);scrollbar-gutter:stable}
 #mt-cut-study .camera-controls{bottom:calc(var(--dock-height,188px) + 24px)}
+/* Empty space between the camera controls must not intercept the cutting handle. */
+#mt-cut-study .camera-controls{pointer-events:none}
+#mt-cut-study .camera-controls>*{pointer-events:auto}

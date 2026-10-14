@@ -12,7 +12,8 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await page.goto(base);await page.waitForFunction(()=>window.mtReview?.ready);await page.check('#reduced');
   const environment=()=>page.evaluate(()=>mtReview.environment()),state=()=>page.evaluate(()=>mtReview.orbitState());
   const lights=(await environment()).lights,counts={};
-  for(let pass=0;pass<2;pass++)for(const id of ['inch-3','inch-6','inch-12','yardstick','cm-15','cm-30','metre']){
+  // Warm lazy GPU uploads before comparing two complete instrument cycles.
+  for(let pass=0;pass<3;pass++)for(const id of ['inch-3','inch-6','inch-12','yardstick','cm-15','cm-30','metre']){
    await page.click('#instruments');await page.selectOption('#instrument-choice',id);await page.click('#begin-instrument');
    assert.equal(await page.locator('#view-focus').inputValue(),'cut');assert.equal((await page.evaluate(()=>mtReview.focusState())).choice,'cut');
    if(pass===1)await page.screenshot({path:path.join(out,'workshop-'+id+'-cut-focus.png')});
@@ -22,24 +23,28 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
     const env=await environment(),key=id+'-'+style;
     assert.deepEqual(env.lights,lights,'Instrument changes do not create or brighten lights');assert.equal(env.exposure,1.12);assert.equal(env.toneMapping,4);assert.equal(env.fog,null);
     assert.deepEqual(new Set(env.wallSides),new Set(['back Wall','front Wall','left Wall','right Wall']));
-    const rear=env.detailCourses.filter(p=>p.side==='back');assert.ok(rear.some(p=>p.y<3.5&&p.start<-11.4&&p.end>-4.6));assert.ok(rear.some(p=>p.y>8.9&&p.start<-11.4&&p.end>-4.6));
-    if(pass===0)counts[key]=env.memory;else assert.deepEqual(env.memory,counts[key],'Changing instruments disposes replaced room geometry: '+key);
+    const rear=env.detailCourses.filter(p=>p.side==='back');assert.ok(rear.some(p=>p.y<90&&p.start<-114&&p.end>-46));assert.ok(rear.some(p=>p.y>144&&p.start<-114&&p.end>-46));
+    if(pass===1)counts[key]=env.memory;else if(pass===2)assert.deepEqual(env.memory,counts[key],'Changing instruments disposes replaced room geometry: '+key);
     report.environments.push({pass,id,style,lights:env.lights.length,exposure:env.exposure,fog:env.fog,memory:env.memory,floorRepeat:env.floorRepeat});
     if(pass===1&&['inch-3','inch-6','metre'].includes(id))await page.screenshot({path:path.join(out,'workshop-'+key+'.png')});
    }
   }
   await page.uncheck('#daylight');let env=await environment();assert.equal(env.lights.find(l=>l.type==='DirectionalLight'&&l.intensity!==.7).intensity,1.4);assert.equal(env.exposure,1.12);await page.check('#daylight');assert.deepEqual((await environment()).lights,lights);
   report.checks.push('Two Choose Instrument Cycles Across All Seven Spans And Both Room Styles; Stable Light Instances, Exposure And GPU Resource Counts; No Distance Fog; Four Walls; Detail Above And Below Window; Daylight Toggle');
-  await page.evaluate(()=>mtReview.changeInstrument('inch-3'));await page.uncheck('#reduced');await page.click('#home');
+  await page.evaluate(()=>mtReview.changeInstrument('inch-3'));await page.click('#home');
+  const directions=await page.evaluate(()=>{const out=[];for(let n=0;n<24;n++){mtReview.orbit(Math.PI/12);out.push({angle:(n+1)*Math.PI/12,...mtReview.orbitState()})}return out});
+  const clearAngle=directions.reduce((a,b)=>a.effective>b.effective?a:b).angle,blockedAngle=directions.reduce((a,b)=>a.effective<b.effective?a:b).angle;
+  const obstacleTurn=blockedAngle-clearAngle;
+  await page.click('#home');await page.evaluate(a=>mtReview.orbit(a),clearAngle);await page.uncheck('#reduced');
   const home=await state();report.orbit.push({step:'home',...home});
-  await page.evaluate(()=>mtReview.orbit(Math.PI));const blocked=await state();assert.ok(blocked.effective<home.preferred-2);assert.equal(blocked.preferred,home.preferred);report.orbit.push({step:'blocked',...blocked});
-  await page.evaluate(()=>mtReview.orbit(-Math.PI));const beginning=await state();assert.equal(beginning.preferred,home.preferred);assert.ok(beginning.recovering);assert.ok(beginning.effective<home.preferred-.1);
+  await page.evaluate(a=>mtReview.orbit(a),obstacleTurn);const blocked=await state();assert.ok(blocked.effective<home.preferred-2);assert.equal(blocked.preferred,home.preferred);report.orbit.push({step:'blocked',...blocked});
+  await page.evaluate(a=>mtReview.orbit(-a),obstacleTurn);const beginning=await state();assert.equal(beginning.preferred,home.preferred);assert.ok(beginning.recovering);assert.ok(beginning.effective<home.preferred-.1);
   const samples=await page.evaluate(async()=>{const out=[];for(let n=0;n<12;n++){await new Promise(requestAnimationFrame);out.push(mtReview.orbitState())}return out});
   for(let n=1;n<samples.length;n++)assert.ok(samples[n].effective>=samples[n-1].effective-1e-8);assert.ok(samples.some(s=>s.effective>blocked.effective+.1));report.orbit.push({step:'recovery-frames',samples});
   await page.waitForFunction(()=>!mtReview.orbitState().recovering);assert.ok(Math.abs((await state()).effective-home.preferred)<.01);
-  await page.evaluate(()=>{mtReview.orbit(Math.PI);mtReview.orbit(0,0,.8)});const zoomed=await state();assert.ok(Math.abs(zoomed.preferred-home.preferred*.8)<1e-8);report.orbit.push({step:'zoom-while-blocked',...zoomed});
-  await page.evaluate(()=>mtReview.orbit(-Math.PI));await page.waitForFunction(()=>!mtReview.orbitState().recovering);assert.ok(Math.abs((await state()).effective-zoomed.preferred)<.01);
-  await page.check('#reduced');await page.click('#home');await page.evaluate(()=>{mtReview.orbit(Math.PI);mtReview.orbit(-Math.PI)});assert.ok(Math.abs((await state()).effective-home.preferred)<.01);assert.equal((await state()).recovering,false);
+  await page.evaluate(a=>{mtReview.orbit(a);mtReview.orbit(0,0,.8)},obstacleTurn);const zoomed=await state();assert.ok(Math.abs(zoomed.preferred-home.preferred*.8)<1e-8);report.orbit.push({step:'zoom-while-blocked',...zoomed});
+  await page.evaluate(a=>mtReview.orbit(-a),obstacleTurn);await page.waitForFunction(()=>!mtReview.orbitState().recovering);assert.ok(Math.abs((await state()).effective-zoomed.preferred)<.01);
+  await page.check('#reduced');await page.click('#home');await page.evaluate(([clear,turn])=>{mtReview.orbit(clear);mtReview.orbit(turn);mtReview.orbit(-turn)},[clearAngle,obstacleTurn]);assert.ok(Math.abs((await state()).effective-home.preferred)<.01);assert.equal((await state()).recovering,false);
   await page.evaluate(()=>mtReview.orbit(0,0,100));assert.equal((await state()).preferred,(await page.evaluate(()=>mtReview.view())).limits.maxRadius);
   await page.evaluate(()=>mtReview.orbit(0,0,.0001));assert.equal((await state()).preferred,(await page.evaluate(()=>mtReview.view())).limits.minRadius);
   await page.uncheck('#reduced');await page.click('#home');await page.evaluate(()=>{mtReview.orbit(Math.PI);mtReview.orbit(-Math.PI);mtReview.select(16);mtReview.cut();mtReview.skip()});assert.equal((await state()).recovering,false);assert.equal(await page.evaluate(()=>mtReview.snapshot().phase),'inspecting');
@@ -55,7 +60,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await page.click('#home');await page.uncheck('#reduced');const smoothPoint=await hitPoint('cut');const from=await page.evaluate(()=>mtReview.camera());await page.mouse.click(smoothPoint.x,smoothPoint.y);assert.equal((await page.evaluate(()=>mtReview.focusState())).moving,true);await page.waitForFunction(()=>!mtReview.focusState().moving);assert.notDeepEqual(await page.evaluate(()=>mtReview.camera()),from);
   await page.selectOption('#view-focus','tray');await page.evaluate(()=>mtReview.orbit(.1));assert.equal((await page.evaluate(()=>mtReview.focusState())).moving,false,'Orbit takes ownership of camera during focus transition');
   await page.check('#reduced');await page.selectOption('#view-focus','cut');const pointer=await page.evaluate(()=>mtReview.pointerScreen()),cam=await page.evaluate(()=>mtReview.camera()),beforeSelected=await page.evaluate(()=>mtReview.snapshot().selected);await page.mouse.move(pointer.x,pointer.y);assert.match(await page.locator('#object-cue').textContent(),/Drag Cut Pointer/);await page.mouse.down();await page.mouse.move(pointer.x+80,pointer.y,{steps:8});await page.mouse.up();assert.notEqual(await page.evaluate(()=>mtReview.snapshot().selected),beforeSelected);assert.deepEqual(await page.evaluate(()=>mtReview.camera()),cam);assert.equal(await page.locator('#view-focus').inputValue(),'cut');
-  await page.click('#home');const piecePoint=await hitPoint('piece');assert.ok(piecePoint);await page.mouse.click(piecePoint.x,piecePoint.y);assert.equal(await page.locator('#view-focus').inputValue(),'workshop');assert.match(await page.locator('#object-cue').textContent(),/Selected/);
+  await page.selectOption('#view-focus','cut');const piecePoint=await hitPoint('piece');assert.ok(piecePoint);await page.mouse.click(piecePoint.x,piecePoint.y);assert.equal(await page.locator('#view-focus').inputValue(),'cut');assert.match(await page.locator('#object-cue').textContent(),/Selected/);
   await page.click('[data-mode="challenge"]');await page.click('[data-recipe="house"]');await page.evaluate(()=>{mtReview.select(mtReview.plan().steps[0].length);mtReview.cut();mtReview.skip();mtReview.acknowledge();mtReview.skip()});
   await page.selectOption('#view-focus','build');const modelPoint=await page.evaluate(async()=>{const THREE=await import('/vendor/three.module.js'),v=mtReview.view(),p=mtReview.geometry()[0].position;const c=new THREE.PerspectiveCamera(35,v.aspect,v.near,600);c.position.fromArray(v.camera);c.lookAt(new THREE.Vector3(...v.look));c.updateMatrixWorld();const point=new THREE.Vector3(p[0],p[1]+v.benchRise,p[2]).project(c),b=document.querySelector('canvas').getBoundingClientRect();return {x:b.left+(point.x+1)*b.width/2,y:b.top+(1-point.y)*b.height/2}});assert.equal(await page.evaluate(p=>mtReview.focusHit(p.x,p.y),modelPoint),'build');await page.mouse.click(modelPoint.x,modelPoint.y);assert.equal(await page.locator('#view-focus').inputValue(),'build');
   await page.click('[data-mode="free"]');

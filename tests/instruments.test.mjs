@@ -14,7 +14,8 @@ test('inch and metric lengths are exact, distinct and monotonic at every support
     const l=workshopLayout(worldLength(i.max,i.id)),p=comparisonPosition(0,worldLength(n,i.id),l);
     assert.ok(p.x-worldLength(n,i.id)/2>=l.tableLeft);
     assert.ok(p.x+worldLength(n,i.id)/2<=l.tableLeft+l.tableWidth);
-    assert.ok(l.tableLeft-l.benchRight>=.899999);
+    assert.ok(l.tableLeft>=l.benchLeft&&l.tableLeft+l.tableWidth<=l.benchRight);
+    assert.ok(l.sawX-l.stockLength>=l.benchLeft&&l.sawX+l.stockLength<=l.benchRight);
   }
 });
 test('switching instruments is explicit, unavailable during inspection, and preserves committed evidence',()=>{

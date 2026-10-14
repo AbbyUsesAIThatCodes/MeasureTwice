@@ -1,16 +1,11 @@
-// Named anchors share one physical scale: two world units per inch.
-export function workshopLayout(stockLength=6){
-  const long=stockLength>6,benchLeft=Math.min(-6.925,-1.4-stockLength-.3),benchRight=Math.max(12.125,-1.4+stockLength+.3);
-  const tableLeft=benchRight+.9,tableWidth=Math.max(7.2,stockLength+.6),tableZ=-4.3;
-  return {stockLength,long,benchLeft,benchRight,tableLeft,tableWidth,tableZ,tableTop:2.78,
-    modelOrigin:[tableLeft+tableWidth/2,2.9,tableZ],
-    staging:long?[stockLength/2+1,2.91,3.5]:[8.3,2.91,1.35],
-    roomLeft:Math.min(-22,benchLeft-5),roomRight:Math.max(32,tableLeft+tableWidth+5)};
-}
-export function comparisonPosition(index,length,layout){return {x:layout.tableLeft+.3+length/2,y:2.89+Math.floor(index/8)*.4,z:layout.tableZ+2.55-(index%8)*.72};}
-export function tableLegPositions(layout){
-  const left=layout.tableLeft+.2,right=layout.tableLeft+layout.tableWidth-.2;
-  const spans=Math.ceil((right-left)/4),positions=[];
-  for(let i=0;i<=spans;i++)for(const z of [layout.tableZ-2.7,layout.tableZ+2.7])positions.push({x:left+(right-left)*i/spans,z});
-  return positions;
-}
+// Fixed physical anchors: two world units per inch for every instrument.
+// The 102 x 36 inch bench incorporates the former proposed left support.
+export const workstation=Object.freeze({benchLeft:-102,benchRight:102,benchBack:-36,benchFront:36,benchTop:68,
+ sawX:-22,boardY:70.125,boardZ:24,bladeY:87,bladeTravel:8,
+ tableLeft:14,tableWidth:80,tableDepth:16,tableZ:-26,tableTop:68.15,
+ modelOrigin:[84,68.15,22],modelWidth:24,modelDepth:20,
+ staging:[54,68.61,-2],inspection:[-22,104,5],travelHeight:110,
+ roomLeft:-144,roomRight:144,roomBack:-120,roomFront:120});
+export function workshopLayout(stockLength=6){return {...workstation,stockLength,long:stockLength>6,modelOrigin:[...workstation.modelOrigin],staging:[...workstation.staging],inspection:[...workstation.inspection]};}
+export function comparisonPosition(index,length,layout){return {x:layout.tableLeft+.3+length/2,y:layout.tableTop+.11+Math.floor(index/8)*.4,z:layout.tableZ+5.6-(index%8)*1.6};}
+export function tableLegPositions(layout){return [layout.benchLeft+6,0,layout.benchRight-6].flatMap(x=>[layout.benchBack+6,layout.benchFront-6].map(z=>({x,z})));}

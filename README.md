@@ -4,7 +4,7 @@
 
 ## October 14 Polish Review
 
-The live game was checked on Abigail against catalog build 005 from October 3. This isolated pass improves ruler legibility, overlay spacing, full-screen labels and chooser guidance, followed by owner-requested camera recovery, stable room contrast, finished wall/floor surfaces and click-to-focus. Exact measurements, lessons, catalog and save format are preserved. See [Polish Review](docs/POLISH_REVIEW.md) for the artifact and checks, and [Layout And Scale Proposal](docs/WORKSHOP_LAYOUT_PROPOSAL.md) for the drawing that requires review before furniture changes. This pass does not update the public game.
+The live game was checked on Abigail against catalog build 005 from October 3. This isolated pass improves ruler legibility, overlay spacing, full-screen labels and chooser guidance, followed by owner-requested camera recovery, stable room contrast, finished wall/floor surfaces and click-to-focus. Exact measurements, lessons, catalog and save format are preserved. See [Polish Review](docs/POLISH_REVIEW.md) for that artifact and its checks. After PR #36 merged, the owner approved trying the fixed-scale arrangement: [Fixed Workshop Layout](docs/WORKSHOP_LAYOUT_REVIEW.md), [Current Layout Evidence](review-evidence/fixed-layout/README.md). This pass does not update the public game.
 
 ## October 4 Pages Release
 
